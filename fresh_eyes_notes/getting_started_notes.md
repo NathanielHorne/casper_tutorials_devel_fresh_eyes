@@ -28,6 +28,11 @@ I'm stumped as to *why* I can't connect to Clyde via RDP, but can over SSH.
 
 Installer included here: [installer](../install_script/casper_installer_7_9_25_jaxson.sh)
 
+**QUESTIONN FOR THE GROUP:** What is going on? Why can't I connect to Clyde?
+
+*MY PLAN MOVING FORWARD:* See if there's a way to dual-boot into my personal machine, using an extra hard drive I have.
+Why would I do this? CASPER Needs to run on a *powerful* Linux environment--something my laptop cannot provide.
+
 ---
 # 11/7/2025
 Essential startup script provided by R. Poll. 
