@@ -27,5 +27,9 @@ These files would also include the setup script that R. Poll sent over, at the s
 I'm stumped as to *why* I can't connect to Clyde via RDP, but can over SSH.
 
 ---
+# 11/7/2025
+Essential startup script provided by R. Poll. 
+
+---
 # 11/6/2025
 Login details for remoting into Clyde.ee.byu.edu were confirmed with R. Haymore.
