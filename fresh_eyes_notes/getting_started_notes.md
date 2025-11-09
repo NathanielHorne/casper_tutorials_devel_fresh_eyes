@@ -26,6 +26,8 @@ These files would also include the setup script that R. Poll sent over, at the s
 
 I'm stumped as to *why* I can't connect to Clyde via RDP, but can over SSH.
 
+Installer included here: [installer](../install_script/casper_installer_7_9_25_jaxson.sh)
+
 ---
 # 11/7/2025
 Essential startup script provided by R. Poll. 
