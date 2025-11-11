@@ -25,6 +25,20 @@ Read [this](https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/
 
 Wait. Hold on. Does that mean that I needed to follow some sort of install? So what I read before *is* important. Interesting.
 
+Clicks "[here](https://github.com/casper-astro/tutorials_devel/blob/workshop2019/README.md)" to see "[instruction on setting up an environment in which to run these tutorials](https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/#:~:text=instructions%20on%20setting%20up%20an%20environment%20in%20which%20to%20run%20these%20tutorials)" and is met with a 404 error:
+
+Lovely! Why is this missing? This seems like an incredibly important thing to be missing. Where can I find it?
+
+Clicks "[here](https://casper-toolflow.readthedocs.io/en/latest/index.html)" to see "[Instructions on setting up the toolflow-proper](https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/#:~:text=Instructions%20on%20setting%20up%20the%20toolflow-proper)" and finds a whole other guide.
+
+Okay . . . so does this mean that this is the place where I find the documentation on how to install the toolflow?
+--> reads [What is mlib_devel?](https://casper-toolflow.readthedocs.io/en/latest/#:~:text=What%20is%20mlib_devel).
+
+--> Okay! This actually answers my earlier question on *what* the toolflow actually is. Why isn't this discussed in the tutorials section?
+
+
+
+
 Summary: The documentation the group has on how to VNC into Clyde or Clyde-like servers is unclear.
 
 ## How to connect to Clyde (for my future reference) 
