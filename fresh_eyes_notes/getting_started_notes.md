@@ -1,9 +1,9 @@
 # 11/9/2025
 CASPER TUTORIALS DAY ONE:
 
-Summary: the process to get to the "Installing the Toolflow" page was an unclear slog of about 2 hours.
+**Summary**: the process to get to the "Installing the Toolflow" page was an unclear slog of about 2 hours.
 
-Path taken: Main Page --> Tutorials / Environment setup / "instructions on setting up the . . ." --> the *entire* "CASPER Toolflow" page until "Setup Links / Installing the Toolflow" at the *bottom* --> "Installing the Toolflow" page.
+**Path taken**: Main Page --> Tutorials / Environment setup / "instructions on setting up the . . ." --> the *entire* "CASPER Toolflow" page until "Setup Links / Installing the Toolflow" at the *bottom* --> "Installing the Toolflow" page.
 
 As shown in my journal below, getting to "Installing the Toolflow" page was a hastle and a half. I HIGHLY recommend fixing this to be one of (if not the) first thing a new user sees. 
 
@@ -20,36 +20,36 @@ This [footnote-like comment on ROACH](https://casper-toolflow.readthedocs.io/pro
 
 Read [this](https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/#:~:text=Instructions%20on%20setting%20up%20an%20environment%20in%20which%20to%20run%20these%20tutorials%20can%20be%20found%20here.).
 
-Legitamate first reaction: Is this important? This sounds like it is something that I should do before I continue with this tutorial, right? Should I skip it?
+- Legitamate first reaction: Is this important? This sounds like it is something that I should do before I continue with this tutorial, right? Should I skip it?
 
 Read [this](https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/#:~:text=Instructions%20on%20setting%20up%20the%20toolflow-proper%20can%20be%20found%20here.)
 
-First reaction: again, how important is this? 
+- First reaction: again, how important is this? 
 What is "the toolflow-*proper*?" This implies I'm using a scaled-down version of the toolflow. Is that the case? What?
-Is "the toolflow" refering to MLIB_DEVEL?
+- Is "the toolflow" refering to MLIB_DEVEL?
 
 Read [this](https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/#:~:text=Modifications%20to%20be%20run%20after%20installs).
 
-Wait. Hold on. Does that mean that I needed to follow some sort of install? So what I read before *is* important. Interesting.
+- Wait. Hold on. Does that mean that I needed to follow some sort of install? So what I read before *is* important. Interesting.
 
 Clicks "[here](https://github.com/casper-astro/tutorials_devel/blob/workshop2019/README.md)" to see "[instruction on setting up an environment in which to run these tutorials](https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/#:~:text=instructions%20on%20setting%20up%20an%20environment%20in%20which%20to%20run%20these%20tutorials)" and is met with a 404 error:
 
-Lovely! Why is this missing? This seems like an incredibly important thing to be missing. Where can I find it?
+- Lovely! Why is this missing? This seems like an incredibly important thing to be missing. Where can I find it?
 
 **THE DOCUMENTATION ON HOW TO INSTALL / SETUP THE ENVIRONMENT TO ACTUALLY DO THE TUTORIALS IS MISSING**
 
 Clicks "[here](https://casper-toolflow.readthedocs.io/en/latest/index.html)" to see "[Instructions on setting up the toolflow-proper](https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/#:~:text=Instructions%20on%20setting%20up%20the%20toolflow-proper)" and finds a whole other guide.
 
-Okay . . . so does this mean that this is the place where I find the documentation on how to install the toolflow?
+- Okay . . . so does this mean that this is the place where I find the documentation on how to install the toolflow?
 
---> reads [What is mlib_devel?](https://casper-toolflow.readthedocs.io/en/latest/#:~:text=What%20is%20mlib_devel).
+- --> reads [What is mlib_devel?](https://casper-toolflow.readthedocs.io/en/latest/#:~:text=What%20is%20mlib_devel).
 
---> Okay! This actually answers my earlier question on *what* the toolflow actually is. Why isn't this discussed in the tutorials section?
+- --> Okay! This actually answers my earlier question on *what* the toolflow actually is. Why isn't this discussed in the tutorials section?
 
 
 Clicks [this link](https://casper-toolflow.readthedocs.io/en/latest/) found [here](https://casper-toolflow.readthedocs.io/en/latest/#:~:text=the%20project's%20documentation):
 
-A link that points towards itself . . . that wasn't helpful.
+- A link that points towards itself . . . that wasn't helpful.
 
 
 Confusing wording here: "The software stack you will require to use the toolflow will depend what hardware you are targeting."
@@ -59,9 +59,9 @@ Recommendation: "The software stack you will run the toolflow on depends on your
 
 Clicks [this link](https://casper-toolflow.readthedocs.io/en/latest/src/Installing-the-Toolflow.html) found under the "Setup Links" tab at the bottom of the "CASPER Toolflow" page.
 
-**WHY DOES *THIS* LINK WORK, BUT THE ONE IN THE TUTORIALS PAGE DOESN'T?**
+- **WHY DOES *THIS* LINK WORK, BUT THE ONE IN THE TUTORIALS PAGE DOESN'T?**
 
-Follow-up Question: is this tool named "MLIB_DEVEL" or "CASPER?" I am confused.
+- Follow-up Question: is this tool named "MLIB_DEVEL" or "CASPER?" I am confused.
 
 Reading [installing the Toolflow](https://casper-toolflow.readthedocs.io/en/latest/src/Installing-the-Toolflow.html)....
 
