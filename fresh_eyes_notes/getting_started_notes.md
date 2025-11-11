@@ -75,7 +75,7 @@ Reading [installing the Toolflow](https://casper-toolflow.readthedocs.io/en/late
 Summary: The documentation the group has on how to VNC into Clyde or Clyde-like servers is unclear.
 
 ## How to connect to Clyde (for my future reference) 
-0. (For anyone in the future) Talk to the sys-admin and get yourself an account
+0. (For anyone in the future) Talk to the sys-admin and get yourself an account.
 When I say "username" and "password" later in this blurb, I'm refering to the information included in this account.
 1. Connect to Caedm VPN (or be on BYU campus proper) 
 2. SSH Into Clyde
