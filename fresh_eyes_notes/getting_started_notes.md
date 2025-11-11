@@ -29,9 +29,12 @@ Clicks "[here](https://github.com/casper-astro/tutorials_devel/blob/workshop2019
 
 Lovely! Why is this missing? This seems like an incredibly important thing to be missing. Where can I find it?
 
+<span style="color:red">THE DOCUMENTATION ON HOW TO INSTALL / SETUP THE ENVIRONMENT TO ACTUALLY DO THE TUTORIALS IS MISSING</span>
+
 Clicks "[here](https://casper-toolflow.readthedocs.io/en/latest/index.html)" to see "[Instructions on setting up the toolflow-proper](https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/#:~:text=Instructions%20on%20setting%20up%20the%20toolflow-proper)" and finds a whole other guide.
 
 Okay . . . so does this mean that this is the place where I find the documentation on how to install the toolflow?
+
 --> reads [What is mlib_devel?](https://casper-toolflow.readthedocs.io/en/latest/#:~:text=What%20is%20mlib_devel).
 
 --> Okay! This actually answers my earlier question on *what* the toolflow actually is. Why isn't this discussed in the tutorials section?
