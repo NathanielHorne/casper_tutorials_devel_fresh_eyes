@@ -15,8 +15,10 @@ Run `mkdir ~/.vnc` to make the computer check if the `/.vnc` folder exists.
 If VNC has never been run, this folder won't exist. It needs to exist for VNC to run, though. 
 6. Start a "vncserver" session
 Run `vncserver -geometry [res_y]x[res_x] :[session number]
+
 **IMPORTANT**: [session number] needs to be between 0-99 and unique from any other session currently running. 
 Run `vncserver -list` to see a list of the servers currently running.
+
 ex.: `vncserver -geometry 1920x1080 :25`
 ex.: `vncserver -geometry 1280x720 :34`
 
