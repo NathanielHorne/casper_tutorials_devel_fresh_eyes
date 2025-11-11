@@ -1,3 +1,34 @@
+# 11/9/2025
+Summary: The documentation the group has on how to VNC into Clyde or Clyde-like servers is unclear.
+
+## How to connect to Clyde (for my future reference) 
+0. (For anyone in the future) Talk to the sys-admin and get yourself an account
+When I say "username" and "password" later in this blurb, I'm refering to the information included in this account.
+1. Connect to Caedm VPN (or be on BYU campus proper) 
+2. SSH Into Clyde
+`ssh [username]@clyde.ee.byu.edu`
+3. Enter your password, when challenged
+4. Set VNC password
+Run `vncpasswd` to set a password of your choice for your VNC account. 
+5. Check if VNC has been run before (sanity check)
+Run `mkdir ~/.vnc` to make the computer check if the `/.vnc` folder exists.
+If VNC has never been run, this folder won't exist. It needs to exist for VNC to run, though. 
+6. Start a "vncserver" session
+Run `vncserver -geometry [res_y]x[res_x] :[session number]
+
+**IMPORTANT**: [session number] needs to be between 0-99 and unique from any other session currently running. 
+Run `vncserver -list` to see a list of the servers currently running.
+
+ex.: `vncserver -geometry 1920x1080 :25`
+ex.: `vncserver -geometry 1280x720 :34`
+
+7. Type `clyde.ee.byu.edu:[session number]` in the destination bar in your VNC software.
+
+8. Enter the VNC password you set in step 4
+
+9. Enjoy 
+
+
 # 11/8/2025 
 Summary: could not RDP into CASPER, SSH non-operable
 
