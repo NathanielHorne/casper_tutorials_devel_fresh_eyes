@@ -1,5 +1,12 @@
 # 11/9/2025
 CASPER TUTORIALS DAY ONE:
+
+Summary: the process to get to the "Installing the Toolflow" page was an unclear slog of about 2 hours.
+
+Path taken: Main Page --> Tutorials / Environment setup / "instructions on setting up the . . ." --> the *entire* "CASPER Toolflow" page until "Setup Links / Installing the Toolflow" at the *bottom* --> "Installing the Toolflow" page.
+
+As shown in my journal below, getting to "Installing the Toolflow" page was a hastle and a half. I HIGHLY recommend fixing this to be one of (if not the) first thing a new user sees. 
+
 From [the main page](https://casper-toolflow.readthedocs.io/en/latest/), I clicked on the "CASPER Tutorials" link.
 
 That led [here](https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/).
@@ -56,8 +63,13 @@ Clicks [this link](https://casper-toolflow.readthedocs.io/en/latest/src/Installi
 
 Follow-up Question: is this tool named "MLIB_DEVEL" or "CASPER?" I am confused.
 
+Reading [installing the Toolflow](https://casper-toolflow.readthedocs.io/en/latest/src/Installing-the-Toolflow.html)....
 
+"The toolflow is very sensitive to mis-matching software versions"
 
+*and* hardware, apparently. 
+
+**WHERE CAN I FIND WHAT THE LAB IS USING AND WHERE?**
 
 
 Summary: The documentation the group has on how to VNC into Clyde or Clyde-like servers is unclear.
