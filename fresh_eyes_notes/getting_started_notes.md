@@ -12,13 +12,18 @@ Cool. I have no idea what that means.
 This [footnote-like comment on ROACH](https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/#:~:text=Note%20that%20official%20support%20for%20ROACH%20plaforms%20is%20no%20longer%20provided,%20however%20this%20version%20of%20mlib_devel%20contains%20all%20ROACH%20related%20documentation%20and%20ROACH%20tutorials%20can%20be%20found%20here) needs to be below the table.
 
 Read [this](https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/#:~:text=Instructions%20on%20setting%20up%20an%20environment%20in%20which%20to%20run%20these%20tutorials%20can%20be%20found%20here.).
+
 Legitamate first reaction: Is this important? This sounds like it is something that I should do before I continue with this tutorial, right? Should I skip it?
 
 Read [this](https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/#:~:text=Instructions%20on%20setting%20up%20the%20toolflow-proper%20can%20be%20found%20here.)
+
 First reaction: again, how important is this? 
 What is "the toolflow-*proper*?" This implies I'm using a scaled-down version of the toolflow. Is that the case? What?
 Is "the toolflow" refering to MLIB_DEVEL?
 
+Read [this](https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/#:~:text=Modifications%20to%20be%20run%20after%20installs).
+
+Wait. Hold on. Does that mean that I needed to follow some sort of install? So what I read before *is* important. Interesting.
 
 Summary: The documentation the group has on how to VNC into Clyde or Clyde-like servers is unclear.
 
@@ -49,7 +54,7 @@ ex.: `vncserver -geometry 1280x720 :34`
 
 9. Enjoy 
 
-
+---
 # 11/8/2025 
 Summary: could not RDP into CASPER, SSH non-operable
 
