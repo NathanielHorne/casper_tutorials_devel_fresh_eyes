@@ -91,7 +91,28 @@ I checked there. We're running R2021a
 
 `MATLAB Version = R2021a`
 
- 
+Okay. How can I find what version of Xilinx we're using?
+
+Ran `find . -name "xilinx"` to show everything in the directories I have access to from `/home/[my_username]` that have "xilinx" in the title of the filename.
+
+Found:
+```
+./.Xilinx/Vivado/2021.1/.....
+``` 
+
+`Xilinx Version = 2021.1`
+
+Okay. This doesn't actually help us narrow down what hardware we're using.
+
+Just out of curiosity, I ran: `find . -name "casper"`
+
+Found: 
+`./sandbox/casper_sandbox/casper`
+
+This means we already have an installation of CASPER!
+This would have been *really* good to know before I went down this rabbit hole.
+
+**NOTE FOR FUTURE STUDENTS: Before you try to make a fresh install of CASPER, run `find . -name "casper"`**
 
 # 11/9/2025
 CASPER TUTORIALS DAY ONE:
