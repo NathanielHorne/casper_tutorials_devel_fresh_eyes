@@ -155,7 +155,118 @@ $ sudo python setup.py install-->
 However, `git checkout master` did not work because "pathspec 'master' did not match any file(s) known to git"
 So, the branch probably doesn't exist.
 
-  
+I used `git branch` to list all the branches associated with this repo. 
+
+`* py38`
+
+Okay, so instead of `git checkout master`, let's try `git checkout py38`.
+
+Found:
+```
+Already on 'py38'
+Your branch is up to date with 'origin/py38'.
+```  
+
+Okay. Next `sudo pip install -r requirements.txt`.
+
+Found:
+`nch is not in the sudoers file.  This incident will be reported.`
+
+Makes sense. Let's try it without `sudo`.
+
+Found:
+```
+You are running Setuptools on Python 2, which is no longer supported . . . 
+Command "python setup.py egg_info" failed with error code 1 in /tmp/pip-build-bwoz3j/cython/
+```
+
+Odd, given that the earlier part of this code block is 
+```
+# remove current casperfpga install files
+$ cd /usr/local/lib/python2.7/dist-packages
+$ sudo rm -rf casper*
+```
+
+Just like I thought, `/usr/local/lib/python2.7/dist-packages` doesn't exist.
+
+I ran `python --version` to see what version of Python I have access to. 
+Found: `Python 2.7.5`
+
+The first code block I ignored in "Installing casperfpga using a virtual environment" starts with `python3.8 -m venv ./cfpga_venv`
+
+So, I tried using `man python3` to check to see if python3 was even *installed*. 
+
+Yes. It is. However, the problem initially came up when I ran the `pip` command, since that's apparently using Python 2, not python 3.
+
+[Quick google search]
+
+Looks like there's a Python-3-based pip command called `pip3`. 
+
+Running `man pip3` returns `No manual entry for pip3`, meaning this isn't installed on Clyde.
+
+Okay. . . what does this command even *do*?
+
+`pip install -r requirements.txt` uses pip to install every package in the requirements.txt file.
+
+Can this be replicated without using `pip`? 
+
+[asks ChatGPT]
+
+Yes! Using `conda`, `poetry`, 'pipenv`, or `easy_install`.
+
+Are any of these installed?
+- Nope! I used `man [package]` to check
+
+Alright. What packages is `requirements.txt` actually trying to install?
+
+Used `cat requirements.txt`
+```
+cython
+future
+katcp
+numpy
+odict
+tornado
+redis
+tftpy
+progressbar2
+#ipython reqs for py3
+traitlets
+jedi
+parso
+ipython
+requests
+```
+
+Are any of these installed on Clyde?
+
+`pip list | grep "cython"` Failed, but the command actually gave me a clue.
+
+```
+You are using pip version 8.1.2, however version 25.3 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+```
+
+I can't believe I didn't at least try this, back when the pip command first failed.
+
+Ran `pip install --upgrade pip`
+Found: the same error as before . . . 
+
+Okay . . . 
+
+I can't install python scripts or see which ones are installed.
+
+Maybe this is because I don't have sudo-er access?
+
+The next command seems to corroborate this.
+
+Ran `python setup.py install`
+Found: `[Errno 13] Permission denied: '/usr/lib64/python2.7/site-packages/test-easy-install-134211.write-test'`
+Found: `Perhaps your account does not have write access to this directory?`
+
+I agree, automated tool. Perhaps it *is* because I don't have write access.
+
+
 
 # 11/9/2025
 CASPER TUTORIALS DAY ONE:
