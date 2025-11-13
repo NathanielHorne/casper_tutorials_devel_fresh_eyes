@@ -114,6 +114,49 @@ This would have been *really* good to know before I went down this rabbit hole.
 
 **NOTE FOR FUTURE STUDENTS: Before you try to make a fresh install of CASPER, run `find . -name "casper"`**
 
+Now that we have an install of CASPER confirmed, what do we do now?
+
+[started to read the rest of the tutorial, just to be safe]
+
+"Installing casperfpga using a virtual environment"
+
+I didn't realize, at first, the importance of the *virtual* component.
+Every working directory must have `casperfpga` installed. 
+
+Is that part of the CASPER toolflow? 
+
+Ran: "find . -name "casper*" | grep "casper*""
+
+This made it so that I could find anything *starting* with CASPER.
+
+Turns out, there is an entire other directory that I didn't notice before: `./sandbox/casper_sandbox/`
+
+After rooting around this directory, I found `./sandbox/casper_sandbox/casper_workplace/Tutorial/demo/sysgen/sysgen/`
+
+Why is that important? I found a demo file to use later.
+
+---
+Trying to install "casperfpga using a virutal environment." 
+
+I'll be trying to use the following code since I was already at my working directory when I read this particular part of the manual and I was pretty sure I didn't already have the `casperfgpa` package installed:
+```
+# clone the repository to your working directory
+$ cd /path/to/working/directory
+$ git clone https://github.com/casper-astro/casperfpga.git
+$ cd casperfpga
+$ git checkout master
+$ sudo pip install -r requirements.txt
+$ sudo python setup.py install-->
+
+```
+
+`git clone...` worked just fine.
+
+However, `git checkout master` did not work because "pathspec 'master' did not match any file(s) known to git"
+So, the branch probably doesn't exist.
+
+  
+
 # 11/9/2025
 CASPER TUTORIALS DAY ONE:
 
