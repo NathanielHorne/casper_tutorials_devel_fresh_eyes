@@ -296,9 +296,17 @@ I used `"conda" inurl:casper-toolflow.readthedocs.io` to find [the page that tal
 **FUTURE STUDENTS / FUTURE ME WHEN I'M UPDATING THIS DOCUMENTATION: START BY READING THIS GUIDE.**
 
 
+Trying to follow this guide:
+Okay. Clyde can't do this, at least not in the configuration I have right now.
+
+Clyde doesn't have a manual (`man` command) entry for `conda` or `venv`, the two environment generators the guide mentions.
+
+Getting Conda setup on my personal linux machine (now an Ubuntu PC) wasn't hard. Just needed to make an account, then download the installer from the website.
 
 
+This is where I'll have to start tomorrow. 
 
+---
 # 11/9/2025
 CASPER TUTORIALS DAY ONE:
 
