@@ -266,6 +266,37 @@ Found: `Perhaps your account does not have write access to this directory?`
 
 I agree, automated tool. Perhaps it *is* because I don't have write access.
 
+Oddly, when I ran `cd ../`, then `ipython`, then `import casperfpga`, I actually got a novel response.
+
+Before, I would receive an error. Something along the lines of "this doesn't exist". 
+
+Now, it would `import casperfpga` without comment.
+
+---
+
+I reached out to my sys. admin. for help. She told me that I should be trying to use a Conda environment to do this process. 
+
+Did I miss that? I don't think that was brought up, on the guide, but I could be very wrong. 
+
+Not that I can see, actually. 
+
+[Documentation > CASPER TUTORIALS > Environment setup]
+
+This section:
+1. Talks about the importance of using Ubuntu or Red Hat
+2. Gives a table of compatibility w/ certain hardware
+3. Mentions ROACH platforms are no longer supported
+4. **LINKS TO AN ERROR:404 PAGE ABOUT SETTING UP THE ENVIRONMENT**
+5. Links to setting up the proper toolflow.
+
+Having this link work would have saved me about 3.5 hours of time. It would be in the lab's best financial interest for future students to have a working version of this link.
+
+I used `"conda" inurl:casper-toolflow.readthedocs.io` to find [the page that talks about setting up these environments.](https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/tut_getting_started.html)
+
+**FUTURE STUDENTS / FUTURE ME WHEN I'M UPDATING THIS DOCUMENTATION: START BY READING THIS GUIDE.**
+
+
+
 
 
 # 11/9/2025
