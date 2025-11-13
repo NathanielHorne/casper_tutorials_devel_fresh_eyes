@@ -1,3 +1,98 @@
+# 11/12/2025
+CASPER TUTORIALS DAY TWO:
+
+Working on installing CASPER on a VNC server on Clyde. 
+
+Picking up where I left off: 
+
+- Reading [installing the Toolflow](https://casper-toolflow.readthedocs.io/en/latest/src/Installing-the-Toolflow.html)....
+
+- --> "The toolflow is very sensitive to mis-matching software versions"
+
+Because I don't have physical access to the lab where Clyde is running, at the moment, I need to see what type of software is already installed. Using *that* information, I can reference the table listed in the documentation and see what type of hardware we're running. 
+Hopefully.
+
+Right. Okay. Let's find what operating system, MATLAB, Xilinx, Python, and subsequent mlib_devel branch / commit I should pull from.
+
+Ran `cat /etc/os-release` when SSH'd on Clyde.
+
+Saw:
+```
+NAME="Red Hat Enterprise Linux Server"
+VERSION="7.9 (Maipo)"
+ID="rhel"
+ID_LIKE="fedora"
+VARIANT="Server"
+VARIANT_ID="server"
+VERSION_ID="7.9"
+PRETTY_NAME="Red Hat Enterprise Linux"
+ANSI_COLOR="0;31"
+CPE_NAME="cpe:/o:redhat:enterprise_linux:7.9:GA:server"
+HOME_URL="https://www.redhat.com/"
+BUG_REPORT_URL="https://bugzilla.redhat.com/"
+
+REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 7"
+REDHAT_BUGZILLA_PRODUCT_VERSION=7.9
+REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux"
+REDHAT_SUPPORT_PRODUCT_VERSION="7.9"
+```
+
+Okay . . . the table on the CASPER page lists all the supported operating systems in terms of Ubuntu.
+SO. What version of Ubuntu is equivalent to Red Hat Enterprise 7.9?
+
+[Does some research]
+
+It appears that Ubuntu isn't directly comparable to Red Hat. This is probably painfully obvious to those with more experience, but it's news to me.
+
+So, which type of Ubuntu is *relatively* equivalent? How would I even figure that out?
+
+[Quick Google search]
+
+Okay. I need to find what kernel version the linux install on Clyde currently is.
+
+ran `uname -r`
+
+Found:
+`3.10.0-1160.53.1.el7.x86_64`
+
+Okay. What version of Ubuntu matches that kernel?
+
+Reads a timeline w/ version history [in this WikiPedia Article](https://en.wikipedia.org/wiki/Linux_kernel_version_history).
+- The kernel version *exists*. 
+- It's called "Baby Fish?" Interesting.
+
+[Searches `"baby fish" AND ubuntu`]
+
+Nothing.
+
+Okay . . . let's try: `ubuntu with AND "3.10" AND "kernel"`
+
+Wow. That's interesting. Nothing is here. This feels like I'm doing something wrong.
+As a user, I'm scared of downloading the wrong type of toolflow, since "the toolflow is very sensitive to mis-matching software versions."
+It would be great if there was a table comparing RHEL releases to Ubuntu.
+
+Someone says it in plaintext [in this Reddit post](https://www.reddit.com/r/linux/comments/1hhl3z/ubuntu_1310_is_now_based_on_the_latest_stable/).
+
+Well, that doesn't match with anything on the table.
+
+[Reads the table more closely]
+
+Oh. We're probably running something equivalent to Ubuntu 20.04, since that's the only *other* choice listed.
+
+Okay. 
+
+`Ubuntu Version ≈ 20.04`
+
+What about MATLAB?
+
+I know from experience trying to install MATLAB on Linux for ECEn 380 that matlab versions are stored in `~/.matlab/`.
+
+I checked there. We're running R2021a
+
+`MATLAB Version = R2021a`
+
+ 
+
 # 11/9/2025
 CASPER TUTORIALS DAY ONE:
 
