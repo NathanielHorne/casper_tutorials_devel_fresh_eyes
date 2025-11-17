@@ -3,6 +3,71 @@
 I was informed by M. Burnett that I was working on the wrong tutorials.
 I need to focus on the RFSoC tutorials.
 
+In the first tutorial, I ran a few commands:
+```
+mkdir casper
+cd casper
+git clone https://github.com/casper-astro/mlib_devel.git
+cd mlib_devel
+git checkout -b m2021a origin/m2021a
+
+# install package dependencies
+pip install -r requirements.txt
+
+# initialize submodules
+git submodule init
+git submodule update
+```
+
+This resulted in the following string of errors:
+```
+You are running Setuptools on Python 2, which is no longer
+supported and
+>>> SETUPTOOLS WILL STOP WORKING <<<
+...
+https://github.com/pypa/setuptools/issues/1458
+    about the steps that led to this unsupported combination.
+    ************************************************************
+      sys.version_info < (3,) and warnings.warn(pre + "*" * 60 + msg + "*" * 60)
+    running develop
+    error: can't create or remove files in install directory
+    
+    The following error occurred while trying to add or remove files in the
+    installation directory:
+    
+        [Errno 13] Permission denied: '/usr/lib/python2.7/site-packages/test-easy-install-92084.write-test'
+    
+    The installation directory you specified (via --install-dir, --prefix, or
+    the distutils default setting) was:
+    
+        /usr/lib/python2.7/site-packages/
+    
+    Perhaps your account does not have write access to this directory?  If the
+    installation directory is a system-owned directory, you may need to sign in
+    as the administrator or "root" account.  If you do not have administrative
+    access to this machine, you may wish to choose a different installation
+    directory, preferably one that is listed in your PYTHONPATH environment
+    variable.
+    
+    For information on other options, you may wish to consult the
+    documentation at:
+    
+      https://setuptools.readthedocs.io/en/latest/easy_install.html
+    
+    Please make the appropriate changes for your system and try again.
+```
+
+PLEASE NOTE: this link lead to a page that didn't exist.
+
+```
+Command "/usr/bin/python2 -c "import setuptools, tokenize;__file__='/home/nch/Documents/CASPER/RFSOC/casper/mlib_devel/src/xml2vhdl-ox/scripts/python/xml2vhdl-ox/setup.py';exec(compile(getattr(tokenize, 'open', open)(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" develop --no-deps" failed with error code 1 in /home/nch/Documents/CASPER/RFSOC/casper/mlib_devel/src/xml2vhdl-ox/scripts/python/xml2vhdl-ox
+You are using pip version 8.1.2, however version 25.3 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+```
+
+PLEASE NOTE: these errors are similar, if not identical, to the errors I ran into when trying to perform the original CASPER tutorials.
+This implies I need to use a virtual environment when working on Clyde. However, `venv` and `conda`, the two virtual environment packages I know about, aren't included on Clyde.
+
 Read [the CASPER RFSoC README](https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/readme.html#) to get started.
 To be completely candid and transparent, I have no idea what most of this meant. 
 I can guess what "direct sampling" meant, but other terms such as "mixer," "numerically controlled oscillator (NCO)," "interpolation," and "decimation" were foreign to me.
