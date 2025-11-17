@@ -1,3 +1,12 @@
+# 11/17/2025
+
+I was informed by M. Burnett that I was working on the wrong tutorials.
+I need to focus on the RFSoC tutorials.
+
+Read [the CASPER RFSoC README](https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/readme.html#) to get started.
+To be completely candid and transparent, I have no idea what most of this meant. 
+I can guess what "direct sampling" meant, but other terms such as "mixer," "numerically controlled oscillator (NCO)," "interpolation," and "decimation" were foreign to me.
+
 # 11/12/2025
 CASPER TUTORIALS DAY TWO:
 
