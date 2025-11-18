@@ -93,6 +93,19 @@ I was asked to confirm my installation directories for certain dependencies like
 I didn't need to update any of the paths. 
 From what I've been told, this was because I was in a Conda environment.
 
+Started following [Tutorial 1](https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/tut_platform.html)
+
+Following the tutorial in earnest meant creating a VNC connection into the server.
+
+From there, I ran `./casper/xilinx/mlib_devel/startsg` to start MatLab with the needed dependencies.
+
+From what I understand, this is what needs to be run every time MatLab is started.
+
+From there, I started Simulink by clicking the icon on the titlebar.
+
+I've made it to Step 1 without incident. The documentation is becoming more and more clear.
+
+
  
 
 # 11/12/2025
