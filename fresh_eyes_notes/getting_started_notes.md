@@ -72,6 +72,29 @@ Read [the CASPER RFSoC README](https://casper-toolflow.readthedocs.io/projects/t
 To be completely candid and transparent, I have no idea what most of this meant. 
 I can guess what "direct sampling" meant, but other terms such as "mixer," "numerically controlled oscillator (NCO)," "interpolation," and "decimation" were foreign to me.
 
+---
+
+I logged off my laptop and headed home. For some reason, when I SSH'd into Clyde, `Conda` command was present on Clyde. 
+So, I ran `conda create --name RFSOC_TRY_1 python=3.9` to create a virtual environment to try this.
+
+I made a folder for a new install and cloned into the tutorial repo. 
+
+From there, I changed my directory to the cloned repo. 
+
+Then, I ran `conda activate RFSOC_TRY_1` to activate the environment.
+
+There is a script that J. Naylor wrote that streamlined the install process.
+
+I used `chmod +x casper_installer_7_9_25_jaxson.sh` to grant the installer executable permissions.
+
+From there, I ran the installer by using `./[path_to_script]/casper_installer_7_9_25_jaxson.sh`
+
+I was asked to confirm my installation directories for certain dependencies like python or Xilinx.
+I didn't need to update any of the paths. 
+From what I've been told, this was because I was in a Conda environment.
+
+ 
+
 # 11/12/2025
 CASPER TUTORIALS DAY TWO:
 
