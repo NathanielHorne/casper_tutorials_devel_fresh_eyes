@@ -28,6 +28,24 @@ Before running the code, the "all at once" adder (part 3) looks like the followi
 After running the code, the adder block contains `a + b (!)`, as shown below:
 ![Red error text in adder block](../tutorial_files/tutorial_1/first_run_draft/error_images/after_running.png)
 
+When I double click the block, then away from the block or click "Apply", the red text disappears.
+
+I do not know why this happens
+
+### ISSUE: Backend build failed!
+In [Tutorial 1 > Compiling](https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/tut_platform.html#compiling)
+--> "To compile the design, go to the MATLAB command line and enter `jasper`"
+
+I ran that. Did not compile. 
+
+The error message reads as follows:
+```
+ImportError: No module named xml2vhdl.xml2vhdl
+Error using jasper (line 23)
+Backend build failed! Check log files for more information
+```
+
+
 # 11/26/2025
 
 ## Restarting MatLab w/ SimuLink and CASPER
