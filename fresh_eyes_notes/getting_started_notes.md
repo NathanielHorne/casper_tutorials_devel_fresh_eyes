@@ -46,7 +46,7 @@ https://github.com/pypa/setuptools/issues/1458
     ************************************************************
       sys.version_info < (3,) and warnings.warn(pre + "*" * 60 + msg + "*" * 60)
     running develop
-    error: can't create or remove files in install directory
+    error: cant create or remove files in install directory
     
     The following error occurred while trying to add or remove files in the
     installation directory:
@@ -73,16 +73,16 @@ https://github.com/pypa/setuptools/issues/1458
     Please make the appropriate changes for your system and try again.
 ```
 
-PLEASE NOTE: this link lead to a page that didn't exist.
+PLEASE NOTE: this link lead to a page that didnt exist.
 
 ```
-Command "/usr/bin/python2 -c "import setuptools, tokenize;__file__='/home/nch/Documents/CASPER/RFSOC/casper/mlib_devel/src/xml2vhdl-ox/scripts/python/xml2vhdl-ox/setup.py';exec(compile(getattr(tokenize, 'open', open)(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" develop --no-deps" failed with error code 1 in /home/nch/Documents/CASPER/RFSOC/casper/mlib_devel/src/xml2vhdl-ox/scripts/python/xml2vhdl-ox
+Command "/usr/bin/python2 -c "import setuptools, tokenize;__file__=/home/nch/Documents/CASPER/RFSOC/casper/mlib_devel/src/xml2vhdl-ox/scripts/python/xml2vhdl-ox/setup.py;exec(compile(getattr(tokenize, open, open)(__file__).read().replace(\r\n, \n), __file__, exec))" develop --no-deps" failed with error code 1 in /home/nch/Documents/CASPER/RFSOC/casper/mlib_devel/src/xml2vhdl-ox/scripts/python/xml2vhdl-ox
 You are using pip version 8.1.2, however version 25.3 is available.
-You should consider upgrading via the 'pip install --upgrade pip' command.
+You should consider upgrading via the pip install --upgrade pip command.
 ```
 
 PLEASE NOTE: these errors are similar, if not identical, to the errors I ran into when trying to perform the original CASPER tutorials.
-This implies I need to use a virtual environment when working on Clyde. However, `venv` and `conda`, the two virtual environment packages I know about, aren't included on Clyde.
+This implies I need to use a virtual environment when working on Clyde. However, `venv` and `conda`, the two virtual environment packages I know about, arent included on Clyde.
 
 Read [the CASPER RFSoC README](https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/readme.html#) to get started.
 To be completely candid and transparent, I have no idea what most of this meant. 
@@ -90,7 +90,7 @@ I can guess what "direct sampling" meant, but other terms such as "mixer," "nume
 
 ---
 
-I logged off my laptop and headed home. For some reason, when I SSH'd into Clyde, `Conda` command was present on Clyde. 
+I logged off my laptop and headed home. For some reason, when I SSHd into Clyde, `Conda` command was present on Clyde. 
 So, I ran `conda create --name RFSOC_TRY_1 python=3.9` to create a virtual environment to try this.
 
 I made a folder for a new install and cloned into the tutorial repo. 
@@ -106,8 +106,8 @@ I used `chmod +x casper_installer_7_9_25_jaxson.sh` to grant the installer execu
 From there, I ran the installer by using `./[path_to_script]/casper_installer_7_9_25_jaxson.sh`
 
 I was asked to confirm my installation directories for certain dependencies like python or Xilinx.
-I didn't need to update any of the paths. 
-From what I've been told, this was because I was in a Conda environment.
+I didnt need to update any of the paths. 
+From what Ive been told, this was because I was in a Conda environment.
 
 Started following [Tutorial 1](https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/tut_platform.html)
 
@@ -119,7 +119,7 @@ From what I understand, this is what needs to be run every time MatLab is starte
 
 From there, I started Simulink by clicking the icon on the titlebar.
 
-I've made it to Step 1 without incident. The documentation is becoming more and more clear.
+Ive made it to Step 1 without incident. The documentation is becoming more and more clear.
 
 
  
@@ -135,7 +135,7 @@ Picking up where I left off:
 
 - --> "The toolflow is very sensitive to mis-matching software versions"
 
-Because I don't have physical access to the lab where Clyde is running, at the moment, I need to see what type of software is already installed. Using *that* information, I can reference the table listed in the documentation and see what type of hardware we're running. 
+Because I dont have physical access to the lab where Clyde is running, at the moment, I need to see what type of software is already installed. Using *that* information, I can reference the table listed in the documentation and see what type of hardware were running. 
 Hopefully.
 
 Right. Okay. Let's find what operating system, MATLAB, Xilinx, Python, and subsequent mlib_devel branch / commit I should pull from.
