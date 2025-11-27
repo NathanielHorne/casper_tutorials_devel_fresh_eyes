@@ -14,6 +14,28 @@ In [the first tutorial](https://casper-toolflow.readthedocs.io/projects/tutorial
 
 The embedded link mentioned here leads to a page that doesnt exist.
 
+Just below heading labeled ["Simulating the Design"](https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/tut_platform.html#simulating-the-design)
+--> Sees diagram with "System Generator" block.
+
+I dont know what this block means.
+I did a search for the block in "Library Browser > Search"
+I imported the block under "Xilinx Toolbox - 3"
+
+The block appears to ask for what board the code will be compiled on.
+
+From what I understand, Im working with an ["RFSoC 4x2"](https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/platforms/rfsoc4x2.html#rfsoc-4x2).
+
+The dropdown menu for the block doesnt contain a *direct* link to RFSoC 4x2.
+I will look in the documentation to see if theres a more verbose name for the 4x2 board we have.
+
+According to [this guide](https://www.rfsoc-pynq.io/), it appears that an RFSoC 4x2 is actually called:
+"Zynq UltraScale+ RFSoC ZU48DR"
+
+There is no direct match to this, either.
+
+I decided to go with the following, since it contains a "4" in the name.
+"Zynq UltraScale+ ZCU104 Evaluation Board RevC"
+
 # 11/17/2025
 
 I was informed by M. Burnett that I was working on the wrong tutorials.
