@@ -1,3 +1,15 @@
+# 11/26/2025
+
+Came back to the first tutorial.
+Restarting MatLab w/ SimuLink and CASPER was the hardest part.
+
+To restart MatLab in this way, perform the following command
+`cd <tutorial_repo_path>/casper/xilinx/mlib_devel/ && ./startsg startsg.local`
+
+
+Continued following the first tutorial without incident.
+
+
 # 11/17/2025
 
 I was informed by M. Burnett that I was working on the wrong tutorials.
