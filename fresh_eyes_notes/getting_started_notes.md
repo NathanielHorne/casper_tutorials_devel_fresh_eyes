@@ -138,9 +138,9 @@ Picking up where I left off:
 Because I dont have physical access to the lab where Clyde is running, at the moment, I need to see what type of software is already installed. Using *that* information, I can reference the table listed in the documentation and see what type of hardware were running. 
 Hopefully.
 
-Right. Okay. Let's find what operating system, MATLAB, Xilinx, Python, and subsequent mlib_devel branch / commit I should pull from.
+Right. Okay. Lets find what operating system, MATLAB, Xilinx, Python, and subsequent mlib_devel branch / commit I should pull from.
 
-Ran `cat /etc/os-release` when SSH'd on Clyde.
+Ran `cat /etc/os-release` when SSHd on Clyde.
 
 Saw:
 ```
@@ -168,7 +168,7 @@ SO. What version of Ubuntu is equivalent to Red Hat Enterprise 7.9?
 
 [Does some research]
 
-It appears that Ubuntu isn't directly comparable to Red Hat. This is probably painfully obvious to those with more experience, but it's news to me.
+It appears that Ubuntu isnt directly comparable to Red Hat. This is probably painfully obvious to those with more experience, but its news to me.
 
 So, which type of Ubuntu is *relatively* equivalent? How would I even figure that out?
 
@@ -185,7 +185,7 @@ Okay. What version of Ubuntu matches that kernel?
 
 Reads a timeline w/ version history [in this WikiPedia Article](https://en.wikipedia.org/wiki/Linux_kernel_version_history).
 - The kernel version *exists*. 
-- It's called "Baby Fish?" Interesting.
+- Its called "Baby Fish?" Interesting.
 
 [Searches `"baby fish" AND ubuntu`]
 
@@ -193,17 +193,17 @@ Nothing.
 
 Okay . . . let's try: `ubuntu with AND "3.10" AND "kernel"`
 
-Wow. That's interesting. Nothing is here. This feels like I'm doing something wrong.
-As a user, I'm scared of downloading the wrong type of toolflow, since "the toolflow is very sensitive to mis-matching software versions."
+Wow. Thats interesting. Nothing is here. This feels like I'm doing something wrong.
+As a user, Im scared of downloading the wrong type of toolflow, since "the toolflow is very sensitive to mis-matching software versions."
 It would be great if there was a table comparing RHEL releases to Ubuntu.
 
 Someone says it in plaintext [in this Reddit post](https://www.reddit.com/r/linux/comments/1hhl3z/ubuntu_1310_is_now_based_on_the_latest_stable/).
 
-Well, that doesn't match with anything on the table.
+Well, that doesnt match with anything on the table.
 
 [Reads the table more closely]
 
-Oh. We're probably running something equivalent to Ubuntu 20.04, since that's the only *other* choice listed.
+Oh. Were probably running something equivalent to Ubuntu 20.04, since thats the only *other* choice listed.
 
 Okay. 
 
@@ -213,11 +213,11 @@ What about MATLAB?
 
 I know from experience trying to install MATLAB on Linux for ECEn 380 that matlab versions are stored in `~/.matlab/`.
 
-I checked there. We're running R2021a
+I checked there. Were running R2021a
 
 `MATLAB Version = R2021a`
 
-Okay. How can I find what version of Xilinx we're using?
+Okay. How can I find what version of Xilinx were using?
 
 Ran `find . -name "xilinx"` to show everything in the directories I have access to from `/home/[my_username]` that have "xilinx" in the title of the filename.
 
@@ -228,7 +228,7 @@ Found:
 
 `Xilinx Version = 2021.1`
 
-Okay. This doesn't actually help us narrow down what hardware we're using.
+Okay. This doesnt actually help us narrow down what hardware were using.
 
 Just out of curiosity, I ran: `find . -name "casper"`
 
@@ -246,7 +246,7 @@ Now that we have an install of CASPER confirmed, what do we do now?
 
 "Installing casperfpga using a virtual environment"
 
-I didn't realize, at first, the importance of the *virtual* component.
+I didnt realize, at first, the importance of the *virtual* component.
 Every working directory must have `casperfpga` installed. 
 
 Is that part of the CASPER toolflow? 
@@ -255,7 +255,7 @@ Ran: "find . -name "casper*" | grep "casper*""
 
 This made it so that I could find anything *starting* with CASPER.
 
-Turns out, there is an entire other directory that I didn't notice before: `./sandbox/casper_sandbox/`
+Turns out, there is an entire other directory that I didnt notice before: `./sandbox/casper_sandbox/`
 
 After rooting around this directory, I found `./sandbox/casper_sandbox/casper_workplace/Tutorial/demo/sysgen/sysgen/`
 
@@ -264,7 +264,7 @@ Why is that important? I found a demo file to use later.
 ---
 Trying to install "casperfpga using a virutal environment." 
 
-I'll be trying to use the following code since I was already at my working directory when I read this particular part of the manual and I was pretty sure I didn't already have the `casperfgpa` package installed:
+Ill be trying to use the following code since I was already at my working directory when I read this particular part of the manual and I was pretty sure I didnt already have the `casperfgpa` package installed:
 ```
 # clone the repository to your working directory
 $ cd /path/to/working/directory
@@ -279,13 +279,13 @@ $ sudo python setup.py install-->
 `git clone...` worked just fine.
 
 However, `git checkout master` did not work because "pathspec 'master' did not match any file(s) known to git"
-So, the branch probably doesn't exist.
+So, the branch probably doesnt exist.
 
 I used `git branch` to list all the branches associated with this repo. 
 
 `* py38`
 
-Okay, so instead of `git checkout master`, let's try `git checkout py38`.
+Okay, so instead of `git checkout master`, lets try `git checkout py38`.
 
 Found:
 ```
@@ -298,7 +298,7 @@ Okay. Next `sudo pip install -r requirements.txt`.
 Found:
 `nch is not in the sudoers file.  This incident will be reported.`
 
-Makes sense. Let's try it without `sudo`.
+Makes sense. Lets try it without `sudo`.
 
 Found:
 ```
@@ -313,7 +313,7 @@ $ cd /usr/local/lib/python2.7/dist-packages
 $ sudo rm -rf casper*
 ```
 
-Just like I thought, `/usr/local/lib/python2.7/dist-packages` doesn't exist.
+Just like I thought, `/usr/local/lib/python2.7/dist-packages` doesnt exist.
 
 I ran `python --version` to see what version of Python I have access to. 
 Found: `Python 2.7.5`
@@ -322,13 +322,13 @@ The first code block I ignored in "Installing casperfpga using a virtual environ
 
 So, I tried using `man python3` to check to see if python3 was even *installed*. 
 
-Yes. It is. However, the problem initially came up when I ran the `pip` command, since that's apparently using Python 2, not python 3.
+Yes. It is. However, the problem initially came up when I ran the `pip` command, since thats apparently using Python 2, not python 3.
 
 [Quick google search]
 
-Looks like there's a Python-3-based pip command called `pip3`. 
+Looks like theres a Python-3-based pip command called `pip3`. 
 
-Running `man pip3` returns `No manual entry for pip3`, meaning this isn't installed on Clyde.
+Running `man pip3` returns `No manual entry for pip3`, meaning this isnt installed on Clyde.
 
 Okay. . . what does this command even *do*?
 
@@ -338,7 +338,7 @@ Can this be replicated without using `pip`?
 
 [asks ChatGPT]
 
-Yes! Using `conda`, `poetry`, 'pipenv`, or `easy_install`.
+Yes! Using `conda`, `poetry`, `pipenv`, or `easy_install`.
 
 Are any of these installed?
 - Nope! I used `man [package]` to check
@@ -373,16 +373,16 @@ You are using pip version 8.1.2, however version 25.3 is available.
 You should consider upgrading via the 'pip install --upgrade pip' command.
 ```
 
-I can't believe I didn't at least try this, back when the pip command first failed.
+I cant believe I didnt at least try this, back when the pip command first failed.
 
 Ran `pip install --upgrade pip`
 Found: the same error as before . . . 
 
 Okay . . . 
 
-I can't install python scripts or see which ones are installed.
+I cant install python scripts or see which ones are installed.
 
-Maybe this is because I don't have sudo-er access?
+Maybe this is because I dont have sudo-er access?
 
 The next command seems to corroborate this.
 
@@ -390,7 +390,7 @@ Ran `python setup.py install`
 Found: `[Errno 13] Permission denied: '/usr/lib64/python2.7/site-packages/test-easy-install-134211.write-test'`
 Found: `Perhaps your account does not have write access to this directory?`
 
-I agree, automated tool. Perhaps it *is* because I don't have write access.
+I agree, automated tool. Perhaps it *is* because I dont have write access.
 
 Oddly, when I ran `cd ../`, then `ipython`, then `import casperfpga`, I actually got a novel response.
 
@@ -402,7 +402,7 @@ Now, it would `import casperfpga` without comment.
 
 I reached out to my sys. admin. for help. She told me that I should be trying to use a Conda environment to do this process. 
 
-Did I miss that? I don't think that was brought up, on the guide, but I could be very wrong. 
+Did I miss that? I dont think that was brought up, on the guide, but I could be very wrong. 
 
 Not that I can see, actually. 
 
@@ -415,22 +415,22 @@ This section:
 4. **LINKS TO AN ERROR:404 PAGE ABOUT SETTING UP THE ENVIRONMENT**
 5. Links to setting up the proper toolflow.
 
-Having this link work would have saved me about 3.5 hours of time. It would be in the lab's best financial interest for future students to have a working version of this link.
+Having this link work would have saved me about 3.5 hours of time. It would be in the labs best financial interest for future students to have a working version of this link.
 
 I used `"conda" inurl:casper-toolflow.readthedocs.io` to find [the page that talks about setting up these environments.](https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/tut_getting_started.html)
 
-**FUTURE STUDENTS / FUTURE ME WHEN I'M UPDATING THIS DOCUMENTATION: START BY READING THIS GUIDE.**
+**FUTURE STUDENTS / FUTURE ME WHEN IM UPDATING THIS DOCUMENTATION: START BY READING THIS GUIDE.**
 
 
 Trying to follow this guide:
-Okay. Clyde can't do this, at least not in the configuration I have right now.
+Okay. Clyde cant do this, at least not in the configuration I have right now.
 
-Clyde doesn't have a manual (`man` command) entry for `conda` or `venv`, the two environment generators the guide mentions.
+Clyde doesnt have a manual (`man` command) entry for `conda` or `venv`, the two environment generators the guide mentions.
 
-Getting Conda setup on my personal linux machine (now an Ubuntu PC) wasn't hard. Just needed to make an account, then download the installer from the website.
+Getting Conda setup on my personal linux machine (now an Ubuntu PC) wasnt hard. Just needed to make an account, then download the installer from the website.
 
 
-This is where I'll have to start tomorrow. 
+This is where Ill have to start tomorrow. 
 
 ---
 # 11/9/2025
@@ -460,7 +460,7 @@ Read [this](https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/
 Read [this](https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/#:~:text=Instructions%20on%20setting%20up%20the%20toolflow-proper%20can%20be%20found%20here.)
 
 - First reaction: again, how important is this? 
-What is "the toolflow-*proper*?" This implies I'm using a scaled-down version of the toolflow. Is that the case? What?
+What is "the toolflow-*proper*?" This implies Im using a scaled-down version of the toolflow. Is that the case? What?
 - Is "the toolflow" refering to MLIB_DEVEL?
 
 Read [this](https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/#:~:text=Modifications%20to%20be%20run%20after%20installs).
@@ -479,12 +479,12 @@ Clicks "[here](https://casper-toolflow.readthedocs.io/en/latest/index.html)" to 
 
 - --> reads [What is mlib_devel?](https://casper-toolflow.readthedocs.io/en/latest/#:~:text=What%20is%20mlib_devel).
 
-- --> Okay! This actually answers my earlier question on *what* the toolflow actually is. Why isn't this discussed in the tutorials section?
+- --> Okay! This actually answers my earlier question on *what* the toolflow actually is. Why isnt this discussed in the tutorials section?
 
 
-Clicks [this link](https://casper-toolflow.readthedocs.io/en/latest/) found [here](https://casper-toolflow.readthedocs.io/en/latest/#:~:text=the%20project's%20documentation):
+Clicks [this link](https://casper-toolflow.readthedocs.io/en/latest/) found [here](https://casper-toolflow.readthedocs.io/en/latest/#:~:text=the%20project):
 
-- A link that points towards itself . . . that wasn't helpful.
+- A link that points towards itself . . . that wasnt helpful.
 
 
 Confusing wording here: "The software stack you will require to use the toolflow will depend what hardware you are targeting."
@@ -494,7 +494,7 @@ Recommendation: "The software stack you will run the toolflow on depends on your
 
 Clicks [this link](https://casper-toolflow.readthedocs.io/en/latest/src/Installing-the-Toolflow.html) found under the "Setup Links" tab at the bottom of the "CASPER Toolflow" page.
 
-- **WHY DOES *THIS* LINK WORK, BUT THE ONE IN THE TUTORIALS PAGE DOESN'T?**
+- **WHY DOES *THIS* LINK WORK, BUT THE ONE IN THE TUTORIALS PAGE DOESNT?**
 
 - Follow-up Question: is this tool named "MLIB_DEVEL" or "CASPER?" I am confused.
 
@@ -511,7 +511,7 @@ Summary: The documentation the group has on how to VNC into Clyde or Clyde-like 
 
 ## How to connect to Clyde (for my future reference) 
 0. (For anyone in the future) Talk to the sys-admin and get yourself an account.
-When I say "username" and "password" later in this blurb, I'm refering to the information included in this account.
+When I say "username" and "password" later in this blurb, Im refering to the information included in this account.
 1. Connect to Caedm VPN (or be on BYU campus proper) 
 2. SSH Into Clyde
 `ssh [username]@clyde.ee.byu.edu`
@@ -520,7 +520,7 @@ When I say "username" and "password" later in this blurb, I'm refering to the in
 Run `vncpasswd` to set a password of your choice for your VNC account. 
 5. Check if VNC has been run before (sanity check)
 Run `mkdir ~/.vnc` to make the computer check if the `/.vnc` folder exists.
-If VNC has never been run, this folder won't exist. It needs to exist for VNC to run, though. 
+If VNC has never been run, this folder wont exist. It needs to exist for VNC to run, though. 
 6. Start a "vncserver" session
 Run `vncserver -geometry [res_y]x[res_x] :[session number]
 
@@ -556,20 +556,20 @@ An earlier message from M. Burnett states that Clyde is `10.5.113.218`.
 Again, all systems cannot connect to this IP.
 
 I attempted to connect to Clyde via SSH.
-This produced the best results. I first SSH'd into my CAEDM account from my linux laptop, then SSH'd into Clyde.
+This produced the best results. I first SSHd into my CAEDM account from my linux laptop, then SSHd into Clyde.
 After providing my username and password, I was let in. From there, a cute textmoji of an alpaca giving a Calvin and Hobbes joke appeared.
 Unfortunately, I was unauthorized to create directories once I was in Clyde.
 
-If there's a way to access the JDrive via the command line, I could copy over the files for CASPER over.
+If theres a way to access the JDrive via the command line, I could copy over the files for CASPER over.
 These files would also include the setup script that R. Poll sent over, at the suggestion of J. Naylor.:`
 
-I'm stumped as to *why* I can't connect to Clyde via RDP, but can over SSH.
+Im stumped as to *why* I cant connect to Clyde via RDP, but can over SSH.
 
 Installer included here: [installer](../install_script/casper_installer_7_9_25_jaxson.sh)
 
-**QUESTIONN FOR THE GROUP:** What is going on? Why can't I connect to Clyde?
+**QUESTIONN FOR THE GROUP:** What is going on? Why cant I connect to Clyde?
 
-*MY PLAN MOVING FORWARD:* See if there's a way to dual-boot into my personal machine, using an extra hard drive I have.
+*MY PLAN MOVING FORWARD:* See if theres a way to dual-boot into my personal machine, using an extra hard drive I have.
 Why would I do this? CASPER Needs to run on a *powerful* Linux environment--something my laptop cannot provide.
 
 ---
