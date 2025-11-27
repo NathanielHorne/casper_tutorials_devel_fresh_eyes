@@ -40,11 +40,46 @@ I ran that. Did not compile.
 
 The error message reads as follows:
 ```
+File "casper_tutorials_devel_fresh_eyes/casper/xilinx/mlib_devel/jasper_library/toolflow.py", line 960, in xml2vhdl
+    from xml2vhdl.xml2vhdl import Xml2VhdlGenerate, helper
 ImportError: No module named xml2vhdl.xml2vhdl
 Error using jasper (line 23)
 Backend build failed! Check log files for more information
 ```
 
+I do not know what log file the error is talking about. It appears that the error comes from `toolflow.py` line 960.
+
+This line *is* "in xml2vhdl from xml2vhd.xml2vhdl import Xml2VhdlGenerate, helper"
+
+I am not sure how to get this error fixed.
+
+Putting `"xml2vhdl.xml2vhdl"` into Google, we arrive at [a GitHub repo owned by Oxford Department of Physics under the "casper-astro" umbrella](https://github.com/casper-astro/xml2vhdl)
+
+I believe this means that the Jasper (compiler?) toolflow does not have access to "xml2vhdl.xml2vhdl".
+How does one fix this?
+
+Something tells me that this is because I either used the wrong "System Generator" block and / or the wrong board in the "System Generator" block. 
+
+#### Option 1: Wrong board in existing "System Generator" block
+1. Changed board to "Xilinx Zynq UltraScale+ RFSoC ZCU1275 Characterization Kit 2.0"
+
+2. Pressed "Run"
+
+Bingo! At the bottom of the screen, "View 1 warning" appeared.
+
+This same warning was present in the earlier screenshots (see above) 
+
+3. Clicked "View 1 warning"
+
+Clicking this error made the following window pop up:
+![Warnings window](../tutorial_files/tutorial_1/first_run_draft/error_images/view_1_warnings.png)
+
+The same warning is present across every simulation that I have run today:
+
+>Externally connected blocks are defined as blocks that directly drive Simulink/Non-SysGen blocks without going through a gateway. An example is the output port of a SysGen block connected to the input port of Simulink Scope. This feature will be removed in future releases of SysGen. The table below lists blocks with such connections. Modify the design by inserting gateway outs with 'Translate into output port' turned off. Also Sysgen blocks with ports which have Signal Logging turned on are classified as Externally connected blocks. For more details look into SysgenFeatureReport.htm.
+>Disable feature warnings for this model.
+
+I do not know what this means.
 
 # 11/26/2025
 
