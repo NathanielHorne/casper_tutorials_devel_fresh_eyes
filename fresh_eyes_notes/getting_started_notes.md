@@ -1,3 +1,33 @@
+# 11/27/2025
+
+## Continuing first tutorial
+NOTE TO FUTURE STUDENTS: YOU CAN USE THE MIDDLE MOUSE BUTTON TO PAN. 
+--> This was something that was not described in the documentation that I would have found extremely helpful.
+
+### (non) ISSUE: In [Tutorial 1 > Simulating the design](https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/tut_platform.html#simulating-the-design)
+--> "Under the simulate section of the simulation tab on the ribbon.."
+--> Where?
+--> In the middle of the screen, theres a search bar under the prepare tab
+--> --> Is this what the documentation is talkinb about?
+--> --> YES!
+
+SOLUTION: 
+1. Click the downwards arrow in the "PREPARE" drop down next to the "Library Browser" icon
+2. Next, type "SIM" in the search bar.
+3. Under "CONFIGURATION & SIMULATION" click "Model Settings"
+
+REAL SOLUTION:
+[FACEPALM] The tutorial brings up how the actual place to do this is RIGHT THERE.
+It is in the same menu location that the "Run" button is.
+
+### ISSUE: Red text appears on adder when running first draft of code
+
+Before running the code, the "all at once" adder (part 3) looks like the following:
+![No red text in adder block](../tutorial_files/tutorial_1/first_run_draft/error_images/before_running.png)
+
+After running the code, the adder block contains `a + b (!)`, as shown below:
+![Red error text in adder block](../tutorial_files/tutorial_1/first_run_draft/error_images/after_running.png)
+
 # 11/26/2025
 
 ## Restarting MatLab w/ SimuLink and CASPER
