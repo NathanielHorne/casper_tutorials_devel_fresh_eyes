@@ -1,14 +1,18 @@
 # 11/26/2025
 
-Came back to the first tutorial.
-Restarting MatLab w/ SimuLink and CASPER was the hardest part.
+## Restarting MatLab w/ SimuLink and CASPER
+
+On resuming; restarting MatLab w/ SimuLink and CASPER was the hardest part.
 
 To restart MatLab in this way, perform the following command
 `cd <tutorial_repo_path>/casper/xilinx/mlib_devel/ && ./startsg startsg.local`
 
+## Errors and other comments
 
-Continued following the first tutorial without incident.
+In [the first tutorial](https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/tut_platform.html), read:
+"See the clocking section of the RFSoC2x2 platform page"
 
+The embedded link mentioned here leads to a page that doesnt exist.
 
 # 11/17/2025
 
