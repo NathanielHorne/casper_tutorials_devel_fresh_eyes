@@ -5,39 +5,44 @@ See `fresh_eyes_notes/test_all_links/page_reports` for the full txt files of the
 
 ### Tutorial 1 broken links:
 `https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/tut_getting_started.md#core-setup`
+--> WORKING: https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/tut_getting_started.html#core-setup
 `https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/platforms/rfsoc2x2.md#rf-clocking`
+--> WORKING: https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/platforms/rfsoc2x2.html#rf-clocking
 `https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/readme.md#platforms`
+--> WORKING: https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/readme.html#platforms
 `https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/tut_getting_started.md#setup-casperfpga`
+--> WORKING: https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/tut_getting_started.html#setup-casperfpga
 `https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/tut_getting_started.md#setup-casperfpga`
+--> WORKING: https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/tut_getting_started.html#setup-casperfpga
 
+#### Error Summary and Recommendations
+Summary: these links are only broken because they link to `.md` files instead of `.html` files, like what browsers expect.
+Recommendations: change these links so that (at least for browsers) they lead to `.html` files instead of `.md` files.
+Reasoning: I realize that this *may* be by design, as these tutorials *can* be viewed through the GitHub GUI. 
+However, if we are trying to "idiot-proof" the documentation, we *have* to account for the fact that the majority of the viewers of these tutorials will see them through their *browser*. 
 ### Tutorial 2 broken links:
-`https://casper-toolflow.readthedocs.io/en/latest/axi4lite_documentation.html`
-`https://casper-toolflow.readthedocs.io/en/latest/blockdocumentation.html`
-`https://casper-toolflow.readthedocs.io/en/latest/jasper_documentation.html`
-`https://casper-toolflow.readthedocs.io/en/latest/src/jasper_library_modules/modules.html`
-`https://casper-toolflow.readthedocs.io/projects/casperfpga/en/latest/`
-`https://docs.amd.com/r/en-US/pg269-rf-data-converter/On-chip-Clock-Distribution-Gen-3/DFE`
-`https://docs.amd.com/r/en-US/pg269-rf-data-converter/RF-ADC-Mixer-with-Numerical-Controlled-Oscillator`
-`https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/tut_platform.html#compiling`
-`https://docs.amd.com/r/en-US/pg269-rf-data-converter/Power-on-Sequence-Steps`
+NONE
 
 ### Tutorial 3 broken links:
 `https://www.xilinx.com/support/documentation/ip_documentation/usp_rf_data_converter/v2_4/pg269-rf-data-converter.pdf`
 --> redirected to useless link
+--> ARCHIVE: https://web.archive.org/web/20210308030442/https://www.xilinx.com/support/documentation/ip_documentation/usp_rf_data_converter/v2_4/pg269-rf-data-converter.pdf
 `https://www.xilinx.com/support/documentation/ip_documentation/usp_rf_data_converter/v2_4/pg269-rf-data-converter.pdf`
 --> redirected to useless link
+--> ARCHIVE: https://web.archive.org/web/20210308030442/https://www.xilinx.com/support/documentation/ip_documentation/usp_rf_data_converter/v2_4/pg269-rf-data-converter.pdf
 
 ### Tutorial 4 broken links:
-`https://www.xilinx.com/products/intellectual-property/cmac_usplus.html`
-`https://github.com/casper-astro/tutorials_devel/tree/master/rfsoc/tut_spec`
 `https://www.xilinx.com/support/documentation/ip_documentation/usp_rf_data_converter/v2_4/pg269-rf-data-converter.pdf`
 --> redirects to useless link
+--> ARCHIVE: https://web.archive.org/web/20210308030442/https://www.xilinx.com/support/documentation/ip_documentation/usp_rf_data_converter/v2_4/pg269-rf-data-converter.pdf
 
 I went to [The WayBack Machine](https://web.archive.org/) to *possibly* find a working version of the `.pdf` link seen a few times above.
 The only viable scrapping image that was taken of this site was 08 Mar 2021.
 Every subsequent scrapping was unviable or redirected to a useless place, like what we see on the live site.
 In short, this link has been dead for upwards of *four years*. 
 https://web.archive.org/web/20210308030442/https://www.xilinx.com/support/documentation/ip_documentation/usp_rf_data_converter/v2_4/pg269-rf-data-converter.pdf
+
+Under each link that goes to documentation other than our own, I will list a WayBack Machine archive.
 
 # 11/27/2025
 
