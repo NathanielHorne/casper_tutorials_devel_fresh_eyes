@@ -20,6 +20,7 @@ Summary: these links are only broken because they link to `.md` files instead of
 Recommendations: change these links so that (at least for browsers) they lead to `.html` files instead of `.md` files.
 Reasoning: I realize that this *may* be by design, as these tutorials *can* be viewed through the GitHub GUI. 
 However, if we are trying to "idiot-proof" the documentation, we *have* to account for the fact that the majority of the viewers of these tutorials will see them through their *browser*. 
+
 ### Tutorial 2 broken links:
 NONE
 
@@ -43,6 +44,8 @@ In short, this link has been dead for upwards of *four years*.
 https://web.archive.org/web/20210308030442/https://www.xilinx.com/support/documentation/ip_documentation/usp_rf_data_converter/v2_4/pg269-rf-data-converter.pdf
 
 Under each link that goes to documentation other than our own, I will list a WayBack Machine archive.
+
+## Getting back to finishing Tutorial 1
 
 # 11/27/2025
 
