@@ -1,0 +1,519 @@
+curl -I https://casper-toolflow.readthedocs.io/en/latest/index.html
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    HTTP/1.1 200 OK
+    Date: Fri, 28 Nov 2025 20:34:01 GMT
+    Content-Type: text/html; charset=utf-8
+    Connection: keep-alive
+    Server: cloudflare
+    CF-Ray: 9a5ca4c97eafe765-DEN
+    CF-Cache-Status: HIT
+    Access-Control-Allow-Origin: *
+    Age: 28
+    Cache-Control: max-age=1200
+    ETag: W/"827052f05d08bbaf3a2e9926a01f7fb4"
+    Last-Modified: Tue, 03 Jun 2025 03:00:51 GMT
+    Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+    Vary: Accept-Encoding
+    access-control-allow-methods: HEAD, OPTIONS, GET
+    cdn-cache-control: public
+    cross-origin-opener-policy: same-origin
+    referrer-policy: no-referrer-when-downgrade
+    x-amz-id-2: YhFwN3wysQ1bfoQXXeqDtRoJ4JeGhNcwwT6LzqdTbqwWPPDQpfks3h+GI8kEbgQTy+qCofgdXKUpuibb+Kt8uFt69D7PbkDD
+    x-amz-meta-mtime: 1748919631.820540999
+    x-amz-request-id: 09CWMQJMS01357V5
+    x-amz-server-side-encryption: AES256
+    x-backend: web-i-074337be5128ef497
+    x-content-type-options: nosniff
+    x-rtd-domain: casper-toolflow.readthedocs.io
+    x-rtd-force-addons: true
+    x-rtd-path: /proxito/html/casper-toolflow/latest/index.html
+    x-rtd-project: casper-toolflow
+    x-rtd-project-method: public_domain
+    x-rtd-resolver-filename: /index.html
+    x-rtd-version: latest
+    x-rtd-version-method: path
+    x-served: Nginx-Proxito-Sendfile
+    Set-Cookie: __cf_bm=7TYfNGXm7v3Us8W9uTiDJB_uK15hzpGn_Bj3287mMQM-1764362041-1.0.1.1-iPZ2z7HYy6bvPJLHyzAnts7Yu_xeUfMgSZLjGlbccqany9hB4Qt.s0TKJFTlSlY8wpMi6LebIDCV5CflzcbGFQwDVeE9wUCrDLGQbnInnI0; path=/; expires=Fri, 28-Nov-25 21:04:01 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: _cfuvid=ZT2PtXPnJmDE4PldeucXILL1olECTo3k91W9lsBOyKs-1764362041873-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    alt-svc: h3=":443"; ma=86400
+    
+curl -I https://casper-toolflow.readthedocs.io/en/latest/axi4lite_documentation.html
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    HTTP/1.1 200 OK
+    Date: Fri, 28 Nov 2025 20:34:02 GMT
+    Content-Type: text/html; charset=utf-8
+    Connection: keep-alive
+    Server: cloudflare
+    CF-Ray: 9a5ca4cb6ca313ed-SLC
+    CF-Cache-Status: HIT
+    Access-Control-Allow-Origin: *
+    Age: 20
+    Cache-Control: max-age=1200
+    ETag: W/"c40e2ea3f1851742ca72c919c5ced818"
+    Last-Modified: Tue, 03 Jun 2025 03:00:51 GMT
+    Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+    Vary: Accept-Encoding
+    access-control-allow-methods: HEAD, OPTIONS, GET
+    cdn-cache-control: public
+    cross-origin-opener-policy: same-origin
+    referrer-policy: no-referrer-when-downgrade
+    x-amz-id-2: rt+N+D7snRhUE87MWzBT+HKCibyO9gnWj1U29+pvDJPR2zlb1U9Tdriaz7ZfqwU4cPSVxzAegrRcxOqBJ16w4k882IbqXUY+U4szL0H4SIo=
+    x-amz-meta-mtime: 1748919631.435541774
+    x-amz-request-id: Q1HPPAGVVWM1FTFW
+    x-amz-server-side-encryption: AES256
+    x-backend: web-i-0d6ce0eadf478b6cf
+    x-content-type-options: nosniff
+    x-rtd-domain: casper-toolflow.readthedocs.io
+    x-rtd-force-addons: true
+    x-rtd-path: /proxito/html/casper-toolflow/latest/axi4lite_documentation.html
+    x-rtd-project: casper-toolflow
+    x-rtd-project-method: public_domain
+    x-rtd-resolver-filename: /axi4lite_documentation.html
+    x-rtd-version: latest
+    x-rtd-version-method: path
+    x-served: Nginx-Proxito-Sendfile
+    Set-Cookie: __cf_bm=tyMG01H6RUa9LTfShGnXYoqrWbBFSdWHeFSEHgwTfgw-1764362042-1.0.1.1-ETnZzvtXMk33KAQPUTqZKooY_mEmESZuShIgaixUIap63LVrK5tTe20TlgQsQabuCfSaix9efZPi37BR71wgR4rPbvB1tnLHdbqaR9wCHHs; path=/; expires=Fri, 28-Nov-25 21:04:02 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: _cfuvid=U8jPec0lI7k4HYlnfNeVnr0kMiU3Sy_Zjwnlujx57qw-1764362042231-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    alt-svc: h3=":443"; ma=86400
+    
+curl -I https://casper-toolflow.readthedocs.io/en/latest/blockdocumentation.html
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    HTTP/1.1 200 OK
+    Date: Fri, 28 Nov 2025 20:34:02 GMT
+    Content-Type: text/html; charset=utf-8
+    Connection: keep-alive
+    Server: cloudflare
+    CF-Ray: 9a5ca4cd8f63b859-SLC
+    CF-Cache-Status: HIT
+    Access-Control-Allow-Origin: *
+    Age: 20
+    Cache-Control: max-age=1200
+    ETag: W/"e4c9face939e34bb84279e5593a56805"
+    Last-Modified: Tue, 03 Jun 2025 03:00:51 GMT
+    Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+    Vary: Accept-Encoding
+    access-control-allow-methods: HEAD, OPTIONS, GET
+    cdn-cache-control: public
+    cross-origin-opener-policy: same-origin
+    referrer-policy: no-referrer-when-downgrade
+    x-amz-id-2: 8OoSNcoGkVKSZ4MdegCo4IxYVkm+O09REmNRjArHbnShdU9VnVT+xkRTmhPwc0eDJZV9bpSN3G0=
+    x-amz-meta-mtime: 1748919631.509541625
+    x-amz-request-id: 6J67J0M2M62WFWAJ
+    x-amz-server-side-encryption: AES256
+    x-backend: web-i-0a114477624420f47
+    x-content-type-options: nosniff
+    x-rtd-domain: casper-toolflow.readthedocs.io
+    x-rtd-force-addons: true
+    x-rtd-path: /proxito/html/casper-toolflow/latest/blockdocumentation.html
+    x-rtd-project: casper-toolflow
+    x-rtd-project-method: public_domain
+    x-rtd-resolver-filename: /blockdocumentation.html
+    x-rtd-version: latest
+    x-rtd-version-method: path
+    x-served: Nginx-Proxito-Sendfile
+    Set-Cookie: __cf_bm=T08vByu1oatZ.8DN44Em0KHoCvrUXfPAys2zlPUCzxk-1764362042-1.0.1.1-2uIuixr1mbGJYvuyN.hQa1nA9eATk07m38YDj9tuWwvkO0Hw79NWMswyv9xjatK84kfL.FpRgbn7IqSE1R8UoYpL7fPvhroV85GngEVnv5U; path=/; expires=Fri, 28-Nov-25 21:04:02 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: _cfuvid=kXZ9joPra8uYLClojSsx2Zjq_GCAHDyP2iA2cv6VUkU-1764362042561-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    alt-svc: h3=":443"; ma=86400
+    
+curl -I https://casper-toolflow.readthedocs.io/en/latest/jasper_documentation.html
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    HTTP/1.1 200 OK
+    Date: Fri, 28 Nov 2025 20:34:02 GMT
+    Content-Type: text/html; charset=utf-8
+    Connection: keep-alive
+    Server: cloudflare
+    CF-Ray: 9a5ca4cfa89eae22-SLC
+    CF-Cache-Status: HIT
+    Access-Control-Allow-Origin: *
+    Age: 27
+    Cache-Control: max-age=1200
+    ETag: W/"aea6282f049cd2d192116b898b82ee1a"
+    Last-Modified: Tue, 03 Jun 2025 03:00:51 GMT
+    Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+    Vary: Accept-Encoding
+    access-control-allow-methods: HEAD, OPTIONS, GET
+    cdn-cache-control: public
+    cross-origin-opener-policy: same-origin
+    referrer-policy: no-referrer-when-downgrade
+    x-amz-id-2: BMpLHVztHgjeC/Y9PdPxIAMbm85HuNaCVnJXCseNJyJWBHDo373BBN6q16C0nogT5ykZo2i7rFwy/1XubRZvctCzXOXWCQmDMv1Jqhf8RDg=
+    x-amz-meta-mtime: 1748919632.05354053
+    x-amz-request-id: SYQ4079QNNHDTSVW
+    x-amz-server-side-encryption: AES256
+    x-backend: web-i-0d0abd6de8feb9b23
+    x-content-type-options: nosniff
+    x-rtd-domain: casper-toolflow.readthedocs.io
+    x-rtd-force-addons: true
+    x-rtd-path: /proxito/html/casper-toolflow/latest/jasper_documentation.html
+    x-rtd-project: casper-toolflow
+    x-rtd-project-method: public_domain
+    x-rtd-resolver-filename: /jasper_documentation.html
+    x-rtd-version: latest
+    x-rtd-version-method: path
+    x-served: Nginx-Proxito-Sendfile
+    Set-Cookie: __cf_bm=fLP4XPsXTw0teR2MZkTei6cAspcpjNNoeV04364lgAI-1764362042-1.0.1.1-SxPFIOC4q8sGco86md5CEbJmhGSMHqktqnWLfduCpwk59vBp6BFVF4h._UO_CLRaqjRACqqZ2_3q1jkMkNwqaqhb7ycCYoSY8O5XXwv19Ew; path=/; expires=Fri, 28-Nov-25 21:04:02 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: _cfuvid=y8.BS_BbbBOPBkA7ATh79779PPbCuQ7NKSr8DncmObM-1764362042860-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    alt-svc: h3=":443"; ma=86400
+    
+curl -I https://casper-toolflow.readthedocs.io/en/latest/src/jasper_library_modules/modules.html
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    HTTP/1.1 200 OK
+    Date: Fri, 28 Nov 2025 20:34:03 GMT
+    Content-Type: text/html; charset=utf-8
+    Connection: keep-alive
+    Server: cloudflare
+    CF-Ray: 9a5ca4d1ee4a7b2e-DEN
+    CF-Cache-Status: HIT
+    Access-Control-Allow-Origin: *
+    Age: 28
+    Cache-Control: max-age=1200
+    ETag: W/"0d9695f31def4e26d6b77a840fe76b27"
+    Last-Modified: Tue, 03 Jun 2025 03:00:52 GMT
+    Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+    Vary: Accept-Encoding
+    access-control-allow-methods: HEAD, OPTIONS, GET
+    cdn-cache-control: public
+    cross-origin-opener-policy: same-origin
+    referrer-policy: no-referrer-when-downgrade
+    x-amz-id-2: 46mQyKSBki+PlyDLhDnRLKqYYaoq4dAgjegHMhCvKTpaIElIJ6OlbM8h4Bai/sUZHkQMjZRgik8=
+    x-amz-meta-mtime: 1748919643.230517931
+    x-amz-request-id: DQBQJG9Z985Y3F6C
+    x-amz-server-side-encryption: AES256
+    x-backend: web-i-01c8937a0cb41030a
+    x-content-type-options: nosniff
+    x-rtd-domain: casper-toolflow.readthedocs.io
+    x-rtd-force-addons: true
+    x-rtd-path: /proxito/html/casper-toolflow/latest/src/jasper_library_modules/modules.html
+    x-rtd-project: casper-toolflow
+    x-rtd-project-method: public_domain
+    x-rtd-resolver-filename: /src/jasper_library_modules/modules.html
+    x-rtd-version: latest
+    x-rtd-version-method: path
+    x-served: Nginx-Proxito-Sendfile
+    Set-Cookie: __cf_bm=n8gjIXL0fmPVdSRxAGzv.5yyvKdXQC4uuGhjPlEMyXc-1764362043-1.0.1.1-C5kK5_2AcECoxJbpFTUHFk2q.HIUOG67sOCK01HP.pn7MaSHJqo6gCVfIaNI8PoXzcVne0rwFpQ6o5t5cNKB5h9tar18H.KWrlL0ZNz8Oo0; path=/; expires=Fri, 28-Nov-25 21:04:03 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: _cfuvid=RuAfXt68HAZ7MxUCw7RpQSPE1DkMfmvPmYgzaJxryGw-1764362043222-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    alt-svc: h3=":443"; ma=86400
+    
+curl -I https://casper-toolflow.readthedocs.io/projects/casperfpga/en/latest/
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    HTTP/1.1 200 OK
+    Date: Fri, 28 Nov 2025 20:34:03 GMT
+    Content-Type: text/html
+    Connection: keep-alive
+    Server: cloudflare
+    CF-Ray: 9a5ca4d429a02d49-DEN
+    CF-Cache-Status: HIT
+    Access-Control-Allow-Origin: *
+    Age: 20
+    Cache-Control: max-age=1200
+    ETag: W/"823294c82f7f7c106f595878da785699"
+    Last-Modified: Fri, 24 Jun 2022 01:58:51 GMT
+    Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+    Vary: Accept-Encoding
+    access-control-allow-methods: HEAD, OPTIONS, GET
+    cdn-cache-control: public
+    cross-origin-opener-policy: same-origin
+    referrer-policy: no-referrer-when-downgrade
+    x-amz-id-2: GhCTs6OQSwWARpaQmOzW33sVA6jvQJkxJWwsmMMQpM1oh806EE9V3AgupNof0R2e+2DFJ3b7Ob4=
+    x-amz-request-id: BRZ3YDHAE1JJ1312
+    x-amz-server-side-encryption: AES256
+    x-backend: web-i-099c57f6c9d4cb9a0
+    x-content-type-options: nosniff
+    x-rtd-domain: casper-toolflow.readthedocs.io
+    x-rtd-force-addons: true
+    x-rtd-path: /proxito/html/casperfpga/latest/index.html
+    x-rtd-project: casperfpga
+    x-rtd-project-method: public_domain
+    x-rtd-resolver-filename: /
+    x-rtd-version: latest
+    x-rtd-version-method: path
+    x-served: Nginx-Proxito-Sendfile
+    Set-Cookie: __cf_bm=3656Qcth_brdZF_KSdw.8zHlwp.SKz54DBSgCzoa140-1764362043-1.0.1.1-1oHpi7BumS7HQiNen1BBJrWgFSJZakhDw4dtE02XiYSJMV9U0c0wGPveQGe8WOAOEwwSPmgU1lbszo_HjJjirg6nT_QxQRA1kTMCsr1uOdM; path=/; expires=Fri, 28-Nov-25 21:04:03 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: _cfuvid=zbB1.3auR3BIcSQNX2937cYiXWVZ.eJalgQEhP_K__0-1764362043580-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    alt-svc: h3=":443"; ma=86400
+    
+curl -I https://www.xilinx.com/products/intellectual-property/cmac_usplus.html
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    HTTP/1.1 301 Moved Permanently
+    Server: AkamaiGHost
+    Content-Length: 0
+    Location: https://www.amd.com/en/products/adaptive-socs-and-fpgas/intellectual-property/cmac_usplus.html
+    Date: Fri, 28 Nov 2025 20:34:03 GMT
+    Connection: keep-alive
+    
+curl -I https://docs.xilinx.com/r/en-US/ug973-vivado-release-notes-install-license/Obtain-and-Manage-Licenses
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    curl: (60) Peer's Certificate issuer is not recognized.
+    More details here: http://curl.haxx.se/docs/sslcerts.html
+    
+    curl performs SSL certificate verification by default, using a "bundle"
+     of Certificate Authority (CA) public keys (CA certs). If the default
+     bundle file isn't adequate, you can specify an alternate file
+     using the --cacert option.
+    If this HTTPS server uses a certificate signed by a CA represented in
+     the bundle, the certificate verification probably failed due to a
+     problem with the certificate (it might be expired, or the name might
+     not match the domain name in the URL).
+    If you'd like to turn off curl's verification of the certificate, use
+     the -k (or --insecure) option.
+curl -I https://www.fs.com/products/75308.html
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0HTTP/1.1 200 OK
+    Content-Type: text/html; charset=utf-8
+    Content-Length: 2509094
+    Connection: keep-alive
+    Date: Fri, 28 Nov 2025 20:34:06 GMT
+    Hostname: lb1
+    Server: nginx
+    X-Frame-Options: SAMEORIGIN
+    Set-Cookie: i18n_redirected=en; Max-Age=31536000; Path=/; SameSite=Lax
+    Set-Cookie: ip=128.187.112.26; Max-Age=2592000; Domain=fs.com; Path=/; Secure
+    Set-Cookie: ipWebsiteInfo=%7B%22iso_code%22%3A%22US%22%2C%22currency%22%3A%22USD%22%2C%22id%22%3A302%2C%22country_name%22%3A%22United%20States%22%2C%22website%22%3A%22en%22%2C%22language%22%3A%22English%22%2C%22area%22%3A%5B%7B%22area_id%22%3A1%2C%22name%22%3A%22North%20America%22%2C%22sort%22%3A0%2C%22language_id%22%3A1%2C%22laravel_through_key%22%3A302%7D%5D%2C%22countries_id%22%3A223%2C%22language_id%22%3A1%2C%22warehouse%22%3A%22US%22%2C%22isEuUnion%22%3Afalse%2C%22locale%22%3A%22en%22%2C%22tel_prefix%22%3A%22%2B1%22%2C%22timezone%22%3A%22America%2FNew_York%22%2C%22symbol%22%3A%22%24%22%2C%22seo_lang_code%22%3A%22en-us%22%7D; Max-Age=2592000; Domain=fs.com; Path=/; Secure
+    Set-Cookie: fs_websiteinfo=%7B%22iso_code%22%3A%22US%22%2C%22currency%22%3A%22USD%22%2C%22id%22%3A302%2C%22country_name%22%3A%22United%20States%22%2C%22website%22%3A%22en%22%2C%22language%22%3A%22English%22%2C%22area%22%3A%5B%7B%22area_id%22%3A1%2C%22name%22%3A%22North%20America%22%2C%22sort%22%3A0%2C%22language_id%22%3A1%2C%22laravel_through_key%22%3A302%7D%5D%2C%22countries_id%22%3A223%2C%22language_id%22%3A1%2C%22warehouse%22%3A%22US%22%2C%22isEuUnion%22%3Afalse%2C%22locale%22%3A%22en%22%2C%22tel_prefix%22%3A%22%2B1%22%2C%22timezone%22%3A%22America%2FNew_York%22%2C%22symbol%22%3A%22%24%22%2C%22seo_lang_code%22%3A%22en-us%22%7D; Max-Age=2592000; Domain=fs.com; Path=/; Secure
+    Set-Cookie: cartId=188d5ab5f49ed60e4eac2a76a7790564; Max-Age=2592000; Domain=fs.com; Path=/; Secure
+    Set-Cookie: ip=128.187.112.26; Max-Age=2592000; Domain=fs.com; Path=/; Secure
+    Set-Cookie: ipWebsiteInfo=%7B%22iso_code%22%3A%22US%22%2C%22currency%22%3A%22USD%22%2C%22id%22%3A302%2C%22country_name%22%3A%22United%20States%22%2C%22website%22%3A%22en%22%2C%22language%22%3A%22English%22%2C%22area%22%3A%5B%7B%22area_id%22%3A1%2C%22name%22%3A%22North%20America%22%2C%22sort%22%3A0%2C%22language_id%22%3A1%2C%22laravel_through_key%22%3A302%7D%5D%2C%22countries_id%22%3A223%2C%22language_id%22%3A1%2C%22warehouse%22%3A%22US%22%2C%22isEuUnion%22%3Afalse%2C%22locale%22%3A%22en%22%2C%22tel_prefix%22%3A%22%2B1%22%2C%22timezone%22%3A%22America%2FNew_York%22%2C%22symbol%22%3A%22%24%22%2C%22seo_lang_code%22%3A%22en-us%22%7D; Max-Age=2592000; Domain=fs.com; Path=/; Secure
+    Set-Cookie: fs_websiteinfo=%7B%22iso_code%22%3A%22US%22%2C%22currency%22%3A%22USD%22%2C%22id%22%3A302%2C%22country_name%22%3A%22United%20States%22%2C%22website%22%3A%22en%22%2C%22language%22%3A%22English%22%2C%22area%22%3A%5B%7B%22area_id%22%3A1%2C%22name%22%3A%22North%20America%22%2C%22sort%22%3A0%2C%22language_id%22%3A1%2C%22laravel_through_key%22%3A302%7D%5D%2C%22countries_id%22%3A223%2C%22language_id%22%3A1%2C%22warehouse%22%3A%22US%22%2C%22isEuUnion%22%3Afalse%2C%22locale%22%3A%22en%22%2C%22tel_prefix%22%3A%22%2B1%22%2C%22timezone%22%3A%22America%2FNew_York%22%2C%22symbol%22%3A%22%24%22%2C%22seo_lang_code%22%3A%22en-us%22%7D; Max-Age=2592000; Domain=fs.com; Path=/; Secure
+    Set-Cookie: ip=128.187.112.26; Max-Age=2592000; Domain=fs.com; Path=/; Secure
+    Set-Cookie: ipWebsiteInfo=%7B%22iso_code%22%3A%22US%22%2C%22currency%22%3A%22USD%22%2C%22id%22%3A302%2C%22country_name%22%3A%22United%20States%22%2C%22website%22%3A%22en%22%2C%22language%22%3A%22English%22%2C%22area%22%3A%5B%7B%22area_id%22%3A1%2C%22name%22%3A%22North%20America%22%2C%22sort%22%3A0%2C%22language_id%22%3A1%2C%22laravel_through_key%22%3A302%7D%5D%2C%22countries_id%22%3A223%2C%22language_id%22%3A1%2C%22warehouse%22%3A%22US%22%2C%22isEuUnion%22%3Afalse%2C%22locale%22%3A%22en%22%2C%22tel_prefix%22%3A%22%2B1%22%2C%22timezone%22%3A%22America%2FNew_York%22%2C%22symbol%22%3A%22%24%22%2C%22seo_lang_code%22%3A%22en-us%22%7D; Max-Age=2592000; Domain=fs.com; Path=/; Secure
+    Set-Cookie: fs_websiteinfo=%7B%22iso_code%22%3A%22US  0 2450k    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+    %22%2C%22currency%22%3A%22USD%22%2C%22id%22%3A302%2C%22country_name%22%3A%22United%20States%22%2C%22website%22%3A%22en%22%2C%22language%22%3A%22English%22%2C%22area%22%3A%5B%7B%22area_id%22%3A1%2C%22name%22%3A%22North%20America%22%2C%22sort%22%3A0%2C%22language_id%22%3A1%2C%22laravel_through_key%22%3A302%7D%5D%2C%22countries_id%22%3A223%2C%22language_id%22%3A1%2C%22warehouse%22%3A%22US%22%2C%22isEuUnion%22%3Afalse%2C%22locale%22%3A%22en%22%2C%22tel_prefix%22%3A%22%2B1%22%2C%22timezone%22%3A%22America%2FNew_York%22%2C%22symbol%22%3A%22%24%22%2C%22seo_lang_code%22%3A%22en-us%22%7D; Max-Age=2592000; Domain=fs.com; Path=/; Secure
+    Set-Cookie: customers_number_new=; Max-Age=604800; Domain=fs.com; Path=/; Secure
+    Set-Cookie: token_new=; Domain=fs.com; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT
+    Set-Cookie: customers_number_new=; Max-Age=604800; Domain=fs.com; Path=/; Secure
+    Set-Cookie: token_new=; Domain=fs.com; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT
+    Set-Cookie: ip=128.187.112.26; Max-Age=2592000; Domain=fs.com; Path=/; Secure
+    Set-Cookie: ipWebsiteInfo=%7B%22iso_code%22%3A%22US%22%2C%22currency%22%3A%22USD%22%2C%22id%22%3A302%2C%22country_name%22%3A%22United%20States%22%2C%22website%22%3A%22en%22%2C%22language%22%3A%22English%22%2C%22area%22%3A%5B%7B%22area_id%22%3A1%2C%22name%22%3A%22North%20America%22%2C%22sort%22%3A0%2C%22language_id%22%3A1%2C%22laravel_through_key%22%3A302%7D%5D%2C%22countries_id%22%3A223%2C%22language_id%22%3A1%2C%22warehouse%22%3A%22US%22%2C%22isEuUnion%22%3Afalse%2C%22locale%22%3A%22en%22%2C%22tel_prefix%22%3A%22%2B1%22%2C%22timezone%22%3A%22America%2FNew_York%22%2C%22symbol%22%3A%22%24%22%2C%22seo_lang_code%22%3A%22en-us%22%7D; Max-Age=2592000; Domain=fs.com; Path=/; Secure
+    Set-Cookie: fs_websiteinfo=%7B%22iso_code%22%3A%22US%22%2C%22currency%22%3A%22USD%22%2C%22id%22%3A302%2C%22country_name%22%3A%22United%20States%22%2C%22website%22%3A%22en%22%2C%22language%22%3A%22English%22%2C%22area%22%3A%5B%7B%22area_id%22%3A1%2C%22name%22%3A%22North%20America%22%2C%22sort%22%3A0%2C%22language_id%22%3A1%2C%22laravel_through_key%22%3A302%7D%5D%2C%22countries_id%22%3A223%2C%22language_id%22%3A1%2C%22warehouse%22%3A%22US%22%2C%22isEuUnion%22%3Afalse%2C%22locale%22%3A%22en%22%2C%22tel_prefix%22%3A%22%2B1%22%2C%22timezone%22%3A%22America%2FNew_York%22%2C%22symbol%22%3A%22%24%22%2C%22seo_lang_code%22%3A%22en-us%22%7D; Max-Age=2592000; Domain=fs.com; Path=/; Secure
+    Set-Cookie: recentlyProducts=; Domain=fs.com; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT
+    Set-Cookie: address_info=%7B%22postCode%22%3A%22%22%2C%22city%22%3A%22%22%2C%22state%22%3A%22%22%2C%22ipInfo%22%3A%22%22%7D; Max-Age=2592000; Domain=fs.com; Path=/; Secure
+    ETag: "264926-d6COHVvbbAeQ0cIKiGMQ1/qIhAw"
+    Accept-Ranges: none
+    Vary: Accept-Encoding
+    Expires: Thu, 01 Jan 1970 00:00:01 GMT
+    Cache-Control: no-cache
+    Strict-Transport-Security: max-age=63072000; includeSubdomains; preload
+    Strict-Transport-Security: max-age=31536000
+    X-XSS-Protection: 1; mode=block
+    X-Content-Type-Options: nosniff
+    X-Cache: Miss from cloudfront
+    Via: 1.1 be1b41e3bdaf20cfbe59cd2221c37f06.cloudfront.net (CloudFront)
+    X-Amz-Cf-Pop: DEN53-P5
+    X-Amz-Cf-Id: PCS-npxfBgopIM956-r245BVJ9cdy9q62vyDSWal4zBqJug9URSH1w==
+    
+curl -I https://www.fs.com/products/69009.html
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0HTTP/1.1 200 OK
+    Content-Type: text/html; charset=utf-8
+    Content-Length: 2201430
+    Connection: keep-alive
+    Date: Fri, 28 Nov 2025 20:34:07 GMT
+    Hostname: lb2
+    Server: nginx
+    X-Frame-Options: SAMEORIGIN
+    Set-Cookie: i18n_redirected=en; Max-Age=31536000; Path=/; SameSite=Lax
+    Set-Cookie: ip=128.187.112.26; Max-Age=2592000; Domain=fs.com; Path=/; Secure
+    Set-Cookie: ipWebsiteInfo=%7B%22iso_code%22%3A%22US%22%2C%22currency%22%3A%22USD%22%2C%22id%22%3A302%2C%22country_name%22%3A%22United%20States%22%2C%22website%22%3A%22en%22%2C%22language%22%3A%22English%22%2C%22area%22%3A%5B%7B%22area_id%22%3A1%2C%22name%22%3A%22North%20America%22%2C%22sort%22%3A0%2C%22language_id%22%3A1%2C%22laravel_through_key%22%3A302%7D%5D%2C%22countries_id%22%3A223%2C%22language_id%22%3A1%2C%22warehouse%22%3A%22US%22%2C%22isEuUnion%22%3Afalse%2C%22locale%22%3A%22en%22%2C%22tel_prefix%22%3A%22%2B1%22%2C%22timezone%22%3A%22America%2FNew_York%22%2C%22symbol%22%3A%22%24%22%2C%22seo_lang_code%22%3A%22en-us%22%7D; Max-Age=2592000; Domain=fs.com; Path=/; Secure
+    Set-Cookie: fs_websiteinfo=%7B%22iso_code%22%3A%22US%22%2C%22currency%22%3A%22USD%22%2C%22id%22%3A302%2C%22country_name%22%3A%22United%20States%22%2C%22website%22%3A%22en%22%2C%22language%22%3A%22English%22%2C%22area%22%3A%5B%7B%22area_id%22%3A1%2C%22name%22%3A%22North%20America%22%2C%22sort%22%3A0%2C%22language_id%22%3A1%2C%22laravel_through_key%22%3A302%7D%5D%2C%22countries_id%22%3A223%2C%22language_id%22%3A1%2C%22warehouse%22%3A%22US%22%2C%22isEuUnion%22%3Afalse%2C%22locale%22%3A%22en%22%2C%22tel_prefix%22%3A%22%2B1%22%2C%22timezone%22%3A%22America%2FNew_York%22%2C%22symbol%22%3A%22%24%22%2C%22seo_lang_code%22%3A%22en-us%22%7D; Max-Age=2592000; Domain=fs.com; Path=/; Secure
+    Set-Cookie: cartId=2615aa231e65f07d3ea2929961fa8834; Max-Age=2592000; Domain=fs.com; Path=/; Secure
+    Set-Cookie: ip=128.187.112.26; Max-Age=2592000; Domain=fs.com; Path=/; Secure
+    Set-Cookie: ipWebsiteInfo=%7B%22iso_code%22%3A%22US%22%2C%22currency%22%3A%22USD%22%2C%22id%22%3A302%2C%22country_name%22%3A%22United%20States%22%2C%22website%22%3A%22en%22%2C%22language%22%3A%22English%22%2C%22area%22%3A%5B%7B%22area_id%22%3A1%2C%22name%22%3A%22North%20America%22%2C%22sort%22%3A0%2C%22language_id%22%3A1%2C%22laravel_through_key%22%3A302%7D%5D%2C%22countries_id%22%3A223%2C%22language_id%22%3A1%2C%22warehouse%22%3A%22US%22%2C%22isEuUnion%22%3Afalse%2C%22locale%22%3A%22en%22%2C%22tel_prefix%22%3A%22%2B1%22%2C%22timezone%22%3A%22America%2FNew_York%22%2C%22symbol%22%3A%22%24%22%2C%22seo_lang_code%22%3A%22en-us%22%7D; Max-Age=2592000; Domain=fs.com; Path=/; Secure
+    Set-Cookie: fs_websiteinfo=%7B%22iso_code%22%3A%22US%22%2C%22currency%22%3A%22USD%22%2C%22id%22%3A302%2C%22country_name%22%3A%22United%20States%22%2C%22website%22%3A%22en%22%2C%22language%22%3A%22English%22%2C%22area%22%3A%5B%7B%22area_id%22%3A1%2C%22name%22%3A%22North%20America%22%2C%22sort%22%3A0%2C%22language_id%22%3A1%2C%22laravel_through_key%22%3A302%7D%5D%2C%22countries_id%22%3A223%2C%22language_id%22%3A1%2C%22warehouse%22%3A%22US%22%2C%22isEuUnion%22%3Afalse%2C%22locale%22%3A%22en%22%2C%22tel_prefix%22%3A%22%2B1%22%2C%22timezone%22%3A%22America%2FNew_York%22%2C%22symbol%22%3A%22%24%22%2C%22seo_lang_code%22%3A%22en-us%22%7D; Max-Age=2592000; Domain=fs.com; Path=/; Secure
+    Set-Cookie: ip=128.187.112.26; Max-Age=2592000; Domain=fs.com; Path=/; Secure
+    Set-Cookie: ipWebsiteInfo=%7B%22iso_code%22%3A%22US%22%2C%22currency%22%3A%22USD%22%2C%22id%22%3A302%2C%22country_name%22%3A%22United%20States%22%2C%22website%22%3A%22en%22%2C%22language%22%3A%22English%22%2C%22area%22%3A%5B%7B%22area_id%22%3A1%2C%22name%22%3A%22North%20America%22%2C%22sort%22%3A0%2C%22language_id%22%3A1%2C%22laravel_through_key%22%3A302%7D%5D%2C%22countries_id%22%3A223%2C%22language_id%22%3A1%2C%22warehouse%22%3A%22US%22%2C%22isEuUnion%22%3Afalse%2C%22locale%22%3A%22en%22%2C%22tel_prefix%22%3A%22%2B1%22%2C%22timezone%22%3A%22America%2FNew_York%22%2C%22symbol%22%3A%22%24%22%2C%22seo_lang_code%22%3A%22en-us%22%7D; Max-Age=2592000; Domain=fs.com; Path=/; Secure
+    Set-Cookie: fs_websiteinfo=%7B%22iso_code%22%3A%22US  0 2149k    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+    %22%2C%22currency%22%3A%22USD%22%2C%22id%22%3A302%2C%22country_name%22%3A%22United%20States%22%2C%22website%22%3A%22en%22%2C%22language%22%3A%22English%22%2C%22area%22%3A%5B%7B%22area_id%22%3A1%2C%22name%22%3A%22North%20America%22%2C%22sort%22%3A0%2C%22language_id%22%3A1%2C%22laravel_through_key%22%3A302%7D%5D%2C%22countries_id%22%3A223%2C%22language_id%22%3A1%2C%22warehouse%22%3A%22US%22%2C%22isEuUnion%22%3Afalse%2C%22locale%22%3A%22en%22%2C%22tel_prefix%22%3A%22%2B1%22%2C%22timezone%22%3A%22America%2FNew_York%22%2C%22symbol%22%3A%22%24%22%2C%22seo_lang_code%22%3A%22en-us%22%7D; Max-Age=2592000; Domain=fs.com; Path=/; Secure
+    Set-Cookie: customers_number_new=; Max-Age=604800; Domain=fs.com; Path=/; Secure
+    Set-Cookie: token_new=; Domain=fs.com; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT
+    Set-Cookie: customers_number_new=; Max-Age=604800; Domain=fs.com; Path=/; Secure
+    Set-Cookie: token_new=; Domain=fs.com; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT
+    Set-Cookie: ip=128.187.112.26; Max-Age=2592000; Domain=fs.com; Path=/; Secure
+    Set-Cookie: ipWebsiteInfo=%7B%22iso_code%22%3A%22US%22%2C%22currency%22%3A%22USD%22%2C%22id%22%3A302%2C%22country_name%22%3A%22United%20States%22%2C%22website%22%3A%22en%22%2C%22language%22%3A%22English%22%2C%22area%22%3A%5B%7B%22area_id%22%3A1%2C%22name%22%3A%22North%20America%22%2C%22sort%22%3A0%2C%22language_id%22%3A1%2C%22laravel_through_key%22%3A302%7D%5D%2C%22countries_id%22%3A223%2C%22language_id%22%3A1%2C%22warehouse%22%3A%22US%22%2C%22isEuUnion%22%3Afalse%2C%22locale%22%3A%22en%22%2C%22tel_prefix%22%3A%22%2B1%22%2C%22timezone%22%3A%22America%2FNew_York%22%2C%22symbol%22%3A%22%24%22%2C%22seo_lang_code%22%3A%22en-us%22%7D; Max-Age=2592000; Domain=fs.com; Path=/; Secure
+    Set-Cookie: fs_websiteinfo=%7B%22iso_code%22%3A%22US%22%2C%22currency%22%3A%22USD%22%2C%22id%22%3A302%2C%22country_name%22%3A%22United%20States%22%2C%22website%22%3A%22en%22%2C%22language%22%3A%22English%22%2C%22area%22%3A%5B%7B%22area_id%22%3A1%2C%22name%22%3A%22North%20America%22%2C%22sort%22%3A0%2C%22language_id%22%3A1%2C%22laravel_through_key%22%3A302%7D%5D%2C%22countries_id%22%3A223%2C%22language_id%22%3A1%2C%22warehouse%22%3A%22US%22%2C%22isEuUnion%22%3Afalse%2C%22locale%22%3A%22en%22%2C%22tel_prefix%22%3A%22%2B1%22%2C%22timezone%22%3A%22America%2FNew_York%22%2C%22symbol%22%3A%22%24%22%2C%22seo_lang_code%22%3A%22en-us%22%7D; Max-Age=2592000; Domain=fs.com; Path=/; Secure
+    Set-Cookie: recentlyProducts=; Domain=fs.com; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT
+    Set-Cookie: address_info=%7B%22postCode%22%3A%22%22%2C%22city%22%3A%22%22%2C%22state%22%3A%22%22%2C%22ipInfo%22%3A%22%22%7D; Max-Age=2592000; Domain=fs.com; Path=/; Secure
+    ETag: "219756-+PE5wEaxIWNgUEE4YRCWnxy7wU4"
+    Accept-Ranges: none
+    Vary: Accept-Encoding
+    Expires: Thu, 01 Jan 1970 00:00:01 GMT
+    Cache-Control: no-cache
+    Strict-Transport-Security: max-age=63072000; includeSubdomains; preload
+    Strict-Transport-Security: max-age=31536000
+    X-XSS-Protection: 1; mode=block
+    X-Content-Type-Options: nosniff
+    X-Cache: Miss from cloudfront
+    Via: 1.1 da92b92fa64883e21c6bcf07d52fa890.cloudfront.net (CloudFront)
+    X-Amz-Cf-Pop: DEN53-P5
+    X-Amz-Cf-Id: 7ubjOrkVswmLUlaIXXpTeTp7DhSZWapk8UPgYyfpSYruCTAZuUDUJw==
+    
+curl -I https://www.fs.com/products/71009.html
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0HTTP/1.1 200 OK
+    Content-Type: text/html; charset=utf-8
+    Content-Length: 2506501
+    Connection: keep-alive
+    Date: Fri, 28 Nov 2025 20:34:08 GMT
+    Hostname: lb1
+    Server: nginx
+    X-Frame-Options: SAMEORIGIN
+    Set-Cookie: i18n_redirected=en; Max-Age=31536000; Path=/; SameSite=Lax
+    Set-Cookie: ip=128.187.112.26; Max-Age=2592000; Domain=fs.com; Path=/; Secure
+    Set-Cookie: ipWebsiteInfo=%7B%22iso_code%22%3A%22US%22%2C%22currency%22%3A%22USD%22%2C%22id%22%3A302%2C%22country_name%22%3A%22United%20States%22%2C%22website%22%3A%22en%22%2C%22language%22%3A%22English%22%2C%22area%22%3A%5B%7B%22area_id%22%3A1%2C%22name%22%3A%22North%20America%22%2C%22sort%22%3A0%2C%22language_id%22%3A1%2C%22laravel_through_key%22%3A302%7D%5D%2C%22countries_id%22%3A223%2C%22language_id%22%3A1%2C%22warehouse%22%3A%22US%22%2C%22isEuUnion%22%3Afalse%2C%22locale%22%3A%22en%22%2C%22tel_prefix%22%3A%22%2B1%22%2C%22timezone%22%3A%22America%2FNew_York%22%2C%22symbol%22%3A%22%24%22%2C%22seo_lang_code%22%3A%22en-us%22%7D; Max-Age=2592000; Domain=fs.com; Path=/; Secure
+    Set-Cookie: fs_websiteinfo=%7B%22iso_code%22%3A%22US%22%2C%22currency%22%3A%22USD%22%2C%22id%22%3A302%2C%22country_name%22%3A%22United%20States%22%2C%22website%22%3A%22en%22%2C%22language%22%3A%22English%22%2C%22area%22%3A%5B%7B%22area_id%22%3A1%2C%22name%22%3A%22North%20America%22%2C%22sort%22%3A0%2C%22language_id%22%3A1%2C%22laravel_through_key%22%3A302%7D%5D%2C%22countries_id%22%3A223%2C%22language_id%22%3A1%2C%22warehouse%22%3A%22US%22%2C%22isEuUnion%22%3Afalse%2C%22locale%22%3A%22en%22%2C%22tel_prefix%22%3A%22%2B1%22%2C%22timezone%22%3A%22America%2FNew_York%22%2C%22symbol%22%3A%22%24%22%2C%22seo_lang_code%22%3A%22en-us%22%7D; Max-Age=2592000; Domain=fs.com; Path=/; Secure
+    Set-Cookie: ip=128.187.112.26; Max-Age=2592000; Domain=fs.com; Path=/; Secure
+    Set-Cookie: ipWebsiteInfo=%7B%22iso_code%22%3A%22US%22%2C%22currency%22%3A%22USD%22%2C%22id%22%3A302%2C%22country_name%22%3A%22United%20States%22%2C%22website%22%3A%22en%22%2C%22language%22%3A%22English%22%2C%22area%22%3A%5B%7B%22area_id%22%3A1%2C%22name%22%3A%22North%20America%22%2C%22sort%22%3A0%2C%22language_id%22%3A1%2C%22laravel_through_key%22%3A302%7D%5D%2C%22countries_id%22%3A223%2C%22language_id%22%3A1%2C%22warehouse%22%3A%22US%22%2C%22isEuUnion%22%3Afalse%2C%22locale%22%3A%22en%22%2C%22tel_prefix%22%3A%22%2B1%22%2C%22timezone%22%3A%22America%2FNew_York%22%2C%22symbol%22%3A%22%24%22%2C%22seo_lang_code%22%3A%22en-us%22%7D; Max-Age=2592000; Domain=fs.com; Path=/; Secure
+    Set-Cookie: fs_websiteinfo=%7B%22iso_code%22%3A%22US%22%2C%22currency%22%3A%22USD%22%2C%22id%22%3A302%2C%22country_name%22%3A%22United%20States%22%2C%22website%22%3A%22en%22%2C%22language%22%3A%22English%22%2C%22area%22%3A%5B%7B%22area_id%22%3A1%2C%22name%22%3A%22North%20America%22%2C%22sort%22%3A0%2C%22language_id%22%3A1%2C%22laravel_through_key%22%3A302%7D%5D%2C%22countries_id%22%3A223%2C%22language_id%22%3A1%2C%22warehouse%22%3A%22US%22%2C%22isEuUnion%22%3Afalse%2C%22locale%22%3A%22en%22%2C%22tel_prefix%22%3A%22%2B1%22%2C%22timezone%22%3A%22America%2FNew_York%22%2C%22symbol%22%3A%22%24%22%2C%22seo_lang_code%22%3A%22en-us%22%7D; Max-Age=2592000; Domain=fs.com; Path=/; Secure
+    Set-Cookie: customers_number_new=; Max-Age=604800; Domain=fs.com; Path=/; Secure
+    Set-Cookie: token_new=; Domain=fs.com; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT
+    Set-Cookie: cartId=29b8addeb2abc23088cc42f9d57b2a5c; Max-Age=2592000; Domain=fs.com; Path=/; Secure
+    Set-Cookie: ip=128.187.112.26; Max-Age=2592000; Domain=fs.com; Path=/; Secure
+    Set-Cookie: ipWebsiteInfo=%7B%22iso_code%22%3A%22US%22%2C%22currency%22%3A%22USD%22%2C%22id%22%3A302%2C%22country_name%22%3A%22United%20States%22%2C%22website%22%3A%22en%22%2C%22language%22%3A%22English%22%2C%22area%22%3A%5B%7B%22area_id%22%3A1%2C%22name%22%3A%22North%20America%22%2C%22sort%22%3A0%2C%22language_id%22%3A1%2C%22laravel_through_key%22%3A302%7D%5D%2C%22countries_id%22%3A223%2C%22language_id%22%3A1%2C%22warehouse%22%3A%22US%22%2C%22isEuUnion%22%3Afalse%2C%22locale%22%3A%22en%22%2C%22tel_prefix%22%3A%22%2B1%22%2C%22timezone%22%3A%22America%2FNew_York%22  0 2447k    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+    %2C%22symbol%22%3A%22%24%22%2C%22seo_lang_code%22%3A%22en-us%22%7D; Max-Age=2592000; Domain=fs.com; Path=/; Secure
+    Set-Cookie: fs_websiteinfo=%7B%22iso_code%22%3A%22US%22%2C%22currency%22%3A%22USD%22%2C%22id%22%3A302%2C%22country_name%22%3A%22United%20States%22%2C%22website%22%3A%22en%22%2C%22language%22%3A%22English%22%2C%22area%22%3A%5B%7B%22area_id%22%3A1%2C%22name%22%3A%22North%20America%22%2C%22sort%22%3A0%2C%22language_id%22%3A1%2C%22laravel_through_key%22%3A302%7D%5D%2C%22countries_id%22%3A223%2C%22language_id%22%3A1%2C%22warehouse%22%3A%22US%22%2C%22isEuUnion%22%3Afalse%2C%22locale%22%3A%22en%22%2C%22tel_prefix%22%3A%22%2B1%22%2C%22timezone%22%3A%22America%2FNew_York%22%2C%22symbol%22%3A%22%24%22%2C%22seo_lang_code%22%3A%22en-us%22%7D; Max-Age=2592000; Domain=fs.com; Path=/; Secure
+    Set-Cookie: customers_number_new=; Max-Age=604800; Domain=fs.com; Path=/; Secure
+    Set-Cookie: token_new=; Domain=fs.com; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT
+    Set-Cookie: ip=128.187.112.26; Max-Age=2592000; Domain=fs.com; Path=/; Secure
+    Set-Cookie: ipWebsiteInfo=%7B%22iso_code%22%3A%22US%22%2C%22currency%22%3A%22USD%22%2C%22id%22%3A302%2C%22country_name%22%3A%22United%20States%22%2C%22website%22%3A%22en%22%2C%22language%22%3A%22English%22%2C%22area%22%3A%5B%7B%22area_id%22%3A1%2C%22name%22%3A%22North%20America%22%2C%22sort%22%3A0%2C%22language_id%22%3A1%2C%22laravel_through_key%22%3A302%7D%5D%2C%22countries_id%22%3A223%2C%22language_id%22%3A1%2C%22warehouse%22%3A%22US%22%2C%22isEuUnion%22%3Afalse%2C%22locale%22%3A%22en%22%2C%22tel_prefix%22%3A%22%2B1%22%2C%22timezone%22%3A%22America%2FNew_York%22%2C%22symbol%22%3A%22%24%22%2C%22seo_lang_code%22%3A%22en-us%22%7D; Max-Age=2592000; Domain=fs.com; Path=/; Secure
+    Set-Cookie: fs_websiteinfo=%7B%22iso_code%22%3A%22US%22%2C%22currency%22%3A%22USD%22%2C%22id%22%3A302%2C%22country_name%22%3A%22United%20States%22%2C%22website%22%3A%22en%22%2C%22language%22%3A%22English%22%2C%22area%22%3A%5B%7B%22area_id%22%3A1%2C%22name%22%3A%22North%20America%22%2C%22sort%22%3A0%2C%22language_id%22%3A1%2C%22laravel_through_key%22%3A302%7D%5D%2C%22countries_id%22%3A223%2C%22language_id%22%3A1%2C%22warehouse%22%3A%22US%22%2C%22isEuUnion%22%3Afalse%2C%22locale%22%3A%22en%22%2C%22tel_prefix%22%3A%22%2B1%22%2C%22timezone%22%3A%22America%2FNew_York%22%2C%22symbol%22%3A%22%24%22%2C%22seo_lang_code%22%3A%22en-us%22%7D; Max-Age=2592000; Domain=fs.com; Path=/; Secure
+    Set-Cookie: recentlyProducts=; Domain=fs.com; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT
+    Set-Cookie: address_info=%7B%22postCode%22%3A%22%22%2C%22city%22%3A%22%22%2C%22state%22%3A%22%22%2C%22ipInfo%22%3A%22%22%7D; Max-Age=2592000; Domain=fs.com; Path=/; Secure
+    ETag: "263f05-tQrmgU7BcxbKfnuZXHLoH+I7kjs"
+    Accept-Ranges: none
+    Vary: Accept-Encoding
+    Expires: Thu, 01 Jan 1970 00:00:01 GMT
+    Cache-Control: no-cache
+    Strict-Transport-Security: max-age=63072000; includeSubdomains; preload
+    Strict-Transport-Security: max-age=31536000
+    X-XSS-Protection: 1; mode=block
+    X-Content-Type-Options: nosniff
+    X-Cache: Miss from cloudfront
+    Via: 1.1 5513fe7e8941de0b7405b4cb79dd7730.cloudfront.net (CloudFront)
+    X-Amz-Cf-Pop: DEN53-P5
+    X-Amz-Cf-Id: byyMmbb0N_un9MWk748AuPYXXE7bHerYjt_XAv92tcyhynx2DnJYDw==
+    
+curl -I https://en.wikipedia.org/wiki/Jumbo_frame
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    HTTP/1.1 200 OK
+    date: Fri, 28 Nov 2025 20:34:09 GMT
+    server: mw-web.codfw.main-66b64fb46d-9pcgd
+    x-content-type-options: nosniff
+    content-language: en
+    accept-ch: 
+    last-modified: Sun, 23 Nov 2025 04:32:00 GMT
+    content-type: text/html; charset=UTF-8
+    age: 0
+    accept-ranges: bytes
+    x-cache: cp4039 hit, cp4039 miss
+    x-cache-status: hit-local
+    server-timing: cache;desc="hit-local", host;desc="cp4039"
+    strict-transport-security: max-age=106384710; includeSubDomains; preload
+    report-to: { "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0" }] }
+    nel: { "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction": 0.0}
+    set-cookie: WMF-Last-Access=28-Nov-2025;Path=/;HttpOnly;secure;Expires=Tue, 30 Dec 2025 12:00:00 GMT
+    set-cookie: WMF-Last-Access-Global=28-Nov-2025;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue, 30 Dec 2025 12:00:00 GMT
+    set-cookie: WMF-DP=412;Path=/;HttpOnly;secure;Expires=Sat, 29 Nov 2025 00:00:00 GMT
+    x-client-ip: 128.187.112.26
+    cache-control: private, s-maxage=0, max-age=0, must-revalidate, no-transform
+    vary: Accept-Encoding,X-Subdomain,Cookie,Authorization,User-Agent
+    set-cookie: GeoIP=US:UT:Provo:40.26:-111.66:v4; Path=/; secure; Domain=.wikipedia.org
+    set-cookie: NetworkProbeLimit=0.001;Path=/;Secure;SameSite=None;Max-Age=3600
+    set-cookie: WMF-Uniq=KIQ-pMXkv5AUYoF_QYvuOgK5AAAAAFvdkq8XnIc24YCPEJBPuWa2xk_qTmOBqakI;Domain=.wikipedia.org;Path=/;HttpOnly;secure;SameSite=None;Expires=Sat, 28 Nov 2026 00:00:00 GMT
+    x-request-id: d546174d-a28e-47fe-9f82-d0d4772df38d
+    x-analytics: 
+    
+curl -I https://github.com/casper-astro/tutorials_devel/tree/master/rfsoc/tut_onehundred_gbe
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0HTTP/1.1 302 Found
+    Date: Fri, 28 Nov 2025 20:34:09 GMT
+    Content-Type: text/html; charset=utf-8
+    Content-Length: 0
+    Vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, X-Requested-With,Accept-Encoding, Accept, X-Requested-With
+    Location: https://github.com/casper-astro/tutorials_devel/tree/main/rfsoc/tut_onehundred_gbe
+    Cache-Control: no-cache
+    Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+    X-Frame-Options: deny
+    X-Content-Type-Options: nosniff
+    X-XSS-Protection: 0
+    Referrer-Policy: no-referrer-when-downgrade
+    Content-Security-Policy: default-src 'none'; base-uri 'self'; child-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com *.rel.tunnels.api.visualstudio.com wss://*.rel.tunnels.api.visualstudio.com github.githubassets.com objects-origin.githubusercontent.com copilot-proxy.githubusercontent.com proxy.individual.githubcopilot.com proxy.business.githubcopilot.com proxy.enterprise.githubcopilot.com *.actions.githubusercontent.com wss://*.actions.githubusercontent.com productionresultssa0.blob.core.windows.net/ productionresultssa1.blob.core.windows.net/ productionresultssa2.blob.core.windows.net/ productionresultssa3.blob.core.windows.net/ productionresultssa4.blob.core.windows.net/ productionresultssa5.blob.core.windows.net/ productionresultssa6.blob.core.windows.net/ productionresultssa7.blob.core.windows.net/ productionresultssa8.blob.core.windows.net/ productionresultssa9.blob.core.windows.net/ productionresultssa10.blob.core.windows.net/ productionresultssa11.blob.core.windows.net/ productionresultssa12.blob.core.windows.net/ productionresultssa13.blob.core.windows.net/ productionresultssa14.blob.core.windows.net/ productionresultssa15.blob.core.windows.net/ productionresultssa16.blob.core.windows.net/ productionresultssa17.blob.core.windows.net/ productionresultssa18.blob.core.windows.net/ productionresultssa19.blob.core.windows.net/ github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com wss://alive-staging.github.com api.githubcopilot.com api.individual.githubcopilot.com api.business.githubcopilot.com api.enterprise.githubcopilot.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com copilot-workspace.githubnext.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: blob: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com private-avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com release-assets.githubusercontent.com secured-user-images.githubusercontent.com/ user-images.githubusercontent.com/ private-user-images.githubusercontent.com opengraph.githubassets.com marketplace-screenshots.githubusercontent.com/ copilotprodattachments.blob.core.windows.net/github-production-copilot-attachments/ github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com objects-origin.githubusercontent.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/ private-user-images.githubusercontent.com github-production-user-asset-6210df.s3.amazonaws.com gist.github.com github.githubassets.com; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; upgrade-insecure-requests; worker-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/
+    Server: gi  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    thub.com
+    Set-Cookie: _gh_sess=7eTWiQzFaah%2FeMSMl%2B087ogpPaCctk6RJ12thdt3x31DOeazkzICkgc13664QA9kloouDj2KBP0Mc9qAQI28YVIgkd07QecAi8biDxU486Lbxbsp5sdYnhXePn%2F5JtnNBQ89vaiQqw%2BvJhM2jWlwCDimKSRGPxDiZZ%2BCk9eE1J2%2BgG5Ohz327B2KKpd11uZyOh92apDGVuneJZiiNLix%2Ba0PT8UijlN3ppNll8teC%2BiczxBeEkcMqyzhWKyZpmS7MirIUmAOwz3%2Bq6A9DBKr%2FQ%3D%3D--6W%2FMsF2QNT5MRfxJ--Q8hEFfZSG4vvMxGXYQ4PXw%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+    Set-Cookie: _octo=GH1.1.630876132.1764362049; Path=/; Domain=github.com; Expires=Sat, 28 Nov 2026 20:34:09 GMT; Secure; SameSite=Lax
+    Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Sat, 28 Nov 2026 20:34:09 GMT; HttpOnly; Secure; SameSite=Lax
+    X-GitHub-Request-Id: 6111:3F26E:5A2AC9A:79B53AE:692A0741
+    
+curl -I https://www.wireshark.org
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    HTTP/1.1 200 OK
+    Date: Fri, 28 Nov 2025 20:34:10 GMT
+    Content-Type: text/html; charset=utf-8
+    Connection: keep-alive
+    Server: cloudflare
+    X-Frame-Options: SAMEORIGIN
+    Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+    X-Slogan: Sniffing the glue that holds the Internet together.
+    X-Slogan: Go deep.
+    cf-cache-status: HIT
+    Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+    Last-Modified: Tue, 25 Nov 2025 06:00:50 GMT
+    Cache-Control: max-age=14400
+    Vary: Accept-Encoding
+    Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=aVlR%2B6eaJNOpPcAFNiaYyj9PN7ZNI8Zv6dytfuDT8mRo37FEuMTLhS4fmXG%2BRWZjj7hp6SEUAOIaRpwEHFv7QeAxE01k9XBRSECUKuKmQkg%3D"}]}
+    X-Content-Type-Options: nosniff
+    Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://static.cloudflareinsights.com https://*.googletagmanager.com https://conference.wireshark.org https://ticketing.wireshark.org; connect-src 'self' https://cloudflareinsights.com https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://ticketing.wireshark.org; style-src 'self' 'unsafe-inline' https://ticketing.wireshark.org https://cdn.jsdelivr.net https://*.typekit.net; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com https://*.ytimg.com https://ipv6.google.com https://ipv4.google.com https://ticketing.wireshark.org; media-src data:; font-src 'self' https:; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://ticketing.wireshark.org; report-uri https://wiresharkfoundation.uriports.com/reports/report; report-to default
+    Access-Control-Allow-Origin: *
+    Accept-CH: Sec-CH-UA-Arch, Sec-CH-UA-Platform, Sec-CH-UA-WoW64
+    Age: 406
+    CF-RAY: 9a5ca4ff6fa7e74f-DEN
+    alt-svc: h3=":443"; ma=86400
+    
+curl -I tut_rfdc.html
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: tut_rfdc.html; Unknown error
+curl -I tut_spec.html
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: tut_spec.html; Unknown error
+curl -I https://www.xilinx.com/support/documentation/ip_documentation/usp_rf_data_converter/v2_4/pg269-rf-data-converter.pdf
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     1    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+    HTTP/1.1 302 Moved Temporarily
+    Strict-Transport-Security: max-age=31536000; includeSubDomains
+    X-Frame-Options: SAMEORIGIN
+    Content-Type: text/html
+    Location: https://www.xilinx.com/support.html#documentation
+    X-XSS-Protection: 1; mode=block
+    X-Content-Type-Options: nosniff
+    Content-Length: 1
+    Expires: Fri, 28 Nov 2025 20:34:11 GMT
+    Cache-Control: max-age=0, no-cache, no-store
+    Pragma: no-cache
+    Date: Fri, 28 Nov 2025 20:34:11 GMT
+    Connection: keep-alive
+    
