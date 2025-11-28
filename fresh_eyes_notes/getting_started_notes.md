@@ -33,6 +33,12 @@ See `fresh_eyes_notes/test_all_links/page_reports` for the full txt files of the
 `https://www.xilinx.com/support/documentation/ip_documentation/usp_rf_data_converter/v2_4/pg269-rf-data-converter.pdf`
 --> redirects to useless link
 
+I went to [The WayBack Machine](https://web.archive.org/) to *possibly* find a working version of the `.pdf` link seen a few times above.
+The only viable scrapping image that was taken of this site was 08 Mar 2021.
+Every subsequent scrapping was unviable or redirected to a useless place, like what we see on the live site.
+In short, this link has been dead for upwards of *four years*. 
+https://web.archive.org/web/20210308030442/https://www.xilinx.com/support/documentation/ip_documentation/usp_rf_data_converter/v2_4/pg269-rf-data-converter.pdf
+
 # 11/27/2025
 
 ## Continuing first tutorial
