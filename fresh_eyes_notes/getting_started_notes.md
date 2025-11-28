@@ -1,7 +1,7 @@
 # 11/28/2025
 
 ## Testing the links within all RFSoC tutorial pages:
-See `fresh_eyes_notes/test_all_links/page_reports` for the full txt files of the reports.
+See `fresh_eyes_notes/test_all_links/rfsoc_tutorials_link_testing_reports.zip` for the full `.txt` files of the reports.
 
 ### Tutorial 1 broken links:
 `https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/tut_getting_started.md#core-setup`
