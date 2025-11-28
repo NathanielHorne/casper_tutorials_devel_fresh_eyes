@@ -1,0 +1,611 @@
+<div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html">Docs</a> »</li>
+        
+      <li>Tutorial 1: RFSoC Platform Yellow Block and Simulink Overview</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../../_sources/tutorials/rfsoc/tut_platform.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="tutorial-1-rfsoc-platform-yellow-block-and-simulink-overview">
+<h1>Tutorial 1: RFSoC Platform Yellow Block and Simulink Overview<a class="headerlink" href="#tutorial-1-rfsoc-platform-yellow-block-and-simulink-overview" title="Permalink to this headline">¶</a></h1>
+<p>In this tutorial, you will make a simple design for an RFSoC board using the
+CASPER toolflow. You will:</p>
+<ul class="simple">
+<li>Launch the toolflow</li>
+<li>Create a valid CASPER design in Simulink</li>
+<li>Generate an <code class="docutils literal notranslate"><span class="pre">.fpg</span></code> and <code class="docutils literal notranslate"><span class="pre">.dtbo</span></code> file</li>
+<li>Program the <code class="docutils literal notranslate"><span class="pre">.fpg</span></code> and <code class="docutils literal notranslate"><span class="pre">.dtbo</span></code> file to a CASPER rfsoc board</li>
+<li>Use the <code class="docutils literal notranslate"><span class="pre">casperfpga</span></code> library in a python interface to interact with the hardware running on the board</li>
+</ul>
+<p>This tutorial assumes that you have already setup your environment correctly, as
+explained in the <a class="reference external" href="./tut_getting_started.md#core-setup">Getting Started With RFSoC</a>
+tutorial, specifically that the correct versions of Vivado and Matlab are installed.
+You should also have all the programs and packages installed, configuration files set,
+and have successfully set up and tested your connection to the RFSoC board.</p>
+<div class="section" id="creating-your-first-design">
+<h2>Creating Your First Design<a class="headerlink" href="#creating-your-first-design" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="create-a-new-model">
+<h3>Create a New Model<a class="headerlink" href="#create-a-new-model" title="Permalink to this headline">¶</a></h3>
+<p>Make sure you are in your previously set up environment and navigate to
+<code class="docutils literal notranslate"><span class="pre">mlib_devel</span></code>.  <strong>Start Matlab by exectuing</strong> <code class="docutils literal notranslate"><span class="pre">./startsg</span></code>. This will properly load
+the Xilinx and CASPER libraries into Simulink, so long as your <code class="docutils literal notranslate"><span class="pre">startsg.local</span></code>
+file is set correctly. Within Matlab, start Simulink by typing <code class="docutils literal notranslate"><span class="pre">Simulink</span></code> into
+Matlab’s command line. Create a new blank model and save it with an appropriate
+name—no capital letters or spaces.</p>
+</div>
+<div class="section" id="library-organization">
+<h3>Library Organization<a class="headerlink" href="#library-organization" title="Permalink to this headline">¶</a></h3>
+<p>There are three primary libraries in Simulink you will use when designing for
+your RFSoC board:</p>
+<ol class="arabic simple">
+<li>The <strong>CASPER XPS Library</strong> contains the CASPER “Yellow Blocks”. These blocks
+encapsulate interfaces to your board’s hardware (ADCs, memory chips, CPUs,
+various ports, etc).</li>
+<li>The <strong>CASPER DSP Library</strong> contains (often green) blocks that implement DSP
+functions (filters, FFTs, etc).</li>
+<li>The <strong>Xilinx Library</strong> contains blue blocks which provide low-level FPGA
+functionality (multiplexing, delaying, adding, etc). It also contains the
+<code class="docutils literal notranslate"><span class="pre">System</span> <span class="pre">Generator</span></code> block, which contains information about the FPGA you are
+using.</li>
+</ol>
+</div>
+<div class="section" id="add-the-xilinx-system-generator-and-casper-platform-blocks">
+<h3>Add the Xilinx System Generator and CASPER Platform blocks<a class="headerlink" href="#add-the-xilinx-system-generator-and-casper-platform-blocks" title="Permalink to this headline">¶</a></h3>
+<p>The first thing to add is the <code class="docutils literal notranslate"><span class="pre">System</span> <span class="pre">Generator</span></code> block, found using the Simulink
+Library Browser in <code class="docutils literal notranslate"><span class="pre">Xilinx</span> <span class="pre">Blockset-&gt;Basic</span> <span class="pre">Elements-&gt;System</span> <span class="pre">Generator</span></code>. Add the
+block by clicking and dragging the block into your design. See the Simulink
+documentation by Mathworks for other methods of finding and adding blocks to
+your design.</p>
+<img alt="../../_images/system_gen_block.png" src="../../_images/system_gen_block.png">
+<p>You can double-click on the added block to see its configuration; however,
+instead of configuring the System Generator ourselves, we will use a platform
+Yellow Block from the <strong>CASPER XPS Library</strong> to configure it. Locate the block
+for the board you are using in <code class="docutils literal notranslate"><span class="pre">CASPER</span> <span class="pre">XPS</span> <span class="pre">Blockset-&gt;Platforms-&gt;&lt;your</span>
+<span class="pre">platform&gt;</span></code>. This example uses the RFSoC4x2 platform block, so this example adds
+the RFSoC4x2 Yellow Block to our Simulink model. All RFSoC platform Yellow Blocks
+are similar in their configuration. The following is therefore easily applied to
+your specific platform.</p>
+<p>Note: <strong>The System Generator and XPS platform blocks are required by all CASPER
+designs</strong></p>
+<img alt="../../_images/platform_block.png" src="../../_images/platform_block.png">
+<p>Double-click on the added platform block to see its configuration.</p>
+<img alt="../../_images/platform_block_param.png" src="../../_images/platform_block_param.png">
+<p>Confirm that the <code class="docutils literal notranslate"><span class="pre">Hardware</span> <span class="pre">Platform</span></code> parameter matches the platform you are
+using. The <code class="docutils literal notranslate"><span class="pre">User</span> <span class="pre">IP</span> <span class="pre">Clock</span> <span class="pre">Rate</span></code> is the desired frequency for the IP of the
+design. For the RFSoC platform the <code class="docutils literal notranslate"><span class="pre">adc_clk</span></code> user IP clock source is derived
+from the <code class="docutils literal notranslate"><span class="pre">pl_clk</span></code> coming from the first stage PLL in the clocking hierarchy for
+the RFDC. In most cases this is an LMK creating the <code class="docutils literal notranslate"><span class="pre">pl_clk</span></code> in addition to the
+clock that drives the RFDC tiles. This frequency coming from the LMK as <code class="docutils literal notranslate"><span class="pre">pl_clk</span></code>
+is what is to be entered into the <code class="docutils literal notranslate"><span class="pre">RFPLL</span> <span class="pre">PL</span> <span class="pre">Clock</span> <span class="pre">Rate</span></code> field. In other words,
+this is the clock rate the design is expecting to produce as the clock frequency
+for the user IP clock.</p>
+<p>Before proceeding briefly review the clocking information for your target
+platform and any additional setup/configuration required:</p>
+<ul class="simple">
+<li><a class="reference external" href="./platforms/rfsoc2x2.html#rf-clocking">RFSoC2x2</a></li>
+<li><a class="reference external" href="./platforms/rfsoc4x2.html#rf-clocking">RFSoC4x2</a></li>
+<li><a class="reference external" href="./platforms/zcu111.html#rf-clocking">ZCU111</a></li>
+<li><a class="reference external" href="./platforms/zcu208.html#rf-clocking">ZCU208</a></li>
+<li><a class="reference external" href="./platforms/zcu216.html#rf-clocking">ZCU216</a></li>
+<li><a class="reference external" href="./platforms/zrf16.html#rf-clocking">ZRF16</a></li>
+</ul>
+<p>Set the <code class="docutils literal notranslate"><span class="pre">User</span> <span class="pre">IP</span> <span class="pre">Clock</span> <span class="pre">Rate</span></code> and <code class="docutils literal notranslate"><span class="pre">RFPLL</span> <span class="pre">PL</span> <span class="pre">Clock</span> <span class="pre">Rate</span></code> as follows for your
+target RFSoC platform:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># RFSoC 2x2</span>
+User<span class="w"> </span>IP<span class="w"> </span>Clock<span class="w"> </span>Rate:<span class="w"> </span><span class="m">245</span>.76,<span class="w"> </span>RFPLL<span class="w"> </span>PL<span class="w"> </span>Clock<span class="w"> </span>Rate:<span class="w"> </span><span class="m">15</span>.36
+
+<span class="c1"># RFSoC 4x2</span>
+User<span class="w"> </span>IP<span class="w"> </span>Clock<span class="w"> </span>Rate:<span class="w"> </span><span class="m">245</span>.76,<span class="w"> </span>RFPLL<span class="w"> </span>PL<span class="w"> </span>Clock<span class="w"> </span>Rate:<span class="w"> </span><span class="m">122</span>.88
+
+<span class="c1"># ZCU111</span>
+User<span class="w"> </span>IP<span class="w"> </span>Clock<span class="w"> </span>Rate:<span class="w"> </span><span class="m">245</span>.76,<span class="w"> </span>RFPLL<span class="w"> </span>PL<span class="w"> </span>Clock<span class="w"> </span>Rate:<span class="w"> </span><span class="m">122</span>.88
+
+<span class="c1"># ZCU208</span>
+User<span class="w"> </span>IP<span class="w"> </span>Clock<span class="w"> </span>Rate:<span class="w"> </span><span class="m">250</span>,<span class="w"> </span>RFPLL<span class="w"> </span>PL<span class="w"> </span>Clock<span class="w"> </span>Rate:<span class="w"> </span><span class="m">125</span>
+
+<span class="c1"># ZCU216</span>
+User<span class="w"> </span>IP<span class="w"> </span>Clock<span class="w"> </span>Rate:<span class="w"> </span><span class="m">250</span>,<span class="w"> </span>RFPLL<span class="w"> </span>PL<span class="w"> </span>Clock<span class="w"> </span>Rate:<span class="w"> </span><span class="m">125</span>
+
+<span class="c1"># ZFR16</span>
+User<span class="w"> </span>IP<span class="w"> </span>Clock<span class="w"> </span>Rate:<span class="w"> </span><span class="m">250</span>,<span class="w"> </span>RFPLL<span class="w"> </span>PL<span class="w"> </span>Clock<span class="w"> </span>Rate:<span class="w"> </span><span class="m">50</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="the-example-design">
+<h3>The Example Design<a class="headerlink" href="#the-example-design" title="Permalink to this headline">¶</a></h3>
+<p>In order to demonstrate the basic use of hardware interfaces and software
+interaction, this design will implement three different functions on the board:</p>
+<ol class="arabic simple">
+<li>A Flashing LED</li>
+<li>A Software Controllable Counter</li>
+<li>A Software Controllable Adder</li>
+</ol>
+<p>The final design will look something like this:</p>
+<img alt="../../_images/whole_design.png" src="../../_images/whole_design.png">
+</div>
+<div class="section" id="function-1-flashing-led">
+<h3>Function 1: Flashing LED<a class="headerlink" href="#function-1-flashing-led" title="Permalink to this headline">¶</a></h3>
+<p>We can create a flashing LED by using a 27-bit counter. On the RFSoC4x2, the
+default clock given by its CASPER platform block is 245.76 MHz, which will toggle
+the most significant bit on the 27-bit counter about every 0.27 seconds. The
+principle is the same for any clock rate on any board.  We can output this most
+significant bit to an LED on the board, causing the LED to flash at about 50%
+duty cycle every so many seconds (half a second for this example).</p>
+<div class="section" id="step-1-add-a-counter">
+<h4>Step 1: Add a counter<a class="headerlink" href="#step-1-add-a-counter" title="Permalink to this headline">¶</a></h4>
+<p>Add a blue counter block to the design. It can be found in <code class="docutils literal notranslate"><span class="pre">Xilinx</span>
+<span class="pre">Blockset-&gt;Basic</span> <span class="pre">Elements-&gt;Counter</span></code>.</p>
+<img alt="../../_images/counter_block.png" src="../../_images/counter_block.png">
+<p>Double-click the block to access its parameters, and set it to free running,
+27-bits, unsigned. This will set the counter to count from <code class="docutils literal notranslate"><span class="pre">0</span></code> to <code class="docutils literal notranslate"><span class="pre">(2^27)-1</span></code>,
+wrap back to zero, and continue.</p>
+<img alt="../../_images/led_counter_param.png" src="../../_images/led_counter_param.png">
+</div>
+<div class="section" id="step-2-add-a-slice-block-to-select-the-msb">
+<h4>Step 2: Add a slice block to select the MSB<a class="headerlink" href="#step-2-add-a-slice-block-to-select-the-msb" title="Permalink to this headline">¶</a></h4>
+<p>Now that we have a counter, we want to select just the most significant bit so
+that we can send it to an LED.  Do this by adding a blue slice block, found in
+<code class="docutils literal notranslate"><span class="pre">Xilinx</span> <span class="pre">BLockset-&gt;Basic</span> <span class="pre">Elements-&gt;Slice</span></code>.</p>
+<img alt="../../_images/slice_block.png" src="../../_images/slice_block.png">
+<p>Double-click on the slice block to modify it. There are several ways to use the
+slice block to grab the bit we want.  For this example, we will select the MSB
+by indexing from the upper end and selecting the first bit.</p>
+<img alt="../../_images/led_slice_param.png" src="../../_images/led_slice_param.png">
+</div>
+<div class="section" id="step-3-add-a-gpio-block">
+<h4>Step 3: Add a GPIO Block<a class="headerlink" href="#step-3-add-a-gpio-block" title="Permalink to this headline">¶</a></h4>
+<p>Next we want to access an LED to send that bit to. We can access the correct
+FPGA output pin by using a GPIO block. GPIO blocks allow you to route signals
+from Simulink to various FPGA pins. Add a yellow GPIO block, found in <code class="docutils literal notranslate"><span class="pre">CASPER</span>
+<span class="pre">XPS</span> <span class="pre">Library-&gt;IO-&gt;gpio</span></code>.</p>
+<img alt="../../_images/gpio_block.png" src="../../_images/gpio_block.png">
+<p>Double-click the gpio block and set it to the <code class="docutils literal notranslate"><span class="pre">led</span></code> <code class="docutils literal notranslate"><span class="pre">I/O</span> <span class="pre">group</span></code>. Set the <code class="docutils literal notranslate"><span class="pre">I/O</span>
+<span class="pre">direction</span></code> to <code class="docutils literal notranslate"><span class="pre">out</span></code>, the data type to <code class="docutils literal notranslate"><span class="pre">boolean</span></code>, the data bitwidth to <code class="docutils literal notranslate"><span class="pre">1</span></code>, and
+the <code class="docutils literal notranslate"><span class="pre">GPIO</span> <span class="pre">bit</span> <span class="pre">index</span></code> to <code class="docutils literal notranslate"><span class="pre">0</span></code>. This tells the toolflow that it will be connecting
+a 1-bit input to LED0.</p>
+<img alt="../../_images/gpio_param.png" src="../../_images/gpio_param.png">
+</div>
+<div class="section" id="step-4-add-a-terminator">
+<h4>Step 4: Add a terminator<a class="headerlink" href="#step-4-add-a-terminator" title="Permalink to this headline">¶</a></h4>
+<p>To prevent warnings (from MATLAB &amp; Simulink) about unconnected outputs,
+terminate all unused outputs using a <code class="docutils literal notranslate"><span class="pre">Terminator</span></code> block.</p>
+<img alt="../../_images/term_block.png" src="../../_images/term_block.png">
+</div>
+<div class="section" id="step-5-connect-the-design">
+<h4>Step 5: Connect the design<a class="headerlink" href="#step-5-connect-the-design" title="Permalink to this headline">¶</a></h4>
+<p>If you haven’t done so already, rename the blocks to sensible names, such as
+<code class="docutils literal notranslate"><span class="pre">counter_led</span></code> instead of counter.  You can do this by double-clicking the name on
+the blocks.</p>
+<p>Connect the blocks together by clicking and dragging from the output arrow on
+one block and dragging it to the input arrow on another block.</p>
+<img alt="../../_images/led_design.png" src="../../_images/led_design.png">
+<p>And you’re done with the flashing LED!</p>
+</div>
+</div>
+<div class="section" id="function-2-software-controllable-counter">
+<h3>Function 2: Software Controllable Counter<a class="headerlink" href="#function-2-software-controllable-counter" title="Permalink to this headline">¶</a></h3>
+<p>Next we will design a hardware counter that we can start, stop, reset, and read
+using software. The design will look similar to the flashing LED we just
+finished.</p>
+<div class="section" id="step-1-add-the-software-registers">
+<h4>Step 1: Add the software registers<a class="headerlink" href="#step-1-add-the-software-registers" title="Permalink to this headline">¶</a></h4>
+<p>In order to interact with the hardware while it’s running, we need some software
+registers. For our counter we want two software registers—one to control the
+counter and another to read its current value. Add two yellow
+<code class="docutils literal notranslate"><span class="pre">software_register</span></code> blocks to the design, found in <code class="docutils literal notranslate"><span class="pre">CASPER</span> <span class="pre">XPS</span>
+<span class="pre">Blockset-&gt;Memory-&gt;software_register</span></code>.</p>
+<img alt="../../_images/register_block.png" src="../../_images/register_block.png">
+<p>On one of the <code class="docutils literal notranslate"><span class="pre">software_register</span></code> blocks, set the <code class="docutils literal notranslate"><span class="pre">I/O</span> <span class="pre">direction</span></code> to <code class="docutils literal notranslate"><span class="pre">From</span> <span class="pre">Processor</span></code>.
+This will allow a value from the software to be sent to the FPGA
+hardware. This block will be the counter controller.</p>
+<img alt="../../_images/counter_control_param.png" src="../../_images/counter_control_param.png">
+<p>On the other <code class="docutils literal notranslate"><span class="pre">software_register</span></code> block, set the <code class="docutils literal notranslate"><span class="pre">I/O</span> <span class="pre">direction</span></code> to <code class="docutils literal notranslate"><span class="pre">To</span> <span class="pre">Processor</span></code>.
+This will allow the FPGA hardware to send a value to the software when prompted.
+This block will be what allows us to read the counter.</p>
+<img alt="../../_images/counter_value_param.png" src="../../_images/counter_value_param.png">
+<p>Set both registers to a bitwidth of 32-bits and rename them something sensible.
+The names of the blocks here are the names used to access them from
+<code class="docutils literal notranslate"><span class="pre">casperfpga</span></code>. <strong>Do not use capital letters, spaces, slashes, or other funny characters for these
+names</strong>.  In this example, they are named <code class="docutils literal notranslate"><span class="pre">counter_control</span></code> and <code class="docutils literal notranslate"><span class="pre">counter_value</span></code>.</p>
+<p>Note that the registers have <code class="docutils literal notranslate"><span class="pre">sim</span></code> inputs and outputs; these allow you to access the
+blocks in Simulink during simulation for testing purposes. A <code class="docutils literal notranslate"><span class="pre">sim</span></code> input port can be
+fed inputs by Simulink blocks, and a <code class="docutils literal notranslate"><span class="pre">sim</span></code> output port can be read by Simulink
+blocks.</p>
+<p>So that the counter runs during simulation, add a Simulink constant block (found
+in <code class="docutils literal notranslate"><span class="pre">Simulink-&gt;Sources-&gt;Constant</span></code>), set it to <code class="docutils literal notranslate"><span class="pre">1</span></code>, and connect it to the ‘sim’
+input of the counter controller register. To monitor the counter’s value in
+simulation, add a Simulink scope block (found in <code class="docutils literal notranslate"><span class="pre">Simulink-&gt;Sinks-&gt;Scope</span></code>) and
+connect it to the <code class="docutils literal notranslate"><span class="pre">sim</span></code> output of the counter value register.</p>
+<img alt="../../_images/constant_block.png" src="../../_images/constant_block.png">
+<img alt="../../_images/scope_block.png" src="../../_images/scope_block.png">
+<p>Note that these white Simulink blocks will not be compiled to the FPGA hardware.
+They are for simulation purposes only. Only blue Xilinx blocks are
+acutally compiled. Yellow blocks are required to interface white Simulink blocks
+to the blue Xilinx blocks.</p>
+</div>
+<div class="section" id="step-2-add-the-counter">
+<h4>Step 2: Add the counter<a class="headerlink" href="#step-2-add-the-counter" title="Permalink to this headline">¶</a></h4>
+<p>Add another counter block the same way we did before. You can also copy the
+existing counter block via the usual copy-paste or by ctrl-click-drag-drop. Open
+its paramters and set it to free running, unsigned, 32-bits, synchronous
+reset port on, and enable port on.</p>
+<img alt="../../_images/counter_param.png" src="../../_images/counter_param.png">
+</div>
+<div class="section" id="step-3-add-the-slice-blocks">
+<h4>Step 3: Add the slice blocks<a class="headerlink" href="#step-3-add-the-slice-blocks" title="Permalink to this headline">¶</a></h4>
+<p>We want to be able to control the enable and reset ports on this new counter
+with the counter control register we made before. We can do this by slicing out
+one bit of the register for the enable port and slicing out another bit for the
+reset port. Alternatively, we could use two seperate registers, one for the
+reset and one for the enable, but as the registers are 32-bits each, that would
+be wasteful.</p>
+<p>Add two new slice blocks (or copy them from the flashing LED function). Configure
+one slice block for the enable by setting it to <code class="docutils literal notranslate"><span class="pre">boolean</span></code> output, specifying the
+range as <code class="docutils literal notranslate"><span class="pre">Lower</span> <span class="pre">bit</span> <span class="pre">location</span> <span class="pre">+</span> <span class="pre">width</span></code>, offset <code class="docutils literal notranslate"><span class="pre">0</span></code>, and relative to <code class="docutils literal notranslate"><span class="pre">LSB</span> <span class="pre">of</span>
+<span class="pre">input</span></code>.</p>
+<img alt="../../_images/slice_enable_param.png" src="../../_images/slice_enable_param.png">
+<p>Configure the other slice block for the reset with the same approach, but
+setting the offset to <code class="docutils literal notranslate"><span class="pre">1</span></code>.</p>
+<img alt="../../_images/slice_reset_param.png" src="../../_images/slice_reset_param.png">
+</div>
+<div class="section" id="step-4-connect-the-design">
+<h4>Step 4: Connect the design<a class="headerlink" href="#step-4-connect-the-design" title="Permalink to this headline">¶</a></h4>
+<p>Connect the blocks together. Take time to make the design look neat as well,
+renaming and resizing blocks as needed.</p>
+<img alt="../../_images/counter_design.png" src="../../_images/counter_design.png">
+<p>And that concludes this counter!</p>
+</div>
+</div>
+<div class="section" id="function-3-software-controllable-adder">
+<h3>Function 3: Software Controllable Adder<a class="headerlink" href="#function-3-software-controllable-adder" title="Permalink to this headline">¶</a></h3>
+<p>The last function we will implement is a software controllable adder. We will be
+able send two values to the adder from software, have it add them in hardware, and
+then read the result using software again.</p>
+<div class="section" id="id1">
+<h4>Step 1: Add the software registers<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h4>
+<p>To specify the values to add, add two software registers and configure them as
+inputs (<code class="docutils literal notranslate"><span class="pre">From</span> <span class="pre">Processor</span></code>). To read back the result, add another register and configure
+it as an output (<code class="docutils literal notranslate"><span class="pre">To</span> <span class="pre">Processor</span></code>).  Name them something reasonable. Remember that the
+registers’ names are used to access their data in software.</p>
+</div>
+<div class="section" id="step-2-add-the-adder-block">
+<h4>Step 2: Add the adder block<a class="headerlink" href="#step-2-add-the-adder-block" title="Permalink to this headline">¶</a></h4>
+<p>Add a blue adder/subtractor block to the design, found in <code class="docutils literal notranslate"><span class="pre">Xilinx</span>
+<span class="pre">Blockset-&gt;Math-&gt;AddSub</span></code>. Check its configuration and make sure it is set to
+addition.</p>
+<img alt="../../_images/adder_block.png" src="../../_images/adder_block.png">
+<img alt="../../_images/adder_param1.png" src="../../_images/adder_param1.png">
+<p>The output register is 32-bits. If we add two 32-bit numbers, we will have
+33-bits.</p>
+<p>There are a number of ways of fixing this:</p>
+<ul class="simple">
+<li>Limit the input bitwidth(s) with slice blocks.</li>
+<li>Limit the output bitwidth with slice blocks.</li>
+<li>Create a 32-bit adder instead.</li>
+</ul>
+<p>For this example, we will configure the AddSub block to be a 32-bit adder. In
+its configuration, under the <code class="docutils literal notranslate"><span class="pre">Output</span></code> tab, set it to <code class="docutils literal notranslate"><span class="pre">unsigned</span> <span class="pre">32-bits</span></code>. Also set
+its <code class="docutils literal notranslate"><span class="pre">overflow</span></code> to <code class="docutils literal notranslate"><span class="pre">Saturate</span></code>. This way, if two very large numbers are added, it will
+just return its max <code class="docutils literal notranslate"><span class="pre">(2^32-1)</span></code>.</p>
+<img alt="../../_images/adder_param2.png" src="../../_images/adder_param2.png">
+</div>
+<div class="section" id="step-3-add-the-scope-and-simulation-inputs">
+<h4>Step 3: Add the scope and simulation inputs<a class="headerlink" href="#step-3-add-the-scope-and-simulation-inputs" title="Permalink to this headline">¶</a></h4>
+<p>Add Simulink scope and constant blocks to the output register and input
+registers. These will be set and used so we can check the adder design
+in simulation.</p>
+</div>
+<div class="section" id="id2">
+<h4>Step 4: Connect the design<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h4>
+<p>Connect all the blocks together, name things properly, and adjust/resize the
+design so it is nice to look at. Of course, this can be done as you go, and
+probably should be.</p>
+<img alt="../../_images/adder_design.png" src="../../_images/adder_design.png">
+<p>Now the adder is done!</p>
+</div>
+<div class="section" id="extra-design-function-rfsoc2x2-only">
+<h4>Extra Design Function (RFSoC2x2 only)<a class="headerlink" href="#extra-design-function-rfsoc2x2-only" title="Permalink to this headline">¶</a></h4>
+<p>Make sure to have added the software register and GPIO needed to remove <code class="docutils literal notranslate"><span class="pre">RESET</span></code>
+from the LMK PLL chip so that it can be programmed later on. See the
+<a class="reference external" href="./platforms/rfsoc2x2.md#rf-clocking">clocking</a> section of the RFSoC2x2 platform
+page.</p>
+</div>
+</div>
+<div class="section" id="simulating-the-design">
+<h3>Simulating the design<a class="headerlink" href="#simulating-the-design" title="Permalink to this headline">¶</a></h3>
+<img alt="../../_images/whole_design.png" src="../../_images/whole_design.png">
+<p>With all hardware functions configureed and hooked up, we can simulate the
+design with Simulink.</p>
+<p>Under the simulate section of the simulation tab on the ribbon, set the <code class="docutils literal notranslate"><span class="pre">stop</span>
+<span class="pre">time</span></code> to the number of clock cycles you want to simulate. This example uses
+<code class="docutils literal notranslate"><span class="pre">10.0</span></code>.  Note that the stop time is actually clock cycles instead of seconds
+because of the way the toolflow and CASPER blocks are configured.</p>
+<img alt="../../_images/simulate_button.png" src="../../_images/simulate_button.png">
+<p>Press <code class="docutils literal notranslate"><span class="pre">Run</span></code> to simulate the design. Once the simulation is done (assuming
+there are no errors) you can double-click the scopes to view the output signals.
+You should see the counter incrementing once every clock cycle and the adder
+should show you the result of the addition. You may have to scale the scopes to
+see the results properly.</p>
+<img alt="../../_images/adder_counter_scope.png" src="../../_images/adder_counter_scope.png">
+<p>Once everything looks like it should, you’re ready to compile for the FPGA!</p>
+</div>
+</div>
+<div class="section" id="compiling">
+<h2>Compiling<a class="headerlink" href="#compiling" title="Permalink to this headline">¶</a></h2>
+<p>We now have a design with three independent functions all working off the same
+FPGA clock. From here, compiling the design is easy, so long as your environment
+was set up correctly.</p>
+<p>To compile the design, go to the MATLAB command line and enter</p>
+<div class="highlight-matlab notranslate"><div class="highlight"><pre><span></span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="n">jasper</span>
+</pre></div>
+</div>
+<p>Depending on your computing resources, compilation of this design will take
+between 10 and 25 mins—though larger designs will take much longer.</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">jasper</span></code> command will run the various parts of the build process. The first
+part uses Xilinx’s System Generator to compile any Xilinx blocks in the design
+to a circuit that can be implemented on the FPGA, i.e., HDL code.</p>
+<p>The second part runs Vivado’s synthesis, implementation and place and route
+tools, creating the physical hardware design for the FPGA. Then, the toolflow
+creates the final output <code class="docutils literal notranslate"><span class="pre">.fpg</span></code> and <code class="docutils literal notranslate"><span class="pre">.dtbo</span></code> files that are used to program the
+FPGA using CASPER software framework. The <code class="docutils literal notranslate"><span class="pre">.fpg</span></code> file contains the bitstream
+that Vivado created as well as meta-data that describes the yellow blocks from
+the Simulink design and their configurations. The <code class="docutils literal notranslate"><span class="pre">.dtbo</span></code> is a new output
+product of the toolflow targeting SoC platforms like the RFSoC.</p>
+<p>Similar to the meta-data that is created for CASPER software, the .``dtbo`` is the
+device tree overlay binary containing meta data information but instead targeted at
+the software drivers that will be loaded by the processor system
+when programming the FPGA. After Vivado syntheis and bitstream generation the
+toolflow exports the platform hardware definition to use Xilinx’s software tools
+(the Vitis flow) to generate software produts that interface with the hardware
+design. The <code class="docutils literal notranslate"><span class="pre">.dtbo</span></code> is one of those software products. The <code class="docutils literal notranslate"><span class="pre">.dtbo</span></code> is now used
+in conjunction with the <code class="docutils literal notranslate"><span class="pre">.fpg</span></code> file, such that the <code class="docutils literal notranslate"><span class="pre">.fpg</span></code> is used to first program
+the FPGA followed by application of the device tree overlay. In this design
+there are no IP that take advantage of this, so the resulting <code class="docutils literal notranslate"><span class="pre">.dtbo</span></code> will be
+mostly empty (the MPSoC is always present in the design). Both the <code class="docutils literal notranslate"><span class="pre">.fpg</span></code> and
+<code class="docutils literal notranslate"><span class="pre">.dtbo</span></code> file will be placed in an <code class="docutils literal notranslate"><span class="pre">outputs</span></code> folder in the working directory of
+the Simulink model. The files will be named using the Simulink file name and the
+date/time that compilation began.</p>
+<p>Note that the <code class="docutils literal notranslate"><span class="pre">.dtbo</span></code> must be placed in the same directory as the <code class="docutils literal notranslate"><span class="pre">.fpg</span></code> and
+have the same name (except for the extension). Thus, if the <code class="docutils literal notranslate"><span class="pre">.fgp</span></code> file name
+is changed from the compiled default, the <code class="docutils literal notranslate"><span class="pre">.dtbo</span></code> must also be updated as well.</p>
+</div>
+<div class="section" id="programming-the-fpga">
+<h2>Programming the FPGA<a class="headerlink" href="#programming-the-fpga" title="Permalink to this headline">¶</a></h2>
+<p>Reconfiguration on any CASPER platform is typically done using the <code class="docutils literal notranslate"><span class="pre">casperfpga</span></code>
+python library. However, before we use <code class="docutils literal notranslate"><span class="pre">casperfpga</span></code> we are going to
+manually connect to the board to program the clocks needed for the user design.
+This is done to briefly introduce the processing system and idea that as a user
+the processor is there to be used if needed.</p>
+<p>Programming the onboard clocks for the RFSoC can be done using the <code class="docutils literal notranslate"><span class="pre">rfdc</span></code> yellow
+block and associated <code class="docutils literal notranslate"><span class="pre">RFDC</span></code> <code class="docutils literal notranslate"><span class="pre">casperfpga</span></code> object (to be introduced in the next
+tutorial). However, this design does not use the <code class="docutils literal notranslate"><span class="pre">rfdc</span></code> yellow block, meaning an RFDC
+object is not automatically present on the software side. There are other ways
+to program these clocks using <code class="docutils literal notranslate"><span class="pre">casperfpga</span></code> but instead we can use a basic
+software utility that is distributed with each platform to do this.</p>
+<p>shell into the board using an ssh client (the default username is
+<code class="docutils literal notranslate"><span class="pre">casper</span></code> with password <code class="docutils literal notranslate"><span class="pre">casper</span></code>). For example,</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>ssh<span class="w"> </span>casper@your.ip.address.here
+</pre></div>
+</div>
+<p>In the home directory there is a <code class="docutils literal notranslate"><span class="pre">bin</span></code> directory containing a few utilities for
+some of the on-board peripherals. Specifically, each platform will have a
+utility to program the PLLs which drive the sample clock or PLL for the
+RFDC. Take a look at that directory—it is shown here for all the platforms.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>casper@alpaca-1:~$<span class="w"> </span>ls<span class="w"> </span>bin/
+prg_8a34001<span class="w">  </span>prg_clk104_rfpll<span class="w">  </span>reset_rfpll<span class="w">  </span>zcu216_probe_sfp
+</pre></div>
+</div>
+<p>The program to configure the LMK/LMX PLLs for the RFDC all accept a <code class="docutils literal notranslate"><span class="pre">.txt</span></code>
+formatted hexdump file from TICS with the commandline switch <code class="docutils literal notranslate"><span class="pre">-lmk</span></code> or <code class="docutils literal notranslate"><span class="pre">-lmx</span></code>
+to indicate the target PLL.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>casper@alpaca-1:~$<span class="w"> </span>./bin/prg_clk104_rfpll
+must<span class="w"> </span>specify<span class="w"> </span>-lmk<span class="p">|</span>-lmx
+./bin/prg_clk104_rfpll<span class="w"> </span>-lmk<span class="p">|</span>-lmx<span class="w"> </span>&lt;path/to/clk/file.txt&gt;
+</pre></div>
+</div>
+<p>The distributed clock files for the platform are stored in <code class="docutils literal notranslate"><span class="pre">/lib/firmare</span></code>. As
+mentioned <a class="reference external" href="#add-the-xilinx-system-generator-and-casper-platform-blocks">above</a>,
+designs for RFSoC use <code class="docutils literal notranslate"><span class="pre">pl_clk</span></code> coming from the on board LMK to generate the User
+IP clock. Program the LMK using the corresponding platforms utility (before
+proceeding make sure to have reviewed your platform’s
+<a class="reference external" href="./readme.md#platforms">page</a> for required clocking configuration and setup):</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># RFSoC 4x2</span>
+casper@rfsoc4x2:~$<span class="w"> </span>sudo<span class="w"> </span>./bin/prg_rfpll<span class="w"> </span>-lmk<span class="w"> </span>/lib/firmware/rfsoc4x2_PL_122M88_REF_245M76.txt
+
+<span class="c1"># RFSoC 2x2</span>
+casper@rfsoc2x2:~$<span class="w"> </span>sudo<span class="w"> </span>./bin/prg_rfpll<span class="w"> </span>-lmk<span class="w"> </span>/lib/firmware/rfsoc2x2_lmk04832_12M288_PL_15M36_OUT_122M88_CLK12_15M36.txt
+
+<span class="c1"># ZCU111</span>
+casper@alpaca-zcu111:~$<span class="w"> </span>sudo<span class="w"> </span>./bin/prg_rfpll<span class="w"> </span>-lmk<span class="w"> </span>/lib/firmware/122M88_PL_122M88_SYSREF_7M68_clk5_12M8.txt
+
+<span class="c1"># ZCU216</span>
+casper@alpaca-1:~$<span class="w"> </span>sudo<span class="w"> </span>./bin/prg_clk104_rfpll<span class="w"> </span>-lmk<span class="w"> </span>/lib/firmware/250M_PL_125M_SYSREF_10M.txt
+
+<span class="c1"># ZRF16</span>
+casper@htg-zrf16:~$<span class="w"> </span>sudo<span class="w"> </span>./bin/prg_rfpll<span class="w"> </span>-lmk<span class="w"> </span>/lib/firmware/zrf16_LMK_CLK1REF_10M_LMXREF_50M_PL_OUT_50M_nosysref.txt
+</pre></div>
+</div>
+<p>Each platform has an LED connected to the status pin of the LMK that should now
+be lit indicating that PLL is locked.</p>
+<p>The LMXs could also be programmed in the same way using the <code class="docutils literal notranslate"><span class="pre">-lmx</span></code> switch and a
+corresponding LMX hexdump file, but this is not needed here as those drive the
+sample clock or internal PLL reference clock for the RFDC.</p>
+<p>With the clock to drive the user design configured we can now continue to use
+<code class="docutils literal notranslate"><span class="pre">casperfpga</span></code> to program the FPGA and interact with our design.  You should have
+installed and used this in the <a class="reference external" href="./tut_getting_started.md#setup-casperfpga">Getting
+Started</a> tutorial to check your
+connection to your board.</p>
+<div class="section" id="step-1-copy-the-fpg-file-to-where-you-need-it">
+<h3>Step 1: Copy the <code class="docutils literal notranslate"><span class="pre">.fpg</span></code> file to where you need it<a class="headerlink" href="#step-1-copy-the-fpg-file-to-where-you-need-it" title="Permalink to this headline">¶</a></h3>
+<p>Navigate to the prevously mention ‘outputs’ folder and copy the <code class="docutils literal notranslate"><span class="pre">.fpg</span></code> file to
+wherever you are going to be running your ipython session from.</p>
+</div>
+<div class="section" id="step-2-connect-to-the-board">
+<h3>Step 2: Connect to the board<a class="headerlink" href="#step-2-connect-to-the-board" title="Permalink to this headline">¶</a></h3>
+<p>Assuming that your board is on, configured, and on the same network you are
+working on, connect to the board the same way demonstrated in the <a class="reference external" href="./tut_getting_started.md#setup-casperfpga">Getting
+Started</a> tutorial. Navigate to
+the directory containing the outputs of your <code class="docutils literal notranslate"><span class="pre">jasper</span></code> compilation and begin
+an <code class="docutils literal notranslate"><span class="pre">ipython</span></code> session:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>ipython
+</pre></div>
+</div>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">In</span> <span class="p">[</span><span class="mi">1</span><span class="p">]:</span> <span class="kn">import</span><span class="w"> </span><span class="nn">casperfpga</span>
+
+<span class="n">In</span> <span class="p">[</span><span class="mi">2</span><span class="p">]:</span> <span class="n">fpga</span> <span class="o">=</span> <span class="n">casperfpga</span><span class="o">.</span><span class="n">CasperFpga</span><span class="p">(</span><span class="s1">'ipaddress.of.board'</span><span class="p">)</span>
+
+<span class="n">In</span> <span class="p">[</span><span class="mi">3</span><span class="p">]:</span> <span class="n">fpga</span><span class="o">.</span><span class="n">is_connected</span><span class="p">()</span>
+<span class="n">Out</span><span class="p">[</span><span class="mi">3</span><span class="p">]:</span> <span class="kc">True</span>
+</pre></div>
+</div>
+<p>If the output of <code class="docutils literal notranslate"><span class="pre">is_connected()</span></code> is true, you’re good to go.</p>
+<p>We can now program the FPGA with the <code class="docutils literal notranslate"><span class="pre">.fpg</span></code> file with the following:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">In</span> <span class="p">[</span><span class="mi">4</span><span class="p">]:</span> <span class="n">fpga</span><span class="o">.</span><span class="n">upload_to_ram_and_program</span><span class="p">(</span><span class="s1">'your_fpgfile.fpg'</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="interacting-with-the-board">
+<h2>Interacting with the board<a class="headerlink" href="#interacting-with-the-board" title="Permalink to this headline">¶</a></h2>
+<p>The design we created is now running on the board! You should see the first
+function working by observing the blinking LED on the board. From here we can
+check to see if the software registers in the design worked. If you forgot what
+the registers were named, you can use <code class="docutils literal notranslate"><span class="pre">listdev()</span></code> to get a list of available
+registers:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">In</span> <span class="p">[</span><span class="mi">5</span><span class="p">]:</span> <span class="n">fpga</span><span class="o">.</span><span class="n">listdev</span><span class="p">()</span>
+<span class="n">Out</span><span class="p">[</span><span class="mi">5</span><span class="p">]:</span>
+<span class="p">[</span><span class="s1">'a'</span><span class="p">,</span>
+ <span class="s1">'b'</span><span class="p">,</span>
+ <span class="s1">'counter_control'</span><span class="p">,</span>
+ <span class="s1">'counter_value'</span><span class="p">,</span>
+ <span class="s1">'sum_a_b'</span><span class="p">,</span>
+ <span class="s1">'sys'</span><span class="p">,</span>
+ <span class="s1">'sys_board_id'</span><span class="p">,</span>
+ <span class="s1">'sys_clkcounter'</span><span class="p">,</span>
+ <span class="s1">'sys_rev'</span><span class="p">,</span>
+ <span class="s1">'sys_rev_rcs'</span><span class="p">,</span>
+ <span class="s1">'sys_scratchpad'</span><span class="p">]</span>
+</pre></div>
+</div>
+<p>Let’s test the adder function first. Reading and writing to the registers can be
+done with <code class="docutils literal notranslate"><span class="pre">write_int()</span></code> and <code class="docutils literal notranslate"><span class="pre">read_int()</span></code>:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">In</span> <span class="p">[</span><span class="mi">6</span><span class="p">]:</span> <span class="n">fpga</span><span class="o">.</span><span class="n">write_int</span><span class="p">(</span><span class="s1">'a'</span><span class="p">,</span><span class="mi">15</span><span class="p">)</span>
+
+<span class="n">In</span> <span class="p">[</span><span class="mi">7</span><span class="p">]:</span> <span class="n">fpga</span><span class="o">.</span><span class="n">write_int</span><span class="p">(</span><span class="s1">'b'</span><span class="p">,</span><span class="mi">35</span><span class="p">)</span>
+
+<span class="n">In</span> <span class="p">[</span><span class="mi">8</span><span class="p">]:</span> <span class="n">fpga</span><span class="o">.</span><span class="n">read_int</span><span class="p">(</span><span class="s1">'sum_a_b'</span><span class="p">)</span>
+<span class="n">Out</span><span class="p">[</span><span class="mi">8</span><span class="p">]:</span> <span class="mi">50</span>
+</pre></div>
+</div>
+<p>Finally, let’s test the controllable counter:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">In</span> <span class="p">[</span><span class="mi">9</span><span class="p">]:</span> <span class="n">fpga</span><span class="o">.</span><span class="n">read_uint</span><span class="p">(</span><span class="s1">'counter_value'</span><span class="p">)</span>
+<span class="n">Out</span><span class="p">[</span><span class="mi">9</span><span class="p">]:</span> <span class="mi">0</span>
+
+<span class="n">In</span> <span class="p">[</span><span class="mi">10</span><span class="p">]:</span> <span class="n">fpga</span><span class="o">.</span><span class="n">write_int</span><span class="p">(</span><span class="s1">'counter_control'</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>
+
+<span class="n">In</span> <span class="p">[</span><span class="mi">11</span><span class="p">]:</span> <span class="n">fpga</span><span class="o">.</span><span class="n">read_uint</span><span class="p">(</span><span class="s1">'counter_value'</span><span class="p">)</span>
+<span class="n">Out</span><span class="p">[</span><span class="mi">11</span><span class="p">]:</span> <span class="mi">1103388123</span>
+
+<span class="n">In</span> <span class="p">[</span><span class="mi">12</span><span class="p">]:</span> <span class="n">fpga</span><span class="o">.</span><span class="n">read_uint</span><span class="p">(</span><span class="s1">'counter_value'</span><span class="p">)</span>
+<span class="n">Out</span><span class="p">[</span><span class="mi">12</span><span class="p">]:</span> <span class="mi">1849175237</span>
+
+<span class="n">In</span> <span class="p">[</span><span class="mi">13</span><span class="p">]:</span> <span class="n">fpga</span><span class="o">.</span><span class="n">read_uint</span><span class="p">(</span><span class="s1">'counter_value'</span><span class="p">)</span>
+<span class="n">Out</span><span class="p">[</span><span class="mi">13</span><span class="p">]:</span> <span class="mi">2590065552</span>
+
+<span class="n">In</span> <span class="p">[</span><span class="mi">14</span><span class="p">]:</span> <span class="n">fpga</span><span class="o">.</span><span class="n">write_int</span><span class="p">(</span><span class="s1">'counter_control'</span><span class="p">,</span><span class="mi">0</span><span class="p">)</span>
+
+<span class="n">In</span> <span class="p">[</span><span class="mi">15</span><span class="p">]:</span> <span class="n">fpga</span><span class="o">.</span><span class="n">read_uint</span><span class="p">(</span><span class="s1">'counter_value'</span><span class="p">)</span>
+<span class="n">Out</span><span class="p">[</span><span class="mi">15</span><span class="p">]:</span> <span class="mi">1159837158</span>
+
+<span class="n">In</span> <span class="p">[</span><span class="mi">16</span><span class="p">]:</span> <span class="n">fpga</span><span class="o">.</span><span class="n">read_uint</span><span class="p">(</span><span class="s1">'counter_value'</span><span class="p">)</span>
+<span class="n">Out</span><span class="p">[</span><span class="mi">16</span><span class="p">]:</span> <span class="mi">1159837158</span>
+
+<span class="n">In</span> <span class="p">[</span><span class="mi">17</span><span class="p">]:</span> <span class="n">fpga</span><span class="o">.</span><span class="n">write_int</span><span class="p">(</span><span class="s1">'counter_control'</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span>
+
+<span class="n">In</span> <span class="p">[</span><span class="mi">18</span><span class="p">]:</span> <span class="n">fpga</span><span class="o">.</span><span class="n">read_uint</span><span class="p">(</span><span class="s1">'counter_value'</span><span class="p">)</span>
+<span class="n">Out</span><span class="p">[</span><span class="mi">18</span><span class="p">]:</span> <span class="mi">0</span>
+</pre></div>
+</div>
+<p>We can see that the counter starts at <code class="docutils literal notranslate"><span class="pre">0</span></code> and does not start counting until it
+receives the proper signal in the proper register.  We can also see that the
+counter wraps properly, and stops and resets as expected according to the signals
+and registers we designed.  Note that <code class="docutils literal notranslate"><span class="pre">read_uint()</span></code> is used here to read the
+counter properly (otherwise it would have reported a negative value half the
+time).</p>
+</div>
+<div class="section" id="conclusion">
+<h2>Conclusion<a class="headerlink" href="#conclusion" title="Permalink to this headline">¶</a></h2>
+<p>In this tutorial, you have gone through the process of using <code class="docutils literal notranslate"><span class="pre">./startsg</span></code> to
+initiate the toolflow, using Simulink to create a design, calling <code class="docutils literal notranslate"><span class="pre">jasper</span></code> to
+compile and obtain a <code class="docutils literal notranslate"><span class="pre">.fpg</span></code> and <code class="docutils literal notranslate"><span class="pre">.dtbo</span></code> file, and using <code class="docutils literal notranslate"><span class="pre">casperfpga</span></code> to program
+and interact with your RFSoC board. Congratulations!</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="tut_rfdc.html" class="btn btn-neutral float-right" title="Tutorial 2: The RFDC Interface" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="tut_getting_started.html" class="btn btn-neutral float-left" title="Getting Started With RFSoC" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr>
+
+  <div role="contentinfo">
+    <p>
+        © Copyright 2018, Collaboration for Astronomy Signal Processing and Electronics Research
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>

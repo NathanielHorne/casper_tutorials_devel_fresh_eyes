@@ -81,6 +81,40 @@ The same warning is present across every simulation that I have run today:
 
 I do not know what this means.
 
+I am not going to worry about it, for the moment.
+
+### Point of confusion:
+"In this design there are no IP that take advantage of this" 
+--> What does "no IP" mean?
+
+### ERROR:
+"Program the LMK using the corresponding platforms utility (before proceeding make sure to have reviewed your platform’s [page](https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/readme.md#platforms) for required clocking configuration and setup):"
+--> The link does not work. 
+--> As someone VERY unfamilliar with anything this guide is talking about, trying to follow along, the fact that MANY of these links do not work is DEEPLY frustrating.
+
+I am going to try to find out how many dead links are in each page.
+
+I did not ask chat GPT to make these commands.
+I used it as a glorified Google search, trying to figure out what I CAN do and what would be most stable.
+
+Draft one: works, `curl -I` (command to see if errors like 404 are thrown), requires a text dump of the HTML.
+
+```
+cat fresh_eyes_notes/tutorial_1_html_dump.txt | grep "reference external" | grep -oP '(?<=href=")[^"]*(?=")' | sed 's#\./#https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/#g' | sed 's/^#/https:\/\/casper-toolflow.readthedocs.io\//g' | sed 's/^/curl -I /' > fresh_eyes_notes/tutorial_1_all_links.txt && bash fresh_eyes_notes/tutorial_1_all_links.txt > fresh_eyes_notes/tutorial_1_test_all_links.txt
+```
+
+Draft two: works, `curl -I` tests unclear, uses `curl` instead of an HTML dump.
+
+```
+curl https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/tut_platform.html | grep "reference external" | grep -oP '(?<=href=")[^"]*(?=")' | sed 's#\./#https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/#g' | sed 's/^#/https:\/\/casper-toolflow.readthedocs.io\//g' | sed 's/^/curl -I /' > fresh_eyes_notes/tutorial_1_all_links.txt && bash fresh_eyes_notes/tutorial_1_all_links.txt > fresh_eyes_notes/tutorial_1_test_all_links.txt
+```
+
+Draft three: works, does not immediately run `curl -I` tests.
+
+```
+curl https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/tut_platform.html | grep "reference external" | grep -oP '(?<=href=")[^"]*(?=")' | sed 's#\./#https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/#g' | sed 's/^#/https:\/\/casper-toolflow.readthedocs.io\//g' | sed 's/^/curl -I /' > fresh_eyes_notes/tutorial_1_all_links.txt
+```
+
 # 11/26/2025
 
 ## Restarting MatLab w/ SimuLink and CASPER
