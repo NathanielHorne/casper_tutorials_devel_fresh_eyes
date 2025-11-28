@@ -132,7 +132,7 @@ Usage:
 ```
 Explanation:
 The CASPER documentation is, apparently, very similar to a Linux-based file system.
-Every link we want to investigate on `[HTTPS_URL_TO_TUTORIAL_PAGE]` (the tutorial page we are investigating) has the same URL prepended to it: [HTTPS_URL_TO_PREPEND] 
+Every EXTERNAL-FACING link we want to investigate on `[HTTPS_URL_TO_TUTORIAL_PAGE]` (the tutorial page we are investigating) has the same URL prepended to it: [HTTPS_URL_TO_PREPEND] 
 This prepended URL is shown to the user when the user hovers above the link in the browser.
 
 The path to the [COMMAND_FILE_ITSELF] is from the perspective of the working directory TO the script ex: `../../path/to/where/the/file/is/stored`
