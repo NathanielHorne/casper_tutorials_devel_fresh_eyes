@@ -1,7 +1,37 @@
 # 11/28/2025
 
 ## Testing the links within all RFSoC tutorial pages:
+See `fresh_eyes_notes/test_all_links/page_reports` for the full txt files of the reports.
 
+### Tutorial 1 broken links:
+`https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/tut_getting_started.md#core-setup`
+`https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/platforms/rfsoc2x2.md#rf-clocking`
+`https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/readme.md#platforms`
+`https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/tut_getting_started.md#setup-casperfpga`
+`https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/tut_getting_started.md#setup-casperfpga`
+
+### Tutorial 2 broken links:
+`https://casper-toolflow.readthedocs.io/en/latest/axi4lite_documentation.html`
+`https://casper-toolflow.readthedocs.io/en/latest/blockdocumentation.html`
+`https://casper-toolflow.readthedocs.io/en/latest/jasper_documentation.html`
+`https://casper-toolflow.readthedocs.io/en/latest/src/jasper_library_modules/modules.html`
+`https://casper-toolflow.readthedocs.io/projects/casperfpga/en/latest/`
+`https://docs.amd.com/r/en-US/pg269-rf-data-converter/On-chip-Clock-Distribution-Gen-3/DFE`
+`https://docs.amd.com/r/en-US/pg269-rf-data-converter/RF-ADC-Mixer-with-Numerical-Controlled-Oscillator`
+`https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/tut_platform.html#compiling`
+`https://docs.amd.com/r/en-US/pg269-rf-data-converter/Power-on-Sequence-Steps`
+
+### Tutorial 3 broken links:
+`https://www.xilinx.com/support/documentation/ip_documentation/usp_rf_data_converter/v2_4/pg269-rf-data-converter.pdf`
+--> redirected to useless link
+`https://www.xilinx.com/support/documentation/ip_documentation/usp_rf_data_converter/v2_4/pg269-rf-data-converter.pdf`
+--> redirected to useless link
+
+### Tutorial 4 broken links:
+`https://www.xilinx.com/products/intellectual-property/cmac_usplus.html`
+`https://github.com/casper-astro/tutorials_devel/tree/master/rfsoc/tut_spec`
+`https://www.xilinx.com/support/documentation/ip_documentation/usp_rf_data_converter/v2_4/pg269-rf-data-converter.pdf`
+--> redirects to useless link
 
 # 11/27/2025
 
