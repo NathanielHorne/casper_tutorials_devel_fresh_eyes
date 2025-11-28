@@ -1,0 +1,668 @@
+curl -I https://casper-toolflow.readthedocs.io/en/latest/index.html
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    HTTP/1.1 200 OK
+    Date: Fri, 28 Nov 2025 05:32:13 GMT
+    Content-Type: text/html; charset=utf-8
+    Connection: keep-alive
+    Server: cloudflare
+    CF-Ray: 9a577bc82a7be888-SLC
+    CF-Cache-Status: HIT
+    Access-Control-Allow-Origin: *
+    Age: 63
+    Cache-Control: max-age=1200
+    ETag: W/"827052f05d08bbaf3a2e9926a01f7fb4"
+    Last-Modified: Tue, 03 Jun 2025 03:00:51 GMT
+    Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+    Vary: Accept-Encoding
+    access-control-allow-methods: HEAD, OPTIONS, GET
+    cdn-cache-control: public
+    cross-origin-opener-policy: same-origin
+    referrer-policy: no-referrer-when-downgrade
+    x-amz-id-2: YhFwN3wysQ1bfoQXXeqDtRoJ4JeGhNcwwT6LzqdTbqwWPPDQpfks3h+GI8kEbgQTy+qCofgdXKUpuibb+Kt8uFt69D7PbkDD
+    x-amz-meta-mtime: 1748919631.820540999
+    x-amz-request-id: 09CWMQJMS01357V5
+    x-amz-server-side-encryption: AES256
+    x-backend: web-i-074337be5128ef497
+    x-content-type-options: nosniff
+    x-rtd-domain: casper-toolflow.readthedocs.io
+    x-rtd-force-addons: true
+    x-rtd-path: /proxito/html/casper-toolflow/latest/index.html
+    x-rtd-project: casper-toolflow
+    x-rtd-project-method: public_domain
+    x-rtd-resolver-filename: /index.html
+    x-rtd-version: latest
+    x-rtd-version-method: path
+    x-served: Nginx-Proxito-Sendfile
+    Set-Cookie: __cf_bm=L_GSbZj9Y6czjLlVgzWdtohHbfK_XVC5Q.oIwYin33E-1764307933-1.0.1.1-P4J.Iht6EiicM7wp3YPyuLULRdYQYKzgnYQzZnZz7t.3GeLy5g_pAeWyrFEViS3z4aUEDM_uLpa5AhdXwuy1kcBZIknj2jz15cVBiv9gXuM; path=/; expires=Fri, 28-Nov-25 06:02:13 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: _cfuvid=Hb58UfrcrO6ss_xHgOOWI1J1VyOh3W13fVO52Lx1a5I-1764307933496-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    alt-svc: h3=":443"; ma=86400
+    
+curl -I https://casper-toolflow.readthedocs.io/en/latest/axi4lite_documentation.html
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    HTTP/1.1 200 OK
+    Date: Fri, 28 Nov 2025 05:32:13 GMT
+    Content-Type: text/html; charset=utf-8
+    Connection: keep-alive
+    Server: cloudflare
+    CF-Ray: 9a577bc9f8ad8656-SLC
+    CF-Cache-Status: HIT
+    Access-Control-Allow-Origin: *
+    Age: 62
+    Cache-Control: max-age=1200
+    ETag: W/"c40e2ea3f1851742ca72c919c5ced818"
+    Last-Modified: Tue, 03 Jun 2025 03:00:51 GMT
+    Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+    Vary: Accept-Encoding
+    access-control-allow-methods: HEAD, OPTIONS, GET
+    cdn-cache-control: public
+    cross-origin-opener-policy: same-origin
+    referrer-policy: no-referrer-when-downgrade
+    x-amz-id-2: rt+N+D7snRhUE87MWzBT+HKCibyO9gnWj1U29+pvDJPR2zlb1U9Tdriaz7ZfqwU4cPSVxzAegrRcxOqBJ16w4k882IbqXUY+U4szL0H4SIo=
+    x-amz-meta-mtime: 1748919631.435541774
+    x-amz-request-id: Q1HPPAGVVWM1FTFW
+    x-amz-server-side-encryption: AES256
+    x-backend: web-i-0d6ce0eadf478b6cf
+    x-content-type-options: nosniff
+    x-rtd-domain: casper-toolflow.readthedocs.io
+    x-rtd-force-addons: true
+    x-rtd-path: /proxito/html/casper-toolflow/latest/axi4lite_documentation.html
+    x-rtd-project: casper-toolflow
+    x-rtd-project-method: public_domain
+    x-rtd-resolver-filename: /axi4lite_documentation.html
+    x-rtd-version: latest
+    x-rtd-version-method: path
+    x-served: Nginx-Proxito-Sendfile
+    Set-Cookie: __cf_bm=FG5._Ta_Vcw3.n2tT2jprOejkrmiU.CZDH3NVBHTtrw-1764307933-1.0.1.1-gw8BxmfUTKS.JtxjeH8754TzlNtL8qkseQ3koOPX9cJY72bTVrQjmZDocgmVUZ_wcBcCjB_LtTFgmkRZ3dbiwN5UprRHrTIQpT7X54qCLZA; path=/; expires=Fri, 28-Nov-25 06:02:13 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: _cfuvid=hffoZWB7wzHiHmrqakt2X2zELeSKkPEPpqhIEVFqm8c-1764307933797-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    alt-svc: h3=":443"; ma=86400
+    
+curl -I https://casper-toolflow.readthedocs.io/en/latest/blockdocumentation.html
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    HTTP/1.1 200 OK
+    Date: Fri, 28 Nov 2025 05:32:14 GMT
+    Content-Type: text/html; charset=utf-8
+    Connection: keep-alive
+    Server: cloudflare
+    CF-Ray: 9a577bcc2b787b1e-DEN
+    CF-Cache-Status: HIT
+    Access-Control-Allow-Origin: *
+    Age: 4391
+    Cache-Control: max-age=1200
+    ETag: W/"e4c9face939e34bb84279e5593a56805"
+    Last-Modified: Tue, 03 Jun 2025 03:00:51 GMT
+    Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+    Vary: Accept-Encoding
+    access-control-allow-methods: HEAD, OPTIONS, GET
+    cdn-cache-control: public
+    cross-origin-opener-policy: same-origin
+    referrer-policy: no-referrer-when-downgrade
+    x-amz-id-2: 8OoSNcoGkVKSZ4MdegCo4IxYVkm+O09REmNRjArHbnShdU9VnVT+xkRTmhPwc0eDJZV9bpSN3G0=
+    x-amz-meta-mtime: 1748919631.509541625
+    x-amz-request-id: 6J67J0M2M62WFWAJ
+    x-amz-server-side-encryption: AES256
+    x-backend: web-i-0a114477624420f47
+    x-content-type-options: nosniff
+    x-rtd-domain: casper-toolflow.readthedocs.io
+    x-rtd-force-addons: true
+    x-rtd-path: /proxito/html/casper-toolflow/latest/blockdocumentation.html
+    x-rtd-project: casper-toolflow
+    x-rtd-project-method: public_domain
+    x-rtd-resolver-filename: /blockdocumentation.html
+    x-rtd-version: latest
+    x-rtd-version-method: path
+    x-served: Nginx-Proxito-Sendfile
+    Set-Cookie: __cf_bm=Npv_iHA4JrpO7CILZ194ikP8AcXcP1Kic2NHQw4ZjPA-1764307934-1.0.1.1-_ksasBu8SkfG0s2_5IcuM8pofSRUHZs3X9nWQw017ZG3JWMFa6yh.du8CJsqASplAkjwQlPcAFBjFIHTFdgiBDCKFBZx4lnyDcnKadbW67c; path=/; expires=Fri, 28-Nov-25 06:02:14 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: _cfuvid=eWxZSojO...Xns5nJeStD_Krn2GquzBUfDZUWaq6A9E-1764307934139-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    alt-svc: h3=":443"; ma=86400
+    
+curl -I https://casper-toolflow.readthedocs.io/en/latest/jasper_documentation.html
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    HTTP/1.1 200 OK
+    Date: Fri, 28 Nov 2025 05:32:14 GMT
+    Content-Type: text/html; charset=utf-8
+    Connection: keep-alive
+    Server: cloudflare
+    CF-Ray: 9a577bce6bd4e743-DEN
+    CF-Cache-Status: HIT
+    Access-Control-Allow-Origin: *
+    Age: 4390
+    Cache-Control: max-age=1200
+    ETag: W/"aea6282f049cd2d192116b898b82ee1a"
+    Last-Modified: Tue, 03 Jun 2025 03:00:51 GMT
+    Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+    Vary: Accept-Encoding
+    access-control-allow-methods: HEAD, OPTIONS, GET
+    cdn-cache-control: public
+    cross-origin-opener-policy: same-origin
+    referrer-policy: no-referrer-when-downgrade
+    x-amz-id-2: BMpLHVztHgjeC/Y9PdPxIAMbm85HuNaCVnJXCseNJyJWBHDo373BBN6q16C0nogT5ykZo2i7rFwy/1XubRZvctCzXOXWCQmDMv1Jqhf8RDg=
+    x-amz-meta-mtime: 1748919632.05354053
+    x-amz-request-id: SYQ4079QNNHDTSVW
+    x-amz-server-side-encryption: AES256
+    x-backend: web-i-0d0abd6de8feb9b23
+    x-content-type-options: nosniff
+    x-rtd-domain: casper-toolflow.readthedocs.io
+    x-rtd-force-addons: true
+    x-rtd-path: /proxito/html/casper-toolflow/latest/jasper_documentation.html
+    x-rtd-project: casper-toolflow
+    x-rtd-project-method: public_domain
+    x-rtd-resolver-filename: /jasper_documentation.html
+    x-rtd-version: latest
+    x-rtd-version-method: path
+    x-served: Nginx-Proxito-Sendfile
+    Set-Cookie: __cf_bm=nToVKro3rDcriCvI5kngjImu9fjcDhAujJzsVV9KtaE-1764307934-1.0.1.1-kYQA8ysehpGmRNUW08jnq8InxzWh4MbGpbrgel7LtJH5aKw_VE7LlBIKYaM6Bg4B.U2Ir7c2sTfILSY3zS2OJ.j.AOuuQ4JK.eW_kP4LIcQ; path=/; expires=Fri, 28-Nov-25 06:02:14 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: _cfuvid=x2KFAWY4hsQaawjq2y34ySLEcobemf6l.MOEMa1b_qg-1764307934486-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    alt-svc: h3=":443"; ma=86400
+    
+curl -I https://casper-toolflow.readthedocs.io/en/latest/src/jasper_library_modules/modules.html
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    HTTP/1.1 200 OK
+    Date: Fri, 28 Nov 2025 05:32:14 GMT
+    Content-Type: text/html; charset=utf-8
+    Connection: keep-alive
+    Server: cloudflare
+    CF-Ray: 9a577bd05e712c06-SLC
+    CF-Cache-Status: HIT
+    Access-Control-Allow-Origin: *
+    Age: 825
+    Cache-Control: max-age=1200
+    ETag: W/"0d9695f31def4e26d6b77a840fe76b27"
+    Last-Modified: Tue, 03 Jun 2025 03:00:52 GMT
+    Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+    Vary: Accept-Encoding
+    access-control-allow-methods: HEAD, OPTIONS, GET
+    cdn-cache-control: public
+    cross-origin-opener-policy: same-origin
+    referrer-policy: no-referrer-when-downgrade
+    x-amz-id-2: 46mQyKSBki+PlyDLhDnRLKqYYaoq4dAgjegHMhCvKTpaIElIJ6OlbM8h4Bai/sUZHkQMjZRgik8=
+    x-amz-meta-mtime: 1748919643.230517931
+    x-amz-request-id: DQBQJG9Z985Y3F6C
+    x-amz-server-side-encryption: AES256
+    x-backend: web-i-01c8937a0cb41030a
+    x-content-type-options: nosniff
+    x-rtd-domain: casper-toolflow.readthedocs.io
+    x-rtd-force-addons: true
+    x-rtd-path: /proxito/html/casper-toolflow/latest/src/jasper_library_modules/modules.html
+    x-rtd-project: casper-toolflow
+    x-rtd-project-method: public_domain
+    x-rtd-resolver-filename: /src/jasper_library_modules/modules.html
+    x-rtd-version: latest
+    x-rtd-version-method: path
+    x-served: Nginx-Proxito-Sendfile
+    Set-Cookie: __cf_bm=flELr9Yn15IpCadjXr3Ko7EU5glkhqcpCNl.9x_tsHc-1764307934-1.0.1.1-mWwPPc9zvVTzhVLorgwJatuwDgaibzfnooItMYbx3yuSXhXlBOguADG9o8m1VQ1VZzmj95JOhP7tCHGoU9CKM5ac_Tz9YBbI.UuiPDJz0Sc; path=/; expires=Fri, 28-Nov-25 06:02:14 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: _cfuvid=7O35uxTckNXt14s21cEKc2yWJPMzRkYzQukjocrM6M8-1764307934816-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    alt-svc: h3=":443"; ma=86400
+    
+curl -I https://casper-toolflow.readthedocs.io/projects/casperfpga/en/latest/
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    HTTP/1.1 200 OK
+    Date: Fri, 28 Nov 2025 05:32:15 GMT
+    Content-Type: text/html
+    Connection: keep-alive
+    Server: cloudflare
+    CF-Ray: 9a577bd28d6f51f7-DEN
+    CF-Cache-Status: HIT
+    Access-Control-Allow-Origin: *
+    Age: 3445
+    Cache-Control: max-age=1200
+    ETag: W/"823294c82f7f7c106f595878da785699"
+    Last-Modified: Fri, 24 Jun 2022 01:58:51 GMT
+    Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+    Vary: Accept-Encoding
+    access-control-allow-methods: HEAD, OPTIONS, GET
+    cdn-cache-control: public
+    cross-origin-opener-policy: same-origin
+    referrer-policy: no-referrer-when-downgrade
+    x-amz-id-2: GhCTs6OQSwWARpaQmOzW33sVA6jvQJkxJWwsmMMQpM1oh806EE9V3AgupNof0R2e+2DFJ3b7Ob4=
+    x-amz-request-id: BRZ3YDHAE1JJ1312
+    x-amz-server-side-encryption: AES256
+    x-backend: web-i-099c57f6c9d4cb9a0
+    x-content-type-options: nosniff
+    x-rtd-domain: casper-toolflow.readthedocs.io
+    x-rtd-force-addons: true
+    x-rtd-path: /proxito/html/casperfpga/latest/index.html
+    x-rtd-project: casperfpga
+    x-rtd-project-method: public_domain
+    x-rtd-resolver-filename: /
+    x-rtd-version: latest
+    x-rtd-version-method: path
+    x-served: Nginx-Proxito-Sendfile
+    Set-Cookie: __cf_bm=Dxs_43AnFajAS.8gs1ez00oJ66mxB_N9xUqogxMebZo-1764307935-1.0.1.1-uIcXD3ee.XmU7HAmJMgyVC9wDATZddrEp8u8GQiExDF4IiQJ1Yr0nwK4jOA._hIKMaz5RVqn9h2UtMsGO6THPUe5mdzqP3dkqs9SwsKUe9Y; path=/; expires=Fri, 28-Nov-25 06:02:15 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: _cfuvid=TruqjkgQociMoguJeq1KXv9qWTomVlr84OWM2toje8s-1764307935154-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    alt-svc: h3=":443"; ma=86400
+    
+curl -I https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/tut_getting_started.md#core-setup
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    HTTP/1.1 404 Not Found
+    Date: Fri, 28 Nov 2025 05:32:15 GMT
+    Content-Type: text/html; charset=utf-8
+    Connection: keep-alive
+    Server: cloudflare
+    CF-Ray: 9a577bd45fe0209b-SLC
+    CF-Cache-Status: HIT
+    Access-Control-Allow-Origin: *
+    Age: 62
+    Cache-Control: max-age=1200
+    Content-Language: en
+    Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+    Vary: Accept-Encoding, Accept-Language, Cookie
+    access-control-allow-methods: HEAD, OPTIONS, GET
+    cdn-cache-control: public
+    cross-origin-opener-policy: same-origin
+    referrer-policy: no-referrer-when-downgrade
+    x-backend: web-i-0562c6a6d0c04b285
+    x-content-type-options: nosniff
+    x-rtd-domain: casper-toolflow.readthedocs.io
+    x-rtd-force-addons: true
+    x-rtd-project: casper-tutorials
+    x-rtd-project-method: public_domain
+    x-rtd-resolver-filename: /tutorials/rfsoc/tut_getting_started.md
+    x-rtd-version: latest
+    x-rtd-version-method: path
+    x-served: Proxito-404
+    Set-Cookie: __cf_bm=EYpw8rb5Zv3n1kYhVFwOTxpvI6398oHwM8qHjDo6jCY-1764307935-1.0.1.1-zriMxrN9Kf1_QIjjWEzkbtulWfcVBLQQx1wYQuPaQpLe0u2YZ14PeoWsBN41seIgBS.6yzhd58T17b6B6us6SmHJ0y_q5CfI3d21x.2ogcQ; path=/; expires=Fri, 28-Nov-25 06:02:15 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: _cfuvid=mOb5g8ouOLmB9NBvpJ4aBgStoAES7YEM7BYpb.DE6Ug-1764307935460-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    alt-svc: h3=":443"; ma=86400
+    
+curl -I https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/platforms/rfsoc2x2.html#rf-clocking
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    HTTP/1.1 200 OK
+    Date: Fri, 28 Nov 2025 05:32:15 GMT
+    Content-Type: text/html; charset=utf-8
+    Connection: keep-alive
+    Server: cloudflare
+    CF-Ray: 9a577bd68e9f2d49-DEN
+    CF-Cache-Status: HIT
+    Access-Control-Allow-Origin: *
+    Age: 5198
+    Cache-Control: max-age=1200
+    ETag: W/"8ebda5dd16d8762480b1884559dfec69"
+    Last-Modified: Sun, 07 Sep 2025 23:30:43 GMT
+    Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+    Vary: Accept-Encoding
+    access-control-allow-methods: HEAD, OPTIONS, GET
+    cdn-cache-control: public
+    cross-origin-opener-policy: same-origin
+    referrer-policy: no-referrer-when-downgrade
+    x-amz-id-2: rvdGhtfkPyesHOeezNKhMer8/o4S3j265c02rtFzBOS7zsuR81itkCy1mJs46rCns3iyw+fBZj8=
+    x-amz-meta-mtime: 1757287836.351387119
+    x-amz-request-id: 4E4HP3E1AEYS6RX4
+    x-amz-server-side-encryption: AES256
+    x-backend: web-i-0243240b0108f7faa
+    x-content-type-options: nosniff
+    x-rtd-domain: casper-toolflow.readthedocs.io
+    x-rtd-force-addons: true
+    x-rtd-path: /proxito/html/casper-tutorials/latest/tutorials/rfsoc/platforms/rfsoc2x2.html
+    x-rtd-project: casper-tutorials
+    x-rtd-project-method: public_domain
+    x-rtd-resolver-filename: /tutorials/rfsoc/platforms/rfsoc2x2.html
+    x-rtd-version: latest
+    x-rtd-version-method: path
+    x-served: Nginx-Proxito-Sendfile
+    Set-Cookie: __cf_bm=7e8YgZvALOer7sS.ueByEkfAKDOYDKaB__.YDq_R_AY-1764307935-1.0.1.1-dYQLg_Jm_1YH2MG6X9pkbxu.AlkhC7P6snXQLFmMZ.ikxCHizvo4ABv1dlU5Q9AhqbhVHFpAK74tHWWus4q2EexAJngy1Xlc1K2cQrIoCBA; path=/; expires=Fri, 28-Nov-25 06:02:15 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: _cfuvid=08zm5UUIcJXKF_QTtcoj17JYY7mrceiPVxKs1W6gOn8-1764307935793-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    alt-svc: h3=":443"; ma=86400
+    
+curl -I https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/platforms/rfsoc4x2.html#rf-clocking
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    HTTP/1.1 200 OK
+    Date: Fri, 28 Nov 2025 05:32:16 GMT
+    Content-Type: text/html; charset=utf-8
+    Connection: keep-alive
+    Server: cloudflare
+    CF-Ray: 9a577bd878d92c67-SLC
+    CF-Cache-Status: HIT
+    Access-Control-Allow-Origin: *
+    Age: 5068
+    Cache-Control: max-age=1200
+    ETag: W/"a1dfac35dd438f1e4f78dd5522a853ea"
+    Last-Modified: Sun, 07 Sep 2025 23:30:43 GMT
+    Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+    Vary: Accept-Encoding
+    access-control-allow-methods: HEAD, OPTIONS, GET
+    cdn-cache-control: public
+    cross-origin-opener-policy: same-origin
+    referrer-policy: no-referrer-when-downgrade
+    x-amz-id-2: 0BMxQpc6eBEef37cICs0W2+/NkduYcNB7Qims+XbXBsP3Qzs4nbwo4roVFSK4CrXcHitr24e/aKlt1FYLv6MePQK31tX1egeu3bE/Wrp58M=
+    x-amz-meta-mtime: 1757287836.398387163
+    x-amz-request-id: 19MBV7T44NACVN0K
+    x-amz-server-side-encryption: AES256
+    x-backend: web-i-0ccf364367927638b
+    x-content-type-options: nosniff
+    x-rtd-domain: casper-toolflow.readthedocs.io
+    x-rtd-force-addons: true
+    x-rtd-path: /proxito/html/casper-tutorials/latest/tutorials/rfsoc/platforms/rfsoc4x2.html
+    x-rtd-project: casper-tutorials
+    x-rtd-project-method: public_domain
+    x-rtd-resolver-filename: /tutorials/rfsoc/platforms/rfsoc4x2.html
+    x-rtd-version: latest
+    x-rtd-version-method: path
+    x-served: Nginx-Proxito-Sendfile
+    Set-Cookie: __cf_bm=z.HpBb47R6vKfb06F69.vrEtsa43sDmSdGFYsW7YpWI-1764307936-1.0.1.1-mGdzLyIjVB3jb3JdWDBc_pTiERik6HJyRlS5b1bPE_Sfw5ZU1k2Sm362NYk01_AZq.AMLkO8bA.STj4OzkppxnJ..0Nn_LGTZmRZHs.LxEw; path=/; expires=Fri, 28-Nov-25 06:02:16 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: _cfuvid=y4HJ1C7Hhun7fR_VGbaOyaw_bzLacbehDkWzQ2MSuco-1764307936136-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    alt-svc: h3=":443"; ma=86400
+    
+curl -I https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/platforms/zcu111.html#rf-clocking
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    HTTP/1.1 200 OK
+    Date: Fri, 28 Nov 2025 05:32:16 GMT
+    Content-Type: text/html; charset=utf-8
+    Connection: keep-alive
+    Server: cloudflare
+    CF-Ray: 9a577bdad8b579a1-DEN
+    CF-Cache-Status: HIT
+    Access-Control-Allow-Origin: *
+    Age: 5068
+    Cache-Control: max-age=1200
+    ETag: W/"26391a1b1d614a69e0282fb6f7c208e6"
+    Last-Modified: Sun, 07 Sep 2025 23:30:43 GMT
+    Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+    Vary: Accept-Encoding
+    access-control-allow-methods: HEAD, OPTIONS, GET
+    cdn-cache-control: public
+    cross-origin-opener-policy: same-origin
+    referrer-policy: no-referrer-when-downgrade
+    x-amz-id-2: 0PxMoA3WvfI18qtnzIlGEnzVFObR/7vvNvVMCoS2fls7LYeDk4Ak7EyW2HjI2B95nctZqmM6RDsTM5NPrBrFudW6AA14C040JXDQ8iiykbU=
+    x-amz-meta-mtime: 1757287836.445387206
+    x-amz-request-id: FMCG7YBZN1FP3J70
+    x-amz-server-side-encryption: AES256
+    x-backend: web-i-06ff9cb6c95c79b49
+    x-content-type-options: nosniff
+    x-rtd-domain: casper-toolflow.readthedocs.io
+    x-rtd-force-addons: true
+    x-rtd-path: /proxito/html/casper-tutorials/latest/tutorials/rfsoc/platforms/zcu111.html
+    x-rtd-project: casper-tutorials
+    x-rtd-project-method: public_domain
+    x-rtd-resolver-filename: /tutorials/rfsoc/platforms/zcu111.html
+    x-rtd-version: latest
+    x-rtd-version-method: path
+    x-served: Nginx-Proxito-Sendfile
+    Set-Cookie: __cf_bm=lrHBCsegG0a.FT0qo41czuQJmLLyNSnSs.e8yY6Gy7M-1764307936-1.0.1.1-NaeAhVImiaEKpSlW6YTV8v1JX.l2q5BfZUMDlPrk3HMRsp4j3y5v8UhsfeU.GR0sGOiFirryN5VuAoqIUBDDRNnVKVfVq2i.QFqA17hsjjc; path=/; expires=Fri, 28-Nov-25 06:02:16 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: _cfuvid=pcB4mcpNlOO00vVjjjfUxaMgfdTiWlgIaz_SZi8K1CQ-1764307936489-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    alt-svc: h3=":443"; ma=86400
+    
+curl -I https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/platforms/zcu208.html#rf-clocking
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    HTTP/1.1 200 OK
+    Date: Fri, 28 Nov 2025 05:32:16 GMT
+    Content-Type: text/html; charset=utf-8
+    Connection: keep-alive
+    Server: cloudflare
+    CF-Ray: 9a577bdd0adfe75d-DEN
+    CF-Cache-Status: HIT
+    Access-Control-Allow-Origin: *
+    Age: 5031
+    Cache-Control: max-age=1200
+    ETag: W/"8cb61d9a18bbc288ad6e31ae1790b2a8"
+    Last-Modified: Sun, 07 Sep 2025 23:30:43 GMT
+    Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+    Vary: Accept-Encoding
+    access-control-allow-methods: HEAD, OPTIONS, GET
+    cdn-cache-control: public
+    cross-origin-opener-policy: same-origin
+    referrer-policy: no-referrer-when-downgrade
+    x-amz-id-2: rl+ZGrGbOBASLfwhs5U7WZDxlNaTKmYbsyVsmnRGNqP1Ul2JA3xyKbPIaZEixwFZnYBRR01uqR8=
+    x-amz-meta-mtime: 1757287836.553387305
+    x-amz-request-id: GWDWFW6D3FJDZN58
+    x-amz-server-side-encryption: AES256
+    x-backend: web-i-0db020d5dac1334f7
+    x-content-type-options: nosniff
+    x-rtd-domain: casper-toolflow.readthedocs.io
+    x-rtd-force-addons: true
+    x-rtd-path: /proxito/html/casper-tutorials/latest/tutorials/rfsoc/platforms/zcu208.html
+    x-rtd-project: casper-tutorials
+    x-rtd-project-method: public_domain
+    x-rtd-resolver-filename: /tutorials/rfsoc/platforms/zcu208.html
+    x-rtd-version: latest
+    x-rtd-version-method: path
+    x-served: Nginx-Proxito-Sendfile
+    Set-Cookie: __cf_bm=nmOOVQuPqMA.K5kVsBtFK5LKlSzEXY.TorKzesfA_6I-1764307936-1.0.1.1-CaR0oUWCHVOywc4kZEE1reKtfGoCvRX_0BIrvsMQmzJvqzDR2zdmos5FolAkREpuZTc86ZG.FoQyaT_45Bj0aQ3kQhhf3j8FvXBgui.DVJo; path=/; expires=Fri, 28-Nov-25 06:02:16 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: _cfuvid=HzHbzm3.9xduXejPKKnhKe8oFQM999KpPwEudRbcKU4-1764307936833-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    alt-svc: h3=":443"; ma=86400
+    
+curl -I https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/platforms/zcu216.html#rf-clocking
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    HTTP/1.1 200 OK
+    Date: Fri, 28 Nov 2025 05:32:17 GMT
+    Content-Type: text/html; charset=utf-8
+    Connection: keep-alive
+    Server: cloudflare
+    CF-Ray: 9a577bdeec735300-SLC
+    CF-Cache-Status: HIT
+    Access-Control-Allow-Origin: *
+    Age: 5068
+    Cache-Control: max-age=1200
+    ETag: W/"e418be64323599f1a391bf1499520413"
+    Last-Modified: Sun, 07 Sep 2025 23:30:43 GMT
+    Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+    Vary: Accept-Encoding
+    access-control-allow-methods: HEAD, OPTIONS, GET
+    cdn-cache-control: public
+    cross-origin-opener-policy: same-origin
+    referrer-policy: no-referrer-when-downgrade
+    x-amz-id-2: DjHEBhfZYFLsGmhVzfETyfDZFS5op9PcknkfJH9/3sQl2Tq9oMTl2jpcp9EpTSZb9xPaQSMEup9kEAlEokSiIhUDciX/oxN9KgQm2appBoE=
+    x-amz-meta-mtime: 1757287836.601387349
+    x-amz-request-id: 7Q2VNSY0GH93Q9F9
+    x-amz-server-side-encryption: AES256
+    x-backend: web-i-0a8b5ee9d3c0ec149
+    x-content-type-options: nosniff
+    x-rtd-domain: casper-toolflow.readthedocs.io
+    x-rtd-force-addons: true
+    x-rtd-path: /proxito/html/casper-tutorials/latest/tutorials/rfsoc/platforms/zcu216.html
+    x-rtd-project: casper-tutorials
+    x-rtd-project-method: public_domain
+    x-rtd-resolver-filename: /tutorials/rfsoc/platforms/zcu216.html
+    x-rtd-version: latest
+    x-rtd-version-method: path
+    x-served: Nginx-Proxito-Sendfile
+    Set-Cookie: __cf_bm=6tQvcC0I8fuV842y.BdjpVCa9vOYQzRFbqkVgvnP6pg-1764307937-1.0.1.1-pgOUqlQxtwRK.q2PvqV0hri9Cs_sleqtIkxhpkefUa.pMDVOzUpX.EjpPBKPZ7o5x5dOfhjdUcGoMHfKze8DnPcniUNZEEiez9XExR_khQY; path=/; expires=Fri, 28-Nov-25 06:02:17 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: _cfuvid=QH8a1GuBXwEIgayLmZIn0j_flYpD8Uh9XfiOxv2SY1o-1764307937143-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    alt-svc: h3=":443"; ma=86400
+    
+curl -I https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/platforms/zrf16.html#rf-clocking
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    HTTP/1.1 200 OK
+    Date: Fri, 28 Nov 2025 05:32:17 GMT
+    Content-Type: text/html; charset=utf-8
+    Connection: keep-alive
+    Server: cloudflare
+    CF-Ray: 9a577be12c0ee749-DEN
+    CF-Cache-Status: HIT
+    Access-Control-Allow-Origin: *
+    Age: 5067
+    Cache-Control: max-age=1200
+    ETag: W/"9edb4456fba4a7882cf09d1f50b5094b"
+    Last-Modified: Sun, 07 Sep 2025 23:30:43 GMT
+    Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+    Vary: Accept-Encoding
+    access-control-allow-methods: HEAD, OPTIONS, GET
+    cdn-cache-control: public
+    cross-origin-opener-policy: same-origin
+    referrer-policy: no-referrer-when-downgrade
+    x-amz-id-2: +ElsoKu4CNNe51RdgaW6q951tDutXcd6sUgNhGt78vVO+SPp6NBKMI1cqnWXCcL0Oq7WVZ041CQ=
+    x-amz-meta-mtime: 1757287836.651387395
+    x-amz-request-id: MVXQXRJPGGR2N8NK
+    x-amz-server-side-encryption: AES256
+    x-backend: web-i-06d819a977e35a39b
+    x-content-type-options: nosniff
+    x-rtd-domain: casper-toolflow.readthedocs.io
+    x-rtd-force-addons: true
+    x-rtd-path: /proxito/html/casper-tutorials/latest/tutorials/rfsoc/platforms/zrf16.html
+    x-rtd-project: casper-tutorials
+    x-rtd-project-method: public_domain
+    x-rtd-resolver-filename: /tutorials/rfsoc/platforms/zrf16.html
+    x-rtd-version: latest
+    x-rtd-version-method: path
+    x-served: Nginx-Proxito-Sendfile
+    Set-Cookie: __cf_bm=nlsOUvwAxQUVjBDE89O20EsJQBHQqIm_TmQ5RVvZflA-1764307937-1.0.1.1-7Cr7fwEEqKFSmQfz5.oGyk.369kvQ79omf8XQuEh46KzkwSVBw.QC9Hluit4QqnssbZ0oKKDK5EKOEz.uMGm90ss_2LCsxvSwD1QtY.QfYk; path=/; expires=Fri, 28-Nov-25 06:02:17 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: _cfuvid=zzMiiVSVY2voJmoGpquubstfpv5DiNNypNNI.DCWgY4-1764307937493-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    alt-svc: h3=":443"; ma=86400
+    
+curl -I https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/platforms/rfsoc2x2.md#rf-clocking
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    HTTP/1.1 404 Not Found
+    Date: Fri, 28 Nov 2025 05:32:17 GMT
+    Content-Type: text/html; charset=utf-8
+    Connection: keep-alive
+    Server: cloudflare
+    CF-Ray: 9a577be30de7ae22-SLC
+    CF-Cache-Status: HIT
+    Access-Control-Allow-Origin: *
+    Age: 62
+    Cache-Control: max-age=1200
+    Content-Language: en
+    Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+    Vary: Accept-Encoding, Accept-Language, Cookie
+    access-control-allow-methods: HEAD, OPTIONS, GET
+    cdn-cache-control: public
+    cross-origin-opener-policy: same-origin
+    referrer-policy: no-referrer-when-downgrade
+    x-backend: web-i-0562c6a6d0c04b285
+    x-content-type-options: nosniff
+    x-rtd-domain: casper-toolflow.readthedocs.io
+    x-rtd-force-addons: true
+    x-rtd-project: casper-tutorials
+    x-rtd-project-method: public_domain
+    x-rtd-resolver-filename: /tutorials/rfsoc/platforms/rfsoc2x2.md
+    x-rtd-version: latest
+    x-rtd-version-method: path
+    x-served: Proxito-404
+    Set-Cookie: __cf_bm=iKHTvirUKq4pdxK6O2.cCG6HH5w27JwV6QBJKEsFwaE-1764307937-1.0.1.1-_eZXpZidAuDN33GosnRhq.gOsUUidr9kWy84qZPw6sUowgyUtdg0fAv44BEMHqBV4CyLluvtE6WrYqFChx7VOcdfUgvSsNQENnx1zP38VMI; path=/; expires=Fri, 28-Nov-25 06:02:17 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: _cfuvid=lhhnEHIIg7XJT3jnI8.m9c042hP3V_IXbta4X_jWyXM-1764307937802-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    alt-svc: h3=":443"; ma=86400
+    
+curl -I #add-the-xilinx-system-generator-and-casper-platform-blocks
+    curl: no URL specified!
+    curl: try 'curl --help' or 'curl --manual' for more information
+curl -I https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/readme.md#platforms
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    HTTP/1.1 404 Not Found
+    Date: Fri, 28 Nov 2025 05:32:18 GMT
+    Content-Type: text/html; charset=utf-8
+    Connection: keep-alive
+    Server: cloudflare
+    CF-Ray: 9a577be54a11e73f-DEN
+    CF-Cache-Status: HIT
+    Access-Control-Allow-Origin: *
+    Age: 63
+    Cache-Control: max-age=1200
+    Content-Language: en
+    Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+    Vary: Accept-Encoding, Accept-Language, Cookie
+    access-control-allow-methods: HEAD, OPTIONS, GET
+    cdn-cache-control: public
+    cross-origin-opener-policy: same-origin
+    referrer-policy: no-referrer-when-downgrade
+    x-backend: web-i-0562c6a6d0c04b285
+    x-content-type-options: nosniff
+    x-rtd-domain: casper-toolflow.readthedocs.io
+    x-rtd-force-addons: true
+    x-rtd-project: casper-tutorials
+    x-rtd-project-method: public_domain
+    x-rtd-resolver-filename: /tutorials/rfsoc/readme.md
+    x-rtd-version: latest
+    x-rtd-version-method: path
+    x-served: Proxito-404
+    Set-Cookie: __cf_bm=a7G0T79o5p8.cGDN4hbk2Z61IdoVgF3SomjGCEMMu34-1764307938-1.0.1.1-e83k71HBjRcpiwuIb000dKl20KWp6V19I_g6XTjuQL99IfKPZic5Qc3_Hhl0qfWSmETO3e1g7nVBNd10VYugXR_yuJzUBBbsrCAm8CjADik; path=/; expires=Fri, 28-Nov-25 06:02:18 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: _cfuvid=A.IAcO9B644u.KNQLM5oOBIHyKq5P7tAcr2ybMd6vGs-1764307938155-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    alt-svc: h3=":443"; ma=86400
+    
+curl -I https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/tut_getting_started.md#setup-casperfpga
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    HTTP/1.1 404 Not Found
+    Date: Fri, 28 Nov 2025 05:32:18 GMT
+    Content-Type: text/html; charset=utf-8
+    Connection: keep-alive
+    Server: cloudflare
+    CF-Ray: 9a577be74f7cd96a-SLC
+    CF-Cache-Status: HIT
+    Access-Control-Allow-Origin: *
+    Age: 65
+    Cache-Control: max-age=1200
+    Content-Language: en
+    Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+    Vary: Accept-Encoding, Accept-Language, Cookie
+    access-control-allow-methods: HEAD, OPTIONS, GET
+    cdn-cache-control: public
+    cross-origin-opener-policy: same-origin
+    referrer-policy: no-referrer-when-downgrade
+    x-backend: web-i-0562c6a6d0c04b285
+    x-content-type-options: nosniff
+    x-rtd-domain: casper-toolflow.readthedocs.io
+    x-rtd-force-addons: true
+    x-rtd-project: casper-tutorials
+    x-rtd-project-method: public_domain
+    x-rtd-resolver-filename: /tutorials/rfsoc/tut_getting_started.md
+    x-rtd-version: latest
+    x-rtd-version-method: path
+    x-served: Proxito-404
+    Set-Cookie: __cf_bm=jrtlv8MShCFlEgk5OkTVnrbpbC4fFl8kGZ8TU_oaVYM-1764307938-1.0.1.1-VEZf8JLcgrc2yeKIQQz7POzsC.793eyY2Hocsma_L9EhHuLTa.hX0NYeXtloFJn1n3IUfvDUzZjmyAAYCwHZiybZ_Qld2yfe9iqhYR7aRqI; path=/; expires=Fri, 28-Nov-25 06:02:18 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: _cfuvid=2EljlveoO.obfYCS0w9bfmUkhYggEn_fqQcQRa9XD5o-1764307938462-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    alt-svc: h3=":443"; ma=86400
+    
+curl -I https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/tut_getting_started.md#setup-casperfpga
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    HTTP/1.1 404 Not Found
+    Date: Fri, 28 Nov 2025 05:32:18 GMT
+    Content-Type: text/html; charset=utf-8
+    Connection: keep-alive
+    Server: cloudflare
+    CF-Ray: 9a577be94d31e750-DEN
+    CF-Cache-Status: HIT
+    Access-Control-Allow-Origin: *
+    Cache-Control: max-age=1200
+    Content-Language: en
+    Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+    Vary: Accept-Encoding, Accept-Language, Cookie
+    access-control-allow-methods: HEAD, OPTIONS, GET
+    cdn-cache-control: public
+    cross-origin-opener-policy: same-origin
+    referrer-policy: no-referrer-when-downgrade
+    x-backend: web-i-0562c6a6d0c04b285
+    x-content-type-options: nosniff
+    x-rtd-domain: casper-toolflow.readthedocs.io
+    x-rtd-force-addons: true
+    x-rtd-project: casper-tutorials
+    x-rtd-project-method: public_domain
+    x-rtd-resolver-filename: /tutorials/rfsoc/tut_getting_started.md
+    x-rtd-version: latest
+    x-rtd-version-method: path
+    x-served: Proxito-404
+    Set-Cookie: __cf_bm=i_5OeZtyUat213hBEOGAlYUhePNIUJRNDiUYyBFISDw-1764307938-1.0.1.1-G9N2xR5xooWC0CMM7PjRtP0RJfigqSfYpQjBKLdyHhFRL95bXaUkzIEhycKezV6kDDwQdh3GljTi8d1gB4jt8XIA2z6p.PHSfyZEUulPAE4; path=/; expires=Fri, 28-Nov-25 06:02:18 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: _cfuvid=LN8mU5b5_T8RJ2zu6m_exquIYOBb_SrIvrtvpHjrHQE-1764307938826-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    alt-svc: h3=":443"; ma=86400
+    
