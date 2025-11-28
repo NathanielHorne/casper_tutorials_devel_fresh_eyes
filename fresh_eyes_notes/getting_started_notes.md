@@ -115,6 +115,53 @@ Draft three: works, does not immediately run `curl -I` tests.
 curl https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/tut_platform.html | grep "reference external" | grep -oP '(?<=href=")[^"]*(?=")' | sed 's#\./#https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/#g' | sed 's/^#/https:\/\/casper-toolflow.readthedocs.io\//g' | sed 's/^/curl -I /' > fresh_eyes_notes/tutorial_1_all_links.txt
 ```
 
+Draft four: to be run within a `.sh` file with executable permissions:
+```
+#!/bin/bash
+
+while IFS= read -r cmd; do
+    echo "$cmd" >> $1               # write the command itself
+    eval "$cmd" 2>&1 | sed 's/^/    /' >> $1   # run command and indent result
+done < <(rm -f $1 | curl $2 | grep "reference external" | grep -oP '(?<=href=")[^"]*(?=")' | sed "s#^\./#$3#g" | sed 's/^/curl -I /')
+
+```
+
+Usage:
+```
+./[COMMAND_FILE_ITSELF] ./[DESTINATION_TXT_FILE] [HTTPS_URL_TO_TUTORIAL_PAGE] [HTTPS_URL_TO_PREPEND]
+```
+Explanation:
+The CASPER documentation is, apparently, very similar to a Linux-based file system.
+Every link we want to investigate has the same URL prepended, but is not listed in the HTML itself. 
+This prepended URL is shown to the user when the user hovers above the link in the browser.
+
+Breakdown of what the code means:
+```
+x$
+```
+Run the xth (1-indexed) argument when the command file itself is run.
+```
+#!/bin/bash
+
+while IFS= read -r cmd; do
+    echo "$cmd" >> $1               # write the command itself
+    eval "$cmd" 2>&1 | sed 's/^/    /' >> $1   # run command and indent result
+done < <(rm -f $1 | curl $2 | grep "reference external" | grep -oP '(?<=href=")[^"]*(?=")' | sed "s#^\./#$3#g" | sed "/^#/d" |  sed 's/^/curl -I /')
+```
+The `COMMAND` presents this loop with, essentially, a file where every line is a new bash command.
+This while loop prints each command, runs it, then prints the results of that command to an output file the user specifies.
+
+The command itself:
+```
+rm -f $1 | curl $2 | grep "reference external" | grep -oP '(?<=href=")[^"]*(?=")' | sed "s#^\./#$3#g" | sed "/^#/d" |  sed 's/^/curl -I /'
+```
+Command 1: try to remove the output file the user specifies (do not check to see if it exists, first)
+Command 2: grab the HTML of the tutorial page we want to investigate
+Command 3: filter the HTML that exist within `<href></href>` brackets
+Command 4: prepend the URL to each entry that points AWAY from the page we are investigating
+Command 5: delete any URL pointing to another section within the page we are investigating
+Command 6: prepend the command `curl -I` to each entry
+
 # 11/26/2025
 
 ## Restarting MatLab w/ SimuLink and CASPER
