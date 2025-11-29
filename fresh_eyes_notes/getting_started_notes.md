@@ -150,6 +150,45 @@ Okay. So. We need the "System Generator" block.
 
 So, what do we *put* as the board?
 
+I tried figuring out what the board actually was by interrogating it through the command line.
+
+The only commands that worked were as follows:
+
+```
+lscpu
+
+Architecture:                    aarch64
+CPU op-mode(s):                  32-bit, 64-bit
+Byte Order:                      Little Endian
+CPU(s):                          4
+On-line CPU(s) list:             0-3
+Thread(s) per core:              1
+Core(s) per socket:              4
+Socket(s):                       1
+Vendor ID:                       ARM
+Model:                           4
+Model name:                      Cortex-A53
+Stepping:                        r0p4
+CPU max MHz:                     1199.9990
+CPU min MHz:                     299.9990
+BogoMIPS:                        66.66
+Vulnerability Itlb multihit:     Not affected
+Vulnerability L1tf:              Not affected
+Vulnerability Mds:               Not affected
+Vulnerability Meltdown:          Not affected
+Vulnerability Spec store bypass: Not affected
+Vulnerability Spectre v1:        Mitigation; __user pointer sanitization
+Vulnerability Spectre v2:        Not affected
+Vulnerability Tsx async abort:   Not affected
+Flags:                           fp asimd aes pmull sha1 sha2 crc32 cpuid
+```
+and 
+```
+uname -a
+Linux rfsoc4x2 5.4.0-xilinx-v2020.2 #1 SMP Mon Aug 15 19:08:58 UTC 2022 aarch64 aarch64 aarch64 GNU/Linux
+```
+
+
 # 11/27/2025
 
 ## Continuing first tutorial
