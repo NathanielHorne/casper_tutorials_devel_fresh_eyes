@@ -84,6 +84,30 @@ There, I read "shell into the board [the FPGA] using an ssh client..."
 
 Because I do not know what the IP address of the board is, I will go back to the [Platform Processor System Setup](https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/tut_getting_started.html#platform-processor-system-setup) and continue reading that.
 
+(read the section)
+
+Okay. That was not helpful. I need to know what the IPs of the FPGAs are.
+
+I could look something up, but something tells me that there are guides for this kind of thing on the GitLab for the *group*, in particular.
+
+I did some rooting around. No joy.
+It must be in there somewhere, but I could not find it. 
+
+I reached out to R. Poll, who knows more about this than I do. He says the RFSoC 4x2 board is located at `192.168.2.140`
+
+I will do a search of the GitLab (the entire thing) for any mention of this IP address.
+
+Used `"192.168.2.140" inurl:gitlab.ras.byu.edu`. No joy.
+
+Lets try sshing into the board directly. 
+
+used `ssh casper@192.168.2.140` w/ "casper" being the password 
+
+I got in! 
+
+Interesting . . . `Last login: Sat May  1 14:40:45 2021 from 192.168.2.202` 
+
+R. Poll said that he uses this board often, though. Why does it not show his logon?
 
 # 11/27/2025
 
