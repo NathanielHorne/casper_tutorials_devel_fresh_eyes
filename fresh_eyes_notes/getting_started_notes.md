@@ -45,6 +45,8 @@ Words that did not make sense:
 --> * Multiplexer / Mux --> "a circuit that selects between two or more inputs and outputs" [(National Instruments)](https://www.ni.com/docs/en-US/bundle/labview-fpga-module/page/introduction-to-fpga-hardware-concepts-fpga-module.html)
 * Fabric --> the way that the circuits / computational hardware of the FPGA is actually connected together.
 
+
+
 # 11/28/2025
 
 ## Testing the links within all RFSoC tutorial pages:
