@@ -48,6 +48,57 @@ Words that did not make sense:
 Okay. I have just done parts 1 and 2.
 I will compile this and see if this has fixed the issues I mentioned before.
 
+It worked! 
+I loaded the file into the fpga using `fpga.upload_to_ram_and_program(<path>)` command.
+The `<path>` element, in this case, was the FULL path to the `.fpg` file.
+
+To get it to work, I needed to use `fpga.write_int('counter_control', x)` where `x` is a non-zero number.
+
+After that, I used `fpga.read_int('counter_value')` repeatedly to read the the value being stored in the `'counter_value'` register.
+
+It was counting up incredibly quickly and overflowed:
+```
+In [18]: fpga.write_int('counter_control', 5)
+
+In [19]: fpga.read_int('counter_value')
+Out[19]: 1252459668
+
+In [20]: fpga.read_int('counter_value')
+Out[20]: 1953819550
+
+In [21]: fpga.read_int('counter_value')
+Out[21]: 2077033601
+
+In [22]: fpga.read_int('counter_value')
+Out[22]: -2143370275
+
+In [23]: fpga.read_int('counter_value')
+Out[23]: -2078308140
+
+In [24]: fpga.read_int('counter_value')
+Out[24]: -2015391196
+
+In [25]: fpga.read_int('counter_value')
+Out[25]: -1957882181
+
+In [26]: fpga.write_int('counter_control', 5)
+
+In [27]: fpga.write_int('counter_control', 0)
+
+In [28]: fpga.read_int('counter_value')
+Out[28]: -1401694357
+
+In [29]: fpga.read_int('counter_value')
+Out[29]: -1401694357
+
+In [30]: fpga.read_int('counter_value')
+Out[30]: -1401694357
+```  
+
+As shown, the counter only stopped counting once I brought the `'counter_control'` register down to zero. 
+
+
+
 # 11/28/2025
 
 ## Testing the links within all RFSoC tutorial pages:
