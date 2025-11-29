@@ -109,6 +109,10 @@ Interesting . . . `Last login: Sat May  1 14:40:45 2021 from 192.168.2.202`
 
 R. Poll said that he uses this board often, though. Why does it not show his logon?
 
+Read to about [Step 1: Copy the `.fpg`....](https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/tut_platform.html#step-1-copy-the-fpg-file-to-where-you-need-it) section. 
+--> Realized I should not be sshd into the FPGA through ssh.
+--> I need to follow the tutorial and (while in a conda env *in* Clyde), start an ipython session and do what is listed in Step 2.
+
 # 11/27/2025
 
 ## Continuing first tutorial
