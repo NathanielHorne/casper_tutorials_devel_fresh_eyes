@@ -97,7 +97,35 @@ Out[30]: -1401694357
 
 As shown, the counter only stopped counting once I brought the `'counter_control'` register down to zero. 
 
+I continued working on the tutorial and compiled the updated code. 
 
+It worked! 
+
+```
+In [32]: fpga.write_int('sum_const_1', 20)
+
+In [33]: fpga.write_int('sum_const_2', 1)
+
+In [34]: fpga.read_int('sum_val')
+Out[34]: 21
+
+In [35]: fpga.write_int('sum_const_2', 300)
+
+In [36]: fpga.read_int('sum_val')
+Out[36]: 320
+```
+
+Like the previous example, I needed to write int values to the `'sum_const_1'` and `'sum_const_2'` 
+
+From there, I just needed to read the `'sum_val'` register.
+
+Because these registers are expecting a positive integer, when I input a negative number, I received an error:
+```
+In [37]: fpga.write_int('sum_const_1', -20)
+
+In [38]: fpga.read_int('sum_val')
+Out[38]: -1
+```
 
 # 11/28/2025
 
