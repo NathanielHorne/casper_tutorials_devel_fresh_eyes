@@ -47,6 +47,44 @@ Under each link that goes to documentation other than our own, I will list a Way
 
 ## Getting back to finishing Tutorial 1
 
+Okay. Now that the links are working, I can go in and actually follow each link to make sure I have my environment set up correctly.
+That way, I can rule out some possible reasons why these errors during compilation.
+
+### Reading [Core Setup](https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/tut_getting_started.html#core-setup) 
+
+Not having a conda environment active might have been the reason for this not working.
+
+I switched to my conda environment and ran `jasper` in my "first_draft" design.
+It is running further than any other time I ran `jasper`
+
+It is stuck on `Waiting for synth_l to finish...` now.
+
+I know the tutorial said that the compilation would take 20 minutes, but I am afraid that the script will fail any second. 
+
+It is not stuck on `Waiting for synth_l to finish...` anymore. It is running Vivado.
+
+Earlier, I saw a warning about how I had set up the system block.
+
+There is a "Critical warning" of some kind.
+
+I will keep an eye on this as I continue reading the documentation.
+I am still terrified it will not compile, though.
+
+in [Platform Processor System Setup](https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/tut_getting_started.html#platform-processor-system-setup) I read "connect to the 1 GbE port and review the [Platform Network Configuration](https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/tut_getting_started.html#platform-network-configuration) to understand how communication is established"
+
+#### Point of Confusion:
+Is this how I will connect tothe actual FPGA?
+I have been wondering for a while now *how* to actually connect to the FPGAs that The Lab owns.
+
+THE COMPILING IS COMPLETE. That did not take long at all.
+
+Returned to reading [Programming the FPGA](https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/tut_platform.html#programming-the-fpga) in the first tutorial. 
+
+There, I read "shell into the board [the FPGA] using an ssh client..." 
+
+Because I do not know what the IP address of the board is, I will go back to the [Platform Processor System Setup](https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/tut_getting_started.html#platform-processor-system-setup) and continue reading that.
+
+
 # 11/27/2025
 
 ## Continuing first tutorial
