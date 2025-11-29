@@ -113,6 +113,43 @@ Read to about [Step 1: Copy the `.fpg`....](https://casper-toolflow.readthedocs.
 --> Realized I should not be sshd into the FPGA through ssh.
 --> I need to follow the tutorial and (while in a conda env *in* Clyde), start an ipython session and do what is listed in Step 2.
 
+Finding the file I had created was simple enough.
+I ran `find . -name "*.fpg"` while at the top directory of my cloned git repo to show me where I had saved my code.
+
+Make sure, when loading a file into `fpga.upload_to_ram_and_program(<path>)` that the `<path>` is to your `.fpg` file *from the perspective of the working directory in ipython*. 
+
+```
+In [10]: fpga.upload_to_ram_and_program('./tutorial_files/tutorial_1/first_run_draft/code_run_first_draft/outputs/code
+    ...: _run_first_draft_2025-11-28_1649.fpg')
+Out[10]: True
+```
+This is good! It appears my code has been uploaded!
+
+### None of my uploaded code actually did anything.
+
+All the software registers I check have only values of zero
+
+All my registers. Not just the registers associated with the adder; the counters, as well.
+
+I think it is safe to say that I chose the wrong board to have `System Generator` generate.
+
+So what *is* the RFSoC 4x2?
+
+(Looking at the documentation linked in the left banner of the screen)
+(Links to AMD and RealDigital) 
+
+Both sites say that it is a "Xilinx Gen 3 Zynq UltraScale+ RFSoC ZU48DR".
+
+That, from what I remember, is not found in the "System Generator" block I had imported.
+
+Maybe we do not *need* it?
+
+(tries it, runs `jasper`, MatLab throws errors)
+
+Okay. So. We need the "System Generator" block. 
+
+So, what do we *put* as the board?
+
 # 11/27/2025
 
 ## Continuing first tutorial
