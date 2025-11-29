@@ -12,6 +12,39 @@ Even still, it is tempting. Even if there is a *minute* increase in compilation 
 
 After I recompiled my design, I was able to identify I can *write* to these registers, but I cannot *read* from them.
 
+I wonder if the answer is just to redo everything in this tutorial.
+
+## Redoing Tutorial 1.
+
+Added "System Generator" and "platorm" blocks.
+
+The following text made no sense to me, as a newbie.
+
+```
+For the RFSoC platform the `adc_clk` user IP clock source is derived from the `pl_clk` coming from the first stage PLL in the clocking hierarchy for the RFDC. In most cases this is an LMK creating the `pl_clk` in addition to the clock that drives the RFDC tiles. This frequency coming from the LMK as `pl_clk` is what is to be entered into the `RFPLL PL Clock Rate field`. In other words, this is the clock rate the design is expecting to produce as the clock frequency for the user IP clock.
+```
+
+Words that did not make sense:
+* `adc_clk` --> Analog to digital converter clock? 
+* `pl_clk` --> Programmable logic clock? [This link helped](https://docs.amd.com/r/en-US/pg201-zynq-ultrascale-plus-processing-system/PL-Clocks) --> helps tie everything together? --> Okay. It may be *the* way the FPGA is actually programmed? 
+* PLL --> Phase-Locked Loop? --> Input and output are on the same phase
+* Clocking hierarchy --> which clocks run first?
+* RFDC --> RF Data Converter; [this guide](https://www.mathworks.com/help/soc/ug/transmit-and-receive-tone-using-RFSoC-device-simulate.html) helped.
+* LMK --> A diagram on the TI product page for the [LMK01000](https://www.ti.com/product/LMK01000) lists the LMK as a "Clock Divider and Distributor". A [tutorial by MathWorks](https://www.mathworks.com/help/soc/ug/multi-tile-synchronization-using-rfsoc-device.html) states taht "the default SYSREF frequency" is "produced by the LMK". 
+* SYSREF Frequency --> Analog Devices produced [a guide](https://www.analog.com/en/resources/technical-articles/jesd204b-subclasses-part1-an-introduction-to-jesd204b-subclasses-and-deterministic-latency.html) that says "SYSREF . . . provides a system-level reference for sample timing"
+* RFDC Tiles --> (from previous definition of RFDC) blocks / tiles you can use in CASPER representing RFDC.
+* `RFPLL PL Clock Rate Field` --> Sets the clock rate for the programmable logic and the local oscillators.
+--> * RFPLL --> Something used "to generate the required LO signals" according to [this guide](https://www.analog.com/media/cn/technical-documentation/user-guides/ad9364_reference_manual_ug-673.pdf) 
+--> --> * LO Signals --> Local oscillator signals
+--> * PL --> Programmable logic
+--> * Clock Rate --> Rate programmable logic operates on?
+--> * Field --> Region in the menu where this is input 
+* Slice --> groups of LUTs (look up tables), flip flops, and multiplexers [(National Instruments)](https://www.ni.com/docs/en-US/bundle/labview-fpga-module/page/introduction-to-fpga-hardware-concepts-fpga-module.html)
+--> * LUT --> Predefined list of outputs
+--> * Flip-flop --> "a circuit capable of two stable states and represents a single bit" [(National Instruments)](https://www.ni.com/docs/en-US/bundle/labview-fpga-module/page/introduction-to-fpga-hardware-concepts-fpga-module.html)
+--> * Multiplexer / Mux --> "a circuit that selects between two or more inputs and outputs" [(National Instruments)](https://www.ni.com/docs/en-US/bundle/labview-fpga-module/page/introduction-to-fpga-hardware-concepts-fpga-module.html)
+* Fabric --> the way that the circuits / computational hardware of the FPGA is actually connected together.
+
 # 11/28/2025
 
 ## Testing the links within all RFSoC tutorial pages:
