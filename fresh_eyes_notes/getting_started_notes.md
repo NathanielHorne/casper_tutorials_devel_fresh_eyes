@@ -127,6 +127,77 @@ In [38]: fpga.read_int('sum_val')
 Out[38]: -1
 ```
 
+## Continues reading Tutorial 1.
+
+"LMK/LMX" Must be the chip models?
+[This forum post](https://e2e.ti.com/support/clock-timing-group/clock-and-timing/f/clock-timing-forum/651911/lmk04821-what-lmk-stands-for) on the Texas Instruments website points towards this being the case. 
+
+If this post is to be believed, "LM" is a holdover from when these chips were made by National Semiconductor before they were acquired by TI. It stands for "Linear Monolithic". Interesting.
+
+What does "TICS" stand for?
+It is a software developed by Texas Instruments.
+It stands for Texas Instruments Clocks and Synthesizers.
+It is built to write to CDC, LMK, and LMX chips
+
+The tutorial goes onto describe how one needs to program the LMK.
+
+I SSHd into the RFSoC4x2, then ran the command listed in the tutorial documentation: `sudo ./bin/prg_rfpll -lmk /lib/firmware/rfsoc4x2_PL_122M88_REF_245M76.txt`
+
+I got the following in response:
+```
+[sudo] password for casper: 
+loaded the following config:
+0x000090, 0x000010, 0x000200, 0x000306, 0x0004d0, 0x00055b, 0x000600, 0x000c51, 0x000d04,
+0x01006a, 0x010155, 0x010255, 0x010301, 0x010422, 0x010500, 0x010673, 0x010703, 0x01086a,
+0x010955, 0x010a55, 0x010b00, 0x010c22, 0x010d00, 0x010ef0, 0x010f30, 0x01106a, 0x011155,
+0x011255, 0x011301, 0x011422, 0x011500, 0x011673, 0x011703, 0x01186a, 0x011955, 0x011a55,
+0x011b01, 0x011c22, 0x011d00, 0x011e72, 0x011f03, 0x012074, 0x012155, 0x012255, 0x012301,
+0x012422, 0x012500, 0x012670, 0x012733, 0x01286a, 0x012955, 0x012a55, 0x012b00, 0x012c22,
+0x012d00, 0x012ef0, 0x012f30, 0x01306a, 0x013155, 0x013255, 0x013301, 0x013422, 0x013500,
+0x013673, 0x013703, 0x013800, 0x013903, 0x013a01, 0x013b40, 0x013c00, 0x013d01, 0x013e03,
+0x013f02, 0x014009, 0x014100, 0x014200, 0x014331, 0x0144ff, 0x01457f, 0x01461b, 0x01471a,
+0x014802, 0x014942, 0x014a06, 0x014b26, 0x014c00, 0x014d00, 0x014ec0, 0x014f7f, 0x015011,
+0x015102, 0x015200, 0x015300, 0x01547d, 0x015500, 0x01567d, 0x015703, 0x0158c0, 0x015907,
+0x015ad0, 0x015bda, 0x015c20, 0x015d00, 0x015e00, 0x015f0b, 0x016000, 0x016119, 0x016244,
+0x016300, 0x016400, 0x0165a0, 0x0171aa, 0x017202, 0x017c15, 0x017d33, 0x016600, 0x016700,
+0x0168c0, 0x016959, 0x016a20, 0x016b00, 0x016c00, 0x016d00, 0x016e13, 0x017300, 0x018200,
+0x018300, 0x018400, 0x018500, 0x018800, 0x018900, 0x018a00, 0x018b00, 0x1ffd00, 0x1ffe00,
+0x1fff53, 
+
+rfsoc4x2 does not support register readback, only led status
+```
+
+I am not sure what the last line means. 
+
+According to Chat, this means that the only feedback the board gives on whether or not this command succeeded is a physical LED.
+
+This is interesting. The tutorial would want me to have done the following:
+1. SSH Onto the RFSoC4x2 board itself
+2. Program the LMK clocks
+3. Back *out* of the SSH session
+4. Start an Ipython session
+5. Connect to the RFSoC4x2 using the `fpga = casperfpga.CasperFpga(<ip>)`
+6. Program the FPGA
+7. Test / run this program, as needed
+
+What I *actually* did was this:
+1. Start an Ipython session
+2. Connect to the RFSoC4x2 using the `fpga = casperfpga.CasperFpga(<ip>)` 
+3. Program the FPGA
+4. test / run this program
+5. SSH Onto the RFSoC4x2 board itself
+6. Program the LMK clocks
+7. Back *out* of the SSH session
+8. Start an Ipython session
+9. Connect to the RFSoC4x2 
+10. Test / run this program
+
+What I find interesting is that I did not need to program the board a second time.
+The program was *still there*. 
+I suppose this makes sense, but it is still interesting to learn. 
+
+ 
+
 # 11/28/2025
 
 ## Testing the links within all RFSoC tutorial pages:
