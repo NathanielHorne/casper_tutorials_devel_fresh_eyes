@@ -1,3 +1,17 @@
+# 11/29/2025 
+
+I realized that my issue yesterday was a non-issue.
+Tutorial 1 shows that you do not need to fill anything in the "System Generator" block.
+Simply including it, along with the yellow block for the platform, is enough. 
+
+I am wondering if my personal PC is faster than Clyde, in terms of complilation
+
+According to CPU Monkey, my PCs CPU is about 20% faster than Clyde. It probably is not worth it to move things onto my machine. 
+
+Even still, it is tempting. Even if there is a *minute* increase in compilation speed, that would be great.
+
+After I recompiled my design, I was able to identify I can *write* to these registers, but I cannot *read* from them.
+
 # 11/28/2025
 
 ## Testing the links within all RFSoC tutorial pages:
