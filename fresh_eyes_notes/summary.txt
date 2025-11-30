@@ -247,3 +247,18 @@ So, what should a new user do? Should they follow the instruction at the beginni
 #### Issue #3: Many Broken / Non-Existant Links
 
 The issue that has wasted the most time has been the large quantity of broken and / or non-existant links, bar none.
+
+I struggle to properly communicate just how many *crucial* links are dead, thoughout the documentation.
+
+For example, under the ["Environment setup"](https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/#environment-setup) tab on the [main tutorials landing page](https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/), there are four links. 
+*Two* of these links are broken or lead to nothing useful. 
+
+That doesn not sound terrible until you understand that these are *supposed* to lead to tutorials "on setting up an environment in which you can run these tutorials" and "instructions on setting up the toolflow-proper".
+These are *crucial* links. 
+And yet, the link that leads to the tutorials on "setting up an environment" is broken, leading to a `404 NOT FOUND` error.
+The link leading to "instructions on setting up the toolflow-proper" just leads to [the CASPER homepage](https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/).
+Therefore, this second link is practically useless.
+
+One might ask, "can you work around this, rationally speaking?"
+
+The answer is "yes" if and only if you had received instruction that the "RFSOC TUTORIALS" contain the information you are looking for after talking with your coworkers--egregious *institutional knowledge* use.
