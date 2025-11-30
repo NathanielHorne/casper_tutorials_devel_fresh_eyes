@@ -1087,7 +1087,7 @@ Read [this](https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/
 
 Clicks "[here](https://github.com/casper-astro/tutorials_devel/blob/workshop2019/README.md)" to see "[instruction on setting up an environment in which to run these tutorials](https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/#:~:text=instructions%20on%20setting%20up%20an%20environment%20in%20which%20to%20run%20these%20tutorials)" and is met with a 404 error:
 
-- Lovely! Why is this missing? This seems like an incredibly important thing to be missing. Where can I find it?
+- This seems like an incredibly important thing. Where can I find it?
 
 **THE DOCUMENTATION ON HOW TO INSTALL / SETUP THE ENVIRONMENT TO ACTUALLY DO THE TUTORIALS IS MISSING**
 
@@ -1099,16 +1099,13 @@ Clicks "[here](https://casper-toolflow.readthedocs.io/en/latest/index.html)" to 
 
 - --> Okay! This actually answers my earlier question on *what* the toolflow actually is. Why isnt this discussed in the tutorials section?
 
-
 Clicks [this link](https://casper-toolflow.readthedocs.io/en/latest/) found [here](https://casper-toolflow.readthedocs.io/en/latest/#:~:text=the%20project):
 
 - A link that points towards itself . . . that wasnt helpful.
 
-
 Confusing wording here: "The software stack you will require to use the toolflow will depend what hardware you are targeting."
 
 Recommendation: "The software stack you will run the toolflow on depends on your target hardware."
-
 
 Clicks [this link](https://casper-toolflow.readthedocs.io/en/latest/src/Installing-the-Toolflow.html) found under the "Setup Links" tab at the bottom of the "CASPER Toolflow" page.
 
@@ -1118,12 +1115,9 @@ Clicks [this link](https://casper-toolflow.readthedocs.io/en/latest/src/Installi
 
 Reading [installing the Toolflow](https://casper-toolflow.readthedocs.io/en/latest/src/Installing-the-Toolflow.html)....
 
-"The toolflow is very sensitive to mis-matching software versions"
-
-*and* hardware, apparently. 
+"The toolflow is very sensitive to mis-matching software versions" 
 
 **WHERE CAN I FIND WHAT THE LAB IS USING AND WHERE?**
-
 
 Summary: The documentation the group has on how to VNC into Clyde or Clyde-like servers is unclear.
 
@@ -1164,7 +1158,6 @@ When trying to connect to Clyde using RDP, the following systems were unable to 
 2. My Linux Mint laptop (with CAEDM VPN enabled)
 3. A server on the same network (Tycho.ee.byu.edu), even in administrator mode
 
-As a sanity check, I tried several things to try to make it so that I could troubleshoot the problem.
 My systems could connect to other servers. This was not an issue.
 
 Clyde was visible on the network as `10.5.113.155` using the command `nslookup clyde.ee.byu.edu`.
@@ -1175,11 +1168,11 @@ Again, all systems cannot connect to this IP.
 
 I attempted to connect to Clyde via SSH.
 This produced the best results. I first SSHd into my CAEDM account from my linux laptop, then SSHd into Clyde.
-After providing my username and password, I was let in. From there, a cute textmoji of an alpaca giving a Calvin and Hobbes joke appeared.
+After providing my username and password, I was let in. 
 Unfortunately, I was unauthorized to create directories once I was in Clyde.
 
 If theres a way to access the JDrive via the command line, I could copy over the files for CASPER over.
-These files would also include the setup script that R. Poll sent over, at the suggestion of J. Naylor.:`
+These files would also include the setup script that R. Poll sent over, at the suggestion of J. Naylor.
 
 Im stumped as to *why* I cant connect to Clyde via RDP, but can over SSH.
 
@@ -1187,8 +1180,7 @@ Installer included here: [installer](../install_script/casper_installer_7_9_25_j
 
 **QUESTIONN FOR THE GROUP:** What is going on? Why cant I connect to Clyde?
 
-*MY PLAN MOVING FORWARD:* See if theres a way to dual-boot into my personal machine, using an extra hard drive I have.
-Why would I do this? CASPER Needs to run on a *powerful* Linux environment--something my laptop cannot provide.
+ANSWER: As a Linux machine, Clyde does not support RDP. It needs VNC
 
 ---
 # 11/7/2025

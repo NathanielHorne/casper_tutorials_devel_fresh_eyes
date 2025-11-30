@@ -1,0 +1,87 @@
+# Important Background / Mission Statement:
+
+My ethos for what I am doing is as follows:
+The knowledge of *how* to get started with CASPER / RFSoC should be de-institutionalized.
+
+What do I mean by "de-institutionalized"?
+Speaking only from personal experience, answers to questions like "how do I get started with X process?", "Do you know how to solve Y problem with Z software?", "How do I connect to A asset?", "I keep running into B problem. Have you ever seen this before?", etc are met with the following responses 90 - 95% of the time:
+* "Oh . . . um . . . isnt that something that [X grad student] did a few years ago?
+* "Ill send you [solution]"
+* "Yeah, that took me a while to figure that out. I can show you."
+
+None of these responses are *inherently* bad. The fact that our research group helps each other like we do is an acheivement in and of itself.
+However, answers like these rely on knowledge kept not in records, but in *people's memories*; the institution itself instead of the institution's documentation.
+
+Because of this lack of documentation, I have become stuck on what turn out to be "no brainer" problems, once I talk to a more senior member of the research team.
+
+These solutions *should* be documented, but rarely are.
+
+One of the selling points of CASPER is that it *has* documentation. However, it still relies too much on institutionalized knowledge to be useful to the uninitiated (literally).
+
+This document condenses the sticking points of my work journal into a coherent list of issues and suggestions to help future students and / or CASPER users to have a better experience than I did.
+
+Throughout, I assume that the primary viewing method for these tutorials / pages is through the browser, starting at the home page for CASPER.
+
+# Summary of Action Items / Items of Note in Each General Section of This Process:
+
+## Getting Started
+
+### Group Documentation
+
+#### Issue #1: Documentation on Connecting to Servers Needs Clarity
+
+##### How to connect to Clyde:
+0. (For anyone in the future) Talk to the sys-admin and get yourself an account.
+When I say "username" and "password" later in this blurb, Im refering to the information included in this account.
+1. Connect to Caedm VPN (or be on BYU campus proper)
+2. SSH Into Clyde
+`ssh [username]@clyde.ee.byu.edu`
+3. Enter your password, when challenged
+4. Set VNC password
+Run `vncpasswd` to set a password of your choice for your VNC account.
+5. Check if VNC has been run before (sanity check)
+Run `mkdir ~/.vnc` to make the computer check if the `/.vnc` folder exists.
+If VNC has never been run, this folder wont exist. It needs to exist for VNC to run, though.
+6. Start a "vncserver" session
+Run `vncserver -geometry [res_y]x[res_x] :[session number]
+
+**IMPORTANT**: [session number] needs to be between 0-99 and unique from any other session currently running.
+Run `vncserver -list` to see a list of the servers currently running.
+
+ex.: `vncserver -geometry 1920x1080 :25`
+ex.: `vncserver -geometry 1280x720 :34`
+
+7. Type `clyde.ee.byu.edu:[session number]` in the destination bar in your VNC software.
+
+8. Enter the VNC password you set in step 4
+
+#### Issue #2: No Clear Documentation for What Hardware Group Uses
+I only knew to connect to *Clyde* because I vaguely remembered that The Group has access to the servers "Inky", "Blinky", and "Clyde" that were Linux machines. 
+
+I dont believe theres a central location where a student can go and see what servers are available, how to connect to them, and what each of those servers is capable of.
+
+It can be argued that this is because different projects have access to different hardware and, thus, students from other projects dont need to know about the other servers.
+However, I believe having a roadmap of what servers are available to what group would be very beneficial. Like a floorplan or map where not everyone has access to every room, this roadmap would show all servers operated by The Group and--roughly--who *should* have access to them. 
+Linked to that roadmap would be documentation on how to connect to that server. A Linux guide for Linux machines; Windows for Windows.
+It would also be ideal if this roadmap briefly explained each server's specs so students can know what it is good for.For example, `Morpho` is powerful, but not as powerful as `Kepler` when it comes to processing HFSS designs as `Morpho` is an overclocked gaming computer with 16 cores while `Kepler` is a 1U rack-mounted server with a larger processor.
+
+
+This also goes for The Groups FPGAs. I had to reach out to a member of the group to know what IP to ssh into to connect to a standard RFSoC4x2.
+While it is true that IPs are subject to change in certain circumstances, I firmly believe that there should be a central directory where anyone in The Group can know where to find these boards.
+
+### CASPER Documentation
+#### Issue #1: Main Landing Page is Unrelated to Tutorials Page
+The first thing a new user sees when they go to `casper-toolflow.readthedocs.io` is a few words on what `mlib_devel` is. This is not the issue.
+The issue arises from the fact that when a new user follows the "tutorials" link under "Using mlib_devel", they are presented with an entirely different-looking website seemingly detached from the original. 
+
+The left banner from the original landing page is replaced with a tutorial-specific banner.
+
+This, at least for me, communicated that I was, essentially, on a different website. "Want to learn how to use CASPER? Cool. Okay. Go to this other website and figure out whatever it is you need to know."
+
+Maybe I am just blind, but when I was transfered to the tutorials-specific side of the site I didnt notice the change, at first due to how similar every page looks. At a glance, the banners look exactly the same between the main site and the tutorials side of the site. When others in The Group started pointing out that the tutorials I was meant to follow were in a different location, I did not even recognize there *was* another location within the tutorials site because of this.
+
+#### Issue #2: No Clear Signals to Redirect from [tutorials landing page](https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/) to [RFSoC Tutorials Page](https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/readme.html)
+
+#### Issue #3: "Getting Started" documentation is different
+
+#### Issue #4: Many Broken / Non-Existant Links
