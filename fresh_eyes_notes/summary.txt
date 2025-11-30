@@ -262,3 +262,8 @@ Therefore, this second link is practically useless.
 One might ask, "can you work around this, rationally speaking?"
 
 The answer is "yes" if and only if you had received instruction that the "RFSOC TUTORIALS" contain the information you are looking for after talking with your coworkers--egregious *institutional knowledge* use.
+
+I created a script that automatically checks each link in a page to see if it leads to a dead link and / or if it leads to a useless link.
+
+The output of this script is included in this documentation under "fres_eyes_notes/teast_all_links".
+A separate summary of each of the dead and / or useless links there is listed at the top of that directory.
