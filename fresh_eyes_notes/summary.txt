@@ -81,6 +81,7 @@ This, at least for me, communicated that I was, essentially, on a different webs
 Maybe I am just blind, but when I was transfered to the tutorials-specific side of the site I didnt notice the change, at first due to how similar every page looks. At a glance, the banners look exactly the same between the main site and the tutorials side of the site. When others in The Group started pointing out that the tutorials I was meant to follow were in a different location, I did not even recognize there *was* another location within the tutorials site because of this.
 
 #### Issue #2: No Clear Signals to Redirect from [tutorials landing page](https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/) to [RFSoC Tutorials Page](https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/readme.html)
+Besides the side banner, there are no clear indications someone looking for the RFSoC tutorials should navigate there. 
 
 #### Issue #3: "Getting Started" documentation is different
 
