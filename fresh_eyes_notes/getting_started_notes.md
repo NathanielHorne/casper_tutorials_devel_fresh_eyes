@@ -196,7 +196,45 @@ What I find interesting is that I did not need to program the board a second tim
 The program was *still there*. 
 I suppose this makes sense, but it is still interesting to learn. 
 
- 
+## Tutorial 2
+
+Under [The Example Design](https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/tut_rfdc.html#the-example-design) / This design will:
+
+--> "Output complex basebanded I/Q samples"
+* Complex: real and imaginary
+* Basebanded: only the data is left from an incoming RF signal
+* I/Q: another way of saying complex where x(t) = I(t) + jQ(t)
+* Samples: time-discrete digital values
+
+--> "Use the decimator"
+* Decimator: according to Kacen Moody (BYU alumn) in his [dissertation](https://scholarsarchive.byu.edu/cgi/viewcontent.cgi?article=9950&context=etd) a decimator is also a "downsampling function".
+According to [this MathWorks article](https://www.mathworks.com/help/dsp/ug/overview-of-multirate-filters.html?utm_source=chatgpt.com), a decimator includes a downsampling function and an antialiasing filter. 
+Just downsampling would lead to aliasing.
+
+--> "Use the fine frequency mixer (NCO)"
+* NCO: Numerically Controlled Oscillator. A circuit that generates a shifted sinusoid based on an input.
+* Fine frequency: the fact that the NCO can be controlled by an input, if there is a fine input there will be a fine output.
+
+--> "Set the target Nyquist zone"
+* Nyquist zone: like the Nyquist frequency, but separated into *zones*
+Where f_s = sampling frequency
+First Nyquist zone: 0 Hz - f_s/2
+Second Nyquist zone: f_s/2 - f_s
+Third Nyquist zone: f_s - 3f_s/2
+Nth Nyquist zone: (N-1)(1/2)(f_s) - (N)(1/2)(f_s)
+
+Any frequency above f_s/2 will "fold" back into the first Nyquist zone.
+If a particular frequency is 25% of the way through the second Nyquist zone, it will appear 25% of the way through the first Nyquist zone.
+
+--> "To get a picture of where we are headed, the final design will look like this for quad-tile platforms:"
+* quad-tile platforms: The "4" in "RFSoC 4x2"? I am a bit confused
+
+--> "This design is a “snapshot” capture on two inputs on quad-tile platforms and one input on dual-tile platforms placing raw ADC samples in a BRAM that are read out using casperfpga for analysis."
+* BRAM: Block RAM. Essentially RAM, but optimized for FPGAs.
+
+--> "Step 1: Add the XSG and RFSoC platform yellow block"
+* XSG: Xilinx System Generator. It is a graphical interface to program FPGAs. 
+Does CASPER use XSG or is it an extension of XSG?
 
 # 11/28/2025
 
