@@ -72,16 +72,165 @@ While it is true that IPs are subject to change in certain circumstances, I firm
 ### CASPER Documentation
 #### Issue #1: Main Landing Page is Unrelated to Tutorials Page
 The first thing a new user sees when they go to `casper-toolflow.readthedocs.io` is a few words on what `mlib_devel` is. This is not the issue.
-The issue arises from the fact that when a new user follows the "tutorials" link under "Using mlib_devel", they are presented with an entirely different-looking website seemingly detached from the original. 
+The issue arises from the fact that when a new user follows the "tutorials" link under "Using mlib_devel", they are presented with an entirely separate website--at least, that is how it feels. 
 
 The left banner from the original landing page is replaced with a tutorial-specific banner.
 
 This, at least for me, communicated that I was, essentially, on a different website. "Want to learn how to use CASPER? Cool. Okay. Go to this other website and figure out whatever it is you need to know."
 
 Maybe I am just blind, but when I was transfered to the tutorials-specific side of the site I didnt notice the change, at first due to how similar every page looks. At a glance, the banners look exactly the same between the main site and the tutorials side of the site. When others in The Group started pointing out that the tutorials I was meant to follow were in a different location, I did not even recognize there *was* another location within the tutorials site because of this.
+Again, this could be a "me" issue, but it would help if this was a dedicated submenu on the banner of the landing page that *remained* on the user's screen when they navigated to the tutorials side of the site.
+---
+What it feels like now:
+
+[           ]      
+|  main     |  [welcome text]
+|  site     |
+|  banner   |  
+|           |
+|           |
+|           |
+|           |
+|           |
+|           |
+|           |
+[           ]
+
+|
+| Navigating to tutorials page
+V
+
+[           ]
+| tutorials |  [welcome text]
+| site      |
+| banner    |
+|           |
+| looks     |
+| exactly   |
+| the       |
+|           |
+|           |
+|           |
+[           ]
+
+This leads to:
+* Confusion: "Where am I, in terms of the *regular* CASPER toolflow?"
+* Disjointedness: "Oh, I thought I was on the main site."
+* User blindness: "Wait, there was a *new* banner this whole time?"
+
+---
+What it could be:
+[           ]
+|  main     |  [welcome text]
+|  site     |
+|  banner   |
+|           |
+|[menu item]|
+|           |
+|[menu item]|
+|           |
+|[menu item]|
+|           |
+|[menu item]|
+|           |
+|+TUTORIALS |
+|           |
+[           ]
+
+|
+| Clicking on the "TUTORIALS" menu
+V
+
+[           ]
+|  main     |  [welcome text]
+|  site     |
+|  banner   |
+|           |
+|[menu item]|
+|           |
+|[menu item]|
+|           |
+|[menu item]|
+|           |
+|[menu item]|
+|           |
+|-TUTORIALS |
+| o [tut. 1]|
+|           |
+| o [tut. 2]|
+|           |
+| o [tut. 3]|
+|           |
+| o [tut. 4]|
+|           |
+| o [tut. 5]|
+|           |
+[           ]
+
+|
+| Or I click on a tutorial-specific link
+V
+
+[           ]
+|  main     |  [tutorial link]
+|  site     |
+|  banner   |
+|           |
+|[menu item]|
+|           |
+|[menu item]|
+|           |
+|[menu item]|
+|           |
+|[menu item]|
+|           |
+|-TUTORIALS |
+| o [tut. 1]|
+|   >sub_1  |
+|   >sub_2  |
+|           |
+| o [tut. 2]|
+|   >sub_1  |
+|   >sub_2  |
+|           |
+| o [tut. 3]|
+|   >sub_1  |
+|   >sub_2  |
+|           |
+| o [tut. 4]|
+|   >sub_1  |
+|   >sub_2  |
+|           |
+| o [tut. 5]|
+|  ---------|
+|  | >sub_1|| <-- Box! Look! You (the user) are *here*!
+|  ---------|
+|   >sub_2  |
+|           |
+[           ]
+
+
+
+PLEASE NOTE: THIS IS JUST AN EXAMPLE
+
+What this does:
+* Increases site cohesion: 
+1. I know where I am and how this relates to the rest of the documentation
+2. I can *see* all the tutorial options
+* User blindness is negated: 
+With the highlighted box around the banner menu, I am forced to see that there are *multiple* tutorial submenus to choose from.
+This would hopefully force future users to see that there are sub-tutorials for ROACH, RFSoC, and other systems. 
+
 
 #### Issue #2: No Clear Signals to Redirect from [tutorials landing page](https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/) to [RFSoC Tutorials Page](https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/readme.html)
 Besides the side banner, there are no clear indications someone looking for the RFSoC tutorials should navigate there. 
+To reiterate, this side banner is pracitcally invisible to the user when they first navigate to the tutorials page. 
+This is partially because it looks practically identical to the main landing page's side banner, but (importantly to this issue) also because it is word soup.
+To a new user, if they *do* identify the substantial change to the side banner, they will be intimidated into following the main tutorial landing page's text.
+For example:
+"SNAP Tutorials? What is 'Red Pitaya'? Gosh, I better follow the main tutorial page before I branch off onto one of *those* tutorials."
+
+
 
 #### Issue #3: "Getting Started" documentation is different
 
