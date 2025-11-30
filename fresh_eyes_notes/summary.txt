@@ -230,8 +230,20 @@ To a new user, if they *do* identify the substantial change to the side banner, 
 For example:
 "SNAP Tutorials? What is 'Red Pitaya'? Gosh, I better follow the main tutorial page before I branch off onto one of *those* tutorials."
 
+As a nervous user, I completely missed the paragraph saying the following and jumped straight into ["Environment setup"](https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/#environment-setup):
+> It is recommended to start with the introduction tutorial for the platform of your liking, then do that platform’s GBE tutorial and finally move onto the spectrometer or correlator tutorial or the next difficulty tutorial.
 
+It seemed counterintuitive to jump straight into the tutorials for my specific platform when I hadn't setup the environment.
+So, I followed these instructions.
+I ran into two particularly madening dead / useless links (see below).
+After a multiple-hour wild goose chase, I was met with ["Tutorial Instructions"](https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/#tutorial-instructions).
+This particular menu presented the tutorials that ended up being the right turials--the tutorials that some of my fellow students said I *should* have been looking at.
 
-#### Issue #3: "Getting Started" documentation is different
+All told, the messaging of this particular section is confusing:
+* The first message is to go do the tutorials located at the *end* of the tutorial
+* However, to *do* these tutorials, you need to follow the instructions on the rest of the page. 
+So, what should a new user do? Should they follow the instruction at the beginning of the article and go straight to the tutorials or should they continue to read the rest of the article?
 
-#### Issue #4: Many Broken / Non-Existant Links
+#### Issue #3: Many Broken / Non-Existant Links
+
+The issue that has wasted the most time has been the large quantity of broken and / or non-existant links, bar none.
