@@ -1,0 +1,18 @@
+curl -I https://www.xilinx.com/support/documentation/ip_documentation/usp_rf_data_converter/v2_4/pg269-rf-data-converter.pdf
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     1    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    HTTP/1.1 302 Moved Temporarily
+    Strict-Transport-Security: max-age=31536000; includeSubDomains
+    X-Frame-Options: SAMEORIGIN
+    Content-Type: text/html
+    Location: https://www.xilinx.com/support.html#documentation
+    X-XSS-Protection: 1; mode=block
+    X-Content-Type-Options: nosniff
+    Content-Length: 1
+    Expires: Mon, 01 Dec 2025 01:53:18 GMT
+    Cache-Control: max-age=0, no-cache, no-store
+    Pragma: no-cache
+    Date: Mon, 01 Dec 2025 01:53:18 GMT
+    Connection: keep-alive
+    
