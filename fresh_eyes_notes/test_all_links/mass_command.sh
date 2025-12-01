@@ -1,15 +1,39 @@
 #!/bin/bash
 
-COMMAND="./chat_updated_command_with_dest_args.sh"
-MAIN_DIRECTORY="page_links_reports/tutorial_pages/"
-RFSOC_MAIN_DIRECTORY="page_links_reports/tutorial_pages/RFSOC"
-STRD_URL_APP="https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/"
-STRD_URL_RFSOC="https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/"
+LINK_COMMAND="./test_link_command.sh"
+ERROR_COMMAND=(grep -Pzo 'curl -I [^\n]+(?:\n(?!curl -I )[^\n]*)*?(?:(?!HTTP\/1\.1 200 OK).)*(?=curl -I|\Z)')
 
+
+MAIN_DIRECTORY="page_links_reports/tutorial_pages/"
+STRD_URL_APP="https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/"
+
+RFSOC_MAIN_DIRECTORY="page_links_reports/tutorial_pages/RFSOC/"
+RFSOC_STRD_URL="https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/"
 
 # Main Tutorial Heading
-"$COMMAND" "$MAIN_DIRECTORY" "${MAIN_DIRECTORY}CHAT_SH_VARS_TUT_MAIN_AGE.txt" "${STRD_URL_APP}index.html" "$STRD_URL_APP"
+printf "MAIN TUTORIAL PAGE\n"
+"$LINK_COMMAND" "$MAIN_DIRECTORY" "${MAIN_DIRECTORY}index.txt" "${STRD_URL_APP}index.html" "$STRD_URL_APP" |  "${ERROR_COMMAND[@]}" "${MAIN_DIRECTORY}index.txt" > "${MAIN_DIRECTORY}index_errors.txt"
 
 # RFSOC TUTORIALS
+printf "RFSOC TUTORIALS\n"
 ## CASPER README
-"$COMMAND" "$RFSOC_MAIN_DIRECTORY" "${RFSOC_MAIN_DIRECTORY}readme.txt" "${STRD_URL_RFSOC}readme.html" "$STRD_URL_RFSOC"
+printf "\tCASPER README\n"
+"$LINK_COMMAND" "$RFSOC_MAIN_DIRECTORY" "${RFSOC_MAIN_DIRECTORY}readme.txt" "${RFSOC_STRD_URL}readme.html" "$RFSOC_STRD_URL" | "${ERROR_COMMAND[@]}" "${RFSOC_MAIN_DIRECTORY}readme.txt" > "${RFSOC_MAIN_DIRECTORY}readme_errors.txt"
+## GETTING STARTED
+printf "\tGETTING_STARTED\n"
+"$LINK_COMMAND" "$RFSOC_MAIN_DIRECTORY" "${RFSOC_MAIN_DIRECTORY}tut_getting_started.txt" "${RFSOC_STRD_URL}tut_getting_started.html" "$RFSOC_STRD_URL" | "${ERROR_COMMAND[@]}" "${RFSOC_MAIN_DIRECTORY}tut_getting_started.txt" > "${RFSOC_MAIN_DIRECTORY}tut_getting_started_errors.txt"
+## TUTORIAL 1
+printf "\tTUTORIAL 1\n"
+"$LINK_COMMAND" "$RFSOC_MAIN_DIRECTORY" "${RFSOC_MAIN_DIRECTORY}tut_platform.txt" "${RFSOC_STRD_URL}tut_platform.html" "$RFSOC_STRD_URL" | "${ERROR_COMMAND[@]}" "${RFSOC_MAIN_DIRECTORY}tut_platform.txt" > "${RFSOC_MAIN_DIRECTORY}tut_platform_errors.txt"
+## TUTORIAL 2
+printf "\tTUTORIAL 2\n"
+"$LINK_COMMAND" "$RFSOC_MAIN_DIRECTORY" "${RFSOC_MAIN_DIRECTORY}tut_rfdc.txt" "${RFSOC_STRD_URL}tut_rfdc.html" "$RFSOC_STRD_URL" | "${ERROR_COMMAND[@]}" "${RFSOC_MAIN_DIRECTORY}tut_rfdc.txt" > "${RFSOC_MAIN_DIRECTORY}tut_rfdc_errors.txt"
+## TUTORIAL 3-1
+printf "\tTUTORIAL 3-1\n"
+"$LINK_COMMAND" "$RFSOC_MAIN_DIRECTORY" "${RFSOC_MAIN_DIRECTORY}tut_dac.txt" "${RFSOC_STRD_URL}tut_dac.html" "$RFSOC_STRD_URL" | "${ERROR_COMMAND[@]}" "${RFSOC_MAIN_DIRECTORY}tut_dac.txt" > "${RFSOC_MAIN_DIRECTORY}tut_dac_errors.txt"
+## TUTORIAL 3-2
+printf "\tTUTORIAL 3-1\n"
+"$LINK_COMMAND" "$RFSOC_MAIN_DIRECTORY" "${RFSOC_MAIN_DIRECTORY}tut_spec.txt" "${RFSOC_STRD_URL}tut_spec.html" "$RFSOC_STRD_URL" | "${ERROR_COMMAND[@]}" "${RFSOC_MAIN_DIRECTORY}tut_spec.txt" > "${RFSOC_MAIN_DIRECTORY}tut_spec_errors.txt"
+## TUTORIAL 4
+printf "\tTUTORIAL 4\n"
+"$LINK_COMMAND" "$RFSOC_MAIN_DIRECTORY" "${RFSOC_MAIN_DIRECTORY}tut_100g.txt" "${RFSOC_STRD_URL}tut_100g.html" "$RFSOC_STRD_URL" | "${ERROR_COMMAND[@]}" "${RFSOC_MAIN_DIRECTORY}tut_100g.txt" > "${RFSOC_MAIN_DIRECTORY}tut_100g_errors.txt"
