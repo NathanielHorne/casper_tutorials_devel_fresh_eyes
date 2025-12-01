@@ -1,0 +1,426 @@
+curl -I http://casper-tutorials.readthedocs.io/en/latest/
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    HTTP/1.1 302 Found
+    Date: Mon, 01 Dec 2025 06:44:00 GMT
+    Content-Type: text/html; charset=utf-8
+    Content-Length: 0
+    Connection: keep-alive
+    Server: cloudflare
+    Location: https://casper-tutorials.readthedocs.io/en/latest/
+    CF-Ray: 9a709d0b99b551e8-DEN
+    CF-Cache-Status: HIT
+    Cache-Control: max-age=1200
+    Content-Language: en
+    Vary: Accept-Language, Accept-Encoding
+    CDN-Cache-Control: public
+    Cross-Origin-Opener-Policy: same-origin
+    Referrer-Policy: no-referrer-when-downgrade
+    X-Backend: web-i-0f0610d4846a50c6d
+    X-Content-Type-Options: nosniff
+    X-RTD-Domain: casper-tutorials.readthedocs.io
+    X-RTD-Project: 
+    X-RTD-Project-Method: public_domain
+    X-RTD-Redirect: http_to_https
+    X-RTD-Version-Method: path
+    X-Served: Django-Proxito
+    Set-Cookie: __cf_bm=Nvx34nEzFd2Bdi6ZRHh4Uej5YFc7Cuv8BrjD7xrhgRE-1764571440-1.0.1.1-9kvFJbjpe.FobYpOqqxs5l8jKQbCHOVXjx4E68OMVep4Ep22FFy.nj1nYxIz0TCjE5gwxKdNhj_Qs.9NVk7L0oVMJ.Q_Laq5Ugu.jltcqD4; path=/; expires=Mon, 01-Dec-25 07:14:00 GMT; domain=.readthedocs.io; HttpOnly
+    Set-Cookie: _cfuvid=j4UB0UH1GNESg34cIjkeZO6mg45Cy86HpW1_reqbRno-1764571440001-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly
+    alt-svc: h3=":443"; ma=86400
+    
+curl -I https://casper-toolflow.readthedocs.io/projects/casperfpga/en/latest/
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    HTTP/1.1 200 OK
+    Date: Mon, 01 Dec 2025 06:44:00 GMT
+    Content-Type: text/html
+    Connection: keep-alive
+    Server: cloudflare
+    CF-Ray: 9a709d0dac4e5305-SLC
+    CF-Cache-Status: HIT
+    Access-Control-Allow-Origin: *
+    Age: 519
+    Cache-Control: max-age=1200
+    ETag: W/"823294c82f7f7c106f595878da785699"
+    Last-Modified: Fri, 24 Jun 2022 01:58:51 GMT
+    Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+    Vary: Accept-Encoding
+    access-control-allow-methods: HEAD, OPTIONS, GET
+    cdn-cache-control: public
+    cross-origin-opener-policy: same-origin
+    referrer-policy: no-referrer-when-downgrade
+    x-amz-id-2: GhCTs6OQSwWARpaQmOzW33sVA6jvQJkxJWwsmMMQpM1oh806EE9V3AgupNof0R2e+2DFJ3b7Ob4=
+    x-amz-request-id: BRZ3YDHAE1JJ1312
+    x-amz-server-side-encryption: AES256
+    x-backend: web-i-099c57f6c9d4cb9a0
+    x-content-type-options: nosniff
+    x-rtd-domain: casper-toolflow.readthedocs.io
+    x-rtd-force-addons: true
+    x-rtd-path: /proxito/html/casperfpga/latest/index.html
+    x-rtd-project: casperfpga
+    x-rtd-project-method: public_domain
+    x-rtd-resolver-filename: /
+    x-rtd-version: latest
+    x-rtd-version-method: path
+    x-served: Nginx-Proxito-Sendfile
+    Set-Cookie: __cf_bm=rIDCZzhCjwU8elTwsen0uW0uNi1jwAC9U9iuamJv7_I-1764571440-1.0.1.1-d.OspkOeQXcXAOL9HLAyl8GBIS3IPialEygwDf3mo_5lANcQMGIQ6j8YYYS0O8Oxz8jRRDGN8KtffJBUf1bNhMODuxOZVWFqSumaLgJKU4k; path=/; expires=Mon, 01-Dec-25 07:14:00 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: _cfuvid=mcWidPz.RvG2XI623hu.OV5uxfMYpsEHBA__M2yWOfc-1764571440322-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    alt-svc: h3=":443"; ma=86400
+    
+curl -I https://github.com/casper-astro/mlib_devel/tree/d77999047d2f0dc53e1c1e6e516e6ef3cdd45632/docs
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0HTTP/1.1 200 OK
+    Date: Mon, 01 Dec 2025 06:44:01 GMT
+    Content-Type: text/html; charset=utf-8
+    Vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, X-Requested-With,Accept-Encoding, Accept, X-Requested-With
+    ETag: W/"c6f2910f672871418a32b712cf2e9bd0"
+    Cache-Control: max-age=0, private, must-revalidate
+    Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+    X-Frame-Options: deny
+    X-Content-Type-Options: nosniff
+    X-XSS-Protection: 0
+    Referrer-Policy: no-referrer-when-downgrade
+    Content-Security-Policy: default-src 'none'; base-uri 'self'; child-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com *.rel.tunnels.api.visualstudio.com wss://*.rel.tunnels.api.visualstudio.com github.githubassets.com objects-origin.githubusercontent.com copilot-proxy.githubusercontent.com proxy.individual.githubcopilot.com proxy.business.githubcopilot.com proxy.enterprise.githubcopilot.com *.actions.githubusercontent.com wss://*.actions.githubusercontent.com productionresultssa0.blob.core.windows.net/ productionresultssa1.blob.core.windows.net/ productionresultssa2.blob.core.windows.net/ productionresultssa3.blob.core.windows.net/ productionresultssa4.blob.core.windows.net/ productionresultssa5.blob.core.windows.net/ productionresultssa6.blob.core.windows.net/ productionresultssa7.blob.core.windows.net/ productionresultssa8.blob.core.windows.net/ productionresultssa9.blob.core.windows.net/ productionresultssa10.blob.core.windows.net/ productionresultssa11.blob.core.windows.net/ productionresultssa12.blob.core.windows.net/ productionresultssa13.blob.core.windows.net/ productionresultssa14.blob.core.windows.net/ productionresultssa15.blob.core.windows.net/ productionresultssa16.blob.core.windows.net/ productionresultssa17.blob.core.windows.net/ productionresultssa18.blob.core.windows.net/ productionresultssa19.blob.core.windows.net/ github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com wss://alive-staging.github.com api.githubcopilot.com api.individual.githubcopilot.com api.business.githubcopilot.com api.enterprise.githubcopilot.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com copilot-workspace.githubnext.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: blob: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com private-avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com release-assets.githubusercontent.com secured-user-images.githubusercontent.com/ user-images.githubusercontent.com/ private-user-images.githubusercontent.com opengraph.githubassets.com marketplace-screenshots.githubusercontent.com/ copilotprodattachments.blob.core.windows.net/github-production-copilot-attachments/ github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com objects-origin.githubusercontent.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/ private-user-images.githubusercontent.com github-production-user-asset-6210df.s3.amazonaws.com gist.github.com github.githubassets.com; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; upgrade-insecure-requests; worker-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/
+    Server: github.com
+    Accept-Ranges: bytes
+    Set-Cookie: _  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    gh_sess=Gh30tqTZbxFvZ3qrPo%2B2UUGIIOZ6mNiq%2FAvNC0%2Bxk%2Bu9%2BIY6%2BH5DjC8SEmlc02XdHBAwoWkunEzhFAeVw5Qo3%2Bw6%2B7XNAnc6UDiknIvqet9VeFyBls4E%2FtHOpKAbwA7xr2VJdWzgWE4XyakhOmb%2FbTeqy5xfTb63K%2FwlZw1VnMxCYzqnloUdmsdcVRGigKexbbVvW1WLTEceOujlaSWyhNCHE6G6q8zfYiuOU8JmLOVxP%2F3FW7yFakwysaUzJiT%2BI2LfVjqECdlkFIPQ2rFRiw%3D%3D--iRrw1d4xyAsEX3Vm--9rRf8M70%2BkJFyV4lPHCuqQ%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+    Set-Cookie: _octo=GH1.1.1018900623.1764571440; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 06:44:00 GMT; Secure; SameSite=Lax
+    Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 06:44:00 GMT; HttpOnly; Secure; SameSite=Lax
+    X-GitHub-Request-Id: 6840:1DD04F:1389CD23:19838C73:692D3930
+    
+curl -I https://casper-tutorials.readthedocs.io/en/latest/tutorials/roach/tut_intro.html
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    HTTP/1.1 302 Found
+    Date: Mon, 01 Dec 2025 06:44:01 GMT
+    Content-Type: text/html; charset=utf-8
+    Content-Length: 0
+    Connection: keep-alive
+    Server: cloudflare
+    Location: https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/roach/tut_intro.html
+    CF-Ray: 9a709d15cb4f7985-DEN
+    CF-Cache-Status: HIT
+    Cache-Control: max-age=1200
+    Content-Language: en
+    Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+    Vary: Accept-Language, Accept-Encoding
+    cdn-cache-control: public
+    cross-origin-opener-policy: same-origin
+    referrer-policy: no-referrer-when-downgrade
+    x-backend: web-i-0cdd0a6e8765c2354
+    x-content-type-options: nosniff
+    x-rtd-domain: casper-tutorials.readthedocs.io
+    x-rtd-project: 
+    x-rtd-project-method: public_domain
+    x-rtd-redirect: subproject_to_main_domain
+    x-rtd-version-method: path
+    x-served: Django-Proxito
+    Set-Cookie: __cf_bm=ajqy13QV2_uvdpWheBrIXqoXhGgdO45Zm4b2XuRJ9H0-1764571441-1.0.1.1-zWtTIUVdRtfyMPbJ9Sh_hErF1mi1riTFwAmbJ33xZgziTBh_U4Fkvvg8NOAQEDf9qEmA.8p9C_3GNuVyG1geN3iobB19x343J4WjWyZY3D8; path=/; expires=Mon, 01-Dec-25 07:14:01 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: _cfuvid=ZP6tYZF..DjL4UvS1z1qhOL9gHY1cjAYhEsgqyGhmS8-1764571441618-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    alt-svc: h3=":443"; ma=86400
+    
+curl -I https://casper-toolflow.readthedocs.io/en/latest/index.html#a-note-on-operating-systems
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    HTTP/1.1 200 OK
+    Date: Mon, 01 Dec 2025 06:44:02 GMT
+    Content-Type: text/html; charset=utf-8
+    Connection: keep-alive
+    Server: cloudflare
+    CF-Ray: 9a709d17f8865305-SLC
+    CF-Cache-Status: REVALIDATED
+    Access-Control-Allow-Origin: *
+    Cache-Control: max-age=1200
+    ETag: W/"827052f05d08bbaf3a2e9926a01f7fb4"
+    Last-Modified: Tue, 03 Jun 2025 03:00:51 GMT
+    Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+    Vary: Accept-Encoding
+    access-control-allow-methods: HEAD, OPTIONS, GET
+    cdn-cache-control: public
+    cross-origin-opener-policy: same-origin
+    referrer-policy: no-referrer-when-downgrade
+    x-amz-id-2: YhFwN3wysQ1bfoQXXeqDtRoJ4JeGhNcwwT6LzqdTbqwWPPDQpfks3h+GI8kEbgQTy+qCofgdXKUpuibb+Kt8uFt69D7PbkDD
+    x-amz-meta-mtime: 1748919631.820540999
+    x-amz-request-id: 09CWMQJMS01357V5
+    x-amz-server-side-encryption: AES256
+    x-backend: web-i-074337be5128ef497
+    x-content-type-options: nosniff
+    x-rtd-domain: casper-toolflow.readthedocs.io
+    x-rtd-force-addons: true
+    x-rtd-path: /proxito/html/casper-toolflow/latest/index.html
+    x-rtd-project: casper-toolflow
+    x-rtd-project-method: public_domain
+    x-rtd-resolver-filename: /index.html
+    x-rtd-version: latest
+    x-rtd-version-method: path
+    x-served: Nginx-Proxito-Sendfile
+    Set-Cookie: __cf_bm=7x14ulRGfvHtGJPaeMYWANN3exnC5u5tEuJJ0oIkZ0Q-1764571442-1.0.1.1-rg7UJQC46u9iGw9rkuWKXcwPiLhpund.NvFOPvloKT0ck5YIkpWVRx35Q93PanbvmCMn16GmoAKvtXPHUWo852LG7mImaQ7E8_mr83CvtpE; path=/; expires=Mon, 01-Dec-25 07:14:02 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: _cfuvid=b2vpkq7T9jaBNz_lI078gkWd3CqMFqfN75eNBTNUzJo-1764571442059-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    alt-svc: h3=":443"; ma=86400
+    
+curl -I https://casper-toolflow.readthedocs.io/en/latest/src/How-to-install-Matlab.html
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    HTTP/1.1 200 OK
+    Date: Mon, 01 Dec 2025 06:44:02 GMT
+    Content-Type: text/html; charset=utf-8
+    Connection: keep-alive
+    Server: cloudflare
+    CF-Ray: 9a709d1addbe7b2c-DEN
+    CF-Cache-Status: HIT
+    Access-Control-Allow-Origin: *
+    Cache-Control: max-age=1200
+    ETag: W/"dd6f2d6e33bc24725cfdbea9e6083185"
+    Last-Modified: Tue, 03 Jun 2025 03:00:51 GMT
+    Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+    Vary: Accept-Encoding
+    access-control-allow-methods: HEAD, OPTIONS, GET
+    cdn-cache-control: public
+    cross-origin-opener-policy: same-origin
+    referrer-policy: no-referrer-when-downgrade
+    x-amz-id-2: 4xtNHXo6te3Fynr+67OWU2Ak+c7J9wW0HA2znQDGhGEaChpNy7a6kQutlR9wwVpDg6d3zNujInM=
+    x-amz-meta-mtime: 1748919632.333539967
+    x-amz-request-id: NY59JSFMTC3VZS8M
+    x-amz-server-side-encryption: AES256
+    x-backend: web-i-0acf90f526a2bbd81
+    x-content-type-options: nosniff
+    x-rtd-domain: casper-toolflow.readthedocs.io
+    x-rtd-force-addons: true
+    x-rtd-path: /proxito/html/casper-toolflow/latest/src/How-to-install-Matlab.html
+    x-rtd-project: casper-toolflow
+    x-rtd-project-method: public_domain
+    x-rtd-resolver-filename: /src/How-to-install-Matlab.html
+    x-rtd-version: latest
+    x-rtd-version-method: path
+    x-served: Nginx-Proxito-Sendfile
+    Set-Cookie: __cf_bm=kTyoWRiWSMtB853Rq23nulhLXmW_Nf4.nDHCeWEi1Xo-1764571442-1.0.1.1-gMyUpyApzreIuN1skVliTO5STkeIFYf_yamLkcQZO9JdDe.bJZEkl3kcID4QKLKdAF_pVyZQbB.ybnaPpzMqugaTpk9D_Rga5.JuszFKaeE; path=/; expires=Mon, 01-Dec-25 07:14:02 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: _cfuvid=r5i6aHZ1j0vgUzQi..yO8TWM2oL7Q1CxhciF4aH8uOE-1764571442432-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    alt-svc: h3=":443"; ma=86400
+    
+curl -I https://www.xilinx.com
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    HTTP/1.1 301 Moved Permanently
+    Server: AkamaiGHost
+    Content-Length: 0
+    Location: https://www.amd.com/en.html
+    Date: Mon, 01 Dec 2025 06:44:02 GMT
+    Connection: keep-alive
+    
+curl -I https://www.xilinx.com/support/university.html
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    HTTP/1.1 301 Moved Permanently
+    Server: AkamaiGHost
+    Content-Length: 0
+    Location: https://www.amd.com/en/corporate/university-program.html
+    Date: Mon, 01 Dec 2025 06:44:03 GMT
+    Connection: keep-alive
+    
+curl -I https://casper-toolflow.readthedocs.io/en/latest/src/How-to-install-Xilinx-Vivado.html
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    HTTP/1.1 200 OK
+    Date: Mon, 01 Dec 2025 06:44:03 GMT
+    Content-Type: text/html; charset=utf-8
+    Connection: keep-alive
+    Server: cloudflare
+    CF-Ray: 9a709d228cec13ed-SLC
+    CF-Cache-Status: HIT
+    Access-Control-Allow-Origin: *
+    Cache-Control: max-age=1200
+    ETag: W/"b2f9d4831ac241d8400a79ae8b5efaef"
+    Last-Modified: Tue, 03 Jun 2025 03:00:52 GMT
+    Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+    Vary: Accept-Encoding
+    access-control-allow-methods: HEAD, OPTIONS, GET
+    cdn-cache-control: public
+    cross-origin-opener-policy: same-origin
+    referrer-policy: no-referrer-when-downgrade
+    x-amz-id-2: aQCfUnmHTP3hQvS1P0BUx3tGavsjJrj5IG99vm2NFe9ixyTDLR6iHopuSSsmg5v4kEGLhtZm0Vo=
+    x-amz-meta-mtime: 1748919632.415539802
+    x-amz-request-id: F21AB1M6RRBHRAK6
+    x-amz-server-side-encryption: AES256
+    x-backend: web-i-00fca9bb8560eee07
+    x-content-type-options: nosniff
+    x-rtd-domain: casper-toolflow.readthedocs.io
+    x-rtd-force-addons: true
+    x-rtd-path: /proxito/html/casper-toolflow/latest/src/How-to-install-Xilinx-Vivado.html
+    x-rtd-project: casper-toolflow
+    x-rtd-project-method: public_domain
+    x-rtd-resolver-filename: /src/How-to-install-Xilinx-Vivado.html
+    x-rtd-version: latest
+    x-rtd-version-method: path
+    x-served: Nginx-Proxito-Sendfile
+    Set-Cookie: __cf_bm=47drEILndZQm_t8tc2S2L2aYJvt578e7_OPoSTgKpGc-1764571443-1.0.1.1-1VxwevTj6l.8gp66z76AOAEYLP1Cd_FMnDqy1Flg403yvcS4zpi8TG3ENHiuyCQkoRBzAn5iH7lMTODG1aoCsqEPAWjqd52XQq4QxmXIe7s; path=/; expires=Mon, 01-Dec-25 07:14:03 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: _cfuvid=DiTOrqg593p22rfLIovsg7TVhwYCXXcid4SudRSQVKc-1764571443677-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    alt-svc: h3=":443"; ma=86400
+    
+curl -I https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/#installing-virtualenv
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    HTTP/1.1 302 Found
+    Date: Mon, 01 Dec 2025 06:44:04 GMT
+    Content-Type: text/html; charset=utf-8
+    Content-Length: 0
+    Connection: keep-alive
+    Server: cloudflare
+    Location: https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/
+    CF-Ray: 9a709d261887d96a-SLC
+    CF-Cache-Status: HIT
+    Cache-Control: max-age=1200
+    Content-Language: en
+    Vary: Accept-Language, Accept-Encoding
+    cdn-cache-control: public
+    cross-origin-opener-policy: same-origin
+    referrer-policy: no-referrer-when-downgrade
+    x-backend: web-i-00703fcc5d3d02912
+    x-content-type-options: nosniff
+    x-rtd-domain: packaging.python.org
+    x-rtd-force-addons: true
+    x-rtd-project: python-packaging-user-guide
+    x-rtd-project-method: custom_domain
+    x-rtd-redirect: user
+    x-rtd-version-method: path
+    x-served: Proxito-404
+    Set-Cookie: __cf_bm=PdVplXyJHi7JelzZFqc6ocjjhR9nYbfbubo32kcEX4c-1764571444-1.0.1.1-2GhBD3OX6O9qhW_nAoyr1VL7PGivUSU7I54yOHZ0kndPOJ0MHMixGVGQfn6a0tvDfPCKKngAVPGcSq6_h11NIZ43IZt3IsLsWO1.A807osw; path=/; expires=Mon, 01-Dec-25 07:14:04 GMT; domain=.packaging.python.org; HttpOnly; Secure; SameSite=None
+    Set-Cookie: _cfuvid=MAxt23ZuQ15jyLKuAOoyaioVQLQCBqqMtMBHEuW3ydw-1764571444260-0.0.1.1-604800000; path=/; domain=.packaging.python.org; HttpOnly; Secure; SameSite=None
+    alt-svc: h3=":443"; ma=86400
+    
+curl -I https://github.com/casper-astro/casper-hardware
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0HTTP/1.1 200 OK
+    Date: Mon, 01 Dec 2025 06:44:05 GMT
+    Content-Type: text/html; charset=utf-8
+    Vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, X-Requested-With,Accept-Encoding, Accept, X-Requested-With
+    ETag: W/"ad039ac0fee948c647b3238f63e18f4e"
+    Cache-Control: max-age=0, private, must-revalidate
+    Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+    X-Frame-Options: deny
+    X-Content-Type-Options: nosniff
+    X-XSS-Protection: 0
+    Referrer-Policy: no-referrer-when-downgrade
+    Content-Security-Policy: default-src 'none'; base-uri 'self'; child-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com *.rel.tunnels.api.visualstudio.com wss://*.rel.tunnels.api.visualstudio.com github.githubassets.com objects-origin.githubusercontent.com copilot-proxy.githubusercontent.com proxy.individual.githubcopilot.com proxy.business.githubcopilot.com proxy.enterprise.githubcopilot.com *.actions.githubusercontent.com wss://*.actions.githubusercontent.com productionresultssa0.blob.core.windows.net/ productionresultssa1.blob.core.windows.net/ productionresultssa2.blob.core.windows.net/ productionresultssa3.blob.core.windows.net/ productionresultssa4.blob.core.windows.net/ productionresultssa5.blob.core.windows.net/ productionresultssa6.blob.core.windows.net/ productionresultssa7.blob.core.windows.net/ productionresultssa8.blob.core.windows.net/ productionresultssa9.blob.core.windows.net/ productionresultssa10.blob.core.windows.net/ productionresultssa11.blob.core.windows.net/ productionresultssa12.blob.core.windows.net/ productionresultssa13.blob.core.windows.net/ productionresultssa14.blob.core.windows.net/ productionresultssa15.blob.core.windows.net/ productionresultssa16.blob.core.windows.net/ productionresultssa17.blob.core.windows.net/ productionresultssa18.blob.core.windows.net/ productionresultssa19.blob.core.windows.net/ github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com wss://alive-staging.github.com api.githubcopilot.com api.individual.githubcopilot.com api.business.githubcopilot.com api.enterprise.githubcopilot.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com copilot-workspace.githubnext.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: blob: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com private-avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com release-assets.githubusercontent.com secured-user-images.githubusercontent.com/ user-images.githubusercontent.com/ private-user-images.githubusercontent.com opengraph.githubassets.com marketplace-screenshots.githubusercontent.com/ copilotprodattachments.blob.core.windows.net/github-production-copilot-attachments/ github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com objects-origin.githubusercontent.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/ private-user-images.githubusercontent.com github-production-user-asset-6210df.s3.amazonaws.com gist.github.com github.githubassets.com; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; upgrade-insecure-requests; worker-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/
+    Server: github.com
+    Accept-Ranges: bytes
+    Set-Cookie: _  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+    gh_sess=R0onIzByZhzpIqWorvhOmXDgmD%2BEsl96Yvw58%2FmoWOmPwqi2Y1bcxxSAHNNcwas7ClDrwFYt9iimUqNHqm1pdjRNDN%2FQJ5hdn6dUQCudtIwvrJL2vfj1YxbGjqs38CqgcTc5bh5l67QQICPlQ5wENzNmCjSOtEakdADVRKUAYkfXQI%2BlvKRSYYxf6guOHUzd1xEfY5XkJu4%2BtOWGymcmoz893baXVy%2FSgvaLtEbpTDlveq8rr9%2BFGkKdzE%2FJRDhtibqV0KrQcRespJE4Zsiizg%3D%3D--u5fDxSsZwe%2Fszsw2--IRXmCvs6yqimGcXEZOpLgw%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+    Set-Cookie: _octo=GH1.1.769260031.1764571444; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 06:44:04 GMT; Secure; SameSite=Lax
+    Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 06:44:04 GMT; HttpOnly; Secure; SameSite=Lax
+    X-GitHub-Request-Id: E52F:3ED7AB:2CB2019:39B61E9:692D3934
+    
+curl -I https://casper-toolflow.readthedocs.io/en/latest/src/How-to-install-casperfpga.html
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    HTTP/1.1 200 OK
+    Date: Mon, 01 Dec 2025 06:44:05 GMT
+    Content-Type: text/html; charset=utf-8
+    Connection: keep-alive
+    Server: cloudflare
+    CF-Ray: 9a709d2faf1e4cb3-SLC
+    CF-Cache-Status: REVALIDATED
+    Access-Control-Allow-Origin: *
+    Cache-Control: max-age=1200
+    ETag: W/"67dbde4fef2cf5482a625ecb715717dd"
+    Last-Modified: Tue, 03 Jun 2025 03:00:52 GMT
+    Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+    Vary: Accept-Encoding
+    access-control-allow-methods: HEAD, OPTIONS, GET
+    cdn-cache-control: public
+    cross-origin-opener-policy: same-origin
+    referrer-policy: no-referrer-when-downgrade
+    x-amz-id-2: sRE7aO7vQp+pt29xpJAZ5t9rppX1YKbGr6wLpe/FCd81I3TKEqAWaHwUU2S42d4nARDRuFR9yyo=
+    x-amz-meta-mtime: 1748919632.623539383
+    x-amz-request-id: TC4949N3FVC89ERG
+    x-amz-server-side-encryption: AES256
+    x-backend: web-i-00f3fd3573758b173
+    x-content-type-options: nosniff
+    x-rtd-domain: casper-toolflow.readthedocs.io
+    x-rtd-force-addons: true
+    x-rtd-path: /proxito/html/casper-toolflow/latest/src/How-to-install-casperfpga.html
+    x-rtd-project: casper-toolflow
+    x-rtd-project-method: public_domain
+    x-rtd-resolver-filename: /src/How-to-install-casperfpga.html
+    x-rtd-version: latest
+    x-rtd-version-method: path
+    x-served: Nginx-Proxito-Sendfile
+    Set-Cookie: __cf_bm=.Nz_BSITKWgWtx0Wpm82XgpdDFIcv87G0avOH3M4xuc-1764571445-1.0.1.1-uhonTg4AYyg2c0p8pRc9fd6vitsqkcSaMf.lPWSAn_uKgnfL8mHwtFrx7xylL5rAvNBYUxuviOu3ftkc0QqaGDQovehcXk4XRVYOAjvCvRs; path=/; expires=Mon, 01-Dec-25 07:14:05 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: _cfuvid=SAnmklqVlk4IefLmmPUQql9vKvKxIna6m4HYgv_tgsY-1764571445861-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    alt-svc: h3=":443"; ma=86400
+    
+curl -I https://github.com/casper-astro/mlib_devel
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0HTTP/1.1 200 OK
+    Date: Mon, 01 Dec 2025 06:44:06 GMT
+    Content-Type: text/html; charset=utf-8
+    Vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, X-Requested-With,Accept-Encoding, Accept, X-Requested-With
+    ETag: W/"de5a97a9431de3a13cba1da774d70a50"
+    Cache-Control: max-age=0, private, must-revalidate
+    Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+    X-Frame-Options: deny
+    X-Content-Type-Options: nosniff
+    X-XSS-Protection: 0
+    Referrer-Policy: no-referrer-when-downgrade
+    Content-Security-Policy: default-src 'none'; base-uri 'self'; child-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com *.rel.tunnels.api.visualstudio.com wss://*.rel.tunnels.api.visualstudio.com github.githubassets.com objects-origin.githubusercontent.com copilot-proxy.githubusercontent.com proxy.individual.githubcopilot.com proxy.business.githubcopilot.com proxy.enterprise.githubcopilot.com *.actions.githubusercontent.com wss://*.actions.githubusercontent.com productionresultssa0.blob.core.windows.net/ productionresultssa1.blob.core.windows.net/ productionresultssa2.blob.core.windows.net/ productionresultssa3.blob.core.windows.net/ productionresultssa4.blob.core.windows.net/ productionresultssa5.blob.core.windows.net/ productionresultssa6.blob.core.windows.net/ productionresultssa7.blob.core.windows.net/ productionresultssa8.blob.core.windows.net/ productionresultssa9.blob.core.windows.net/ productionresultssa10.blob.core.windows.net/ productionresultssa11.blob.core.windows.net/ productionresultssa12.blob.core.windows.net/ productionresultssa13.blob.core.windows.net/ productionresultssa14.blob.core.windows.net/ productionresultssa15.blob.core.windows.net/ productionresultssa16.blob.core.windows.net/ productionresultssa17.blob.core.windows.net/ productionresultssa18.blob.core.windows.net/ productionresultssa19.blob.core.windows.net/ github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com wss://alive-staging.github.com api.githubcopilot.com api.individual.githubcopilot.com api.business.githubcopilot.com api.enterprise.githubcopilot.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com copilot-workspace.githubnext.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: blob: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com private-avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com release-assets.githubusercontent.com secured-user-images.githubusercontent.com/ user-images.githubusercontent.com/ private-user-images.githubusercontent.com opengraph.githubassets.com marketplace-screenshots.githubusercontent.com/ copilotprodattachments.blob.core.windows.net/github-production-copilot-attachments/ github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com objects-origin.githubusercontent.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/ private-user-images.githubusercontent.com github-production-user-asset-6210df.s3.amazonaws.com gist.github.com github.githubassets.com; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; upgrade-insecure-requests; worker-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/
+    Server: github.com
+    Accept-Ranges: bytes
+    Set-Cookie: _  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    gh_sess=vJhFMcICKECo2c6YIE8bxxsA9zs4tFYQzyOfwgEYdv4x5j%2FJCJb9FPYxbkyNeAw0XI1Q78ONMy2D1fcTf37V2mG4yhLRrtk0oQPWSYaLNX791cheQN9O4oj9h2qZxCI4EjAZ9dy2fej9tTcr2QrXpABsLH9%2Bk4AJSXZJLfQWYdQbN1Sq13XsRP3L4hOVHPbAM%2FVIMLwyGuANGzevfY3XAyui%2FyqLF%2BBLUqIocRDcmrxxcZvS7chZQJ20w5U1f61H%2BqvQn24k3IhPihP0Fhoo0w%3D%3D--aY8ZmndavwQ8jHhv--oSpgymKsWwExPAK5G9e86w%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+    Set-Cookie: _octo=GH1.1.756056379.1764571446; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 06:44:06 GMT; Secure; SameSite=Lax
+    Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 06:44:06 GMT; HttpOnly; Secure; SameSite=Lax
+    X-GitHub-Request-Id: 523C:1ACF0B:13AE3019:19A875D9:692D3936
+    
+curl -I https://casper-toolflow.readthedocs.io/en/latest/src/Configuring-the-Toolflow.html
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    HTTP/1.1 200 OK
+    Date: Mon, 01 Dec 2025 06:44:07 GMT
+    Content-Type: text/html; charset=utf-8
+    Connection: keep-alive
+    Server: cloudflare
+    CF-Ray: 9a709d38caa8e73b-DEN
+    CF-Cache-Status: REVALIDATED
+    Access-Control-Allow-Origin: *
+    Cache-Control: max-age=1200
+    ETag: W/"6c1c22979d7b09091b4082f0e636b1dc"
+    Last-Modified: Tue, 03 Jun 2025 03:00:51 GMT
+    Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+    Vary: Accept-Encoding
+    access-control-allow-methods: HEAD, OPTIONS, GET
+    cdn-cache-control: public
+    cross-origin-opener-policy: same-origin
+    referrer-policy: no-referrer-when-downgrade
+    x-amz-id-2: ln/aOwr75vahnhh44/+HxP5O3bMYcoKzfAs/uVNvdkB6Jkc2dKIQrta9o0s9VJihC+BYOKl/zQKjJVoyuA8HNg09JNUk0vd0DFDE7amh9pk=
+    x-amz-meta-mtime: 1748919632.126540383
+    x-amz-request-id: 1YY5DV60PCC7HWSF
+    x-amz-server-side-encryption: AES256
+    x-backend: web-i-0a5d21ba51ba9937a
+    x-content-type-options: nosniff
+    x-rtd-domain: casper-toolflow.readthedocs.io
+    x-rtd-force-addons: true
+    x-rtd-path: /proxito/html/casper-toolflow/latest/src/Configuring-the-Toolflow.html
+    x-rtd-project: casper-toolflow
+    x-rtd-project-method: public_domain
+    x-rtd-resolver-filename: /src/Configuring-the-Toolflow.html
+    x-rtd-version: latest
+    x-rtd-version-method: path
+    x-served: Nginx-Proxito-Sendfile
+    Set-Cookie: __cf_bm=LutsJEnPvAmNdnG50zZyQuN8F36mng4RwO2j45NzBlI-1764571447-1.0.1.1-DxUDop3RnJdQFw.5JVlzpvJDyhJcNxq7mpu8iemd9apcFpuRjlGGimYTXJ4MWptk8169hJ3aIuT13CioT6vlyPX8KTeMYzTXD12JPzUS3zo; path=/; expires=Mon, 01-Dec-25 07:14:07 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: _cfuvid=Fd_AmFz5pYxN79sLtqjdOQbNRrSKqX2XalZAl6eHXz0-1764571447282-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    alt-svc: h3=":443"; ma=86400
+    

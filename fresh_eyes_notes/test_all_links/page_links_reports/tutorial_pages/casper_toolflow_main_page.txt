@@ -1,0 +1,462 @@
+curl -I http://casper-tutorials.readthedocs.io/en/latest/
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    HTTP/1.1 302 Found
+    Date: Mon, 01 Dec 2025 06:35:20 GMT
+    Content-Type: text/html; charset=utf-8
+    Content-Length: 0
+    Connection: keep-alive
+    Server: cloudflare
+    Location: https://casper-tutorials.readthedocs.io/en/latest/
+    CF-Ray: 9a70905ea909328e-SLC
+    CF-Cache-Status: MISS
+    Cache-Control: max-age=1200
+    Content-Language: en
+    Vary: Accept-Language, Accept-Encoding
+    CDN-Cache-Control: public
+    Cross-Origin-Opener-Policy: same-origin
+    Referrer-Policy: no-referrer-when-downgrade
+    X-Backend: web-i-0f0610d4846a50c6d
+    X-Content-Type-Options: nosniff
+    X-RTD-Domain: casper-tutorials.readthedocs.io
+    X-RTD-Project: 
+    X-RTD-Project-Method: public_domain
+    X-RTD-Redirect: http_to_https
+    X-RTD-Version-Method: path
+    X-Served: Django-Proxito
+    Set-Cookie: __cf_bm=REnGtssQe8JQDBgw0fdmNQKool3pE3zDGyreciiYc3g-1764570920-1.0.1.1-FMvTn8wNBpEuaknAjyoFEQ3ZgDmtOIcXGNuMUygOXMoL9xwDBuC_d75rPiodDcTEIu3.WaCAKeh9FyuM.UP1Rij7Y0LGzCntHZnZuG1vhE0; path=/; expires=Mon, 01-Dec-25 07:05:20 GMT; domain=.readthedocs.io; HttpOnly
+    Set-Cookie: _cfuvid=awjgC4C6l.CAuROglm2swEJLIxcxVAeAyCeiqrpMhGg-1764570920867-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly
+    alt-svc: h3=":443"; ma=86400
+    
+curl -I https://casper-toolflow.readthedocs.io/projects/casperfpga/en/latest/
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    HTTP/1.1 200 OK
+    Date: Mon, 01 Dec 2025 06:35:21 GMT
+    Content-Type: text/html
+    Connection: keep-alive
+    Server: cloudflare
+    CF-Ray: 9a7090612a0d328e-SLC
+    CF-Cache-Status: REVALIDATED
+    Access-Control-Allow-Origin: *
+    Cache-Control: max-age=1200
+    ETag: W/"823294c82f7f7c106f595878da785699"
+    Last-Modified: Fri, 24 Jun 2022 01:58:51 GMT
+    Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+    Vary: Accept-Encoding
+    access-control-allow-methods: HEAD, OPTIONS, GET
+    cdn-cache-control: public
+    cross-origin-opener-policy: same-origin
+    referrer-policy: no-referrer-when-downgrade
+    x-amz-id-2: GhCTs6OQSwWARpaQmOzW33sVA6jvQJkxJWwsmMMQpM1oh806EE9V3AgupNof0R2e+2DFJ3b7Ob4=
+    x-amz-request-id: BRZ3YDHAE1JJ1312
+    x-amz-server-side-encryption: AES256
+    x-backend: web-i-099c57f6c9d4cb9a0
+    x-content-type-options: nosniff
+    x-rtd-domain: casper-toolflow.readthedocs.io
+    x-rtd-force-addons: true
+    x-rtd-path: /proxito/html/casperfpga/latest/index.html
+    x-rtd-project: casperfpga
+    x-rtd-project-method: public_domain
+    x-rtd-resolver-filename: /
+    x-rtd-version: latest
+    x-rtd-version-method: path
+    x-served: Nginx-Proxito-Sendfile
+    Set-Cookie: __cf_bm=oT9uVI1Sp1ea8nLnWW7NzTlAlEHmgn5DVa0NDIC8CcI-1764570921-1.0.1.1-fnpnlbZeuzEQXfFGlx9vW1o6xc.wGbH.QufaEXdZX80rHG5t1Hx3laiH7_p5KrfSAby6E8HyT4zqhLAXj635l2ep_zn4AW0pstAUSj6X4ZU; path=/; expires=Mon, 01-Dec-25 07:05:21 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: _cfuvid=yNHJsZOqGJcs0IOibrR55BdqozSb7tU6gOvS2Sg1Mws-1764570921499-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    alt-svc: h3=":443"; ma=86400
+    
+curl -I http://casper.berkeley.edu/
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:06 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:07 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:08 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:09 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:10 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:11 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:12 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:13 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:14 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:15 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:16 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:17 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:18 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:19 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:20 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:21 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:22 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:23 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:24 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:25 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:26 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:27 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:28 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:29 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:30 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:31 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:32 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:33 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:34 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:35 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:36 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:37 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:38 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:39 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:40 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:41 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:42 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:43 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:44 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:45 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:46 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:47 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:48 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:49 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:50 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:51 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:52 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:53 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:54 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:55 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:56 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:57 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:58 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:59 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:00 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:05 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:06 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:07 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:08 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:09 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:10 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:11 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:12 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:13 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:14 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:15 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:16 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:17 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:18 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:19 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:20 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:21 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:22 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:23 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:24 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:25 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:26 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:27 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:28 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:29 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:30 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:31 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:32 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:33 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:34 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:35 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:36 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:37 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:38 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:39 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:40 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:41 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:42 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:43 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:44 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:45 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:46 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:47 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:48 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:49 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:50 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:51 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:52 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:53 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:54 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:55 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:56 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:57 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:58 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:59 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:02:00 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:02:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:02:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:02:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:02:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:02:05 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:02:06 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:02:07 --:--:--     0curl: (7) Failed connect to casper.berkeley.edu:80; Connection timed out
+curl -I https://github.com/casper-astro/casperfpga
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0HTTP/1.1 200 OK
+    Date: Mon, 01 Dec 2025 06:37:29 GMT
+    Content-Type: text/html; charset=utf-8
+    Vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, X-Requested-With,Accept-Encoding, Accept, X-Requested-With
+    ETag: W/"6c753559cd88a52abd435a3b3feff388"
+    Cache-Control: max-age=0, private, must-revalidate
+    Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+    X-Frame-Options: deny
+    X-Content-Type-Options: nosniff
+    X-XSS-Protection: 0
+    Referrer-Policy: no-referrer-when-downgrade
+    Content-Security-Policy: default-src 'none'; base-uri 'self'; child-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com *.rel.tunnels.api.visualstudio.com wss://*.rel.tunnels.api.visualstudio.com github.githubassets.com objects-origin.githubusercontent.com copilot-proxy.githubusercontent.com proxy.individual.githubcopilot.com proxy.business.githubcopilot.com proxy.enterprise.githubcopilot.com *.actions.githubusercontent.com wss://*.actions.githubusercontent.com productionresultssa0.blob.core.windows.net/ productionresultssa1.blob.core.windows.net/ productionresultssa2.blob.core.windows.net/ productionresultssa3.blob.core.windows.net/ productionresultssa4.blob.core.windows.net/ productionresultssa5.blob.core.windows.net/ productionresultssa6.blob.core.windows.net/ productionresultssa7.blob.core.windows.net/ productionresultssa8.blob.core.windows.net/ productionresultssa9.blob.core.windows.net/ productionresultssa10.blob.core.windows.net/ productionresultssa11.blob.core.windows.net/ productionresultssa12.blob.core.windows.net/ productionresultssa13.blob.core.windows.net/ productionresultssa14.blob.core.windows.net/ productionresultssa15.blob.core.windows.net/ productionresultssa16.blob.core.windows.net/ productionresultssa17.blob.core.windows.net/ productionresultssa18.blob.core.windows.net/ productionresultssa19.blob.core.windows.net/ github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com wss://alive-staging.github.com api.githubcopilot.com api.individual.githubcopilot.com api.business.githubcopilot.com api.enterprise.githubcopilot.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com copilot-workspace.githubnext.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: blob: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com private-avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com release-assets.githubusercontent.com secured-user-images.githubusercontent.com/ user-images.githubusercontent.com/ private-user-images.githubusercontent.com opengraph.githubassets.com marketplace-screenshots.githubusercontent.com/ copilotprodattachments.blob.core.windows.net/github-production-copilot-attachments/ github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com objects-origin.githubusercontent.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/ private-user-images.githubusercontent.com github-production-user-asset-6210df.s3.amazonaws.com gist.github.com github.githubassets.com; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; upgrade-insecure-requests; worker-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/
+    Server: github.com
+    Accept-Ranges: bytes
+    Set-Cookie: _  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    gh_sess=TGF6YK7X6%2BVsv5RNVLwqdHDZZ3YW2DLcPfRdGwYnaKcQd5eDN0JoB0xaelIpySUixMnBkzOgo65FQ1RZ8rfSUw7zfwn9v9GX0DT3xqAwPMC%2BAuvY0SApLQk1iDFLs8%2BPAaTSqE%2FpDBvxtyU6hSHLggyQDat05qoJcs0UDSQNRAsRUlFIIucIWWOwj3GxQBm1kp8NSvalm2fIpxPol44R1TInQp5XEanM2oN4v%2BnZ81LJhySqXV5Uo0Ctk4wu3enx5ZP7Fl6q4BKagzFxNIluFQ%3D%3D--3Xrdjk7O3M8Y8PcV--vGTSh7smguJX1saLJWsLrg%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+    Set-Cookie: _octo=GH1.1.1581889982.1764571049; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 06:37:29 GMT; Secure; SameSite=Lax
+    Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 06:37:29 GMT; HttpOnly; Secure; SameSite=Lax
+    X-GitHub-Request-Id: 239D:4A8E8:679DB6E:8576272:692D37A9
+    
+curl -I https://casper-toolflow.readthedocs.io
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    HTTP/1.1 302 Found
+    Date: Mon, 01 Dec 2025 06:37:30 GMT
+    Content-Type: text/html; charset=utf-8
+    Content-Length: 0
+    Connection: keep-alive
+    Server: cloudflare
+    Location: https://casper-toolflow.readthedocs.io/en/latest/
+    CF-Ray: 9a709386daf2e73f-DEN
+    CF-Cache-Status: HIT
+    Cache-Control: max-age=1200
+    Content-Language: en
+    Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+    Vary: Accept-Language, Accept-Encoding
+    cdn-cache-control: public
+    cross-origin-opener-policy: same-origin
+    referrer-policy: no-referrer-when-downgrade
+    x-backend: web-i-00703fcc5d3d02912
+    x-content-type-options: nosniff
+    x-rtd-domain: casper-toolflow.readthedocs.io
+    x-rtd-force-addons: true
+    x-rtd-project: casper-toolflow
+    x-rtd-project-method: public_domain
+    x-rtd-redirect: system
+    x-rtd-version-method: path
+    x-served: Django-Proxito
+    Set-Cookie: __cf_bm=N8wgsF8mvSnxhJdnll_BORtPX415AWabVdS9RQnF9LA-1764571050-1.0.1.1-BadY9bPTgOAu6lSQFAngaBuOMHZz59EBj0x54pavW2VcMxG7BIWRClBRIGILbPJs0DHGfNHdUmwQinOzdPS06kO9n00DbazetBj5DZVqJN0; path=/; expires=Mon, 01-Dec-25 07:07:30 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: _cfuvid=9k18wL_FId8K3gVbS_jwjWjO2n7JcqTrgnZ4FrX3Q7U-1764571050107-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    alt-svc: h3=":443"; ma=86400
+    
+curl -I https://casper-tutorials.readthedocs.io
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    HTTP/1.1 302 Found
+    Date: Mon, 01 Dec 2025 06:37:30 GMT
+    Content-Type: text/html; charset=utf-8
+    Content-Length: 0
+    Connection: keep-alive
+    Server: cloudflare
+    Location: https://casper-toolflow.readthedocs.io/projects/tutorials/
+    CF-Ray: 9a709388eb4e530a-SLC
+    CF-Cache-Status: EXPIRED
+    Cache-Control: max-age=1200
+    Content-Language: en
+    Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+    Vary: Accept-Language, Accept-Encoding
+    cdn-cache-control: public
+    cross-origin-opener-policy: same-origin
+    referrer-policy: no-referrer-when-downgrade
+    x-backend: web-i-00703fcc5d3d02912
+    x-content-type-options: nosniff
+    x-rtd-domain: casper-tutorials.readthedocs.io
+    x-rtd-project: 
+    x-rtd-project-method: public_domain
+    x-rtd-redirect: subproject_to_main_domain
+    x-rtd-version-method: path
+    x-served: Django-Proxito
+    Set-Cookie: __cf_bm=IsObpsmGMqNANVLEFGg7qI6zPLHO6DODDpLwlV07Yu0-1764571050-1.0.1.1-FhPhrlOtF6F7B4Oq9WbUJoy8K7kweae3qUMyoPcaf64sBQwIFF3Hgsbe.jztz1yq4K_9c6C1VsNCnpS_4ODwPWjmx5ZYBueMvpwACNFZPUo; path=/; expires=Mon, 01-Dec-25 07:07:30 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: _cfuvid=k0BgqoPUu_JJ5lf7_i8c2AHDnRET4tUHHVESYZoWfAk-1764571050514-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    alt-svc: h3=":443"; ma=86400
+    
+curl -I https://casper-toolflow.readthedocs.io
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    HTTP/1.1 302 Found
+    Date: Mon, 01 Dec 2025 06:37:30 GMT
+    Content-Type: text/html; charset=utf-8
+    Content-Length: 0
+    Connection: keep-alive
+    Server: cloudflare
+    Location: https://casper-toolflow.readthedocs.io/en/latest/
+    CF-Ray: 9a70938bbf727b16-DEN
+    CF-Cache-Status: HIT
+    Age: 0
+    Cache-Control: max-age=1200
+    Content-Language: en
+    Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+    Vary: Accept-Language, Accept-Encoding
+    cdn-cache-control: public
+    cross-origin-opener-policy: same-origin
+    referrer-policy: no-referrer-when-downgrade
+    x-backend: web-i-00703fcc5d3d02912
+    x-content-type-options: nosniff
+    x-rtd-domain: casper-toolflow.readthedocs.io
+    x-rtd-force-addons: true
+    x-rtd-project: casper-toolflow
+    x-rtd-project-method: public_domain
+    x-rtd-redirect: system
+    x-rtd-version-method: path
+    x-served: Django-Proxito
+    Set-Cookie: __cf_bm=1aOl1JGmM6mkyN3pmHpJl_LT9Gn.htxssEsr1jI5Ogs-1764571050-1.0.1.1-qhdKCJmYrGlPbVCqOrKk2ZXe.OQsAzbIMDdI_F5KweQAIuA3Sla8.MCRekD8apGgaOzxLFczX_CaT4KVbEQq4fFtngiIh_w2zs.6cP0SfOE; path=/; expires=Mon, 01-Dec-25 07:07:30 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: _cfuvid=HT7r30DFakTZiYsvrG_tDl0qtpTqOzjdz2Fw3ZwCzdU-1764571050862-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    alt-svc: h3=":443"; ma=86400
+    
+curl -I https://github.com/casper-astro/mlib_devel/tree/d77999047d2f0dc53e1c1e6e516e6ef3cdd45632/docs
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0HTTP/1.1 200 OK
+    Date: Mon, 01 Dec 2025 06:37:31 GMT
+    Content-Type: text/html; charset=utf-8
+    Vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, X-Requested-With,Accept-Encoding, Accept, X-Requested-With
+    ETag: W/"e65a400264e77a17aec592cceb8666a9"
+    Cache-Control: max-age=0, private, must-revalidate
+    Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+    X-Frame-Options: deny
+    X-Content-Type-Options: nosniff
+    X-XSS-Protection: 0
+    Referrer-Policy: no-referrer-when-downgrade
+    Content-Security-Policy: default-src 'none'; base-uri 'self'; child-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com *.rel.tunnels.api.visualstudio.com wss://*.rel.tunnels.api.visualstudio.com github.githubassets.com objects-origin.githubusercontent.com copilot-proxy.githubusercontent.com proxy.individual.githubcopilot.com proxy.business.githubcopilot.com proxy.enterprise.githubcopilot.com *.actions.githubusercontent.com wss://*.actions.githubusercontent.com productionresultssa0.blob.core.windows.net/ productionresultssa1.blob.core.windows.net/ productionresultssa2.blob.core.windows.net/ productionresultssa3.blob.core.windows.net/ productionresultssa4.blob.core.windows.net/ productionresultssa5.blob.core.windows.net/ productionresultssa6.blob.core.windows.net/ productionresultssa7.blob.core.windows.net/ productionresultssa8.blob.core.windows.net/ productionresultssa9.blob.core.windows.net/ productionresultssa10.blob.core.windows.net/ productionresultssa11.blob.core.windows.net/ productionresultssa12.blob.core.windows.net/ productionresultssa13.blob.core.windows.net/ productionresultssa14.blob.core.windows.net/ productionresultssa15.blob.core.windows.net/ productionresultssa16.blob.core.windows.net/ productionresultssa17.blob.core.windows.net/ productionresultssa18.blob.core.windows.net/ productionresultssa19.blob.core.windows.net/ github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com wss://alive-staging.github.com api.githubcopilot.com api.individual.githubcopilot.com api.business.githubcopilot.com api.enterprise.githubcopilot.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com copilot-workspace.githubnext.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: blob: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com private-avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com release-assets.githubusercontent.com secured-user-images.githubusercontent.com/ user-images.githubusercontent.com/ private-user-images.githubusercontent.com opengraph.githubassets.com marketplace-screenshots.githubusercontent.com/ copilotprodattachments.blob.core.windows.net/github-production-copilot-attachments/ github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com objects-origin.githubusercontent.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/ private-user-images.githubusercontent.com github-production-user-asset-6210df.s3.amazonaws.com gist.github.com github.githubassets.com; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; upgrade-insecure-requests; worker-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/
+    Server: github.com
+    Accept-Ranges: bytes
+    Set-Cookie: _  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    gh_sess=vUIZS%2FV11sVCeywawtlkVRVfmLGTHYsuY1DMgEEVOWjU6OplgP44%2Fdh%2FwerXW%2FB04RZ7ZKiJfXhEmDlowjZwxO7uoveW9ID2W8o30oYqKv2DHwnB9Pp0GkI04c9TRpwcP3brsc52cvGkZzMW%2Fw7Dq7tuYAjTWi32wdLCbl0zKApizrI3QVJuYEtVOxjA8xvMqYBjzXQMx7L0l6RR8bWQboegilVhHufVabMstwoKoLG5b85lcR6SyxCxQ6VOxSCt2LKtNQJnXFczeXslzCMDBg%3D%3D--5OhaV1AioMo5vAHv--3Oqw3VBXNgCTQco%2FmR8RyA%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+    Set-Cookie: _octo=GH1.1.1590570110.1764571051; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 06:37:31 GMT; Secure; SameSite=Lax
+    Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 06:37:31 GMT; HttpOnly; Secure; SameSite=Lax
+    X-GitHub-Request-Id: 09B3:34D6DC:672C565:84968D2:692D37AB
+    
+curl -I https://casper-tutorials.readthedocs.io/en/latest/tutorials/roach/tut_intro.html
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    HTTP/1.1 302 Found
+    Date: Mon, 01 Dec 2025 06:37:32 GMT
+    Content-Type: text/html; charset=utf-8
+    Content-Length: 0
+    Connection: keep-alive
+    Server: cloudflare
+    Location: https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/roach/tut_intro.html
+    CF-Ray: 9a7093924efb38e9-SLC
+    CF-Cache-Status: EXPIRED
+    Cache-Control: max-age=1200
+    Content-Language: en
+    Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+    Vary: Accept-Language, Accept-Encoding
+    cdn-cache-control: public
+    cross-origin-opener-policy: same-origin
+    referrer-policy: no-referrer-when-downgrade
+    x-backend: web-i-0cdd0a6e8765c2354
+    x-content-type-options: nosniff
+    x-rtd-domain: casper-tutorials.readthedocs.io
+    x-rtd-project: 
+    x-rtd-project-method: public_domain
+    x-rtd-redirect: subproject_to_main_domain
+    x-rtd-version-method: path
+    x-served: Django-Proxito
+    Set-Cookie: __cf_bm=s59HYc8tb81C8CDo5aFUy6mhMjzixyi.vJ6fm4Auz.g-1764571052-1.0.1.1-nmHrhfBW.71cc6E78qeDhjDpqs1bGV.e0AWM4rZTjhG9gLpX6qzX3FOgWutXpcaiaVBIAW8dBOgxFY389d6vphNxFrT.mIlgJ5.8Uio5Zhc; path=/; expires=Mon, 01-Dec-25 07:07:32 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: _cfuvid=RIOW4HGXmJZ.zNP9XuFDYZgmCWhWQR_QkIdAI_tOWsg-1764571052106-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    alt-svc: h3=":443"; ma=86400
+    
+---> https://web.archive.org/web/20220904025239/https://www.mathworks.com/matlabcentral/answers/397138-why-do-i-get-a-matlabwindow-application-failed-to-launch-error-when-launching-live-editor-app-des
+|
+curl -I https://www.mathworks.com/matlabcentral/answers/397138-why-do-i-get-a-matlabwindow-application-failed-to-launch-error-when-launching-live-editor-app-des
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0   573    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    HTTP/1.1 403 Forbidden
+    Server: AkamaiGHost
+    Mime-Version: 1.0
+    Content-Type: text/html
+    Content-Length: 573
+    Cache-Control: max-age=0
+    Expires: Mon, 01 Dec 2025 06:37:32 GMT
+    Date: Mon, 01 Dec 2025 06:37:32 GMT
+    Connection: close
+    Akamai-GRN: 0.198d2117.1764571052.12d70549
+    Server-Timing: ak_p; desc="1764571052633_388074777_316081481_1187_11516_167_37_-";dur=1
+    
+curl -I https://strath-sdr.github.io/tools/matlab/sysgen/vivado/linux/2021/01/28/sysgen-on-20-04.html
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0 18577    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+    HTTP/1.1 200 OK
+    Connection: keep-alive
+    Content-Length: 18577
+    Server: GitHub.com
+    Content-Type: text/html; charset=utf-8
+    Last-Modified: Mon, 22 Feb 2021 22:45:50 GMT
+    Access-Control-Allow-Origin: *
+    ETag: "6034341e-4891"
+    expires: Mon, 01 Dec 2025 06:47:34 GMT
+    Cache-Control: max-age=600
+    x-proxy-cache: MISS
+    X-GitHub-Request-Id: 4E82:24657A:37366CF:3CF7808:692D37AD
+    Accept-Ranges: bytes
+    Age: 0
+    Date: Mon, 01 Dec 2025 06:37:34 GMT
+    Via: 1.1 varnish
+    X-Served-By: cache-den-kden1300085-DEN
+    X-Cache: MISS
+    X-Cache-Hits: 0
+    X-Timer: S1764571054.370383,VS0,VE93
+    Vary: Accept-Encoding
+    X-Fastly-Request-ID: d04c39fbfc008210aa11c4fa40d64b293c48c5e9
+    
+curl -I https://docs.xilinx.com/r/2021.2-English/ug1483-model-composer-sys-gen-user-guide/Supported-MATLAB-Versions-and-Operating-Systems
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    curl: (60) Peer's Certificate issuer is not recognized.
+    More details here: http://curl.haxx.se/docs/sslcerts.html
+    
+    curl performs SSL certificate verification by default, using a "bundle"
+     of Certificate Authority (CA) public keys (CA certs). If the default
+     bundle file isn't adequate, you can specify an alternate file
+     using the --cacert option.
+    If this HTTPS server uses a certificate signed by a CA represented in
+     the bundle, the certificate verification probably failed due to a
+     problem with the certificate (it might be expired, or the name might
+     not match the domain name in the URL).
+    If you'd like to turn off curl's verification of the certificate, use
+     the -k (or --insecure) option.
+curl -I https://support.xilinx.com/s/question/0D52E00006vF6FOSA0/model-composer-v20212-matlab-r2021a-gets-stuck-at-initialization-stage-on-ubuntu-20041?language=en_US
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    curl: (60) Peer's Certificate issuer is not recognized.
+    More details here: http://curl.haxx.se/docs/sslcerts.html
+    
+    curl performs SSL certificate verification by default, using a "bundle"
+     of Certificate Authority (CA) public keys (CA certs). If the default
+     bundle file isn't adequate, you can specify an alternate file
+     using the --cacert option.
+    If this HTTPS server uses a certificate signed by a CA represented in
+     the bundle, the certificate verification probably failed due to a
+     problem with the certificate (it might be expired, or the name might
+     not match the domain name in the URL).
+    If you'd like to turn off curl's verification of the certificate, use
+     the -k (or --insecure) option.
+curl -I https://www.mathworks.com/matlabcentral/answers/1985424-failed-to-load-module-canberra-gtk-module
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0   478    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    HTTP/1.1 403 Forbidden
+    Server: AkamaiGHost
+    Mime-Version: 1.0
+    Content-Type: text/html
+    Content-Length: 478
+    Cache-Control: max-age=0
+    Expires: Mon, 01 Dec 2025 06:37:35 GMT
+    Date: Mon, 01 Dec 2025 06:37:35 GMT
+    Connection: close
+    Akamai-GRN: 0.198d2117.1764571055.12d70990
+    Server-Timing: ak_p; desc="1764571055598_388074777_316082576_28_15781_185_37_-";dur=1
+    
+curl -I https://ppa.launchpadcontent.net/rock-core/qt4/
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    HTTP/1.1 302 Found
+    date: Mon, 01 Dec 2025 06:37:36 GMT
+    server: Apache/2.4.41 (Ubuntu)
+    location: https://launchpad.net/~rock-core
+    content-type: text/html; charset=iso-8859-1
+    
+curl -I http://ppa.launchpadcontent.net/ubuntuhandbook1/ppa/
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    HTTP/1.1 302 Found
+    date: Mon, 01 Dec 2025 06:37:36 GMT
+    server: Apache/2.4.41 (Ubuntu)
+    location: https://launchpad.net/~ubuntuhandbook1
+    content-type: text/html; charset=iso-8859-1
+    
+curl -I https://help.ubuntu.com/stable/ubuntu-help/addremove-ppa.html.en
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0  8453    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    HTTP/1.1 200 OK
+    server: nginx/1.14.0 (Ubuntu)
+    date: Mon, 01 Dec 2025 06:37:37 GMT
+    content-type: text/html
+    content-length: 8453
+    last-modified: Sun, 16 Nov 2025 12:00:08 GMT
+    etag: "2105-643b4f8dc10aa"
+    vary: Accept-Encoding
+    content-language: en-us
+    x-cache-status: MISS from content-cache-1ss/1
+    accept-ranges: bytes
+    
+curl -I http://casper-tutorials.readthedocs.io/en/latest/
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    HTTP/1.1 302 Found
+    Date: Mon, 01 Dec 2025 06:37:37 GMT
+    Content-Type: text/html; charset=utf-8
+    Content-Length: 0
+    Connection: keep-alive
+    Server: cloudflare
+    Location: https://casper-tutorials.readthedocs.io/en/latest/
+    CF-Ray: 9a7093b53a8f7b25-SLC
+    CF-Cache-Status: HIT
+    Age: 137
+    Cache-Control: max-age=1200
+    Content-Language: en
+    Vary: Accept-Language, Accept-Encoding
+    CDN-Cache-Control: public
+    Cross-Origin-Opener-Policy: same-origin
+    Referrer-Policy: no-referrer-when-downgrade
+    X-Backend: web-i-0f0610d4846a50c6d
+    X-Content-Type-Options: nosniff
+    X-RTD-Domain: casper-tutorials.readthedocs.io
+    X-RTD-Project: 
+    X-RTD-Project-Method: public_domain
+    X-RTD-Redirect: http_to_https
+    X-RTD-Version-Method: path
+    X-Served: Django-Proxito
+    Set-Cookie: __cf_bm=fzHzuOhdIHiOvv3JFc_9T6spOT9QVoCoukvszYtHMUc-1764571057-1.0.1.1-NPt2uiW7P20ccB3TTx9vAP1TpZS1D1XOthjG6TlVM5hqfhQ1Ql3i1lfo.8DahpGH6sygKBRFCiTOvrHd4JL6_so6pf_wSG9.STbWBT2mdTE; path=/; expires=Mon, 01-Dec-25 07:07:37 GMT; domain=.readthedocs.io; HttpOnly
+    Set-Cookie: _cfuvid=M4.SDrM9LBrR032xV9rPG0WpA_DeUdOxWFBdlNDBofU-1764571057518-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly
+    alt-svc: h3=":443"; ma=86400
+    
+curl -I https://casper-toolflow.readthedocs.io/projects/casperfpga/en/latest/
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    HTTP/1.1 200 OK
+    Date: Mon, 01 Dec 2025 06:37:37 GMT
+    Content-Type: text/html
+    Connection: keep-alive
+    Server: cloudflare
+    CF-Ray: 9a7093b71f44c64b-SLC
+    CF-Cache-Status: HIT
+    Access-Control-Allow-Origin: *
+    Age: 136
+    Cache-Control: max-age=1200
+    ETag: W/"823294c82f7f7c106f595878da785699"
+    Last-Modified: Fri, 24 Jun 2022 01:58:51 GMT
+    Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+    Vary: Accept-Encoding
+    access-control-allow-methods: HEAD, OPTIONS, GET
+    cdn-cache-control: public
+    cross-origin-opener-policy: same-origin
+    referrer-policy: no-referrer-when-downgrade
+    x-amz-id-2: GhCTs6OQSwWARpaQmOzW33sVA6jvQJkxJWwsmMMQpM1oh806EE9V3AgupNof0R2e+2DFJ3b7Ob4=
+    x-amz-request-id: BRZ3YDHAE1JJ1312
+    x-amz-server-side-encryption: AES256
+    x-backend: web-i-099c57f6c9d4cb9a0
+    x-content-type-options: nosniff
+    x-rtd-domain: casper-toolflow.readthedocs.io
+    x-rtd-force-addons: true
+    x-rtd-path: /proxito/html/casperfpga/latest/index.html
+    x-rtd-project: casperfpga
+    x-rtd-project-method: public_domain
+    x-rtd-resolver-filename: /
+    x-rtd-version: latest
+    x-rtd-version-method: path
+    x-served: Nginx-Proxito-Sendfile
+    Set-Cookie: __cf_bm=bbSBvNNmU.LsWz7kxH3gNPbiiouv3TLSFnZ9QRF.ONw-1764571057-1.0.1.1-qMv5KB8mvMBWyYYXX7NZs93jezBzL3EvFHiSfC1lBgFdjUTYJ6bVqzDbFcnoIsdQKNJ45eVfaOSOPCORXKjvlWhoH8LOaK9P87ucuJTMr6k; path=/; expires=Mon, 01-Dec-25 07:07:37 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: _cfuvid=Q6jUFpc08kLs.I_8DbSq8LMj_bjUsg77rNhcvUP9O6M-1764571057821-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    alt-svc: h3=":443"; ma=86400
+    
+curl -I mailto:casper+subscribe&#37;&#52;&#48;lists&#46;berkeley&#46;edu
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: mailto; Unknown error
+curl -I mailto:casper-dev+subscribe&#37;&#52;&#48;lists&#46;berkeley&#46;edu
+      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                     Dload  Upload   Total   Spent    Left  Speed
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: mailto; Unknown error
