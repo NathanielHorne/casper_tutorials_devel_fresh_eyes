@@ -3,9 +3,9 @@ curl -I https://www.realdigital.org/hardware/rfsoc-4x2
                                      Dload  Upload   Total   Spent    Left  Speed
       0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
     HTTP/1.1 200 OK
-    Date: Mon, 01 Dec 2025 01:52:55 GMT
+    Date: Mon, 01 Dec 2025 04:32:28 GMT
     Server: Apache/2.4.57 (Ubuntu)
     Cache-Control: max-age=0, must-revalidate, private
-    Expires: Mon, 01 Dec 2025 01:52:55 GMT
+    Expires: Mon, 01 Dec 2025 04:32:28 GMT
     Content-Type: text/html; charset=UTF-8
     

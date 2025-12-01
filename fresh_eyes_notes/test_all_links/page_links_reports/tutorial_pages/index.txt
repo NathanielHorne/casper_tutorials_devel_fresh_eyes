@@ -1,16 +1,16 @@
 curl -I https://casper-toolflow.readthedocs.io/en/latest/index.html
       % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                      Dload  Upload   Total   Spent    Left  Speed
-      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
     HTTP/1.1 200 OK
-    Date: Mon, 01 Dec 2025 01:53:41 GMT
+    Date: Mon, 01 Dec 2025 04:36:11 GMT
     Content-Type: text/html; charset=utf-8
     Connection: keep-alive
     Server: cloudflare
-    CF-Ray: 9a6ef3c6ea6eae22-SLC
+    CF-Ray: 9a6fe1d39b5fe771-DEN
     CF-Cache-Status: HIT
     Access-Control-Allow-Origin: *
-    Age: 1645
+    Age: 1406
     Cache-Control: max-age=1200
     ETag: W/"827052f05d08bbaf3a2e9926a01f7fb4"
     Last-Modified: Tue, 03 Jun 2025 03:00:51 GMT
@@ -35,23 +35,23 @@ curl -I https://casper-toolflow.readthedocs.io/en/latest/index.html
     x-rtd-version: latest
     x-rtd-version-method: path
     x-served: Nginx-Proxito-Sendfile
-    Set-Cookie: __cf_bm=uG96_AQGlaslVAy_l9_RQLmRxRMMt2Fe5U85cYc8jtM-1764554021-1.0.1.1-wLEuVxDdpTRNojIeebZxlQ2MprMxr9H._xTPla_px.w.DQkMo.XKHa14eLzk4IXZYWELBudvwJYWQfF_DzmhrrmMv8ORm581R53JHIgT1Wo; path=/; expires=Mon, 01-Dec-25 02:23:41 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
-    Set-Cookie: _cfuvid=weyGcGpTZSqtXVPowkRN3yah_M06UeGsdByRTU4Grtk-1764554021120-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: __cf_bm=1Pq1Siov.mFLYlwZb1Uu_fBadMAiWeqj1WDGzm7ageA-1764563771-1.0.1.1-zgPO0XOkysCxazn7rWdYb_w7emSrm8hARXoZNAKijVGfV0CF7c0.S73_WXxTHBPcAbOwdRDM6bT0mKv.ju_j4QnhyYaeRwLg6lgrMiXUbNs; path=/; expires=Mon, 01-Dec-25 05:06:11 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: _cfuvid=bnp_E0uxv6Zu0K_ZFoszZKISi39dFJYYkfF_8004wT4-1764563771480-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
     alt-svc: h3=":443"; ma=86400
     
 curl -I https://casper-toolflow.readthedocs.io/en/latest/axi4lite_documentation.html
       % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                      Dload  Upload   Total   Spent    Left  Speed
-      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
     HTTP/1.1 200 OK
-    Date: Mon, 01 Dec 2025 01:53:41 GMT
+    Date: Mon, 01 Dec 2025 04:36:11 GMT
     Content-Type: text/html; charset=utf-8
     Connection: keep-alive
     Server: cloudflare
-    CF-Ray: 9a6ef3ca083779a4-DEN
+    CF-Ray: 9a6fe1d5caefe76d-DEN
     CF-Cache-Status: HIT
     Access-Control-Allow-Origin: *
-    Age: 5956
+    Age: 1405
     Cache-Control: max-age=1200
     ETag: W/"c40e2ea3f1851742ca72c919c5ced818"
     Last-Modified: Tue, 03 Jun 2025 03:00:51 GMT
@@ -76,23 +76,23 @@ curl -I https://casper-toolflow.readthedocs.io/en/latest/axi4lite_documentation.
     x-rtd-version: latest
     x-rtd-version-method: path
     x-served: Nginx-Proxito-Sendfile
-    Set-Cookie: __cf_bm=renjbEQ0CfShGZnO3Z98YzghZsLFEL.Uyrl_evBm_Ns-1764554021-1.0.1.1-dD3U3eQ7hM.oWPW5.0P3wBfnzIVaAgcVukuVzutWuRYusFztrzzNRH5kkPa3f6u4CXqr.kvDL.HsEeArEc2Wy4z1LhXkuSe88YG9Iz6oCRU; path=/; expires=Mon, 01-Dec-25 02:23:41 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
-    Set-Cookie: _cfuvid=FnEFsTsha0Hom2t5aU6mW1wZfp0fhvaFtRFB.QtXR.U-1764554021510-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: __cf_bm=nxc9DM0y.M5ZnTMerOIdpsa5uDaZLG8WrLtOwGVHFqA-1764563771-1.0.1.1-JqJ0xkEzDb8LuSI5WKR7H_PmQ4Rtvk2FoDJZTUyj8D2CXKimjlSv7ntr0oC2jY5GZ76d7zwnmWzoaijsc37yFPqkgnX4Hh8ZXOXYoTY4IZA; path=/; expires=Mon, 01-Dec-25 05:06:11 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: _cfuvid=eDHDtDI19gbaMXohupVcqlD41XCy4UfMJCwpNtXQUuM-1764563771829-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
     alt-svc: h3=":443"; ma=86400
     
 curl -I https://casper-toolflow.readthedocs.io/en/latest/blockdocumentation.html
       % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                      Dload  Upload   Total   Spent    Left  Speed
-      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
     HTTP/1.1 200 OK
-    Date: Mon, 01 Dec 2025 01:53:41 GMT
+    Date: Mon, 01 Dec 2025 04:36:12 GMT
     Content-Type: text/html; charset=utf-8
     Connection: keep-alive
     Server: cloudflare
-    CF-Ray: 9a6ef3cc8d6b5207-DEN
+    CF-Ray: 9a6fe1d7fd6fe73f-DEN
     CF-Cache-Status: HIT
     Access-Control-Allow-Origin: *
-    Age: 2570
+    Age: 1380
     Cache-Control: max-age=1200
     ETag: W/"e4c9face939e34bb84279e5593a56805"
     Last-Modified: Tue, 03 Jun 2025 03:00:51 GMT
@@ -117,8 +117,8 @@ curl -I https://casper-toolflow.readthedocs.io/en/latest/blockdocumentation.html
     x-rtd-version: latest
     x-rtd-version-method: path
     x-served: Nginx-Proxito-Sendfile
-    Set-Cookie: __cf_bm=EYNzOyJ692d1uzXSoDYPTOMJwYt8BeJMj8qGD_XN8tI-1764554021-1.0.1.1-MEwaKfuuuflSKMHBVDnNSw0Il2AAA5_afFW37IJ_YXzLZBcr9jQUATaZeIHfAD0OksYODoXHtflXsF554h8E7TgALOWvNX0dJSGnfQcIfCg; path=/; expires=Mon, 01-Dec-25 02:23:41 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
-    Set-Cookie: _cfuvid=pMj1ZU7mkGBjofMbdz.SPocfg3b.TdOcollfKnednKc-1764554021885-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: __cf_bm=hprtb139M53ciXFVpV2a6RDfFtaN6oSElAjAvODFrwo-1764563772-1.0.1.1-N.bbE886mTWqavMXXphpkzF7lkDUPbJXFBpaeTuFsYsMHSsvrV2RwSvbYY.5oX8mFQjGUdzZULzv32_ruy3pLVnsO7tWj0T5asQtrAOOuM4; path=/; expires=Mon, 01-Dec-25 05:06:12 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: _cfuvid=ECh3TIM6H5CJMxGDjIpqRfpp1G0BU__y9vkD09eSqFQ-1764563772189-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
     alt-svc: h3=":443"; ma=86400
     
 curl -I https://casper-toolflow.readthedocs.io/en/latest/jasper_documentation.html
@@ -126,14 +126,14 @@ curl -I https://casper-toolflow.readthedocs.io/en/latest/jasper_documentation.ht
                                      Dload  Upload   Total   Spent    Left  Speed
       0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
     HTTP/1.1 200 OK
-    Date: Mon, 01 Dec 2025 01:53:42 GMT
+    Date: Mon, 01 Dec 2025 04:36:12 GMT
     Content-Type: text/html; charset=utf-8
     Connection: keep-alive
     Server: cloudflare
-    CF-Ray: 9a6ef3cedbe55209-DEN
+    CF-Ray: 9a6fe1da3a63e73d-DEN
     CF-Cache-Status: HIT
     Access-Control-Allow-Origin: *
-    Age: 7121
+    Age: 1405
     Cache-Control: max-age=1200
     ETag: W/"aea6282f049cd2d192116b898b82ee1a"
     Last-Modified: Tue, 03 Jun 2025 03:00:51 GMT
@@ -158,23 +158,23 @@ curl -I https://casper-toolflow.readthedocs.io/en/latest/jasper_documentation.ht
     x-rtd-version: latest
     x-rtd-version-method: path
     x-served: Nginx-Proxito-Sendfile
-    Set-Cookie: __cf_bm=jm8HYzQorIn4wgvFu7E1WedShLXi.mV.EbDOOO2N2R0-1764554022-1.0.1.1-.2fwd7UamPPc51gCaTYpeRLAcaqMLpmCOrcVjCBeLjxufqapTI_crHXT_mRFW4l9er1GY9zU07FCnAM.IbYWhS9niR7151aZExxVC8Tm2J0; path=/; expires=Mon, 01-Dec-25 02:23:42 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
-    Set-Cookie: _cfuvid=qyObjpu8vE.jUsTUMtIn8jd2.BYgOxmA1sduuctbSGM-1764554022257-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: __cf_bm=FHSCFECnSajND9ADTznUEpT5aKiobxhamkv9LvRKbkM-1764563772-1.0.1.1-iPuDLpjMPDc_ep1fKZedGUTmlQmN_M99x0spT.TCBD8pN1CPqcjk_9FUTTTPxD.R3uUmqlY_5SIEjWluUzWwPcnLN7lZb7osPAzq.7dUgyI; path=/; expires=Mon, 01-Dec-25 05:06:12 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: _cfuvid=JxL_vIABjqxHEItpiIe3bNqh2dApIq7ViEE9iu6KNr8-1764563772544-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
     alt-svc: h3=":443"; ma=86400
     
 curl -I https://casper-toolflow.readthedocs.io/en/latest/src/jasper_library_modules/modules.html
       % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                      Dload  Upload   Total   Spent    Left  Speed
-      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
     HTTP/1.1 200 OK
-    Date: Mon, 01 Dec 2025 01:53:42 GMT
+    Date: Mon, 01 Dec 2025 04:36:12 GMT
     Content-Type: text/html; charset=utf-8
     Connection: keep-alive
     Server: cloudflare
-    CF-Ray: 9a6ef3d12872e757-DEN
+    CF-Ray: 9a6fe1dc68b77b30-DEN
     CF-Cache-Status: HIT
     Access-Control-Allow-Origin: *
-    Age: 5956
+    Age: 1405
     Cache-Control: max-age=1200
     ETag: W/"0d9695f31def4e26d6b77a840fe76b27"
     Last-Modified: Tue, 03 Jun 2025 03:00:52 GMT
@@ -199,23 +199,23 @@ curl -I https://casper-toolflow.readthedocs.io/en/latest/src/jasper_library_modu
     x-rtd-version: latest
     x-rtd-version-method: path
     x-served: Nginx-Proxito-Sendfile
-    Set-Cookie: __cf_bm=XiB48R.z9_1M.T7O5WV5AP1jbH7qpjWPkFUhRx0MQyQ-1764554022-1.0.1.1-kHnb4aCzdS4byUdXE35MFkZiNDcNTRiNEooXBZzTpsS0FHGDqVhHwfzui..W0.bq1RXyPtOEGVgr1tEXG3jWPI5z8.nIgMnhfTKiwToSZcQ; path=/; expires=Mon, 01-Dec-25 02:23:42 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
-    Set-Cookie: _cfuvid=nv7Tyvqa4eJ2CvMpJjD3h47ug3nQc650u4B3LQ4hZuU-1764554022608-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: __cf_bm=tNUH0UnFXyOjGsy6DyxRVuxwEhkIYwrrJm_2G9JjQRw-1764563772-1.0.1.1-pX_CIVuxQps2wHd3vKyCPGP4GCGrAFaemBaxcQO3eL2HFiNcGtc3Ii0amEwBP60eIDivJDrxaf3EfWxtwPTviyCFp.SmjlQrVcCzx_RiQLw; path=/; expires=Mon, 01-Dec-25 05:06:12 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: _cfuvid=GWfRfoLL95Pc2IPqmubTMIr4sRfpbBVCDEtSOIXZZ9I-1764563772905-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
     alt-svc: h3=":443"; ma=86400
     
 curl -I https://casper-toolflow.readthedocs.io/projects/casperfpga/en/latest/
       % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                      Dload  Upload   Total   Spent    Left  Speed
-      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
     HTTP/1.1 200 OK
-    Date: Mon, 01 Dec 2025 01:53:43 GMT
+    Date: Mon, 01 Dec 2025 04:36:13 GMT
     Content-Type: text/html
     Connection: keep-alive
     Server: cloudflare
-    CF-Ray: 9a6ef3d359c851ef-DEN
+    CF-Ray: 9a6fe1deaad3e751-DEN
     CF-Cache-Status: HIT
     Access-Control-Allow-Origin: *
-    Age: 2431
+    Age: 1405
     Cache-Control: max-age=1200
     ETag: W/"823294c82f7f7c106f595878da785699"
     Last-Modified: Fri, 24 Jun 2022 01:58:51 GMT
@@ -239,8 +239,8 @@ curl -I https://casper-toolflow.readthedocs.io/projects/casperfpga/en/latest/
     x-rtd-version: latest
     x-rtd-version-method: path
     x-served: Nginx-Proxito-Sendfile
-    Set-Cookie: __cf_bm=BJZwIvDNLBszJ2ND5Iny.vOB1pSROzujII1AAQ4zpSw-1764554023-1.0.1.1-rZBOgRavNNUB78Hah.w3GG6S9ZtrpnOTjg7pkCX0PfAyoDzYY02sBfuBAIBKPMubaiPt2Qn2.v3egaXqgEWsYbQh4Xt3C7uecvRZx6TnRNk; path=/; expires=Mon, 01-Dec-25 02:23:43 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
-    Set-Cookie: _cfuvid=daj3Mq09JOrS1iudXkpRH_lEXo6PdUx9by83BC1MIf4-1764554023006-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: __cf_bm=8HRAjJAg9Plun1agi0B6UKJrvtZNCcVx8b6TwnT_27Y-1764563773-1.0.1.1-9OsaD39fiy_zyIpjEHeS6vLBVu1DJTFUkgvMr6d.jevdNWsjsEgIJGgtIl4H7ntCqt0sAaOJDB8.cVztIY5n..8vm1S83jE5ectFnX2b_BM; path=/; expires=Mon, 01-Dec-25 05:06:13 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: _cfuvid=gFtae1jd8gF9f0N9oS3kSdWacgokRgcspw.wyvGP.HQ-1764563773253-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
     alt-svc: h3=":443"; ma=86400
     
 curl -I https://casper-tutorials.readthedocs.io/en/latest/
@@ -248,14 +248,15 @@ curl -I https://casper-tutorials.readthedocs.io/en/latest/
                                      Dload  Upload   Total   Spent    Left  Speed
       0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
     HTTP/1.1 302 Found
-    Date: Mon, 01 Dec 2025 01:53:43 GMT
+    Date: Mon, 01 Dec 2025 04:36:13 GMT
     Content-Type: text/html; charset=utf-8
     Content-Length: 0
     Connection: keep-alive
     Server: cloudflare
     Location: https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/
-    CF-Ray: 9a6ef3d60df9e775-DEN
-    CF-Cache-Status: EXPIRED
+    CF-Ray: 9a6fe1e10de0e74b-DEN
+    CF-Cache-Status: HIT
+    Age: 957
     Cache-Control: max-age=1200
     Content-Language: en
     Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
@@ -263,7 +264,7 @@ curl -I https://casper-tutorials.readthedocs.io/en/latest/
     cdn-cache-control: public
     cross-origin-opener-policy: same-origin
     referrer-policy: no-referrer-when-downgrade
-    x-backend: web-i-00b64ed32241ebe96
+    x-backend: web-i-041ac55bed5cdd8f7
     x-content-type-options: nosniff
     x-rtd-domain: casper-tutorials.readthedocs.io
     x-rtd-project: 
@@ -271,8 +272,8 @@ curl -I https://casper-tutorials.readthedocs.io/en/latest/
     x-rtd-redirect: subproject_to_main_domain
     x-rtd-version-method: path
     x-served: Django-Proxito
-    Set-Cookie: __cf_bm=N02JY3PbelzZvBeamdV4t1ouuddvulpggBa__fvLMtQ-1764554023-1.0.1.1-IeFrjkWRm8QeboRt73Bu9MlF2_0csPF06MfYkjaJHRHNec6O95DgKmsTvxNBG6Vm4rAFtr4bgouIsU6.rej9tAzXY33z7Z31fbNLgsQUnYU; path=/; expires=Mon, 01-Dec-25 02:23:43 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
-    Set-Cookie: _cfuvid=I4CafiY0Ki5yWIysWz_kvGNr4GtNE4jkojObXlxtN9I-1764554023514-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: __cf_bm=MRsm16BPl5yQRXY3Pe2kn_6AvlOp_DpHRGDIGYQ80Dg-1764563773-1.0.1.1-RuATuaXulWtkWN1Box6f9OoRyOd6UT83WLbSSN7d1YguDR1sAEyOnRg5LDCvEw3Teme7ub9fQh8qk98Np.hK0VUd7OMPdkDcUxTAo5_fDVE; path=/; expires=Mon, 01-Dec-25 05:06:13 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: _cfuvid=RjSBSOVn57y.TOucLiD.gnmgZ5QZY7VIxChbgVwXSS0-1764563773629-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
     alt-svc: h3=":443"; ma=86400
     
 curl -I https://github.com/casper-astro/tutorials_devel.git
@@ -280,26 +281,26 @@ curl -I https://github.com/casper-astro/tutorials_devel.git
                                      Dload  Upload   Total   Spent    Left  Speed
       0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0   162    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
     HTTP/1.1 301 Moved Permanently
-    Date: Mon, 01 Dec 2025 01:53:43 GMT
+    Date: Mon, 01 Dec 2025 04:36:14 GMT
     Content-Type: text/html
     Content-Length: 162
     Location: https://github.com/casper-astro/tutorials_devel
     Server: github.com
     X-Frame-Options: DENY
     Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
-    Set-Cookie: _gh_sess=FjN9aUzNd9Sbjpu0vPYCMdypZWnHl%2Fp04FusjriB%2BwB9ah%2B8FDjMS17wD7kQra5hCSnToXI9wgk6ZZdQ41ZInFrzTBRC%2BYmAC39ECmGwlGNuXMiSJCDfjoywOxYm8Rk5scssep8IjoPeeGY7VDW%2FFg8WYKODUbdmIrN%2FqBysju8Vm2f5OMA3VyfncKQCu2%2Fenjakz8H8FY6%2FPkwY2sIHxRKvSfeOc8vFl98FjwFzyaAO9UZxZxW9ZfBJBxJAAtn%2B3tLK3RTnte46%2Bbrzoz8xbQ%3D%3D--6cPXZkXDL%2BKQrT6v--CWbx4DV4DG95xsw7%2FzNrZQ%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
-    Set-Cookie: _octo=GH1.1.1333365293.1764554023; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 01:53:43 GMT; Secure; SameSite=Lax
-    Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 01:53:43 GMT; HttpOnly; Secure; SameSite=Lax
-    X-GitHub-Request-Id: 24FF:2D7F42:51F2F89:68D2FB7:692CF527
+    Set-Cookie: _gh_sess=QcoZmQNH9l2i0a4uFnwwH%2BIev0hZzBDT7t1%2FOu3KPKeNyHBxTfAA2hEuynFYoKhnbdAziDy1keeHZoGyYufwqguKNqiP%2FLbWXKVhT9ssFtsvjhEBz6H3T8fM6IwfBamjANXbBJrYVuHp3npBS56vFbsWyzUnR3%2BwfKsnIhZWNp94wr20SEUW5FmNUjYFhVVH5prd6mShzQEnsh%2FNazsFv1NkfqgWwJxXrRH4xoqlaIp8vSfRB0B6PTBIQqFHtqqlTogQQkcSo%2FE3hApQ93lx5Q%3D%3D--uhIQkmkmPxjlrC%2Be--vWlDwIjQYScjiPqQy60DWg%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+    Set-Cookie: _octo=GH1.1.2113889813.1764563774; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 04:36:14 GMT; Secure; SameSite=Lax
+    Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 04:36:14 GMT; HttpOnly; Secure; SameSite=Lax
+    X-GitHub-Request-Id: 5275:219238:12B2E6E5:18633C69:692D1B3D
     
 curl -I https://github.com/casper-astro/mlib_devel/tree/d77999047d2f0dc53e1c1e6e516e6ef3cdd45632/docs
       % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                      Dload  Upload   Total   Spent    Left  Speed
-      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0HTTP/1.1 200 OK
-    Date: Mon, 01 Dec 2025 01:53:44 GMT
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0HTTP/1.1 200 OK
+    Date: Mon, 01 Dec 2025 04:36:14 GMT
     Content-Type: text/html; charset=utf-8
     Vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, X-Requested-With,Accept-Encoding, Accept, X-Requested-With
-    ETag: W/"594d32f9fa9ea9cd99ad35a1b558e647"
+    ETag: W/"51583a19e7e2c5e5f3b66be7887d8f22"
     Cache-Control: max-age=0, private, must-revalidate
     Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
     X-Frame-Options: deny
@@ -310,23 +311,23 @@ curl -I https://github.com/casper-astro/mlib_devel/tree/d77999047d2f0dc53e1c1e6e
     Server: github.com
     Accept-Ranges: bytes
     Set-Cookie: _  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-    gh_sess=5z%2BbXC4Nc0%2BwF3TfF7ThSqircJ9lPe2uV1d%2BT4hS8FEgSRbF0ZQwQWt67%2F4mZsgVFthqhC3qWKBK1nt%2FiP8fuqpw%2BCU79lcj6uv%2BzOfWh7ZJONQnLuzE6u5XOB1d6Cqn3nSxU639kLO4EqNkNJxvo%2FGjLvcEhr2VEYrqRdmWy4tVqAljOJo8ZVktZX%2BVdSmPXvcf2fxnSgNYMgK4PmDHrGYt9AnFfZ8JOyF%2BVqapwLveuPS67zA76CN6fiJeED6hUqndYrOEbpdzlHddSL8ejQ%3D%3D--3u86cxP7alfycSDZ--rCN56RmvBGFfjMyn40UEqQ%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
-    Set-Cookie: _octo=GH1.1.1999867932.1764554024; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 01:53:44 GMT; Secure; SameSite=Lax
-    Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 01:53:44 GMT; HttpOnly; Secure; SameSite=Lax
-    X-GitHub-Request-Id: FFE6:4C352:539512C:6AC954C:692CF528
+    gh_sess=qzQz1s9y3gDTc%2B%2F%2FExT5uTZG5QnWm0ZnU3owmXY873xRzfDCVmK0eN03YjiSrLEgVIrHDU3u5osCZzq5FTqVBOKglr6z2%2FvhDWnMEunJVm51GT%2Bx2aWws80shSMT%2BS7f8nAMA2rwDPvd6ATKaCZkBT6scYTiuhMu0mmSjtMMVqLCPZWQpS2LCmLhsf1Gku5usMh%2FXgqUQjpG49xUwjJ%2FuPaPW1OfTEGOULzhhH02k18ANzyiuBeIvmmQyU%2B3YBpsHS5TLUKgpi%2BF9iCDXbohzw%3D%3D--Q8xjAgQAM57CUnB4--d%2B8wD9bP6GNfnytkgEJZEA%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+    Set-Cookie: _octo=GH1.1.1119484492.1764563774; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 04:36:14 GMT; Secure; SameSite=Lax
+    Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 04:36:14 GMT; HttpOnly; Secure; SameSite=Lax
+    X-GitHub-Request-Id: 1DC7:219238:12B2E93B:18633FA3:692D1B3E
     
 curl -I https://casper-tutorials.readthedocs.io/en/latest/tutorials/roach/tut_intro.html
       % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                      Dload  Upload   Total   Spent    Left  Speed
-      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
     HTTP/1.1 302 Found
-    Date: Mon, 01 Dec 2025 01:53:45 GMT
+    Date: Mon, 01 Dec 2025 04:36:15 GMT
     Content-Type: text/html; charset=utf-8
     Content-Length: 0
     Connection: keep-alive
     Server: cloudflare
     Location: https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/roach/tut_intro.html
-    CF-Ray: 9a6ef3e059f63d6a-DEN
+    CF-Ray: 9a6fe1eb3d5979a4-DEN
     CF-Cache-Status: EXPIRED
     Cache-Control: max-age=1200
     Content-Language: en
@@ -335,7 +336,7 @@ curl -I https://casper-tutorials.readthedocs.io/en/latest/tutorials/roach/tut_in
     cdn-cache-control: public
     cross-origin-opener-policy: same-origin
     referrer-policy: no-referrer-when-downgrade
-    x-backend: web-i-07753c01eed5cfa6e
+    x-backend: web-i-0125ed6b32446e857
     x-content-type-options: nosniff
     x-rtd-domain: casper-tutorials.readthedocs.io
     x-rtd-project: 
@@ -343,15 +344,15 @@ curl -I https://casper-tutorials.readthedocs.io/en/latest/tutorials/roach/tut_in
     x-rtd-redirect: subproject_to_main_domain
     x-rtd-version-method: path
     x-served: Django-Proxito
-    Set-Cookie: __cf_bm=v9xx6bDwa2jDem3sfdrKEsMWd3Ud7vh5ZHN79OqCJu0-1764554025-1.0.1.1-Pm1HFL0sSVEgG3z6rrYR.Y2Twh8olDet3BOFXWgcjPfOeDgjN501BeIL3QdCrv2awjpftml4cktWZAdH24msY34rOa9BFEcNBCJ7_jLaS8M; path=/; expires=Mon, 01-Dec-25 02:23:45 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
-    Set-Cookie: _cfuvid=Cb92_6fN6Z63XWLwdZ7jclGSQjaGYw9rrrwyK1Gr4X8-1764554025112-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: __cf_bm=aYzQpj0HMT5iWDAmm1HNZv4tJHaQU.LewqW9rbHvTyw-1764563775-1.0.1.1-hpX0oxeT9mXA.ANB2P9hKriCssbcyClwj5MvwTept_zTj4d1EEQZknRa8WNhrh5uKwNeKnIEKrjxDGeId5WStF8j8ErHp8G8YXZ6kIbA0LM; path=/; expires=Mon, 01-Dec-25 05:06:15 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: _cfuvid=UIPzpx3Tt22w1tA.cbcbjPnd3IDxknrT1R6jvNax46g-1764563775343-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
     alt-svc: h3=":443"; ma=86400
     
 curl -I https://github.com/casper-astro/tutorials_devel/blob/workshop2019/README.md
       % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                      Dload  Upload   Total   Spent    Left  Speed
       0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0HTTP/1.1 404 Not Found
-    Date: Mon, 01 Dec 2025 01:53:45 GMT
+    Date: Mon, 01 Dec 2025 04:36:16 GMT
     Content-Type: text/html; charset=utf-8
     Vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, X-Requested-With,Accept-Encoding, Accept, X-Requested-With
     x-repository-download: git clone https://github.com/casper-astro/tutorials_devel.git
@@ -364,24 +365,24 @@ curl -I https://github.com/casper-astro/tutorials_devel/blob/workshop2019/README
     Content-Security-Policy: default-src 'none'; base-uri 'self'; child-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com *.rel.tunnels.api.visualstudio.com wss://*.rel.tunnels.api.visualstudio.com github.githubassets.com objects-origin.githubusercontent.com copilot-proxy.githubusercontent.com proxy.individual.githubcopilot.com proxy.business.githubcopilot.com proxy.enterprise.githubcopilot.com *.actions.githubusercontent.com wss://*.actions.githubusercontent.com productionresultssa0.blob.core.windows.net/ productionresultssa1.blob.core.windows.net/ productionresultssa2.blob.core.windows.net/ productionresultssa3.blob.core.windows.net/ productionresultssa4.blob.core.windows.net/ productionresultssa5.blob.core.windows.net/ productionresultssa6.blob.core.windows.net/ productionresultssa7.blob.core.windows.net/ productionresultssa8.blob.core.windows.net/ productionresultssa9.blob.core.windows.net/ productionresultssa10.blob.core.windows.net/ productionresultssa11.blob.core.windows.net/ productionresultssa12.blob.core.windows.net/ productionresultssa13.blob.core.windows.net/ productionresultssa14.blob.core.windows.net/ productionresultssa15.blob.core.windows.net/ productionresultssa16.blob.core.windows.net/ productionresultssa17.blob.core.windows.net/ productionresultssa18.blob.core.windows.net/ productionresultssa19.blob.core.windows.net/ github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com wss://alive-staging.github.com api.githubcopilot.com api.individual.githubcopilot.com api.business.githubcopilot.com api.enterprise.githubcopilot.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com copilot-workspace.githubnext.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: blob: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com private-avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com release-assets.githubusercontent.com secured-user-images.githubusercontent.com/ user-images.githubusercontent.com/ private-user-images.githubusercontent.com opengraph.githubassets.com marketplace-screenshots.githubusercontent.com/ copilotprodattachments.blob.core.windows.net/github-production-copilot-attachments/ github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com objects-origin.githubusercontent.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/ private-user-images.githubusercontent.com github-production-user-asset-6210df.s3.amazonaws.com gist.github.com github.githubassets.com; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; upgrade-insecure-requests; worker-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/
     Server: github.com
     Set-Cookie: _  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-    gh_sess=qEAFn927Qg8j6WfCNYv0fv3HawXiqQPiQJmnK%2By9G3j65AIG3DTf%2FnksZTm%2F6YOFxSX%2FvTn1WKF53mHkWoC4j1G3HRIhH26QFW%2FFFbFQeA9Yef1nhyqhmzTPDGL1D0Ebccpkx81TckGIMjFlsJUNs8LTKBTWzVX8EqtJLsa7K0O7RKETZVFCNoNjfREkxY34iYD0KFFxwMIHShcrrQxvW%2FpdlGr8pyWNkX99BZOtzOytiTyd0OWJW6gUZtUiNM%2BALSVxzkw33wzw1dnE5lcGHQ%3D%3D--Q%2FpIFmoLZcdIxzCm--UfD2tg2P001W2yXNZCQSiA%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
-    Set-Cookie: _octo=GH1.1.1061234446.1764554025; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 01:53:45 GMT; Secure; SameSite=Lax
-    Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 01:53:45 GMT; HttpOnly; Secure; SameSite=Lax
-    X-GitHub-Request-Id: C9CE:92FD3:89E536B:B0AE54F:692CF529
+    gh_sess=XZB8XmP7Z3LI5i36VtfxfoQHg8JkaG2qshiRaHalYr23xoymDb4p5Wi4zF9xzM0P1jhbYIFvo14ING5ZcrNnxQGMwA%2FEsm65t5l11o6TyUIm%2FfpR8aeK040BLHeXhjZxsSgt2CyodRY8x2GwtZYp%2F%2B02qXli%2BgREl9TbNC%2B1PEsGHkJhPy6SBuL44VVxv02xfz%2FE2yeN3shPhtcvVdFW%2FYCkimHABjzafzVoaWujU0RjWTUS7e7j1CafS1E%2FDcfs%2BHSy1tS3MG%2FgSQXmGZUheQ%3D%3D--AF50QdYaA57d%2FYxo--ADMkNATVn83calX%2BAbo53Q%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+    Set-Cookie: _octo=GH1.1.2005882709.1764563775; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 04:36:15 GMT; Secure; SameSite=Lax
+    Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 04:36:15 GMT; HttpOnly; Secure; SameSite=Lax
+    X-GitHub-Request-Id: 7154:304926:130A9851:18D61754:692D1B3F
     
 curl -I https://casper-toolflow.readthedocs.io/en/latest/index.html
       % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                      Dload  Upload   Total   Spent    Left  Speed
       0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
     HTTP/1.1 200 OK
-    Date: Mon, 01 Dec 2025 01:53:46 GMT
+    Date: Mon, 01 Dec 2025 04:36:16 GMT
     Content-Type: text/html; charset=utf-8
     Connection: keep-alive
     Server: cloudflare
-    CF-Ray: 9a6ef3e70b4a2b2a-SLC
+    CF-Ray: 9a6fe1f28ba079a2-DEN
     CF-Cache-Status: HIT
     Access-Control-Allow-Origin: *
-    Age: 1650
+    Age: 1411
     Cache-Control: max-age=1200
     ETag: W/"827052f05d08bbaf3a2e9926a01f7fb4"
     Last-Modified: Tue, 03 Jun 2025 03:00:51 GMT
@@ -406,46 +407,46 @@ curl -I https://casper-toolflow.readthedocs.io/en/latest/index.html
     x-rtd-version: latest
     x-rtd-version-method: path
     x-served: Nginx-Proxito-Sendfile
-    Set-Cookie: __cf_bm=kp3YtUslvFaRDpY8d1mN.PtYgo64wOQ2POisw7g_1zM-1764554026-1.0.1.1-z4lAq4qRiIA6kCu_COxZUeOYzJB4vuwk9yBuNJSc1mdVk.vNbYlVdhqwWRBMkCdGAngoR2qFj29sJK1VTR7QHJ4gWzXGuaDiKduEdBTDP5Y; path=/; expires=Mon, 01-Dec-25 02:23:46 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
-    Set-Cookie: _cfuvid=sS2y8J5YxHjv364Thvn76B8Vf2nWVimEWeOG_Y33BjM-1764554026159-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: __cf_bm=xqj5Eez_NNU3.p_PAOOP6nP1ybihI5bR4qlamBqyTfw-1764563776-1.0.1.1-pxmYw54lxBoaRE.PlxLI389ljLAxs8eXG_HCBWdKWZYaiphbhdINl1xTXtboiRKFTXZZPU9VnhcNXIjrsRJFjgqV8pDHycoQpwKr5SReIsE; path=/; expires=Mon, 01-Dec-25 05:06:16 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: _cfuvid=GuQ8sTU.Av9wuGlQ3PU9d92cCNlb._kIg3rdOre85Ao-1764563776440-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
     alt-svc: h3=":443"; ma=86400
     
 curl -I https://www.dropbox.com/s/eq57n5td37yrwma/pcores_for_ise13.zip?dl=1
       % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                      Dload  Upload   Total   Spent    Left  Speed
-      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
     HTTP/1.1 302 Found
     Content-Type: text/html; charset=utf-8
     Location: https://www.dropbox.com/scl/fi/09fw11774zxyc2ix3uds8/pcores_for_ise13.zip?rlkey=afed99fwro38zjovkbusyjger&dl=1
     Pragma: no-cache
     Referrer-Policy: strict-origin-when-cross-origin
-    Set-Cookie: gvc=MjQyMzQxMTUwODM0MDA2ODM0ODcwMTI3MTQ3MTI4OTAyNjQ5NTgx; Path=/; Expires=Sat, 30 Nov 2030 01:53:46 GMT; HttpOnly; Secure; SameSite=None
-    Set-Cookie: t=2lWJIsQQkUG-ckdVyg3LMHHk; Path=/; Domain=dropbox.com; Expires=Tue, 01 Dec 2026 01:53:46 GMT; HttpOnly; Secure; SameSite=None
-    Set-Cookie: __Host-js_csrf=2lWJIsQQkUG-ckdVyg3LMHHk; Path=/; Expires=Tue, 01 Dec 2026 01:53:46 GMT; Secure; SameSite=None
-    Set-Cookie: __Host-ss=U-fdwI6o_M; Path=/; Expires=Tue, 01 Dec 2026 01:53:46 GMT; HttpOnly; Secure; SameSite=Strict
-    Set-Cookie: locale=en; Path=/; Domain=dropbox.com; Expires=Sat, 30 Nov 2030 01:53:46 GMT
+    Set-Cookie: gvc=MjIyMDc0MzEzODgyNTIwNTA3OTUwMTc0MjkxODQwMzgxMDU4MTkz; Path=/; Expires=Sat, 30 Nov 2030 04:36:16 GMT; HttpOnly; Secure; SameSite=None
+    Set-Cookie: t=FvOHH3YGEyURaM9v5F7WHAif; Path=/; Domain=dropbox.com; Expires=Tue, 01 Dec 2026 04:36:16 GMT; HttpOnly; Secure; SameSite=None
+    Set-Cookie: __Host-js_csrf=FvOHH3YGEyURaM9v5F7WHAif; Path=/; Expires=Tue, 01 Dec 2026 04:36:16 GMT; Secure; SameSite=None
+    Set-Cookie: __Host-ss=kfqKqT5xLI; Path=/; Expires=Tue, 01 Dec 2026 04:36:16 GMT; HttpOnly; Secure; SameSite=Strict
+    Set-Cookie: locale=en; Path=/; Domain=dropbox.com; Expires=Sat, 30 Nov 2030 04:36:16 GMT
     X-Content-Type-Options: nosniff
     X-Permitted-Cross-Domain-Policies: none
     X-Robots-Tag: noindex, nofollow, noimageindex
     X-Xss-Protection: 1; mode=block
-    Date: Mon, 01 Dec 2025 01:53:46 GMT
+    Date: Mon, 01 Dec 2025 04:36:16 GMT
     Strict-Transport-Security: max-age=31536000; includeSubDomains
     Server: envoy
     Cache-Control: no-cache, no-store
     Alt-Svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
     Vary: Accept-Encoding
     X-Dropbox-Response-Origin: far_remote
-    X-Dropbox-Request-Id: 9e3f6baad6de4de0bab63594692cf52a
+    X-Dropbox-Request-Id: 0de9e997166b4fedb0ed295b692d1b40
     Transfer-Encoding: chunked
     
 curl -I https://github.com/SparkePei/tut0
       % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                      Dload  Upload   Total   Spent    Left  Speed
       0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0HTTP/1.1 200 OK
-    Date: Mon, 01 Dec 2025 01:53:47 GMT
+    Date: Mon, 01 Dec 2025 04:36:17 GMT
     Content-Type: text/html; charset=utf-8
     Vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, X-Requested-With,Accept-Encoding, Accept, X-Requested-With
-    ETag: W/"c2bd821125dff51e23ebbbebcc47d80c"
+    ETag: W/"a9e595d71e6ac8939079179c7010913b"
     Cache-Control: max-age=0, private, must-revalidate
     Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
     X-Frame-Options: deny
@@ -456,24 +457,24 @@ curl -I https://github.com/SparkePei/tut0
     Server: github.com
     Accept-Ranges: bytes
     Set-Cookie: _  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-    gh_sess=97pxZm2iy9eMLba6wPWjEwuMZmVb4RS4YVM8cUosWwhs%2BUBPVckPZ9xgFs7jcqOIpqqlQ5GQq1dA9eNCfliN92j7BI10%2BCHJ%2BHSChCoV8IO4nyHbFqt74Q1TKpPsNtO5vA0uuMYwFAkoLQ%2F1fdWRSKUJzOdMsgyozn8jX6v8Dq%2FueYjkRitEPKr%2B5wLQcksDiKTxbsVLwyctYN%2BUJpeg8fWot7jPxFH6rFcqTPnaFr15zAVLcjZppRSt%2FIguASqRMotbOFcJ79191IUfVu9U%2BQ%3D%3D--eNcBxHUCCq2deNot--VYVkm1wF9KYmH2BfKo2%2B9A%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
-    Set-Cookie: _octo=GH1.1.1579614180.1764554027; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 01:53:47 GMT; Secure; SameSite=Lax
-    Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 01:53:47 GMT; HttpOnly; Secure; SameSite=Lax
-    X-GitHub-Request-Id: E025:A23CC:8E7F581:B681A2D:692CF52A
+    gh_sess=VZ2cqAlUOwPhWzHE9vC5sXBSy3R0lfj2m%2B%2B%2Fp2PMvPKKh54Z1zkvT13PcYEOjhhJLNQsL0EGmEAee9BhDb625gWULtBUHQROrzzGSZqf40UFbhifgGB1%2FuwlxCDY1EX5zEPYbjVTiESF1U2x26krVZmuxjDT5RUYU3%2BbdCFDwlrgIYxKohr7P0A9nHsNZV56lTUaO2OSAmCALnAXd1eVwtYOYr7JaB9l4Cgy0XeYszyph%2BCecD54%2B14%2FKt01Lwm6Yp3QWDkBWD1SLfYaky8YTg%3D%3D--SttdkGipGFZaJpSl--4lcLgItgb%2ByKTiVelAT6LQ%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+    Set-Cookie: _octo=GH1.1.929288580.1764563777; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 04:36:17 GMT; Secure; SameSite=Lax
+    Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 04:36:17 GMT; HttpOnly; Secure; SameSite=Lax
+    X-GitHub-Request-Id: 61A8:19D65E:129CBD71:184D8E05:692D1B41
     
 curl -I https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/snap/tut_intro.html
       % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                      Dload  Upload   Total   Spent    Left  Speed
-      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
     HTTP/1.1 200 OK
-    Date: Mon, 01 Dec 2025 01:53:47 GMT
+    Date: Mon, 01 Dec 2025 04:36:18 GMT
     Content-Type: text/html; charset=utf-8
     Connection: keep-alive
     Server: cloudflare
-    CF-Ray: 9a6ef3f1bd64e773-DEN
+    CF-Ray: 9a6fe1fd195fe73d-DEN
     CF-Cache-Status: HIT
     Access-Control-Allow-Origin: *
-    Age: 5558
+    Age: 1405
     Cache-Control: max-age=1200
     ETag: W/"7d8e62cf7c3f7f7152613e586ce0e367"
     Last-Modified: Sun, 07 Sep 2025 23:30:42 GMT
@@ -498,15 +499,15 @@ curl -I https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tuto
     x-rtd-version: latest
     x-rtd-version-method: path
     x-served: Nginx-Proxito-Sendfile
-    Set-Cookie: __cf_bm=8LB_xi4hS7mY0NZGsXHMpCrIC88Or0T4V8dMnDE4tzs-1764554027-1.0.1.1-O93NOjkixTVm4FX_Bvak2l3V98PIkMCIuplPkBUNS104p2pQdoCYLH8AJtbc4lT_oDsr2lmiLpmmBomkPwcF45g97ZMqFpZkIz1HE3rJcXM; path=/; expires=Mon, 01-Dec-25 02:23:47 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
-    Set-Cookie: _cfuvid=buDLhif9li6s0vx8VHfaH1JKyKKsQI.QlbjD4ukvTVo-1764554027824-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: __cf_bm=Y8U9GuPjueBuHlbBGgU8YUzg84nHmWk284N2axi.vVM-1764563778-1.0.1.1-dvc5UP5Jghj6fNWgN6HsWL77yYXU5GXEFNsnKifLLGf3I5fd0QOKTvIf3DcRY1.jkMcL8HRy2V4x5djKOQcaLUsLfOMp.NrXfzzwvQ75mJE; path=/; expires=Mon, 01-Dec-25 05:06:18 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: _cfuvid=nwUWedKjZ8CUOOPHujYQAYE7BRCzdE472o.FXMVRLcY-1764563778120-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
     alt-svc: h3=":443"; ma=86400
     
 curl -I https://github.com/casper-astro/tutorials_devel/tree/main/vivado/snap/tut_intro
       % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                      Dload  Upload   Total   Spent    Left  Speed
-      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0HTTP/1.1 404 Not Found
-    Date: Mon, 01 Dec 2025 01:53:48 GMT
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0HTTP/1.1 404 Not Found
+    Date: Mon, 01 Dec 2025 04:36:18 GMT
     Content-Type: text/html; charset=utf-8
     Vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, X-Requested-With,Accept-Encoding, Accept, X-Requested-With
     Cache-Control: no-cache
@@ -517,25 +518,25 @@ curl -I https://github.com/casper-astro/tutorials_devel/tree/main/vivado/snap/tu
     Referrer-Policy: no-referrer-when-downgrade
     Content-Security-Policy: default-src 'none'; base-uri 'self'; child-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com *.rel.tunnels.api.visualstudio.com wss://*.rel.tunnels.api.visualstudio.com github.githubassets.com objects-origin.githubusercontent.com copilot-proxy.githubusercontent.com proxy.individual.githubcopilot.com proxy.business.githubcopilot.com proxy.enterprise.githubcopilot.com *.actions.githubusercontent.com wss://*.actions.githubusercontent.com productionresultssa0.blob.core.windows.net/ productionresultssa1.blob.core.windows.net/ productionresultssa2.blob.core.windows.net/ productionresultssa3.blob.core.windows.net/ productionresultssa4.blob.core.windows.net/ productionresultssa5.blob.core.windows.net/ productionresultssa6.blob.core.windows.net/ productionresultssa7.blob.core.windows.net/ productionresultssa8.blob.core.windows.net/ productionresultssa9.blob.core.windows.net/ productionresultssa10.blob.core.windows.net/ productionresultssa11.blob.core.windows.net/ productionresultssa12.blob.core.windows.net/ productionresultssa13.blob.core.windows.net/ productionresultssa14.blob.core.windows.net/ productionresultssa15.blob.core.windows.net/ productionresultssa16.blob.core.windows.net/ productionresultssa17.blob.core.windows.net/ productionresultssa18.blob.core.windows.net/ productionresultssa19.blob.core.windows.net/ github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com wss://alive-staging.github.com api.githubcopilot.com api.individual.githubcopilot.com api.business.githubcopilot.com api.enterprise.githubcopilot.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com copilot-workspace.githubnext.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: blob: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com private-avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com release-assets.githubusercontent.com secured-user-images.githubusercontent.com/ user-images.githubusercontent.com/ private-user-images.githubusercontent.com opengraph.githubassets.com marketplace-screenshots.githubusercontent.com/ copilotprodattachments.blob.core.windows.net/github-production-copilot-attachments/ github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com objects-origin.githubusercontent.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/ private-user-images.githubusercontent.com github-production-user-asset-6210df.s3.amazonaws.com gist.github.com github.githubassets.com; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; upgrade-insecure-requests; worker-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/
     Server: github.com
-    Set-Cookie: _gh_sess=MWoacSFK0lE%2Fef%2Fn%2BBWYjh3Pe5gC2lBSUxmLe4fAuVJAiUM3nSEW4mzEawFI8obwP8fn1Dlz  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-    B56azEsjtqY2IQMorheNC8TTBRM5ik5A4gCf5tqxtKs3tRdwooQOr6cl%2BmFoMiUnfD%2BG3UoUk%2FvTSRI1UvK0FWQAnTY2BitvlpGectGllEcQa1Lo5MGyTbi26fFMOpLtN1EDdSk5PfWOtA0HcoAfwcba3D%2FInfoCIY%2FbkCsL28DDHcxr47iWna5Y7mZS%2BxJ2mP10nBIBNGhOPA%3D%3D--2uosAo5UeEuI53k0--fuL3Js9V81VlKynL7LApLQ%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
-    Set-Cookie: _octo=GH1.1.1465628494.1764554028; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 01:53:48 GMT; Secure; SameSite=Lax
-    Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 01:53:48 GMT; HttpOnly; Secure; SameSite=Lax
-    X-GitHub-Request-Id: 6266:2D7F42:51F40CA:68D4620:692CF52C
+    Set-Cookie: _gh_sess=QX99sxWueOm5H5wm7K%2BYw5EJjfd0oIPpDLWOtL4VoqGgBP9%2F1d8fYfV35oWJ2maqHPwe0Ven2W  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    rdjfOfged%2FVf8R53ohZ%2F%2BAn2CM3qV%2BSWDOsLulvuYo07skAg9dGAKqN%2FpmpCXufyiMdn1zQKC5IYs4CzsQNgBUpXEom925GRSGbTGEs5jzribkLDxohI%2BtP5rPDVDwdZoJmN1EP8XoHhcH7YBB%2BW1GnBSfD0vG9dIgiylIfSAxoyhW9RgMjSwUOhvFCwQo%2B53VSczPQx4YQQ%3D%3D--mYldEEhoIKxGrbQe--vhIgOxT9Sy35QTEW1Tk0kg%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+    Set-Cookie: _octo=GH1.1.522575098.1764563778; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 04:36:18 GMT; Secure; SameSite=Lax
+    Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 04:36:18 GMT; HttpOnly; Secure; SameSite=Lax
+    X-GitHub-Request-Id: E70C:1D98B8:9802450:C33B4FF:692D1B42
     
 curl -I https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/snap/tut_ten_gbe.html
       % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                      Dload  Upload   Total   Spent    Left  Speed
-      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
     HTTP/1.1 200 OK
-    Date: Mon, 01 Dec 2025 01:53:48 GMT
+    Date: Mon, 01 Dec 2025 04:36:19 GMT
     Content-Type: text/html; charset=utf-8
     Connection: keep-alive
     Server: cloudflare
-    CF-Ray: 9a6ef3f84bd7e755-DEN
+    CF-Ray: 9a6fe203c8087b2e-DEN
     CF-Cache-Status: HIT
     Access-Control-Allow-Origin: *
-    Age: 5379
+    Age: 1405
     Cache-Control: max-age=1200
     ETag: W/"9c0bda47f7be153726bbbaf748d2b8af"
     Last-Modified: Sun, 07 Sep 2025 23:30:42 GMT
@@ -560,15 +561,15 @@ curl -I https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tuto
     x-rtd-version: latest
     x-rtd-version-method: path
     x-served: Nginx-Proxito-Sendfile
-    Set-Cookie: __cf_bm=RKqZs1uDJwO2ZddVC2EhWfJYsXY4QNTNrZqoqF8Ea5M-1764554028-1.0.1.1-M33ZsT9MLA8GLksTufCghpwYXKXwIE0APgeFdn_foI.dNjSrDoUHobMc_ooJP2ycVt3phnrx6dm5VTF6ma8m3_QasJFP9n9x0u34jtUznIM; path=/; expires=Mon, 01-Dec-25 02:23:48 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
-    Set-Cookie: _cfuvid=t1Zplx8kiwUKGGMpFc3DbF1E0N2MbslMCV3rDSoDWaM-1764554028874-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: __cf_bm=hPuSRhCSvtGvRjnEnpv0NqBdFP6BFfreiD.EORJs4cY-1764563779-1.0.1.1-5B0EcCVW4_TLXVaogXidQGyanh5QsAFSkIOcj8CNusGK1JZNpavkiHluK6wdSbqNED1WtgYag3Ebo30_MCG35aBJDouegzLxmA9tYAYfDnI; path=/; expires=Mon, 01-Dec-25 05:06:19 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: _cfuvid=Aysyc6OVa1fTyDaYSzOPqt3QXLfwYfkVARmNPCwn8Xk-1764563779214-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
     alt-svc: h3=":443"; ma=86400
     
 curl -I https://github.com/casper-astro/tutorials_devel/tree/main/vivado/snap/tut_tge
       % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                      Dload  Upload   Total   Spent    Left  Speed
-      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0HTTP/1.1 404 Not Found
-    Date: Mon, 01 Dec 2025 01:53:49 GMT
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0HTTP/1.1 404 Not Found
+    Date: Mon, 01 Dec 2025 04:36:19 GMT
     Content-Type: text/html; charset=utf-8
     Vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, X-Requested-With,Accept-Encoding, Accept, X-Requested-With
     Cache-Control: no-cache
@@ -579,25 +580,25 @@ curl -I https://github.com/casper-astro/tutorials_devel/tree/main/vivado/snap/tu
     Referrer-Policy: no-referrer-when-downgrade
     Content-Security-Policy: default-src 'none'; base-uri 'self'; child-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com *.rel.tunnels.api.visualstudio.com wss://*.rel.tunnels.api.visualstudio.com github.githubassets.com objects-origin.githubusercontent.com copilot-proxy.githubusercontent.com proxy.individual.githubcopilot.com proxy.business.githubcopilot.com proxy.enterprise.githubcopilot.com *.actions.githubusercontent.com wss://*.actions.githubusercontent.com productionresultssa0.blob.core.windows.net/ productionresultssa1.blob.core.windows.net/ productionresultssa2.blob.core.windows.net/ productionresultssa3.blob.core.windows.net/ productionresultssa4.blob.core.windows.net/ productionresultssa5.blob.core.windows.net/ productionresultssa6.blob.core.windows.net/ productionresultssa7.blob.core.windows.net/ productionresultssa8.blob.core.windows.net/ productionresultssa9.blob.core.windows.net/ productionresultssa10.blob.core.windows.net/ productionresultssa11.blob.core.windows.net/ productionresultssa12.blob.core.windows.net/ productionresultssa13.blob.core.windows.net/ productionresultssa14.blob.core.windows.net/ productionresultssa15.blob.core.windows.net/ productionresultssa16.blob.core.windows.net/ productionresultssa17.blob.core.windows.net/ productionresultssa18.blob.core.windows.net/ productionresultssa19.blob.core.windows.net/ github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com wss://alive-staging.github.com api.githubcopilot.com api.individual.githubcopilot.com api.business.githubcopilot.com api.enterprise.githubcopilot.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com copilot-workspace.githubnext.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: blob: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com private-avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com release-assets.githubusercontent.com secured-user-images.githubusercontent.com/ user-images.githubusercontent.com/ private-user-images.githubusercontent.com opengraph.githubassets.com marketplace-screenshots.githubusercontent.com/ copilotprodattachments.blob.core.windows.net/github-production-copilot-attachments/ github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com objects-origin.githubusercontent.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/ private-user-images.githubusercontent.com github-production-user-asset-6210df.s3.amazonaws.com gist.github.com github.githubassets.com; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; upgrade-insecure-requests; worker-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/
     Server: github.com
-    Set-Cookie: _gh_sess=O8gvJcaUkP8ucLdmQ%2FVSD36RGOGUqP%2BkyQoi165vINrGbFldrsazZ7v%2FR%2BI7l3%2F6%2Fd  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-    p3soHNjbOjkehZKSvvwxa5d80MQFZXABEpqtXal6GZb76xMUIKx7wIlzPr9Un8IN7M6mxHRWNI1MfQ8Hqb09T%2F9vmDv%2FskNFMHPU6bJNAIKzANZW2viPOjQFUaV7Pi7YCRSsVunzko8L2AmP%2BXbR3Blp63iMUaobY0RbayWTJRzjYwEbAYiARYoiVuZfeysY4OZzdwO%2BFS05h3uvbV6w%3D%3D--Fk%2B9yU82j%2FO3qPVV--WMGtgR69p61ZstIc0PhsUQ%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
-    Set-Cookie: _octo=GH1.1.1425690058.1764554029; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 01:53:49 GMT; Secure; SameSite=Lax
-    Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 01:53:49 GMT; HttpOnly; Secure; SameSite=Lax
-    X-GitHub-Request-Id: 15B2:210441:54E3975:6CAEEA0:692CF52D
+    Set-Cookie: _gh_sess=iXS%2Fq%2B3QsjXGWl5mhx6tBjWaxQtp3wX3%2Fs2XnQiUSkMXMa%2BS%2Ftw43SpF9nTX%2FStq0w  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    NNdPI0AlD83%2FM2BPlMIVdFnoYs%2Byf7egBDN07HHLNfukeUva6FnCEdVJES8Hcn9wzs07SvGSn%2FIU%2BRKySGRBPcDy3lfr%2BIsEN7X7aUEqY%2FQZas2SlG5AeiBM3LsB9pbMolXhXjpJJIy5O1pIgVryYTBDdT0xf0tqoZEkq1C7y%2B9KYVWol6zhrgL2KL1gBe%2BlHzg1FCGdniL77xSUYPmQ%3D%3D--RC5iEdpM1m%2FhzoJi--2Meqp45QQWVp5WcFk%2BoV7g%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+    Set-Cookie: _octo=GH1.1.1572505954.1764563779; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 04:36:19 GMT; Secure; SameSite=Lax
+    Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 04:36:19 GMT; HttpOnly; Secure; SameSite=Lax
+    X-GitHub-Request-Id: A09E:30970:358C50:4479FE:692D1B43
     
 curl -I https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/snap/tut_spec.html
       % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                      Dload  Upload   Total   Spent    Left  Speed
-      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
     HTTP/1.1 200 OK
-    Date: Mon, 01 Dec 2025 01:53:49 GMT
+    Date: Mon, 01 Dec 2025 04:36:20 GMT
     Content-Type: text/html; charset=utf-8
     Connection: keep-alive
     Server: cloudflare
-    CF-Ray: 9a6ef3ff082fe75b-DEN
+    CF-Ray: 9a6fe20a8b6c798a-DEN
     CF-Cache-Status: HIT
     Access-Control-Allow-Origin: *
-    Age: 5378
+    Age: 1405
     Cache-Control: max-age=1200
     ETag: W/"57dac6f7a8991e22e6c39e444a5acfa0"
     Last-Modified: Sun, 07 Sep 2025 23:30:42 GMT
@@ -622,15 +623,15 @@ curl -I https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tuto
     x-rtd-version: latest
     x-rtd-version-method: path
     x-served: Nginx-Proxito-Sendfile
-    Set-Cookie: __cf_bm=VS7b55x15oW3O.wP6pOLj.oGaFL2m2GKy4zTyO5FaYQ-1764554029-1.0.1.1-74dZNYAcekwc1oNlPI.S9OThRPKk960hjgJcUdQl037b7Edc0lUZaIuGXSm8Lhx1cifimXF28r_TUNDF8Q1dc4cRG0PFdMDMsdPY3NV3KQY; path=/; expires=Mon, 01-Dec-25 02:23:49 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
-    Set-Cookie: _cfuvid=59Nz9WqPBFN5LUGl4UwR006rSclv95GecgD6YI8mL2s-1764554029953-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: __cf_bm=s1RTiYY0XjxsDgTotEHbAlptdU9Sfmym.EWvDfepB9Y-1764563780-1.0.1.1-tylyHQ9Ai9ZvnXU4obsuO1_7_3NEZGAMZp9HX9V7xzCSHmUflnEybS7abqoZfyKc_Ywwbcu6GC1RzjmsLKR.rx2eeEClCZZiJQZy1TFSb4w; path=/; expires=Mon, 01-Dec-25 05:06:20 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: _cfuvid=W5CWyVqQw1QF_.01UQbe546p7swltF1FCiUyiQdL0xc-1764563780279-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
     alt-svc: h3=":443"; ma=86400
     
 curl -I https://github.com/casper-astro/tutorials_devel/tree/main/vivado/snap/tut_spec
       % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                      Dload  Upload   Total   Spent    Left  Speed
-      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0HTTP/1.1 404 Not Found
-    Date: Mon, 01 Dec 2025 01:53:50 GMT
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0HTTP/1.1 404 Not Found
+    Date: Mon, 01 Dec 2025 04:36:20 GMT
     Content-Type: text/html; charset=utf-8
     Vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, X-Requested-With,Accept-Encoding, Accept, X-Requested-With
     Cache-Control: no-cache
@@ -641,25 +642,25 @@ curl -I https://github.com/casper-astro/tutorials_devel/tree/main/vivado/snap/tu
     Referrer-Policy: no-referrer-when-downgrade
     Content-Security-Policy: default-src 'none'; base-uri 'self'; child-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com *.rel.tunnels.api.visualstudio.com wss://*.rel.tunnels.api.visualstudio.com github.githubassets.com objects-origin.githubusercontent.com copilot-proxy.githubusercontent.com proxy.individual.githubcopilot.com proxy.business.githubcopilot.com proxy.enterprise.githubcopilot.com *.actions.githubusercontent.com wss://*.actions.githubusercontent.com productionresultssa0.blob.core.windows.net/ productionresultssa1.blob.core.windows.net/ productionresultssa2.blob.core.windows.net/ productionresultssa3.blob.core.windows.net/ productionresultssa4.blob.core.windows.net/ productionresultssa5.blob.core.windows.net/ productionresultssa6.blob.core.windows.net/ productionresultssa7.blob.core.windows.net/ productionresultssa8.blob.core.windows.net/ productionresultssa9.blob.core.windows.net/ productionresultssa10.blob.core.windows.net/ productionresultssa11.blob.core.windows.net/ productionresultssa12.blob.core.windows.net/ productionresultssa13.blob.core.windows.net/ productionresultssa14.blob.core.windows.net/ productionresultssa15.blob.core.windows.net/ productionresultssa16.blob.core.windows.net/ productionresultssa17.blob.core.windows.net/ productionresultssa18.blob.core.windows.net/ productionresultssa19.blob.core.windows.net/ github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com wss://alive-staging.github.com api.githubcopilot.com api.individual.githubcopilot.com api.business.githubcopilot.com api.enterprise.githubcopilot.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com copilot-workspace.githubnext.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: blob: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com private-avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com release-assets.githubusercontent.com secured-user-images.githubusercontent.com/ user-images.githubusercontent.com/ private-user-images.githubusercontent.com opengraph.githubassets.com marketplace-screenshots.githubusercontent.com/ copilotprodattachments.blob.core.windows.net/github-production-copilot-attachments/ github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com objects-origin.githubusercontent.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/ private-user-images.githubusercontent.com github-production-user-asset-6210df.s3.amazonaws.com gist.github.com github.githubassets.com; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; upgrade-insecure-requests; worker-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/
     Server: github.com
-    Set-Cookie: _gh_sess=JPajjvRyxZpkxsMHaWnLXEZ%2F0CRS2FKaG%2BmmfnL%2FidOlYzLFtxyPhxJHr7Q5ZMX2li1wohHm  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-    LppbN8bSIg3%2Bh1HygoTftU3tVHa%2F1Ai62PFoB958dyYl8mJBpwRv%2BYstX2Kj76u5cO1rNNI8Rz855ksKX1mcfS%2FNRSifPbWyc25g%2BHJj4nNFj76KIbNFkSnuEsGoMnJ1DSnmIlSGGQGLg%2BPQHP2Lkw%2BYTNYuhjY107WOEcfxgkxUwyU1EGtTcd0qmMI1riy2a4cEWzwiFjWqrA%3D%3D--FYG3BBGzhBlwzbl7--mIMjpooLX6sKEbPn1GpuUw%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
-    Set-Cookie: _octo=GH1.1.999191730.1764554030; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 01:53:50 GMT; Secure; SameSite=Lax
-    Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 01:53:50 GMT; HttpOnly; Secure; SameSite=Lax
-    X-GitHub-Request-Id: 3817:344C02:553097B:6CB526F:692CF52E
+    Set-Cookie: _gh_sess=rTPwrrKZ%2FmvaOuFHsi5Ql6LZ9NB%2F2BBGkWijSWIcO%2BLJQs9bglUB1c9SjDJJXMkbibvO4xsg  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    gphRKHAJHa5GohWv81rjkdc5NlfgurZ31HBW4eP2fe65psNi6yzH5%2FCDYCa09fppqMu0KSfhZuDQwARmsl79YSK5lkK7f%2F5V0PUok2%2BceMmbZy4YazBPHcPv%2F4BoxO5EuSm8YXjcZCSrcQmvybRK2Pkb%2BF9s6Qeaix%2BYMCMNL%2F9g4qD4OB5LBdw9MqRF%2F7TXivXNl6vzwgBpTw%3D%3D--cKpfWTYYGkHitDG5--CH7pbZ5ZmvwBOuGlolkQpA%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+    Set-Cookie: _octo=GH1.1.1061281393.1764563780; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 04:36:20 GMT; Secure; SameSite=Lax
+    Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 04:36:20 GMT; HttpOnly; Secure; SameSite=Lax
+    X-GitHub-Request-Id: 29B5:27A3BE:6060F5E:7C05601:692D1B44
     
 curl -I https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/snap/tut_corr.html
       % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                      Dload  Upload   Total   Spent    Left  Speed
-      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
     HTTP/1.1 200 OK
-    Date: Mon, 01 Dec 2025 01:53:50 GMT
+    Date: Mon, 01 Dec 2025 04:36:21 GMT
     Content-Type: text/html; charset=utf-8
     Connection: keep-alive
     Server: cloudflare
-    CF-Ray: 9a6ef404fb6c2b2a-SLC
+    CF-Ray: 9a6fe2111bd2e745-DEN
     CF-Cache-Status: HIT
     Access-Control-Allow-Origin: *
-    Age: 4261
+    Age: 1405
     Cache-Control: max-age=1200
     ETag: W/"4cd359ac8eb70299b61d300cea087f30"
     Last-Modified: Sun, 07 Sep 2025 23:30:42 GMT
@@ -684,15 +685,15 @@ curl -I https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tuto
     x-rtd-version: latest
     x-rtd-version-method: path
     x-served: Nginx-Proxito-Sendfile
-    Set-Cookie: __cf_bm=5VD2GXBO028rvd_ioxYITr2PgNrQPb0gTeTKo.9zC8Q-1764554030-1.0.1.1-Bd2BirE2m03y06H3V.buaxfvJS3HqDM8FTRJpcFDbKeePLnd1fjB9YokqBrRkvzRwX_8Y0WSZXWMBEAZ_AyMAJN.7BPvdw.8twDfQavavOo; path=/; expires=Mon, 01-Dec-25 02:23:50 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
-    Set-Cookie: _cfuvid=N3MbltYzcstXDByI50D78uFiNmabbbpf66zy2vqpEbk-1764554030946-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: __cf_bm=1zgKFBgrCgqUoBnHfi2npF_2IJVKKc_kgEPZ6mc1IQs-1764563781-1.0.1.1-mD.rHlgBmGxVqvr67sRoNsLq2ZYvjJ_Cz1aa7WS8exq4AnOBBBDL.uo24BGvZ3W9C3fopMru2CtrMVFpzilKIFCsiIv43J8l43VhvmMKmLE; path=/; expires=Mon, 01-Dec-25 05:06:21 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: _cfuvid=mmJd00X_K2FBR_L0JDb.9p2Tld8H.ZFBQPMo_wMQ1Us-1764563781354-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
     alt-svc: h3=":443"; ma=86400
     
 curl -I https://github.com/casper-astro/tutorials_devel/tree/main/vivado/snap/tut_corr
       % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                      Dload  Upload   Total   Spent    Left  Speed
-      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0HTTP/1.1 404 Not Found
-    Date: Mon, 01 Dec 2025 01:53:51 GMT
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0HTTP/1.1 404 Not Found
+    Date: Mon, 01 Dec 2025 04:36:22 GMT
     Content-Type: text/html; charset=utf-8
     Vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, X-Requested-With,Accept-Encoding, Accept, X-Requested-With
     Cache-Control: no-cache
@@ -703,25 +704,25 @@ curl -I https://github.com/casper-astro/tutorials_devel/tree/main/vivado/snap/tu
     Referrer-Policy: no-referrer-when-downgrade
     Content-Security-Policy: default-src 'none'; base-uri 'self'; child-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com *.rel.tunnels.api.visualstudio.com wss://*.rel.tunnels.api.visualstudio.com github.githubassets.com objects-origin.githubusercontent.com copilot-proxy.githubusercontent.com proxy.individual.githubcopilot.com proxy.business.githubcopilot.com proxy.enterprise.githubcopilot.com *.actions.githubusercontent.com wss://*.actions.githubusercontent.com productionresultssa0.blob.core.windows.net/ productionresultssa1.blob.core.windows.net/ productionresultssa2.blob.core.windows.net/ productionresultssa3.blob.core.windows.net/ productionresultssa4.blob.core.windows.net/ productionresultssa5.blob.core.windows.net/ productionresultssa6.blob.core.windows.net/ productionresultssa7.blob.core.windows.net/ productionresultssa8.blob.core.windows.net/ productionresultssa9.blob.core.windows.net/ productionresultssa10.blob.core.windows.net/ productionresultssa11.blob.core.windows.net/ productionresultssa12.blob.core.windows.net/ productionresultssa13.blob.core.windows.net/ productionresultssa14.blob.core.windows.net/ productionresultssa15.blob.core.windows.net/ productionresultssa16.blob.core.windows.net/ productionresultssa17.blob.core.windows.net/ productionresultssa18.blob.core.windows.net/ productionresultssa19.blob.core.windows.net/ github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com wss://alive-staging.github.com api.githubcopilot.com api.individual.githubcopilot.com api.business.githubcopilot.com api.enterprise.githubcopilot.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com copilot-workspace.githubnext.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: blob: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com private-avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com release-assets.githubusercontent.com secured-user-images.githubusercontent.com/ user-images.githubusercontent.com/ private-user-images.githubusercontent.com opengraph.githubassets.com marketplace-screenshots.githubusercontent.com/ copilotprodattachments.blob.core.windows.net/github-production-copilot-attachments/ github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com objects-origin.githubusercontent.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/ private-user-images.githubusercontent.com github-production-user-asset-6210df.s3.amazonaws.com gist.github.com github.githubassets.com; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; upgrade-insecure-requests; worker-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/
     Server: github.com
-    Set-Cookie: _gh_sess=yUdZtjkzTfMD3G4CV4Vovg19kMyzLrbWLvQyi4nRqZKsQbgVoR9%2BvKR8eTe0xUqlgPG7rGW%2B6D  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-    FHNfoaLL6Iv86pOE3LKldgRcC9v6IAfepaXZ5tmc6NTF%2F3hm321zIyZy4R%2FPWohQuUIyfuJH0t7h4trZXmLbMwSETtOYch9Ec6QDuRSbNuE8Wy%2Fhs92yc26J9oqFNyXFepETV5CULJZD2CDhPhkfSHARvlIlN6pf%2FghMN0aE%2FxtKF4wmaRLx5Hgauuf%2FlMkS%2FMrLL73TsoqQ%3D%3D--tM8o7BQiUjR3JL%2F4--jY9W%2FGHwG8ASJMrHkYRODA%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
-    Set-Cookie: _octo=GH1.1.991048831.1764554031; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 01:53:51 GMT; Secure; SameSite=Lax
-    Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 01:53:51 GMT; HttpOnly; Secure; SameSite=Lax
-    X-GitHub-Request-Id: 4118:2F99BF:89DCA74:B09A7CE:692CF52F
+    Set-Cookie: _gh_sess=On7QR0KtWROItJFwgI3hBOpgiENqsAXfJM0CFJk%2FKLyH81s88VsBeV6ZLDZTpAm5AHtL9SnSEagc  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+    MOjUdMfTOQ19mCVBteeKFxgtX95Udk9WfNyC3QHP2GpM7MNfjsjok%2FEi7neSWXa%2BFfe1EyX8a8yCnpyEYLgjjVfpPiJtGXYBoSH%2F3uGsQeosnK44aC1ubQxber8t5fc2%2BPlCfGS8Y2dy5oVwaqXvteSUROCzofzel2uGO%2F%2B01BkIUjEcGxev0fALBt3sRdLNc5wGpv4lDA%3D%3D--OUSlqwhBdqWCD6%2BC--n6U7bZoX7RWQMK16Da3JhA%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+    Set-Cookie: _octo=GH1.1.1969441970.1764563781; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 04:36:21 GMT; Secure; SameSite=Lax
+    Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 04:36:21 GMT; HttpOnly; Secure; SameSite=Lax
+    X-GitHub-Request-Id: 111B:378FF2:5F6AEE8:7A5AA01:692D1B45
     
 curl -I https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/skarab/tut_intro.html
       % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                      Dload  Upload   Total   Spent    Left  Speed
-      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
     HTTP/1.1 200 OK
-    Date: Mon, 01 Dec 2025 01:53:51 GMT
+    Date: Mon, 01 Dec 2025 04:36:22 GMT
     Content-Type: text/html; charset=utf-8
     Connection: keep-alive
     Server: cloudflare
-    CF-Ray: 9a6ef40b9abd7b16-DEN
+    CF-Ray: 9a6fe217c8f2b73f-SLC
     CF-Cache-Status: HIT
     Access-Control-Allow-Origin: *
-    Age: 5378
+    Age: 276
     Cache-Control: max-age=1200
     ETag: W/"79a5153db9ecc11157437e817d9a1d25"
     Last-Modified: Sun, 07 Sep 2025 23:30:43 GMT
@@ -746,18 +747,18 @@ curl -I https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tuto
     x-rtd-version: latest
     x-rtd-version-method: path
     x-served: Nginx-Proxito-Sendfile
-    Set-Cookie: __cf_bm=pVsLDVsAzjYvRYsyGZlJhotTWWtb4UPRvqJz1KDcslU-1764554031-1.0.1.1-Kb3q9ikNhv2JEFaoHMGon8FHG1eF0a5L.2Rg1_HxKNY6gkLRDz4FhZDQVbOLz_9E340JM6ekNjBaoKBWZEQQgrMWYIZA8HWG3e68Ab8hgxI; path=/; expires=Mon, 01-Dec-25 02:23:51 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
-    Set-Cookie: _cfuvid=6o7KCGSBlCvNz_TnEre8VsZCJwT5QsM8IiH8zulz5DY-1764554031965-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: __cf_bm=Ad_na1dre10OYVqBKhQqeMd5Ay6LO_i8UnDWg69Szeg-1764563782-1.0.1.1-VCnS9hQ9UtnMWF4G0f.JU2N7ECgDbQeEXyoEX5iJb3b4rZ_cLqCXbLEJ52M7y1JgAnGEVsyWeR_dPLR1nIOxNI5DbaEw6kGGYRssFJjzcU4; path=/; expires=Mon, 01-Dec-25 05:06:22 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: _cfuvid=m8IbgKb7PH7rvF6B4Zu_YlunkTLbf92axi6frlS4TDM-1764563782590-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
     alt-svc: h3=":443"; ma=86400
     
 curl -I https://github.com/casper-astro/tutorials_devel/tree/main/skarab/tut_intro
       % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                      Dload  Upload   Total   Spent    Left  Speed
-      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0HTTP/1.1 200 OK
-    Date: Mon, 01 Dec 2025 01:53:52 GMT
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0HTTP/1.1 200 OK
+    Date: Mon, 01 Dec 2025 04:36:23 GMT
     Content-Type: text/html; charset=utf-8
     Vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, X-Requested-With,Accept-Encoding, Accept, X-Requested-With
-    ETag: W/"c95a926f6ecb09d1e0965db4c0f0112a"
+    ETag: W/"1a2ce5b957694502895804026df59555"
     Cache-Control: max-age=0, private, must-revalidate
     Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
     X-Frame-Options: deny
@@ -768,24 +769,24 @@ curl -I https://github.com/casper-astro/tutorials_devel/tree/main/skarab/tut_int
     Server: github.com
     Accept-Ranges: bytes
     Set-Cookie: _  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-    gh_sess=iy03s8HJWoyq3uu00OR5Qisav0S6XkAxCNsyufLd4H0iex0R6nnWJbYNWMoElka5BqcGHEFoqiYNQ%2Fcs34qvZ386k6SDGJeAOsldgFSP%2BGlOPRAXv8WqlZIQ2CHImEEL%2FhO3AUvx%2F9fc67rqHOLVts36GH9CJhGIPNs6e8WXCryLeFBJQxNrAGY%2FP4MWq5y8eZrEz1cOgZs1Q4jb%2B4QTc8E8WXnvY7TNR70NxrKwysoIGJVtqzhsR43yhJzEgRpgn4yt8Bs38Ewvj%2FU4YTbuEw%3D%3D--iyQ2uRGr1iefHQcX--x1SvpCTgkVGeOOfme2S1KA%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
-    Set-Cookie: _octo=GH1.1.730485162.1764554032; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 01:53:52 GMT; Secure; SameSite=Lax
-    Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 01:53:52 GMT; HttpOnly; Secure; SameSite=Lax
-    X-GitHub-Request-Id: 1852:1D98B8:8D1F948:B4F5030:692CF530
+    gh_sess=1ZmhKDzMitE%2F5ROyJidFDZUv63uoOUYEbyEIRE2d5O1izksTCsnr4WwjjurQSsTX2bztqL%2F78UHaoFA0PnMitWB%2FxQalSIH3f3neiOW9RxHlCouOb%2Br2a1YEwaGj3EoWXJf0VcxSc1XTajn8PuwvsEHpw3db39EmIvmdDscqlF2Su6yqLYQECtGw%2Bfzg4I9q0O0w2k%2F4qnBNA0dvKLrJU%2Bg61AU2rbD4OYIAs4H9jaqb38D7wwHUlsT58S2m1e7p70iorJ5DRZAUo0hG38PVLQ%3D%3D--qr2VxAPkUESsdOg6--hldY3RoBFp%2F3VL3XjMNUaQ%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+    Set-Cookie: _octo=GH1.1.40512555.1764563783; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 04:36:23 GMT; Secure; SameSite=Lax
+    Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 04:36:23 GMT; HttpOnly; Secure; SameSite=Lax
+    X-GitHub-Request-Id: A909:34D6DC:5E8F0AD:79147E4:692D1B46
     
 curl -I https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/skarab/tut_40gbe.html
       % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                      Dload  Upload   Total   Spent    Left  Speed
-      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
     HTTP/1.1 200 OK
-    Date: Mon, 01 Dec 2025 01:53:52 GMT
+    Date: Mon, 01 Dec 2025 04:36:23 GMT
     Content-Type: text/html; charset=utf-8
     Connection: keep-alive
     Server: cloudflare
-    CF-Ray: 9a6ef411ba912c67-SLC
+    CF-Ray: 9a6fe21f7d6fa3cc-DEN
     CF-Cache-Status: HIT
     Access-Control-Allow-Origin: *
-    Age: 2431
+    Age: 1405
     Cache-Control: max-age=1200
     ETag: W/"5554e9eb38529d943c7bd08ba146d0d4"
     Last-Modified: Sun, 07 Sep 2025 23:30:43 GMT
@@ -810,18 +811,18 @@ curl -I https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tuto
     x-rtd-version: latest
     x-rtd-version-method: path
     x-served: Nginx-Proxito-Sendfile
-    Set-Cookie: __cf_bm=6WRBxch67DcqzSTeMpAz7c9mhpyia5sCDj4dZLXcn6c-1764554032-1.0.1.1-8USEeTjAcLT6JahVHDTVe1XJV5yL0y55BNnuqJ0BLl0YK8omPvmuCtTI9C3Zx20Kb2ZHdUSjOkWL_ofpQUGoTY38LzlNpznZ1myS8JEduYs; path=/; expires=Mon, 01-Dec-25 02:23:52 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
-    Set-Cookie: _cfuvid=JrQ5ZEQ5tbh9DzpnX5mwrloAaXDc4jCKupQBezkLBk4-1764554032970-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: __cf_bm=uoLuWTYB89EMqEKOGKXKagq635VmdOKa2tlQBHH6R4I-1764563783-1.0.1.1-QJseMHIrlMJ33x8.1ZvFQuFPlTxWZqnLLYQo6CyYeHVcLcrvQIHSMr40cVYDAMbfmCV0LYXpqRtqEknOpGNieBTSHmN6ET0_B.hCJfsHbNc; path=/; expires=Mon, 01-Dec-25 05:06:23 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: _cfuvid=o2aghe3HzFoe9LO94fmyIiBOmcXKHRJX2yc9l3kUeig-1764563783623-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
     alt-svc: h3=":443"; ma=86400
     
 curl -I https://github.com/casper-astro/tutorials_devel/tree/main/skarab/tut_40gbe
       % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                      Dload  Upload   Total   Spent    Left  Speed
-      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0HTTP/1.1 200 OK
-    Date: Mon, 01 Dec 2025 01:53:53 GMT
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0HTTP/1.1 200 OK
+    Date: Mon, 01 Dec 2025 04:36:24 GMT
     Content-Type: text/html; charset=utf-8
     Vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, X-Requested-With,Accept-Encoding, Accept, X-Requested-With
-    ETag: W/"36eb927aca2a355af7e663c337618708"
+    ETag: W/"dd2681d9188785c6618be153beb09db3"
     Cache-Control: max-age=0, private, must-revalidate
     Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
     X-Frame-Options: deny
@@ -832,24 +833,24 @@ curl -I https://github.com/casper-astro/tutorials_devel/tree/main/skarab/tut_40g
     Server: github.com
     Accept-Ranges: bytes
     Set-Cookie: _  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-    gh_sess=rPbpIi8K6Eu%2Fru%2FShU%2FWe76wf351%2F3vREFgtKCJy8xyq4q1QAM0VfN%2B%2Ft2aaLUO%2F3F3FUUtqsu%2FWXq%2FA97UlSz7uomYaB7kidceCzUFzEnQnGmfnj0INKjGEughhI8hRAkfJymSYraeADZBnz0IGvdomziiaGusFrETAChSGCP%2FxY5hQOBO8Iq2unD561mJ68NhPPIdlULnUE3OsjqIzu1kbiZ77cRBPnQBBx1APgVLeNzmdEHK2Tg%2BZGGb96WeRZW1tE5vVo%2Fs2y5bXp%2BR7qg%3D%3D--ur3cS%2BqTMpg5z0qL--BJEFcw%2F0t9cORE0IS9SgrA%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
-    Set-Cookie: _octo=GH1.1.1085066834.1764554033; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 01:53:53 GMT; Secure; SameSite=Lax
-    Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 01:53:53 GMT; HttpOnly; Secure; SameSite=Lax
-    X-GitHub-Request-Id: 44F3:A23CC:8E81189:B683E8C:692CF531
+    gh_sess=ZTPps8KL5KxtVmntFt6eh82h%2B21FLYtwOnJqEYOUH5Kpryvot43gkF2EYgjVB%2Ft%2BESOIkNbAwm1lfdx74B3HhlWoNZkMClAaZRrWle8M5SZEGeigv9SvVMkcAepiLWgH0NE4U1I4krl4hIqqH0sHSnyfNeZXmAzKl9n1GP08yr5zM8NnSpRGEGMuiXLyevrou2Yo2Sw3GOzfCfTl34Z9AUcoXsiBBLgt2689c3zpy68iwCSTkwtxErKrj%2Bp8oA3nCZb8GcUVfU7%2BiEwTVgQ1Bg%3D%3D--Mqd%2B5%2B5Th%2FdwU8Xj--TkYBsXCJY8%2Be9k%2FbeMhnQQ%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+    Set-Cookie: _octo=GH1.1.887873200.1764563784; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 04:36:24 GMT; Secure; SameSite=Lax
+    Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 04:36:24 GMT; HttpOnly; Secure; SameSite=Lax
+    X-GitHub-Request-Id: 5E06:9E3CF:12BCE290:1876D392:692D1B47
     
 curl -I https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/skarab/tut_hmc.html
       % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                      Dload  Upload   Total   Spent    Left  Speed
-      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
     HTTP/1.1 200 OK
-    Date: Mon, 01 Dec 2025 01:53:54 GMT
+    Date: Mon, 01 Dec 2025 04:36:24 GMT
     Content-Type: text/html; charset=utf-8
     Connection: keep-alive
     Server: cloudflare
-    CF-Ray: 9a6ef4186be4e74b-DEN
+    CF-Ray: 9a6fe225bd8be761-DEN
     CF-Cache-Status: HIT
     Access-Control-Allow-Origin: *
-    Age: 5379
+    Age: 1404
     Cache-Control: max-age=1200
     ETag: W/"dfd6751f417291bb9e990e284f1fb371"
     Last-Modified: Sun, 07 Sep 2025 23:30:43 GMT
@@ -874,18 +875,18 @@ curl -I https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tuto
     x-rtd-version: latest
     x-rtd-version-method: path
     x-served: Nginx-Proxito-Sendfile
-    Set-Cookie: __cf_bm=xmZWxwJqrHMh7BsXPDMDx_qU5daEvTYutR8GTMSW8rk-1764554034-1.0.1.1-3zykYHV.I_G2ll9JBwqyzqhC0BXE83fXVgXZIv6PhoxcCrb6wG5pmJyD_FMAjXvAjhoFOyWTlteal23N5_6v40vsTyZM1SSxmDGCGkpvZBA; path=/; expires=Mon, 01-Dec-25 02:23:54 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
-    Set-Cookie: _cfuvid=H9yQ6D1F.j6nt7Dzpe3J2431opE.PwSCFKzWzFC7fuQ-1764554034013-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: __cf_bm=lsHRjEntMGFG2ZVKTkn49VgbIXc112.tymZNW2CDaPw-1764563784-1.0.1.1-prp0iEkoWTvDhFndxD3fb9.q62zaohTIeGBdzqtFWVlIhcF_qzGxQjRy9rywtxFZn884kzeHCwiUGGpJ..wUL5YgKKgXnB6jveKx7y6t7QU; path=/; expires=Mon, 01-Dec-25 05:06:24 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: _cfuvid=QF.w5aMS1ENXF3qqn1s6UruugDmc2DXh4_wuiJciQeM-1764563784614-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
     alt-svc: h3=":443"; ma=86400
     
 curl -I https://github.com/casper-astro/tutorials_devel/tree/main/skarab/tut_hmc
       % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                      Dload  Upload   Total   Spent    Left  Speed
-      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0HTTP/1.1 200 OK
-    Date: Mon, 01 Dec 2025 01:53:54 GMT
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0HTTP/1.1 200 OK
+    Date: Mon, 01 Dec 2025 04:36:25 GMT
     Content-Type: text/html; charset=utf-8
     Vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, X-Requested-With,Accept-Encoding, Accept, X-Requested-With
-    ETag: W/"fd8f343cda4a5481520163bed3c51c2b"
+    ETag: W/"249e528c27efab3c2a47c76f832a329c"
     Cache-Control: max-age=0, private, must-revalidate
     Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
     X-Frame-Options: deny
@@ -896,24 +897,24 @@ curl -I https://github.com/casper-astro/tutorials_devel/tree/main/skarab/tut_hmc
     Server: github.com
     Accept-Ranges: bytes
     Set-Cookie: _  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-    gh_sess=vO3U8mE9WpYxcshEAzIjXaqED2cBgcAtPh%2FHzR1FT%2BLmWWoROx%2BH45XDrA8CIxSwM%2FFj6uHjyt3kVZ4jryf4Qj%2BU6JU%2BI0rBGmz9mcIEnza%2B1DWFGw%2BWZ11WTPOKf%2BocctSyAxnAfnnxritfH2ug9YnPM%2B%2F38s7VMlkN8%2BlV5la3QH0%2BrYdGT9LXlKZlRF3WXZic3RbAMu3Ob9p5KTyNPpq94BhKub5MdYZqGP6TBDYKLzUZw00WEoTEwJiHsXQRdFvYvHO9u05Td4XqM9oC3w%3D%3D--Fj3D9ArBT%2F2eAa%2Fk--HpxoYpgQl4V1thRoD8fW9w%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
-    Set-Cookie: _octo=GH1.1.1099056651.1764554034; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 01:53:54 GMT; Secure; SameSite=Lax
-    Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 01:53:54 GMT; HttpOnly; Secure; SameSite=Lax
-    X-GitHub-Request-Id: 23A3:A9D13:8F9730A:B7FA80B:692CF532
+    gh_sess=ew99A%2FTvP7lvR3evz5fvKqHKACmDTyjJkXSd8jiwNlR94RpbFcTXw7473hnRYwq%2FZ25i9hRC0Gi%2F9G5MwbJ%2FaQHnHvf63%2BBTZv2NGqh6JRgvZSXMSK6vE7LvcqhxBFDMQnphzBaNcIoGLYvNzIZGn32haivKJ1A4rpvlhI%2Bpc%2BzJOD%2FmPcyAdew2kfsXceW1cAikQWs11FMRftRVtp%2F%2FOlrYCP5He2KiPfi7fh6XBrQinwEDDpAwLGFHsggpP0Yp0Y6HEeLQVMCjxPdHwCwVig%3D%3D--69%2FzfVWRsH%2FtcQxJ--%2FvYJeFR75r1lP2JPXbZUHw%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+    Set-Cookie: _octo=GH1.1.150840758.1764563785; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 04:36:25 GMT; Secure; SameSite=Lax
+    Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 04:36:25 GMT; HttpOnly; Secure; SameSite=Lax
+    X-GitHub-Request-Id: F884:219238:12B31838:18637D91:692D1B48
     
 curl -I https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/skarab/tut_spec/tut_spec_index.html
       % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                      Dload  Upload   Total   Spent    Left  Speed
-      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
     HTTP/1.1 200 OK
-    Date: Mon, 01 Dec 2025 01:53:55 GMT
+    Date: Mon, 01 Dec 2025 04:36:25 GMT
     Content-Type: text/html; charset=utf-8
     Connection: keep-alive
     Server: cloudflare
-    CF-Ray: 9a6ef41eedf8a3cc-DEN
+    CF-Ray: 9a6fe22bfbfa7b22-DEN
     CF-Cache-Status: HIT
     Access-Control-Allow-Origin: *
-    Age: 5379
+    Age: 1404
     Cache-Control: max-age=1200
     ETag: W/"cc146c36f01ce2441f17eaf4b8fe0867"
     Last-Modified: Sun, 07 Sep 2025 23:30:43 GMT
@@ -938,18 +939,18 @@ curl -I https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tuto
     x-rtd-version: latest
     x-rtd-version-method: path
     x-served: Nginx-Proxito-Sendfile
-    Set-Cookie: __cf_bm=nIPOVz_clsnwWVcpZC_5dmEHxRplrmHRjEJA_ZbaQOM-1764554035-1.0.1.1-ovarJhdZQDrIXTbL29zhwpbYs4Bnz2Y6Gtxdq1OuNqQlf7aZFIOuw4ZkYWqYH_8WVGS0jaxW6AdUaxi2x3q0BIBoEU9Y4OqVHTsm40y5ufU; path=/; expires=Mon, 01-Dec-25 02:23:55 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
-    Set-Cookie: _cfuvid=a2c.ES7ZUZVRNgXFcXvwd929tCnFXLzao4wCDkyrvV0-1764554035049-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: __cf_bm=nFnneGc2fzYrbizQ6KqMhsuO4cYgiEA3VOhoX1p.z2A-1764563785-1.0.1.1-g12PyFvQ0B.3UTQiovY_djArwmpK4Z4IfoNkAjA2CdaRXwuRlZuFIH6v3k.fq8EO_jtA4pdg1gq_JWZZGjZqZUeOsgDaReQ0peZ7yTnpTOs; path=/; expires=Mon, 01-Dec-25 05:06:25 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: _cfuvid=_igGW0L2EGWmpPCO14a0CCulY.ElGnK1QXZglTNWhYU-1764563785625-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
     alt-svc: h3=":443"; ma=86400
     
 curl -I https://github.com/casper-astro/tutorials_devel/tree/main/skarab/tut_spec
       % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                      Dload  Upload   Total   Spent    Left  Speed
-      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0HTTP/1.1 200 OK
-    Date: Mon, 01 Dec 2025 01:53:55 GMT
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0HTTP/1.1 200 OK
+    Date: Mon, 01 Dec 2025 04:36:26 GMT
     Content-Type: text/html; charset=utf-8
     Vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, X-Requested-With,Accept-Encoding, Accept, X-Requested-With
-    ETag: W/"e285da8e05d297f553019ced467cc70f"
+    ETag: W/"52194b3c676dde0d12afecf9de80d0f9"
     Cache-Control: max-age=0, private, must-revalidate
     Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
     X-Frame-Options: deny
@@ -960,24 +961,24 @@ curl -I https://github.com/casper-astro/tutorials_devel/tree/main/skarab/tut_spe
     Server: github.com
     Accept-Ranges: bytes
     Set-Cookie: _  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-    gh_sess=JNJ2FkS82kxBbUFPewdhiSxJyrvKUXnmV8gdyEpc6AXDgbe9qQ8YxuUVwP8Dlep4Hi%2FsYcuYYWXuU%2BMBvL%2F7W5FIt30WjaLs2XT%2FgAUryFigY2zewGZARkNWnaT5xqH6s9Tvb1vgutzm8mihoZ0TGp%2B6%2Bdti4uCEWdtmnQJnu1caEqB7VFEXgfSgjc9u49IMtYKyDO6pmNRxqRnaYGpAgptsU1585MGzaCALize3QtvYGipCwmT8fjmxI%2F6e0WM4oyqSLpjCueAWC6TnmYY6BA%3D%3D--eDQWmBLvUNQqFFWb--w6JXnBL2dlG52j6NUBiP7A%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
-    Set-Cookie: _octo=GH1.1.836227611.1764554035; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 01:53:55 GMT; Secure; SameSite=Lax
-    Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 01:53:55 GMT; HttpOnly; Secure; SameSite=Lax
-    X-GitHub-Request-Id: FCFD:378FF2:54B0536:6C5D97C:692CF533
+    gh_sess=pQrRhj2BAT01GBAWL5iIMJzClRKXCTDGNkyJnD1Xrcz52wSHRTWHceGqOPI1EMbS1uN8ng1YWru8GZEK0Q2n4aHJC0EEp2hu7pTzkW8%2FFYx0oEbdgCMdd2tPkmV9PClltSVTg%2FmSCEZYC2%2BWIbjQ0l6KgoD8%2BoYHGgsdkWvyJ4A9BPK2KYoExkvjTbOjGrulX303vbAZytROSUA4dhexcE61%2FbbW8ah1hdgHdIGDr8Dig5iyKJAjEkZiP26oEZUvDA65xBhxH811Q9IuvPA8DA%3D%3D--RxRacM0umzNOVJvJ--F%2FRcYy4Pz3Zb8luUOTrRMQ%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+    Set-Cookie: _octo=GH1.1.826784813.1764563786; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 04:36:26 GMT; Secure; SameSite=Lax
+    Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 04:36:26 GMT; HttpOnly; Secure; SameSite=Lax
+    X-GitHub-Request-Id: 21AF:3D20E5:1269E57B:180D5EE3:692D1B49
     
 curl -I https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/redpitaya/tut_intro.html
       % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                      Dload  Upload   Total   Spent    Left  Speed
       0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
     HTTP/1.1 200 OK
-    Date: Mon, 01 Dec 2025 01:53:56 GMT
+    Date: Mon, 01 Dec 2025 04:36:26 GMT
     Content-Type: text/html; charset=utf-8
     Connection: keep-alive
     Server: cloudflare
-    CF-Ray: 9a6ef42508603203-SLC
+    CF-Ray: 9a6fe232683f5344-DEN
     CF-Cache-Status: HIT
     Access-Control-Allow-Origin: *
-    Age: 4261
+    Age: 1404
     Cache-Control: max-age=1200
     ETag: W/"9b71e5b13307c83ec150c3bcd01526a9"
     Last-Modified: Sun, 07 Sep 2025 23:30:43 GMT
@@ -1002,18 +1003,18 @@ curl -I https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tuto
     x-rtd-version: latest
     x-rtd-version-method: path
     x-served: Nginx-Proxito-Sendfile
-    Set-Cookie: __cf_bm=JGzciUaUwE1A7yEeB_f.oibIZ52MtGB_Hg.syF4WOxo-1764554036-1.0.1.1-pS3Rlh8Oy0DkedFGcnGwVe4bYoYWdI25BYQMCmQl_EUwmbiKnjnyZ7am6TOXocACpEcsPWb8yBi.ZMuBpIwUPnfMdMf.GWl2YIGvH4T0.Ys; path=/; expires=Mon, 01-Dec-25 02:23:56 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
-    Set-Cookie: _cfuvid=3GNAnYG23WFo_E4EC1iuAGfxeuV_fDDEbxcgM2rVJGU-1764554036035-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: __cf_bm=UqWBkYS9roTCfgRvJLkkzuKynBox2hDtnDsI3ZzQNXA-1764563786-1.0.1.1-_beW3jodebHyIrmHJq92J95ygj2VPWaXoww90KbcIdCeAlFrX7rJ.VnVOZMx5TG.RtWmc11VsrPFMyoQlp7O6k0gTkBboZXcH0USmyqfN8Q; path=/; expires=Mon, 01-Dec-25 05:06:26 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: _cfuvid=X2d6a_c.ppZMvdSz6Uc_eREccUqp919d.WsM9vBQkMU-1764563786651-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
     alt-svc: h3=":443"; ma=86400
     
 curl -I https://github.com/casper-astro/tutorials_devel/tree/main/red_pitaya/tut_intro
       % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                      Dload  Upload   Total   Spent    Left  Speed
-      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0HTTP/1.1 200 OK
-    Date: Mon, 01 Dec 2025 01:53:56 GMT
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0HTTP/1.1 200 OK
+    Date: Mon, 01 Dec 2025 04:36:27 GMT
     Content-Type: text/html; charset=utf-8
     Vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, X-Requested-With,Accept-Encoding, Accept, X-Requested-With
-    ETag: W/"2c6df9ba8b12b6058adc9146e5e01b38"
+    ETag: W/"4048f9bbe4adba9acec13645e3780357"
     Cache-Control: max-age=0, private, must-revalidate
     Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
     X-Frame-Options: deny
@@ -1024,24 +1025,24 @@ curl -I https://github.com/casper-astro/tutorials_devel/tree/main/red_pitaya/tut
     Server: github.com
     Accept-Ranges: bytes
     Set-Cookie: _  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-    gh_sess=dC6LGXndDQbuVMGWxSqy5DYTAagRhMbf7bVDT6CocTe7co7vl33TKNps63YeHB3RiE3%2BDSczZTozNvGJmaAio2R3fpW%2BCerVKmtBZ8xUZ2h4yxLgLitkul3RvCiK4C6fMIYvbpjBV4y%2Be0gPZiLdUQ38wFO8c1uP6bPrUr4Ri1oUt0WxyPKIbbD9ZmfYqvVTHkpXlZ%2FAazaJU7fMJxo%2FNwdnIcSlMK4mQDZ3i%2F4%2F7bpMO3Hmo2%2BBcz8dcx22LRuQiFh6ojpIcCMPc4jmtwdLKQ%3D%3D--fCv4N8YOxIBPpZji--FcJFbwQZqk3xTEyvZFsHgw%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
-    Set-Cookie: _octo=GH1.1.1477311171.1764554036; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 01:53:56 GMT; Secure; SameSite=Lax
-    Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 01:53:56 GMT; HttpOnly; Secure; SameSite=Lax
-    X-GitHub-Request-Id: 8BF6:76EBC:126472A5:17F7D345:692CF534
+    gh_sess=dfFXF2Fo6EyR6Ozrqe83zBpWvZaxO%2F33%2Ffpu2Hc4E5Awqyo1H%2Be7D7DlU7R35ZFKZ81RfjsnkRUM3xU9ObjQNPx6LNYq9th9rbnt6FVYAvXvbhqmt1LHx%2BX%2Bj99C3DNhjqONfRqJJn51bQTxTwvt11wDNWBJdB4SuxDwfQ%2BUiiNRYEd5SZvhqbAS5WemLxqqGh4F4Pg16pYXXYSPB%2FpyFK9DZtwsQgKSDupt3Y75%2FDNNLosAEUkykqxvy0UDJWpBrHJWGv99KnAfTq8kZJnkHw%3D%3D--BZMZHEUH2sHyllTn--FNBLk9cs%2B8e6xregHXNBpw%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+    Set-Cookie: _octo=GH1.1.785263226.1764563787; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 04:36:27 GMT; Secure; SameSite=Lax
+    Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 04:36:27 GMT; HttpOnly; Secure; SameSite=Lax
+    X-GitHub-Request-Id: A28A:115640:1314833D:18E83DED:692D1B4A
     
 curl -I https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/redpitaya/tut_adc_dac.html
       % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                      Dload  Upload   Total   Spent    Left  Speed
-      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
     HTTP/1.1 200 OK
-    Date: Mon, 01 Dec 2025 01:53:57 GMT
+    Date: Mon, 01 Dec 2025 04:36:27 GMT
     Content-Type: text/html; charset=utf-8
     Connection: keep-alive
     Server: cloudflare
-    CF-Ray: 9a6ef42b8be3e767-DEN
+    CF-Ray: 9a6fe238ca9c8656-SLC
     CF-Cache-Status: HIT
     Access-Control-Allow-Origin: *
-    Age: 5378
+    Age: 511
     Cache-Control: max-age=1200
     ETag: W/"2eab44d2a6b3c50bb3741e16d4f5e1ed"
     Last-Modified: Sun, 07 Sep 2025 23:30:43 GMT
@@ -1066,18 +1067,18 @@ curl -I https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tuto
     x-rtd-version: latest
     x-rtd-version-method: path
     x-served: Nginx-Proxito-Sendfile
-    Set-Cookie: __cf_bm=fBok3xzly1MVfUqkhbwk7vZPAcxkbkxqZhXMKkEE_S8-1764554037-1.0.1.1-peMlx.T8fvQtqZB51XE3RlC.UnShImI4sMN82MfugF9pAYrm4wHLUUoEB041Cm8PD6Pdyj9nTWCsDsy5V5jD29snuihO4MZ1iP2E5Uj.1Dw; path=/; expires=Mon, 01-Dec-25 02:23:57 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
-    Set-Cookie: _cfuvid=AOCdrkUxfUwh_OeOE3rLDoS9VDCXpQpRKiHAUc2tp8A-1764554037062-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: __cf_bm=5bE279ORlDDMFn8HJKkNCT4OibktbbYQ93p.OmpNxYY-1764563787-1.0.1.1-7rg2eaRKliIboW.wqmdIFbo7uh3by4kiIDdB.Gjs2.IBgG4GaGHGonPyJleJyCOJ31dvKKLadXiedswSIOww0X45fb1Gl6aqLg5F9tltVzE; path=/; expires=Mon, 01-Dec-25 05:06:27 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: _cfuvid=2kGP8u.FYvzZ2Hvz2ram117cgHziFGCQ4flhBdGyzcs-1764563787741-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
     alt-svc: h3=":443"; ma=86400
     
 curl -I https://github.com/casper-astro/tutorials_devel/tree/main/red_pitaya/tut_adc_dac
       % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                      Dload  Upload   Total   Spent    Left  Speed
-      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0HTTP/1.1 200 OK
-    Date: Mon, 01 Dec 2025 01:53:57 GMT
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0HTTP/1.1 200 OK
+    Date: Mon, 01 Dec 2025 04:36:28 GMT
     Content-Type: text/html; charset=utf-8
     Vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, X-Requested-With,Accept-Encoding, Accept, X-Requested-With
-    ETag: W/"5c601a0e05c2a4313a31453667d1ce29"
+    ETag: W/"c4bfb5888970b337025df90f88324fab"
     Cache-Control: max-age=0, private, must-revalidate
     Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
     X-Frame-Options: deny
@@ -1088,24 +1089,24 @@ curl -I https://github.com/casper-astro/tutorials_devel/tree/main/red_pitaya/tut
     Server: github.com
     Accept-Ranges: bytes
     Set-Cookie: _  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-    gh_sess=0Czue3CYzqmDZZ506nmAg9PTMHQc0gF9HJZjAnl42vjfQnJm%2FchIGxvzXswNQIfZ5eQB2NGo5G1T3uf3uIhXwswNtFktnGrf8uMyZHGwEZkoM5g4wwMVNRjv5E6JWakLe9Iuj8zc2GM2Zn59YQ9%2Fjws8f4%2B7ZmBoDK6ZbjTMyeXRD9nFGUUMpT1RKOnBgim00hRBBiYrysTvWNYnDWm2shDxi1qnXCBddle3yosp1PaU6jVcImvLNJFTHktWBr%2B5VwXH94YS6c9kYOAPyTEh9w%3D%3D--BX6qhu3eAaET9a8f--GjdcK%2BVvnvIuACQNsE4t4w%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
-    Set-Cookie: _octo=GH1.1.2073635461.1764554037; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 01:53:57 GMT; Secure; SameSite=Lax
-    Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 01:53:57 GMT; HttpOnly; Secure; SameSite=Lax
-    X-GitHub-Request-Id: 612C:3E25C3:128A3BCD:182735BC:692CF535
+    gh_sess=VYN6qIqNXquCQOwOPuM20LfWC4JMBLK%2F%2F8TBPrqraLPwthBVBln%2Ffs2BDoljJiTPqycvj3FAvNPnwSE4WBH68gZNyiUIlunFaPwBC7fzT0z357VA126WdbD2RO7kS3DuywzJxn8JOff72qIYcZqQThtSudD28UQsL5P0d%2FbTFLMDm6paXE%2BIJA1YSB7FEIJkflers8oewu2cjDLtE%2FIYKLJyJmafCgqUvyXt0vIGfcm0x3KlpbwK6KSc1KMX2%2FefjB2amLrwHzA6fwRcfGS7yg%3D%3D--6QYcUzSGIDpt6oyb--pTBATAn6rjdW2%2BRf2X6r5w%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+    Set-Cookie: _octo=GH1.1.1592262725.1764563788; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 04:36:28 GMT; Secure; SameSite=Lax
+    Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 04:36:28 GMT; HttpOnly; Secure; SameSite=Lax
+    X-GitHub-Request-Id: C1B0:2F8E0B:129D1B0B:18556495:692D1B4C
     
 curl -I https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/redpitaya/tut_spec.html
       % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                      Dload  Upload   Total   Spent    Left  Speed
-      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
     HTTP/1.1 200 OK
-    Date: Mon, 01 Dec 2025 01:53:58 GMT
+    Date: Mon, 01 Dec 2025 04:36:28 GMT
     Content-Type: text/html; charset=utf-8
     Connection: keep-alive
     Server: cloudflare
-    CF-Ray: 9a6ef4325cdee76b-DEN
+    CF-Ray: 9a6fe23fbf34e773-DEN
     CF-Cache-Status: HIT
     Access-Control-Allow-Origin: *
-    Age: 5378
+    Age: 1404
     Cache-Control: max-age=1200
     ETag: W/"8cca612bfdd61f0ffc30c3da2624dbba"
     Last-Modified: Sun, 07 Sep 2025 23:30:43 GMT
@@ -1130,18 +1131,18 @@ curl -I https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tuto
     x-rtd-version: latest
     x-rtd-version-method: path
     x-served: Nginx-Proxito-Sendfile
-    Set-Cookie: __cf_bm=VdGtAODBgdodgM8fwQO0Bsg__FuvxK64LD8aGIYqGcU-1764554038-1.0.1.1-2tNVkzU2NWWH9pmL9LYdjM5B7Savv71MGxI8J7ijvmCyxvka47HfxF9jv45OAYprI4uvsg7qtcCEVDLumr1exjvHjezlEsD5WqXjN8HJKFo; path=/; expires=Mon, 01-Dec-25 02:23:58 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
-    Set-Cookie: _cfuvid=52apl.7irmfB79zf9Lm4frcuZ4dpgqQo_6eYC.CrDQY-1764554038165-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: __cf_bm=I6rJmgn2fwdVmrbW8m.Nwd4sSPWyErXQu5Rrv_u_RDU-1764563788-1.0.1.1-A04zgSLT3Ak22CB6u8XFV0aeyEgQPcHG9e0Jdlla5pp9pr6cv9jJpFWHSm3woYBmUJe3pIn_VE9gwTrSvjdL.tlR0VpPpGl7aJ15CLsYx9A; path=/; expires=Mon, 01-Dec-25 05:06:28 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: _cfuvid=aXFgxfTWm6Zeq40YF5E4DHsw5wr5SJ3Qg6Y_p2anVGc-1764563788780-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
     alt-svc: h3=":443"; ma=86400
     
 curl -I https://github.com/casper-astro/tutorials_devel/tree/main/red_pitaya/tut_spec
       % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                      Dload  Upload   Total   Spent    Left  Speed
-      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0HTTP/1.1 200 OK
-    Date: Mon, 01 Dec 2025 01:53:58 GMT
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0HTTP/1.1 200 OK
+    Date: Mon, 01 Dec 2025 04:36:29 GMT
     Content-Type: text/html; charset=utf-8
     Vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, X-Requested-With,Accept-Encoding, Accept, X-Requested-With
-    ETag: W/"d3a5815ffb2219c6f198ba04f59eb6bb"
+    ETag: W/"59399a36da98ca94640a13a118a9dc6e"
     Cache-Control: max-age=0, private, must-revalidate
     Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
     X-Frame-Options: deny
@@ -1152,24 +1153,24 @@ curl -I https://github.com/casper-astro/tutorials_devel/tree/main/red_pitaya/tut
     Server: github.com
     Accept-Ranges: bytes
     Set-Cookie: _  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-    gh_sess=0azFtIVfFtz3W%2FkKBtSMO2nBQOQgwRRdF9lp5mk5y02ikeok%2Fgb6rd8Vp%2BQxDJdgHJ7wz8z5hcpA2wLlRAAz3DFiI3s25uaj3fkT5J%2BLxIicY3HnrxY356RP29kpv%2FOruUpLaDrt0HW3w2J%2FsNX8DCjMuVti%2BRyYgTUgjYqc6xfqmSRMn8vPXaeaXHU6iehC5ne%2BSBeG0HEIIAkxiDDlF7%2BPOtmZOrt6ZCyp%2Fp4TALxNrF%2BfAMPD6QRthzywuWgCh12hbBKAPsjtITZAuzbshQ%3D%3D--CeLqp8xMKkWH436t--kQaSAdhuG41rAqvj%2Fi%2FmGw%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
-    Set-Cookie: _octo=GH1.1.1226263000.1764554038; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 01:53:58 GMT; Secure; SameSite=Lax
-    Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 01:53:58 GMT; HttpOnly; Secure; SameSite=Lax
-    X-GitHub-Request-Id: 766D:3BC1A0:1218BD79:17A1BF49:692CF536
+    gh_sess=lv8kjX%2FWnnWxqjm%2Buv6xRJfzDek04omCRN1fFNQiRuWEti1a4xT0Dq52xXdV0Zfv1rFfTJvdn6OzL%2BFgjelbPsUlmHXiQ5uotYVzu%2FbCS3TwcLywXxYga3gYo7iob8qAl1iQPLY%2FnDDQqfbldFWeFJjQrTVyn7eb0UnoqvEQFXPv%2FpyeYXX8Q1sFz1VMZXiGfQgenHSxYwuOGG4WJBYbVy4C%2BDH011ZtIRpwJ8wJdmNW728sDAQzxAP2M3NT86cLjIUTagzi%2B7DrtId%2FZCE5Sw%3D%3D--pKofZh9z%2BLT3V2ej--txtAtERdsqceuNKmGyKzIQ%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+    Set-Cookie: _octo=GH1.1.392275525.1764563789; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 04:36:29 GMT; Secure; SameSite=Lax
+    Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 04:36:29 GMT; HttpOnly; Secure; SameSite=Lax
+    X-GitHub-Request-Id: BC4F:3E25C3:133B3497:190E9FB7:692D1B4D
     
 curl -I https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/tut_platform.html
       % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                      Dload  Upload   Total   Spent    Left  Speed
-      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
     HTTP/1.1 200 OK
-    Date: Mon, 01 Dec 2025 01:53:59 GMT
+    Date: Mon, 01 Dec 2025 04:36:29 GMT
     Content-Type: text/html; charset=utf-8
     Connection: keep-alive
     Server: cloudflare
-    CF-Ray: 9a6ef438f9b4e757-DEN
+    CF-Ray: 9a6fe24609de2c67-SLC
     CF-Cache-Status: HIT
     Access-Control-Allow-Origin: *
-    Age: 7057
+    Age: 480
     Cache-Control: max-age=1200
     ETag: W/"aaee457f9299c714b53eb1fcb77bc64a"
     Last-Modified: Sun, 07 Sep 2025 23:30:43 GMT
@@ -1177,12 +1178,13 @@ curl -I https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tuto
     Vary: Accept-Encoding
     access-control-allow-methods: HEAD, OPTIONS, GET
     cdn-cache-control: public
+    cross-origin-opener-policy: same-origin
     referrer-policy: no-referrer-when-downgrade
-    x-amz-id-2: lY/QkU774CGH62f5SOhbBqqHqjp3xrFOVhpb3HpjV05CdtnpgJcV3A9Etefv+6Hy1oKkPnKQPjw=
+    x-amz-id-2: siUJLywn9BoWLIlglIRosR+BTbyTpYUGg9fkrmsDBD23L4sgUtxro3sGZ/CKGeD/ODnxeHgnPjk=
     x-amz-meta-mtime: 1757287837.278387972
-    x-amz-request-id: 4M8K5VWX6ZC984ZY
+    x-amz-request-id: Q3KV21KVX545MVQ0
     x-amz-server-side-encryption: AES256
-    x-backend: web-i-002da8aff36875d49
+    x-backend: web-i-0c69841610784bdf9
     x-content-type-options: nosniff
     x-rtd-domain: casper-toolflow.readthedocs.io
     x-rtd-force-addons: true
@@ -1193,18 +1195,18 @@ curl -I https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tuto
     x-rtd-version: latest
     x-rtd-version-method: path
     x-served: Nginx-Proxito-Sendfile
-    Set-Cookie: __cf_bm=R.oZqsjFJxDhKiwFAOLOxFTnN5YpSozQmDN3LwqWYOA-1764554039-1.0.1.1-O8TVKsiotUOP9ZBbHNuh1L6wXIgFylsrzDqV3KvlV.yYC69o6qTsYmSMR7P5qjB8j7gC0rz1BZkPPii2Ds.D.HekwwNdruGiJRhCm3fuR0s; path=/; expires=Mon, 01-Dec-25 02:23:59 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
-    Set-Cookie: _cfuvid=14VCuaqlzFpefWxt9u0ZcDDc26t2TEOqdrSnatNdGHw-1764554039225-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: __cf_bm=CZBjv2qMRUNQ.5iWb4fO_Z7paztKQqkEBKqYxwAN7iU-1764563789-1.0.1.1-M4B20befVbdm9LnjwveUIwTtQwsWyKWwMn4cy.YlgL9KW6sjJ7VLa2s_ZHHoRzqQiljpEhWmItiBgMsnDZq9w8eeMKMxaWvfv9tWKpXuvhA; path=/; expires=Mon, 01-Dec-25 05:06:29 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: _cfuvid=A_ytinUIglUS97tSUhgYRc1vBw7NwoObEvk952X0hP8-1764563789819-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
     alt-svc: h3=":443"; ma=86400
     
 curl -I https://github.com/casper-astro/tutorials_devel/tree/main/rfsoc/tut_platform
       % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                      Dload  Upload   Total   Spent    Left  Speed
-      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0HTTP/1.1 200 OK
-    Date: Mon, 01 Dec 2025 01:53:59 GMT
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0HTTP/1.1 200 OK
+    Date: Mon, 01 Dec 2025 04:36:30 GMT
     Content-Type: text/html; charset=utf-8
     Vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, X-Requested-With,Accept-Encoding, Accept, X-Requested-With
-    ETag: W/"8b7b289bf80b4bd3eec9bda1738ed2fa"
+    ETag: W/"aa0caedc686985a686ab3171c284f245"
     Cache-Control: max-age=0, private, must-revalidate
     Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
     X-Frame-Options: deny
@@ -1215,24 +1217,24 @@ curl -I https://github.com/casper-astro/tutorials_devel/tree/main/rfsoc/tut_plat
     Server: github.com
     Accept-Ranges: bytes
     Set-Cookie: _  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-    gh_sess=1TRuHqgrAO6TEgeNEANEHpiACWeTSfsaX63z9OyjfLrjmoB%2Bk9D%2FvPLbGyq7IUkugNWcBlNhwD5tRAImXMnsOC7Wo0h1PnF6usuSEdROjshgYZYOpOOX%2BoZZIqT%2BI4f4qm%2FAFspZ0BvaZyLaSE5eoJMB7KjRISZJhIg5kCaJkuA7aGh2ofDa22wts6%2FiaxtH1uPh%2FHnjmoqHBffhDFOvmu04aHz18zWWAT%2Bbc7WKIwDwhO4atTFssv94gtnc6iAcY%2F7BTWzmOJYsyjV2CL4vVw%3D%3D--9pYOJb6UvJoAip%2Bn--OGWDL8IvqxvPftNCRvYW2A%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
-    Set-Cookie: _octo=GH1.1.461584888.1764554039; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 01:53:59 GMT; Secure; SameSite=Lax
-    Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 01:53:59 GMT; HttpOnly; Secure; SameSite=Lax
-    X-GitHub-Request-Id: 0DD0:3904F9:11BF3E6A:17294BE3:692CF537
+    gh_sess=MudIFdCVzZMuVf1OYi7yZQKDaPQHDqm7tiUv3guRB%2BnHeiXVFy%2Fh%2FDcOjpQgh1cClO8Mkxyesz8HjJsRheYQ3Jy5Da3ZuTzF%2BjV%2BKJUASzGy%2BEo7CPLk%2FKol6u4t1B2rkSLcHvF8bIWGzm%2BdvJE03tSLFxFND21VBeBdzZnWgrnRWpUQukgZtLpPhCjF261VuuB8mB3380HZ1jOlCvxgLY2CZp8TXzaX71KFz9VU26MtnT7YDFqFdSurL3G4tvKs%2FcqAjmXYK%2FIuTTNHxdBgVA%3D%3D--bFiKmPmMukrRfOTV--BGSrTIPWw001CSWalz6w9Q%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+    Set-Cookie: _octo=GH1.1.1593666763.1764563790; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 04:36:30 GMT; Secure; SameSite=Lax
+    Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 04:36:30 GMT; HttpOnly; Secure; SameSite=Lax
+    X-GitHub-Request-Id: C992:1804A2:5F9F141:7A93E0B:692D1B4E
     
 curl -I https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/tut_rfdc.html
       % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                      Dload  Upload   Total   Spent    Left  Speed
-      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
     HTTP/1.1 200 OK
-    Date: Mon, 01 Dec 2025 01:54:00 GMT
+    Date: Mon, 01 Dec 2025 04:36:30 GMT
     Content-Type: text/html; charset=utf-8
     Connection: keep-alive
     Server: cloudflare
-    CF-Ray: 9a6ef43f39fe51e2-DEN
+    CF-Ray: 9a6fe24c29f913ed-SLC
     CF-Cache-Status: HIT
     Access-Control-Allow-Origin: *
-    Age: 5378
+    Age: 251
     Cache-Control: max-age=1200
     ETag: W/"9bb043266a499de7e436789eaea0f213"
     Last-Modified: Sun, 07 Sep 2025 23:30:43 GMT
@@ -1256,18 +1258,18 @@ curl -I https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tuto
     x-rtd-version: latest
     x-rtd-version-method: path
     x-served: Nginx-Proxito-Sendfile
-    Set-Cookie: __cf_bm=Mj7PJWPIOakQaztJAkhH..LT3Z6spV.qyVcHflX9dQA-1764554040-1.0.1.1-zNzzNMm1xuW7ekvMw9pFFFNlkc9XHovTV9gN7mn1fq5Fm40qhKc8it3UC6cL4BnkprkyULw1clhJF2WG_rPGseaEGocpCdLM8d6sMTpwXsE; path=/; expires=Mon, 01-Dec-25 02:24:00 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
-    Set-Cookie: _cfuvid=iNCwymsHhkRBihNMRJunaGW6iG37hF.vPokRBaJUclQ-1764554040219-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: __cf_bm=p1VM3zJ7VB9hY3dawtM_EmjnbrpbVdM2c6eEfo2bFa0-1764563790-1.0.1.1-Y2B0jtDsvPzKKtLzjyjV1EBhHQdJCveNmhXicyHvCIAYb5QPrfjD6QP53ne9Y_IDad_DhTN346iWlxvonkdHHyuw7bA47pCacdAg0qlWTow; path=/; expires=Mon, 01-Dec-25 05:06:30 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: _cfuvid=4bDFyAyFMit.5lHazJM253xDWxJjOJS_qLA2vQTDY1k-1764563790777-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
     alt-svc: h3=":443"; ma=86400
     
 curl -I https://github.com/casper-astro/tutorials_devel/tree/main/rfsoc/tut_rfdc
       % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                      Dload  Upload   Total   Spent    Left  Speed
-      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0HTTP/1.1 200 OK
-    Date: Mon, 01 Dec 2025 01:54:00 GMT
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0HTTP/1.1 200 OK
+    Date: Mon, 01 Dec 2025 04:36:31 GMT
     Content-Type: text/html; charset=utf-8
     Vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, X-Requested-With,Accept-Encoding, Accept, X-Requested-With
-    ETag: W/"96257f6fc80d633fc26616b47064939c"
+    ETag: W/"f49f14a4b7bc5943fcc37f341ebb4b84"
     Cache-Control: max-age=0, private, must-revalidate
     Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
     X-Frame-Options: deny
@@ -1278,24 +1280,24 @@ curl -I https://github.com/casper-astro/tutorials_devel/tree/main/rfsoc/tut_rfdc
     Server: github.com
     Accept-Ranges: bytes
     Set-Cookie: _  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-    gh_sess=l%2BLko%2BCBa0id6Z5c2kEgyJPPvpaAnc16U4jP71iWa%2FN6eV3PWWe3ULF%2FHuHM6K5JwlwzkTh2TJ25LCNWhp3j23tmpOPYrNdPbzgGBQTXCzFpQIa4Mb%2FCicT%2BsXGTGzlyzpWikyOpDLyAEh5z8HiiNU3e26T%2Bw%2FJvfWlGULQrEmbAREJQM5TS%2FmNE0SRnR5xCY6IvTXFtOsgmn1CUFk%2BVT%2FphOSfQp4419Z1B%2B0GPuRiO4vSNkJ588Wc6HgQdUOib%2FuLVwVE0o%2FFIiN5ChCxByg%3D%3D--iENVpFWe0uyBnIeZ--EHo0XTHmBQnnFVoD%2BhUQRg%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
-    Set-Cookie: _octo=GH1.1.592258666.1764554040; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 01:54:00 GMT; Secure; SameSite=Lax
-    Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 01:54:00 GMT; HttpOnly; Secure; SameSite=Lax
-    X-GitHub-Request-Id: B9EC:29012D:11C243CE:17309B8D:692CF538
+    gh_sess=QQEXLHbODp%2F8p45WJhC%2F66EegGaSwenfVHhrbMmS4vMxrUXPgJemyZcOcX1nUJM622yIuuNuW0PMzbJPzr0MeV0UDpIilENicBZDdX4R9SduexOMecNQcjvPKlgVzOb02okQmK4157udeeBgE4W2FSWaCo9iCOSRW%2FA7mzK5P47UYZf1KkqtBczOILmZgnvmyhVxz5IDVU8RJc%2B1o4YIQCe5ffzHMDvKZO2SEwJVn7gpilrgtxKmGor%2F4mT%2BfHFUS57qxbN1JqHgrdYw7LBmwQ%3D%3D--ZyDKDNKn6tYN9SCr--dUjrcVBCG27AufE%2FiiUl8A%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+    Set-Cookie: _octo=GH1.1.247002766.1764563791; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 04:36:31 GMT; Secure; SameSite=Lax
+    Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 04:36:31 GMT; HttpOnly; Secure; SameSite=Lax
+    X-GitHub-Request-Id: 14C8:157919:9C4831C:C802A7B:692D1B4F
     
 curl -I https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/tut_dac.html
       % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                      Dload  Upload   Total   Spent    Left  Speed
-      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
     HTTP/1.1 200 OK
-    Date: Mon, 01 Dec 2025 01:54:01 GMT
+    Date: Mon, 01 Dec 2025 04:36:31 GMT
     Content-Type: text/html; charset=utf-8
     Connection: keep-alive
     Server: cloudflare
-    CF-Ray: 9a6ef44609f4e74d-DEN
+    CF-Ray: 9a6fe252caa2e765-DEN
     CF-Cache-Status: HIT
     Access-Control-Allow-Origin: *
-    Age: 5378
+    Age: 1403
     Cache-Control: max-age=1200
     ETag: W/"5ace1753ca3d6b1f74ef802458ba7a52"
     Last-Modified: Sun, 07 Sep 2025 23:30:43 GMT
@@ -1320,18 +1322,18 @@ curl -I https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tuto
     x-rtd-version: latest
     x-rtd-version-method: path
     x-served: Nginx-Proxito-Sendfile
-    Set-Cookie: __cf_bm=kgdeT3Ctq43WlmuWP2dsnUOE3IqkddIo2zASJZYgWGM-1764554041-1.0.1.1-4k8ufVTnEVdSSoo_Fq3cBRI_Zm6pmc7gNjzJEeKXMJgHdkIYxvMErhGNWFM3hEeSBEgZK17pD_XVs_1l6pu7PL2NpfvsdxcmK8AEbvtmxKY; path=/; expires=Mon, 01-Dec-25 02:24:01 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
-    Set-Cookie: _cfuvid=5kLPu9qiYofHdYta23UmDSJIi3is.eMPjgSNeuoj4HM-1764554041318-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: __cf_bm=YXHG7X4Mj8MnMUkpbxhQnR0KHIJ1k33cnM2VCHv3Jhg-1764563791-1.0.1.1-enEnCUbe2sK1i3l2xlwzz848z9sTeq3W7FFz49SGIDgsku6qMSFGhxBlpTYLnkBpkio4tWorKpls1v9JwY4t_IicQofmacRVkbTkfbXqVKk; path=/; expires=Mon, 01-Dec-25 05:06:31 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: _cfuvid=zSVeMsM0.t0wAKg2cKWfC0H3rvwXj2zrbM9qJF1UOac-1764563791854-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
     alt-svc: h3=":443"; ma=86400
     
 curl -I https://github.com/casper-astro/tutorials_devel/tree/main/rfsoc/tut_dac
       % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                      Dload  Upload   Total   Spent    Left  Speed
-      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0HTTP/1.1 200 OK
-    Date: Mon, 01 Dec 2025 01:54:01 GMT
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0HTTP/1.1 200 OK
+    Date: Mon, 01 Dec 2025 04:36:32 GMT
     Content-Type: text/html; charset=utf-8
     Vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, X-Requested-With,Accept-Encoding, Accept, X-Requested-With
-    ETag: W/"a038a27c8afaaace475a835cd8d1e600"
+    ETag: W/"7235c9d114eebe61d7dbd99df4cf0f7e"
     Cache-Control: max-age=0, private, must-revalidate
     Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
     X-Frame-Options: deny
@@ -1342,24 +1344,24 @@ curl -I https://github.com/casper-astro/tutorials_devel/tree/main/rfsoc/tut_dac
     Server: github.com
     Accept-Ranges: bytes
     Set-Cookie: _  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-    gh_sess=Oy5L3qFrldswN1PQn3PL9HIoe2O0Bgkxki1ggLs10kuXo4DuFxaoPf4L4aQ26Mo0lGu7yN6X%2BF4htaOaYm4RBQJTk5KlGNaWac%2FhnQ%2F%2F88BjshWDkPKMBrJ%2FhuW5F%2B2qfCTjo%2BFlt9G7YZTfvp5Vd0azqJ%2FIoT2aYR4xzn7DHxxDH3MoUShfmU07Z%2FWohJL2wcDJOGWQqWPhimXCXRP5xJmwYFXhx7wONK7V%2FhRhmc5I3Qrs69MK3nDHgpNRAs8XKDTSZI0O2Vt%2BOalcl8QdFg%3D%3D--cNKpBhKqz0oAuQqO--kIWoOeQM5ufSCSbW2cN3mg%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
-    Set-Cookie: _octo=GH1.1.591150508.1764554041; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 01:54:01 GMT; Secure; SameSite=Lax
-    Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 01:54:01 GMT; HttpOnly; Secure; SameSite=Lax
-    X-GitHub-Request-Id: FA76:10DCD6:1305948E:18C2C002:692CF539
+    gh_sess=eje0Qw69jx%2FobVcpz3opjT3gv7R9cK4lFxWTgA7o%2F15EBtnggF4QaCFv0LHdKQDqnZm%2BQJxC6bNIdnRVEomWj657AC8Ajko8WNUBqU1pdmPfbbu4ytJkbhjdQSharg0Bt2W1IB%2FGDJ5L85wDqGDvAAZZR64LxFp0Zkrs5Y2G08zb1qrS4skOTkesgIa6vjznDeq%2BtErEfTgBFZBM%2F4whliW0UlJUUlZ1Jxj4uOThq5j1Q5yTUgsuOsceUgnXhhQ9%2Fs9vbv55VciRl6Bv%2F7sbCw%3D%3D--ovilxuN8eiT9kxdU--Gj7oepcdi8CIJL3R3Z6wKA%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+    Set-Cookie: _octo=GH1.1.991883176.1764563792; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 04:36:32 GMT; Secure; SameSite=Lax
+    Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 04:36:32 GMT; HttpOnly; Secure; SameSite=Lax
+    X-GitHub-Request-Id: 3738:2CF25E:125112EB:17E78255:692D1B50
     
 curl -I https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/tut_spec.html
       % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                      Dload  Upload   Total   Spent    Left  Speed
-      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
     HTTP/1.1 200 OK
-    Date: Mon, 01 Dec 2025 01:54:02 GMT
+    Date: Mon, 01 Dec 2025 04:36:32 GMT
     Content-Type: text/html; charset=utf-8
     Connection: keep-alive
     Server: cloudflare
-    CF-Ray: 9a6ef44c7826e769-DEN
+    CF-Ray: 9a6fe259495ae771-DEN
     CF-Cache-Status: HIT
     Access-Control-Allow-Origin: *
-    Age: 5378
+    Age: 1403
     Cache-Control: max-age=1200
     ETag: W/"2287e6aca5afe9a21f117005749c8d17"
     Last-Modified: Sun, 07 Sep 2025 23:30:43 GMT
@@ -1384,18 +1386,18 @@ curl -I https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tuto
     x-rtd-version: latest
     x-rtd-version-method: path
     x-served: Nginx-Proxito-Sendfile
-    Set-Cookie: __cf_bm=xFbC9hRyDxGUPiSeY4InFypJQf2nEeIhAds8QDdI_q8-1764554042-1.0.1.1-oXz8lQuQ8SGARDiKQ1iTBxVVi870TtaYoGwcInbZfIy3iez9mAg9BuHwq.utGjtEAWkaQn5dvqKCrmHmlAigHuV_zIRqSB97meLtPJHonX0; path=/; expires=Mon, 01-Dec-25 02:24:02 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
-    Set-Cookie: _cfuvid=Wan_32a832dISaqCCypvgNgjIn4Vy2EwwrWFeNJzDvI-1764554042376-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: __cf_bm=FaEfbbkecRQP6zqos_Ux9dVthk3FSo_jf8HIv29mwoE-1764563792-1.0.1.1-qef4ThdmDjYfKyhPTZugVAAiQWWCnchQiGDz6WGOCnUcJBLKIzrBuvctptNogRAYY45PLMKSOwhlYNAMz_j48l3aawkpLc8ls3E0aNi_604; path=/; expires=Mon, 01-Dec-25 05:06:32 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: _cfuvid=sGPWSRXH.GqgFRl806hYhQCsX3yjvZY0BACKrcdWZRA-1764563792864-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
     alt-svc: h3=":443"; ma=86400
     
 curl -I https://github.com/casper-astro/tutorials_devel/tree/main/rfsoc/tut_spec
       % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                      Dload  Upload   Total   Spent    Left  Speed
-      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0HTTP/1.1 200 OK
-    Date: Mon, 01 Dec 2025 01:54:03 GMT
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0HTTP/1.1 200 OK
+    Date: Mon, 01 Dec 2025 04:36:33 GMT
     Content-Type: text/html; charset=utf-8
     Vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, X-Requested-With,Accept-Encoding, Accept, X-Requested-With
-    ETag: W/"bd2261ccca268965c968cc8c3751e652"
+    ETag: W/"54e4f1ad47ca24a5bb3e626509543ed6"
     Cache-Control: max-age=0, private, must-revalidate
     Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
     X-Frame-Options: deny
@@ -1406,24 +1408,24 @@ curl -I https://github.com/casper-astro/tutorials_devel/tree/main/rfsoc/tut_spec
     Server: github.com
     Accept-Ranges: bytes
     Set-Cookie: _  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-    gh_sess=MFtTstEkHnHEpV0rU%2BUyTutNa2Y%2FnRzH2LBRhTlg%2Flsvsyam8JXrFH8SILnhtm3Edtg6uJgMzsygaRKbgpf0Jb7TPTdEdxpIi9J0r7mtsCkgGGuPC8%2F4HcjWSX0o8vIzot2qdYnHHRjSWLC5%2FUy0%2BPBSH7e8TeQssX6kN3FMG4kGbttHuhdeFe5QjHSfP8euaZjJtZ0I40N2RTZSMR3VevSt3Z1X9Bh9D5WMVxwX1%2FbL%2Fzc652aVvxZA2VT97uNSDjBdq78NOCsHW1N5Wwj68A%3D%3D--%2FgIY3ONZ4I%2Bl%2FqGO--FJDPUEn1knuh5y%2FWpKdoQA%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
-    Set-Cookie: _octo=GH1.1.1424076629.1764554042; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 01:54:02 GMT; Secure; SameSite=Lax
-    Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 01:54:02 GMT; HttpOnly; Secure; SameSite=Lax
-    X-GitHub-Request-Id: 8278:200528:124F4769:17DA1062:692CF53A
+    gh_sess=AXMGNVFNho4F7QHFScaVEq4Azg6GHxr23WIeaDdl7CBqR0o9mnxCO6ONtGFNnuAyIqDGdSkjKI8xs7RXErYVvu8cfsn31q91lS2OdkHByVMry45uXTMEkGKRCl%2F0HW1meknOajtZHCyBAgQSnuXVk0X%2FXkh93uVMZUMVSAczQeKSnEWHgqTEFxFNaW8995f4LxBeabRuC7pt1SwUlH1OsxCXnJfNfFKOPB3lfAgm0cDy3cb6Jn80vVlSN7%2FPNNi2rxKk4k0upzBtHs8yQyVPEA%3D%3D--P4ElAQnZkEeBWrPp--jHj7dzhpWr65hPpXVmYCzA%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+    Set-Cookie: _octo=GH1.1.1030885262.1764563793; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 04:36:33 GMT; Secure; SameSite=Lax
+    Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 04:36:33 GMT; HttpOnly; Secure; SameSite=Lax
+    X-GitHub-Request-Id: CF84:146B8E:933DAAB:BCBC0F2:692D1B51
     
 curl -I https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tutorials/rfsoc/tut_100g.html
       % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                      Dload  Upload   Total   Spent    Left  Speed
-      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
     HTTP/1.1 200 OK
-    Date: Mon, 01 Dec 2025 01:54:03 GMT
+    Date: Mon, 01 Dec 2025 04:36:33 GMT
     Content-Type: text/html; charset=utf-8
     Connection: keep-alive
     Server: cloudflare
-    CF-Ray: 9a6ef4533ab37b2c-DEN
+    CF-Ray: 9a6fe25f7950e769-DEN
     CF-Cache-Status: HIT
     Access-Control-Allow-Origin: *
-    Age: 5377
+    Age: 1403
     Cache-Control: max-age=1200
     ETag: W/"ed0ff3bad3fbbfe6fc0523f813a4c66a"
     Last-Modified: Sun, 07 Sep 2025 23:30:43 GMT
@@ -1448,18 +1450,18 @@ curl -I https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/tuto
     x-rtd-version: latest
     x-rtd-version-method: path
     x-served: Nginx-Proxito-Sendfile
-    Set-Cookie: __cf_bm=.pPyCYteQ88wQIDUzR.Rs6933EMcyCcGKMUEcIfLrXA-1764554043-1.0.1.1-OP1I11l3je0BxPPQj01pkYVisIJAidgFznW6qZAJtZKMCtW8VCa59hUIEX7nySnPhIvYKM4A22oKtvN9NyIaqKZEAqGI63BgwVakDKps0nE; path=/; expires=Mon, 01-Dec-25 02:24:03 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
-    Set-Cookie: _cfuvid=hzynfZ9bPTvPd4ByOzZqBPidyq_FaIc5GzNuoz8t51M-1764554043423-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: __cf_bm=k9Ggy5zEh.5lkNMEuZA_x3nIq1WeLMIM4k9EIBClGkE-1764563793-1.0.1.1-eIy52yiHGEv0MBunqJR_gHuvAX0UX255_ZYKdYwX4gIwvskSE_PY.U8eVlGQhqQkaceVQFXt2rVjLcv2w6CDOKdvfvdTsiIqKU1Art3RWug; path=/; expires=Mon, 01-Dec-25 05:06:33 GMT; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
+    Set-Cookie: _cfuvid=TPsyfSR5HA.Fa4kdabGu2c6mzK4vLTQWW8EGwXOMqhE-1764563793859-0.0.1.1-604800000; path=/; domain=.readthedocs.io; HttpOnly; Secure; SameSite=None
     alt-svc: h3=":443"; ma=86400
     
 curl -I https://github.com/casper-astro/tutorials_devel/tree/main/rfsoc/tut_onehundred_gbe
       % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                      Dload  Upload   Total   Spent    Left  Speed
-      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0HTTP/1.1 200 OK
-    Date: Mon, 01 Dec 2025 01:54:04 GMT
+      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0HTTP/1.1 200 OK
+    Date: Mon, 01 Dec 2025 04:36:34 GMT
     Content-Type: text/html; charset=utf-8
     Vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, X-Requested-With,Accept-Encoding, Accept, X-Requested-With
-    ETag: W/"972cf3e80e35ccc436fb7c2b80370dbf"
+    ETag: W/"64bc065f89152436cc18b008b2f4879e"
     Cache-Control: max-age=0, private, must-revalidate
     Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
     X-Frame-Options: deny
@@ -1470,8 +1472,8 @@ curl -I https://github.com/casper-astro/tutorials_devel/tree/main/rfsoc/tut_oneh
     Server: github.com
     Accept-Ranges: bytes
     Set-Cookie: _  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-    gh_sess=Pb9USJrTwOnxdmhcBrHWlQOp3%2BfwLwyZKMGm8Dm7d7%2BRdXI5i%2F3nYd2wgf6ZQE9sREfeqGPq1ux12FAxVJV8zh9XS2KPpe30kUx%2BJuCvlc%2FlkYyRXSaYUHCmhvgxo25eaYw1x3qb0QNmlYayNA7QLTJyetBSNL46P41aHLv0ljlH6m9iGGaelRaAVAgqNNtKP5QeW6EBrKUytahylWekgg%2FWPnhHSauvlpNkbMc%2FC91OW4qJElY4q9sdYTA8cc3LQPurbaVbHjfjDU1EHoBzLQ%3D%3D--vj3CPKvmOdovaDGD--hV%2F2cRXoAfWaDybOM09TVw%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
-    Set-Cookie: _octo=GH1.1.277886388.1764554043; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 01:54:03 GMT; Secure; SameSite=Lax
-    Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 01:54:03 GMT; HttpOnly; Secure; SameSite=Lax
-    X-GitHub-Request-Id: 7A50:1D98B8:8D23005:B4F96F1:692CF53B
+    gh_sess=1%2BHMGkx6h505acVd9QDNtVVz5e6GkQzqvx%2BUohr8byCfM0xJbcYn3EdQKWtoMUprazPlHc4QYk11b9MMQArd0zD0WbP%2FJ2ticHq4ew55AyUdBimJU%2FCUgr7nuqyZ2pQR0zbFGd77Yyjwv%2F5nceAnz2%2FDkJlUle3vCX3%2Bbe5mzOPIaS%2BP0MgtUWX44svmIQ22NxrZAOAPa%2FeOEDnVbvODtuZLGFtTB1cOplOr0BbT7oyG%2Fz%2FYFO6LNe3fgjKIAyR%2FjqJIW1Pg%2BpAAfQRHuWfLnQ%3D%3D--oP%2FDI3JMCEQK3ghc--8%2FU2VhgXmdInsqFIfhYrSA%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+    Set-Cookie: _octo=GH1.1.276984254.1764563794; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 04:36:34 GMT; Secure; SameSite=Lax
+    Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 01 Dec 2026 04:36:34 GMT; HttpOnly; Secure; SameSite=Lax
+    X-GitHub-Request-Id: B5FA:2509A8:5DB8B69:785C4AA:692D1B52
     

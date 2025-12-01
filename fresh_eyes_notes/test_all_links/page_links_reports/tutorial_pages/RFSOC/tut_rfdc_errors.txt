@@ -3,11 +3,11 @@ curl -I https://docs.amd.com/r/en-US/pg269-rf-data-converter/Power-on-Sequence-S
                                      Dload  Upload   Total   Spent    Left  Speed
       0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
     HTTP/1.1 200 
-    Date: Mon, 01 Dec 2025 01:52:51 GMT
+    Date: Mon, 01 Dec 2025 04:32:24 GMT
     Content-Type: text/html;charset=UTF-8
     Connection: keep-alive
-    Set-Cookie: AWSALB=+3+BbMjiEcDZwXksLFImzxZGrb2eZkMq9oMwtpzbO/9vDYjFXrbpvMBC3m+GHbr2bWW4RR5bYlOcJN8ANbFLAkyZ6zu6MZo/ZWAdqnQ8/KCNI1Xm5tbYehFfSgfT; Expires=Mon, 08 Dec 2025 01:52:51 GMT; Path=/
-    Set-Cookie: AWSALBCORS=+3+BbMjiEcDZwXksLFImzxZGrb2eZkMq9oMwtpzbO/9vDYjFXrbpvMBC3m+GHbr2bWW4RR5bYlOcJN8ANbFLAkyZ6zu6MZo/ZWAdqnQ8/KCNI1Xm5tbYehFfSgfT; Expires=Mon, 08 Dec 2025 01:52:51 GMT; Path=/; SameSite=None; Secure
+    Set-Cookie: AWSALB=NWNTMBxMSKW+9mlv/Sm+KE/ByoTXnce6buFgF6wAriOJajFyflaBBhA8ZgUrUqG/q57ACBJTNmFaejZ8ieW7iKiJXGpenlpFbbpMQd7eYdKNmkrHwAGkHxBh0Jff; Expires=Mon, 08 Dec 2025 04:32:24 GMT; Path=/
+    Set-Cookie: AWSALBCORS=NWNTMBxMSKW+9mlv/Sm+KE/ByoTXnce6buFgF6wAriOJajFyflaBBhA8ZgUrUqG/q57ACBJTNmFaejZ8ieW7iKiJXGpenlpFbbpMQd7eYdKNmkrHwAGkHxBh0Jff; Expires=Mon, 08 Dec 2025 04:32:24 GMT; Path=/; SameSite=None; Secure
     Server: Apache
     FT-Called-App: ft/server
     FT-Called-App-Version: 5.2.13:810a9cdd88f8eafa227f958acbf2675e5844a1bf
@@ -18,7 +18,7 @@ curl -I https://docs.amd.com/r/en-US/pg269-rf-data-converter/Power-on-Sequence-S
     Report-To: {   "group": "csp-violation-endpoint",   "max_age": 10886400,   "endpoints": [     {       "url": "https://docs.amd.com/internal/api/debug/csp-violations"     }   ] }
     Content-Security-Policy: frame-ancestors 'self' http://10.254.48.114:3000 http://10.254.48.97:3000 http://10.31.193.63:8000 http://192.168.1.189:3000 http://tdltoolbox.xilinx.com:91; report-uri https://docs.amd.com/internal/api/debug/csp-violations; report-to csp-violation-endpoint
     Content-Language: en-US
-    Set-Cookie: FT_SESSION=9cccb7f7-d501-4f5e-857e-b6283ca3281f; Path=/; Max-Age=2592000; Expires=Wed, 31-Dec-2025 01:52:51 GMT; Secure; HttpOnly; SameSite=none
-    Set-Cookie: FT_LOCALES=ui:en-US:default/content:en-US:default; Path=/; Max-Age=31536000; Expires=Tue, 01 Dec 2026 01:52:51 GMT; Secure; SameSite=None
-    Front: front01 ohio
+    Set-Cookie: FT_SESSION=a2c3de3a-80fb-492b-9622-9d9fcd3832d4; Path=/; Max-Age=2592000; Expires=Wed, 31-Dec-2025 04:32:24 GMT; Secure; HttpOnly; SameSite=none
+    Set-Cookie: FT_LOCALES=ui:en-US:default/content:en-US:default; Path=/; Max-Age=31536000; Expires=Tue, 01 Dec 2026 04:32:24 GMT; Secure; SameSite=None
+    Front: front02 ohio
     
