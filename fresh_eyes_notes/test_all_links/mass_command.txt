@@ -1,0 +1,3 @@
+# RFSoC Tutorials
+## CASPER README
+./chat_updated_command_with_dest_args.sh page_links_reports/tutorial_pages/ page_links_reports/tutorial_pages/CHAT_TUT_MAIN_AGE.txt https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/index.html https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/
