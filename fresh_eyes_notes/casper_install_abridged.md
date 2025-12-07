@@ -1,4 +1,20 @@
-# How to connect to Clyde
+# Introduction
+
+Welcome! 
+
+This guide is the TL;DR of how to install CASPER in an appropriate environment.
+
+CASPER Is a fickle program: it needs *incredibly* specific versions of all the software it depends upon.
+Not only this, but the software that it depends upon are (as a rule) extremely storage-intensive.
+
+Because of this it is HIGHLY RECOMMENDED that any and all CASPER work is performed on one of the Linux servers The Lab maintains.
+
+
+For beginners reading this guide: follow parts 1 and 2.
+
+For everyone else, skip part 1 *after* using [this table](https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/#environment-setup) to create a virtual machine with the required operating system version, along with the other software listed. Only after this, follow part 2. 
+
+# Part 1: How to connect to Clyde
 0. (For anyone in the future) Talk to the sys-admin and get yourself an account.
 When I say "username" and "password" later in this blurb, Im refering to the information included in this account.
 1. Connect to Caedm VPN (or be on BYU campus)
@@ -32,7 +48,7 @@ ex.: `vncserver -geometry 1280x720 :34`
 
 9 (after you are done) Use `vncserver -kill :[session number]` to free up that
 
-# How to set up CASPER
+# Part 2:How to set up CASPER
 1. On a *local* (to you) Linux terminal, ssh into Clyde (see guide above)
 
 2. Identify and create a "workspace" folder
