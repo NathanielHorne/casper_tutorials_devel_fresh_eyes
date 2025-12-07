@@ -5,30 +5,41 @@ Welcome!
 This guide is the TL;DR of how to install CASPER in an appropriate environment.
 
 CASPER Is a fickle program: it needs *incredibly* specific versions of all the software it depends upon.
-Not only this, but the software that it depends upon are (as a rule) extremely storage-intensive.
+Not only this, but the software that it depends upon are (generally) extremely storage-intensive.
 
-Because of this it is HIGHLY RECOMMENDED that any and all CASPER work is performed on one of the Linux servers The Lab maintains.
+Because of this, it is HIGHLY RECOMMENDED to work on CASPER on one of the Linux servers The Lab maintains.
 
 
 For beginners reading this guide: follow parts 1 and 2.
 
-For everyone else, skip part 1 *after* using [this table](https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/#environment-setup) to create a virtual machine with the required operating system version, along with the other software listed. Only after this, follow part 2. 
+For everyone else, skip part 1 *after* using [<font color="blue">this table</font>](https://casper-toolflow.readthedocs.io/projects/tutorials/en/latest/#environment-setup) to create a virtual machine with the required operating system version, along with the other software listed. Follow part 2 after this. 
 
 # Part 1: How to connect to Clyde
 0. (For anyone in the future) Talk to the sys-admin and get yourself an account.
-When I say "username" and "password" later in this blurb, Im refering to the information included in this account.
+
+Later in this blurb, "username" and "password" refers to the username and password for this account.
+
 1. Connect to Caedm VPN (or be on BYU campus)
+
 2. SSH Into Clyde
+
 In a Linux terminal, type:
 `ssh [username]@clyde.ee.byu.edu`
+
 3. Enter your password, when challenged
+
 4. Set VNC password
+
 Run `vncpasswd` to set a password of your choice for your VNC account.
+
 5. Check if VNC has been run before (sanity check)
 
 
 Run `mkdir ~/.vnc` to make the computer check if the `/.vnc` folder exists.
-If VNC has never been run, this folder wont exist. If it does not exist, then it will be created when you first run `vncserver` in the next steps.
+
+If VNC has never been run, this folder wont exist. 
+
+If it does not exist, then it will be created when you first run `vncserver` in the next steps.
 
 6. Start a "vncserver" session
 
@@ -46,9 +57,10 @@ ex.: `vncserver -geometry 1280x720 :34`
 
 8. Enter the VNC password you set in step 4
 
-9 (after you are done) Use `vncserver -kill :[session number]` to free up that
+9 (after you are done) Use `vncserver -kill :[session number]` to free up the VNC number you used
 
 # Part 2:How to set up CASPER
+
 1. On a *local* (to you) Linux terminal, ssh into Clyde (see guide above)
 
 2. Identify and create a "workspace" folder
@@ -71,11 +83,16 @@ Then:
 4. SCP The install script over to your mlib_devel folder
 
 Run:
-`scp <path_to_script>/<script_name> <username>@clyde.ee.byu.edu://<path_to_install_script_folder>/<script_name>`
+
+`scp <path_to_script>/<script_name> \
+
+<username>@clyde.ee.byu.edu://<path_to_install_script_folder>/<script_name>`
 
 You will be asked for your password again.
 
-Usually, the <path_to_install_script_folder> is incredibly long. Use the `pwd` command while the "install_script" folder is your active directory to find and copy the full path.
+Usually, the <path_to_install_script_folder> is incredibly long. 
+
+Use the `pwd` command while the "install_script" folder is your active directory to find and copy the full path.
 
 5. Give the script executable permissions
 
@@ -117,7 +134,8 @@ Run:
 Bear in mind, this is the environment you will be working with for a while. The name is not a dealbreaker, but just be mindful to name this environment something you would not mind your colleagues seeing.
 
 This version of python is *extremely* important as it allows the install script to run.
---> More on why the environment calls for 3.9 later.
+
+***More on why the environment calls for 3.9 later.***
 
 Type "y" when Conda asks you whether or not you want to install some required Python packages.
 
@@ -175,7 +193,7 @@ Run:
 
 If a folder "2021.1" exists, you are good to continue.
 
-PLEASE NOTE: The success of this command means there is a system-wide install of MATLAB. Do not delete or change *anything*. 
+PLEASE NOTE: The success of this command means there is a system-wide install of Xilinx Model Composer. Do not delete or change *anything*. 
 
 ALSO NOTE: If this command succeeds, you have the default install path. Continue to the next step.
 
@@ -195,7 +213,8 @@ Run:
 
 * When asked if the python version is correct, press enter.
 
-"But Author," I hear you say, "the script specifically asks for an environment with Python *3.8.20*! You have had me set up an environment with Python *3.9.12*! Can you not *read*?!"
+["But Author,"]{style="color:#003366"} I hear you say, 
+["the script specifically asks for an environment with Python *3.8.20*! You have had me set up an environment with Python *3.9.12*! Can you not *read*?!"]{style="color:#003366"}
 
 To that I say this: when I ran an environment with Python 3.8 installed, it actually set up an environment with Python *3.8.13*. I assume having a Python version *higher* than 3.8.20 is preferable to having a Python version *lower* than 3.8.20. 
 
