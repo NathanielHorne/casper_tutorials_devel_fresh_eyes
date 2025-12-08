@@ -84,9 +84,9 @@ Then:
 
 Run:
 
-`scp <path_to_script>/<script_name> \
+`scp [path_to_script]/[script_name] \
 
-<username>@clyde.ee.byu.edu://<path_to_install_script_folder>/<script_name>`
+[username]@clyde.ee.byu.edu://[path_to_install_script_folder]/[script_name]`
 
 You will be asked for your password again.
 
@@ -98,7 +98,7 @@ Use the `pwd` command while the "install_script" folder is your active directory
 
 Run:
 
-`chmod +x <script_name>`
+`chmod +x [script_name]`
 This makes it so that the script can be run as a script.
 
 6. Change your directory back out to "workspace/"
@@ -144,6 +144,8 @@ Type "y" when Conda asks you whether or not you want to install some required Py
 Run:
 
 `conda activate <tasteful_name>`
+
+## Identify dependencies for install script
 
 11. Identify install path for "Vivado"
 
@@ -209,7 +211,7 @@ Install it to continue. Be warned: this is a large install and requires sudo pri
 
 Run:
 
-`./install_script/<script_name>`
+`./install_script/[script_name]`
 
 * When asked if the python version is correct, press enter.
 
@@ -248,7 +250,7 @@ If not, type in the installation path for Vivado, then press enter.
 
 17. Open a terminal on the VNC version of Clyde
 
-18. On that terminal, navigate to `<path_to_workspace>/casper/xilinx/mlib_devel`
+18. On that terminal, navigate to `[path_to_workspace]/casper/xilinx/mlib_devel`
 
 19. Once there, run `./startsg` to start CASPER-ized MATLAB
 
